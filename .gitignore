@@ -1,0 +1,31 @@
+# Unreal Engine: generated build products and caches
+**/Binaries/
+**/Intermediate/
+**/DerivedDataCache/
+**/Saved/
+**/ShaderCache/
+**/ShaderDebugInfo/
+**/ShaderWorkingDir/
+
+# Visual Studio: generated solutions and local state
+**/.vs/
+*.sln
+*.slnx
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.sdf
+*.opensdf
+*.ipch
+
+# Local editor and Codex state
+/Config/DefaultEditorPerProjectUserSettings.ini
+/Content/Developers/
+/.codex/config.toml
+
+# OS noise
+.DS_Store
+Thumbs.db
