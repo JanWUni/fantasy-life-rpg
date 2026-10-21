@@ -9,7 +9,8 @@
 | Datei | Inhalt |
 |---|---|
 | [docs/GAME_VISION.md](docs/GAME_VISION.md) | Spielvision, Atmosphäre und Lebenswege |
-| [docs/WORLD_SETTING.md](docs/WORLD_SETTING.md) | Weltgeschichte, Völker, Kulturen und Politik |
+| [docs/WORLD_SETTING.md](docs/WORLD_SETTING.md) | Völkerübergreifende Weltgeschichte, Kulturen und Politik |
+| [docs/worldbuilding/voelker/](docs/worldbuilding/voelker/README.md) | Einheitliche Völkerstruktur mit Vorlage und detaillierter Elfen-Dokumentation |
 | [docs/GAME_SYSTEMS.md](docs/GAME_SYSTEMS.md) | Weltsimulation, Koop/PvP, Tod und Berufe |
 | [docs/DECISIONS.md](docs/DECISIONS.md) | Verbindliches Entscheidungsregister und offene Fragen |
 | [docs/ART_DIRECTION_REFERENCES.md](docs/ART_DIRECTION_REFERENCES.md) | Vorläufige visuelle Referenzen |
@@ -23,5 +24,6 @@
 - Worldbuilding schrittweise entwickeln und dokumentieren.
 - Gameplay-Systeme und Weltkonzept möglichst unabhängig von Engine-Details spezifizieren.
 - Neue bestätigte Entscheidungen in `docs/DECISIONS.md` und den jeweiligen Sachdateien nachtragen.
+- Den aktiven Worldbuilding-Bereich nicht eigenmächtig wechseln; Vergleiche und Zwischenfragen sind keine Themenwechsel.
 
-**Nächster Schritt:** Naturverbundenheit und Architektur der Elfen entscheiden (A/B/C/D, siehe `docs/NEXT_SESSION.md`). Die bisher empfohlene Variante B ist ausdrücklich noch **nicht beschlossen**.
+**Aktueller Stand:** Die Grundausarbeitung der Elfen ist in [docs/worldbuilding/voelker/elfen/](docs/worldbuilding/voelker/elfen/README.md) dokumentiert und vorläufig ausreichend. Detailfragen werden später bei Bedarf geklärt. Zum nächsten Worldbuilding-Thema nur nach ausdrücklicher Nutzerentscheidung wechseln.

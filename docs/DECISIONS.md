@@ -21,6 +21,19 @@ Status: **FEST** = vom Nutzer entschieden; **RICHTUNG** = angestrebtes, noch anp
 - **ELF-02 FEST:** Elfen sind im Mittel häufiger natürlich magiebegabt, Magiebeherrschung erfordert jedoch Ausbildung (Variante B).
 - **ELF-03 FEST:** Traditionelle elfische Kernregionen sind stolz, magisch geprägt, traditionsbewusst und vergleichsweise abgeschottet, aber es gibt individuelle und regionale Unterschiede.
 - **ELF-04 FEST:** Sozialer Rang der Elfen ergibt sich aus Abstammung, Alter/Erfahrung und individueller Leistung; alte Familien zählen in traditionellen Kernregionen stärker (Variante C).
+- **ELF-05 FEST:** Elfische Architektur und Lebensweise verbinden Naturverbundenheit mit eleganter, entwickelter Hochkultur (Variante B); lebendige, warmherzige Gesellschaft mit möglichen politischen Rivalitäten (B + Elemente C).
+- **ELF-06 FEST:** Begabung, Disziplin und Leistung sind kulturell besonders wichtig. Magier und magische Meisterschaft bilden das höchste Prestigeideal; weniger magiebegabte Elfen können sich auf Schwertkunst oder andere Talente konzentrieren.
+- **ELF-07 FEST:** Traditionelle Elfenkreise halten ihr Volk aufgrund von Langlebigkeit und durchschnittlicher Magieaffinität häufig für überlegen und stehen anderen Völkern teils distanziert/herablassend gegenüber; Fremde müssen Anerkennung oft verdienen. Keine objektive oder ausnahmslose Überlegenheit.
+- **ELF-08 FEST:** Elfische Magieausbildung primär durch Akademien/Institutionen, ergänzt durch alte Familien-/Meisterlinien (B mit Elementen A).
+- **ELF-09 FEST:** Vier besondere traditionelle Magierichtungen: Natur-, Heil-, Schutz- und Schleiermagie. Offensive Spezialisierung und allgemeine Magieregeln offen.
+- **ELF-10 FEST:** Manche traditionellen Kernreiche sind durch mehrschichtige Schutz-/Schleiermagie verborgen. Unwissende können nicht zufällig eindringen; gezielt verborgene Haupteingänge/Wege und seltene, nur gezielt ausnutzbare Schwachstellen.
+- **ELF-11 FEST:** Große Stadtschleier/Schutzzauber benötigen ortsfeste Anker, magische Bauwerke/Gravuren, Rituale und Magierzirkel, nicht den spontanen Einzelzauber; solche Systeme sind aufwendig und potenziell störbar.
+- **ELF-12 FEST:** Geheimwissen über die Großanlagen ist auf mehrere alte Adelsfamilien verteilt: unverzichtbare Teilkenntnisse, wechselseitige Abhängigkeit, keine Alleinkontrolle. Spezialisierte Wächterorden bewachen und sichern die Systeme, ohne zwangsläufig sämtliche Geheimnisse zu kennen.
+- **ELF-13 FEST:** Traditionelles elfisches Kernreich: König/Königin an der Spitze, Beratung/Prüfung durch Rat einflussreicher alter Adelshäuser; Monarch hat grundsätzlich Veto gegen Ratsbeschlüsse.
+- **ELF-14 FEST:** Thronfolge grundsätzlich nach Erstgeburtsrecht innerhalb der königlichen Blutlinie, geschlechtsunabhängig; Rat muss den vorgesehenen Nachfolger bestätigen.
+- **ELF-15 FEST:** Einzelne Häuser dürfen andere königliche Kinder unterstützen. Der Rat kann selbst einen grundsätzlich geeigneten Erstgeborenen zugunsten eines außergewöhnlich begabten und deutlich geeigneter angesehenen jüngeren Geschwisters übergehen, aber nur mit sehr hoher Unterstützung (Variante B).
+- **ELF-16 OFFEN – AUSDRÜCKLICH VERTAGT:** Geltung/Ausnahmen des königlichen Vetorechts bei der Thronfolge; genaue Mehrheitsquote des Rates.
+- **ELF-17 FEST:** Schutz-/Schleieranlagen alter Kernreiche besitzen lange historische Überlieferung; das Konzept alter, potenziell beschädigter oder instabiler Anlagen wurde befürwortet, ohne bestimmte Kriege/Ereignisse zu bestimmen.
 - **HUM-01 FEST:** Menschen sind regional vielfältig, manche Kernregionen lehnen andere Völker stärker ab.
 - **MP-01 FEST:** Fokus Koop mit bekannten Mitspielern, grundsätzlich Open-World-PvP auch in Städten; Stadtwachen, Verfolgung, Kopfgelder und Recht statt unverwundbarer Safezones.
 - **DEATH-01 FEST:** Normalmodus bewahrt Charakter und langfristigen Fortschritt, aber Tod hat einen spürbaren Soft-Reset, etwa Item-/Ausrüstungsverlust.
@@ -32,10 +45,12 @@ Status: **FEST** = vom Nutzer entschieden; **RICHTUNG** = angestrebtes, noch anp
 - Früh Low-Poly-/Platzhalter-3D, später höherwertige realistischere Modelle.
 
 ## Bewusst offen
-- **Direkt nächste Entscheidung:** Elfische Naturverbundenheit und Architektur: A Natur, B Natur + prachtvolle Hochkultur, C magische Stadtkultur, D regionale Unterschiede. Keine Variante beschlossen.
-- Elfische Traditionen, Alltag, Verhältnis zu Menschen/Zwergen/Orks; genaue Lebensdauer und Magieregeln.
+- Elfische Religion, konkrete Bräuche, Städte, Dynastien, genaue Lebensdauer, offensive Magierichtungen und Magieregeln (Details: `docs/worldbuilding/voelker/elfen/`).
+- Elfische Thronfolge: Vetorecht des Monarchen und genaue Ratsmehrheit sind ausdrücklich vertagt.
 - Frühere Hochkulturen, Imperien, Geschichtsdaten, konkrete Kontinente/Karten, Staaten und Religionen.
 - NPC-/Spieler-Todesfolgen im Detail, Wiederbelebung, PvP-Fairness, Lootregel.
 - Technische Architektur, Engine-Verbindlichkeit, Simulationsgrad und MVP.
+
+**Weiterführende Elfen-Details:** `docs/worldbuilding/voelker/elfen/`. Die Grundausarbeitung ist vorläufig ausreichend; kein spontaner Themenwechsel und keine stillschweigende Festlegung offener Rechts- oder Magieregeln.
 
 Änderungen an FEST nur durch ausdrückliche neue Entscheidung.

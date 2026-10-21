@@ -1,20 +1,19 @@
-# Nächste Worldbuilding-Sitzung
+# Wiedereinstieg ins Worldbuilding
 
-**Stand:** 21. Oktober 2026. Letzte bestätigte Elfenentscheidung: sozialer Rang aus Mischung aus Abstammung, Alter/Erfahrung und persönlicher Leistung (**Variante C**).
+**Stand:** 21. Oktober 2026. Die elfische Grundkultur ist für die erste Worldbuilding-Phase **vorläufig ausreichend ausgearbeitet** und in [`worldbuilding/voelker/elfen/`](worldbuilding/voelker/elfen/README.md) dokumentiert.
 
-## Bereits entschieden
-- Elfen leben mehrere Jahrhunderte (B), ohne exakte Jahreszahl.
-- Im Mittel höhere natürliche Magiebegabung, aber Beherrschung nur durch Übung/Ausbildung (B).
-- Traditionelle Kernregionen: stolz, abgeschotteter, traditionsbewusst; regional und individuell unterschiedlich.
-- Sozialer Status: alte Familien/Abstammung + Lebensalter/Erfahrung + Leistung (C).
+## Aktueller Arbeitsstand
+- Elfen: Lebensdauer, Magiebegabung, Natur/Hochkultur, gesellschaftliche Hierarchien, traditionelle Haltung zu anderen Völkern, Magierakademien und vier elfische Magieschwerpunkte festgelegt.
+- Verborgene alte Kernreiche: Schutz-/Schleieranlagen, verborgene Zugänge, geteiltes Adelswissen und Wächterorden grob festgelegt.
+- Traditionelles elfisches Kernreich: Monarchie mit Rat, grundsätzlich monarchisches Veto, Erstgeburtsrecht mit Ratsbestätigung und hochschwelliger Ausnahme zugunsten außergewöhnlich geeigneter jüngerer königlicher Kinder.
 
-## Unmittelbar nächste Frage — OFFEN
-**Wie stark sind elfische Naturverbundenheit, Siedlungsweise und Architektur?**
-- A: stark naturbezogen, überwiegend naturnahe Siedlungen.
-- B: Natur und prachtvolle Hochkultur, einschließlich Stein-/Magie-Städten (Assistentenempfehlung, **nicht beschlossen**).
-- C: stärker städtische magische Hochkultur.
-- D: stark nach elfischer Kultur unterschiedlich.
+## Bewusst später klären
+- **Ratsmehrheiten und die Anwendung des königlichen Vetorechts auf Thronfolgeentscheidungen** wurden ausdrücklich vertagt.
+- Elfische Religion, exakte Magiemechanik/offensive Spezialisierungen, konkrete Familien, Daten, Städte, Dynastien und Historie.
+- Weitere Details zu anderen Völkern, Geografie und konkreten Spielregionen nur nach ausdrücklicher Themenwahl.
 
-Nach Entscheidung: Alltag und Traditionen, dann Beziehungen zu Menschen/Zwergen/Orks, anschließend andere Völker. Noch keine Reiche, Namen, Jahreszahlen oder Rituale erfinden.
-
-**Arbeitsweise:** Schritt für Schritt; in jedem Sachthema FEST / VORSCHLAG / OFFEN unterscheiden und nur ausdrücklich gewählte Optionen übernehmen. Entscheidungsregister nach jeder Nutzerwahl aktualisieren.
+## Vorgehen
+- Die aktuelle Aufgabe ist die saubere, nachvollziehbare Dokumentation; **kein automatischer Themenwechsel**.
+- Der Nutzer möchte zunächst eine breite Weltgrundlage für die spätere Spielentwicklung, statt jedes Volk sofort bis in religions- und verfassungsrechtliche Feinheiten zu bestimmen.
+- Weiter nur mit dem vom Nutzer ausgewählten Thema; Vergleiche und Nebenfragen nicht als Wechsel verstehen.
+- **FEST**, **OFFEN** und **VORSCHLAG** konsequent trennen; Änderungen auch im zentralen [`DECISIONS.md`](DECISIONS.md) nachführen.

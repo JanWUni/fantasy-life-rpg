@@ -14,16 +14,12 @@ Deutliche Unterschiede statt bloß unterschiedlicher Optik. In manchen Regionen 
 ## Politik und Institutionen (FEST)
 Mehrere Herrschaftsformen koexistieren; ihre Veränderung durch Eroberung, Aufstand, Bündnisse oder innere Konflikte ist möglich, aber nicht beliebig. In Gesellschaften konkurrieren unterschiedliche Machtzentren, etwa Herrscher/Adel, Handel/Gilden, Militär, Magier, Religion, Clans und Bürger. Gewichtungen unterscheiden sich regional. Institutionen können durch NPCs/Spieler gegründet, erweitert, gespalten, fusioniert oder aufgelöst werden; sie verfolgen Interessen und brauchen Ressourcen/Legitimität. Spieler können aus einem niedrigen sozialen Rang bis zu höchster politischer oder wirtschaftlicher Macht aufsteigen; Widerstände hängen vom System ab. Keine Namen oder konkreten Staaten beschlossen.
 
-## Elfen (FEST)
-Elfen leben **mehrere Jahrhunderte**, sind nicht unsterblich. Sie sind im Durchschnitt häufiger natürlich magiebegabt als Menschen, aber praktische Beherrschung verlangt Ausbildung und Übung; andere Völker können einzelne Elfen übertreffen. Traditionelle elfische Kernregionen: eher stolz, traditionsbewusst, abgeschottet, historisch und magisch geprägt; individuelle und regionale Abweichungen. Gesellschaftlicher Einfluss beruht auf **Abstammung/alten Familien, Alter/Erfahrung und persönlicher Leistung**, etwa in Magie, Wissen oder Handwerk. In konservativen Kernlanden zählt Herkunft stärker, Aufstieg durch Leistung bleibt möglich.
+## Elfen (FEST; Details in den Völkerdateien)
+Elfen leben mehrere Jahrhunderte und sind durchschnittlich häufiger natürlich magiebegabt als Menschen; Fähigkeiten müssen erlernt und trainiert werden. Ihre traditionsreiche Hochkultur verbindet Natur und elegante Architektur. Magische Begabung und Meisterschaft haben besonderen gesellschaftlichen Rang; daneben zählen Abstammung, Alter/Erfahrung und persönliche Leistung. Traditionelle Kernregionen sind teils abgeschottet und anderen Völkern gegenüber überheblich, aber elfenweite Pauschalurteile gelten nicht.
 
-**Vorschläge, nicht beschlossen:** Hohe Wertschätzung für jahrzehntelange Lehre, Meisterschaft, Kunst, langlebige Architektur und Bewahrung der Vergangenheit. Elfische Kernregionen, gemischte Grenzgemeinschaften und im Ausland sozialisierte Elfen können stark variieren.
+Vier besondere traditionelle elfische Magierichtungen: **Natur-, Heil-, Schutz- und Schleiermagie**. Einige alte Kernreiche besitzen verborgene Zugänge und gewaltige, von dauerhafter Infrastruktur getragene Schutz-/Schleiersysteme; das unverzichtbare Geheimwissen verteilt sich auf mehrere alte Adelshäuser, Wächterorden schützen die Anlagen. Ein traditionelles Kernreich hat Monarchie, Adelsrat und eine bestätigungspflichtige Erstgeburts-Thronfolge mit hochschwelliger Ausnahme zugunsten eines außergewöhnlich geeigneten jüngeren königlichen Kindes. Vetorecht in Thronfolgefragen und Mehrheitszahlen bleiben ausdrücklich offen.
 
-**Nächste offene Frage:** Elfische Naturverbundenheit und Architektur:
-- A: überwiegend Wald- und Natursiedlungen
-- B: Naturverbundenheit + prachtvolle Hochkultur und monumentale Bauten (bisherige Empfehlung, NICHT beschlossen)
-- C: vorrangig städtische magische Hochkultur
-- D: je nach elfischer Kultur unterschiedlich
+**Verbindliche Detaildokumentation:** [`docs/worldbuilding/voelker/elfen/`](worldbuilding/voelker/elfen/README.md). Elfische Detailfragen werden bis zu einer ausdrücklichen Wiederaufnahme nicht weiter festgelegt.
 
 ## Menschen (FEST)
 Große gesellschaftliche und politische Vielfalt. Manche abgeschottete menschliche Kernregionen stehen anderen Völkern misstrauisch oder ablehnend gegenüber; Grenzregionen können offener oder durch Konflikte sogar feindseliger sein.
