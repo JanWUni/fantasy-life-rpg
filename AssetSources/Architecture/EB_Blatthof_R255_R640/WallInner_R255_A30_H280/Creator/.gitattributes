@@ -1,0 +1,7 @@
+# Keep byte-based handoff hashes stable across Windows worktree checkouts.
+.gitattributes text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+# Preserve Blender-generated JSON bytes, including their original CRLF endings.
+*.json -text
+SHA256SUMS text eol=lf
