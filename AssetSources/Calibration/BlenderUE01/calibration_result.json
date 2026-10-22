@@ -1,0 +1,62 @@
+{
+  "profile_id": "Blender522_UE58_LegacyFBX_Calibration01",
+  "fixture": "SM_Calibration_Axes_100x60x40",
+  "source_revision": 2,
+  "fbx_sha256": "f979292579737ab78462eaddc6627132cce41d56b6f4990b3befc62187e69398",
+  "bounds_cm": {
+    "min": {
+      "x": 0,
+      "y": -8.742277714191005e-06,
+      "z": 0
+    },
+    "max": {
+      "x": 100,
+      "y": 60.000003814697266,
+      "z": 40
+    },
+    "isValid": true
+  },
+  "triangles": 36,
+  "render_vertices": 72,
+  "slots": [
+    "Cal_X",
+    "Cal_Y",
+    "Cal_Z"
+  ],
+  "uv_channels": "2",
+  "collision_hulls": 3,
+  "x_collision_max_y_cm": 12,
+  "revision_probe_before": null,
+  "revision_probe_after": 70,
+  "reopen": {
+    "reopened": true,
+    "stored_references": true,
+    "seam_and_rotated_hits": {
+      "join_left_low": 70,
+      "join_right_low": 70,
+      "join_left_high": 70,
+      "join_right_high": 70,
+      "rotated_X": 70,
+      "rotated_Y": 70,
+      "rotated_Z": 40
+    },
+    "original_level_restored": "/Game/Prototype/Maps/Lvl_AssetLab",
+    "original_level_dirty": false,
+    "calibration_mesh_dirty": false
+  },
+  "source_reference_relative": "../../../../AssetSources/Calibration/BlenderUE01/SM_Calibration_Axes_100x60x40.fbx",
+  "fbx_binary_version": 7400,
+  "simple_collision": {
+    "trace_complex": false,
+    "hits": {
+      "X": 70.00000190734863,
+      "Y": 70.00000190734863,
+      "Z": 40.00000041723251,
+      "negative_Y": null,
+      "join_left": 70.00000190734863,
+      "join_right": 70.00000190734863,
+      "rotated_X": 70.00000190734863
+    }
+  },
+  "source_blend_reopened_and_verified": true
+}

@@ -1,0 +1,98 @@
+{
+  "name": "SM_Calibration_Axes_100x60x40",
+  "revision": 2,
+  "blender": "5.2.2 LTS",
+  "blender_build": "d13f752e3b9c",
+  "units": "meters",
+  "bounds_cm": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      100,
+      60,
+      40
+    ]
+  ],
+  "pivot_cm": [
+    0,
+    0,
+    0
+  ],
+  "scale": [
+    1,
+    1,
+    1
+  ],
+  "material_slots": [
+    "Cal_X",
+    "Cal_Y",
+    "Cal_Z"
+  ],
+  "triangles": 36,
+  "uv_channels": 1,
+  "logical_ue_axis_box_bounds_m": [
+    [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0.12,
+        0.1
+      ]
+    ],
+    [
+      [
+        0,
+        0.1,
+        0
+      ],
+      [
+        0.1,
+        0.6,
+        0.1
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0.1
+      ],
+      [
+        0.1,
+        0.1,
+        0.4
+      ]
+    ]
+  ],
+  "blender_to_unreal_cm": "(100*x, -100*y, 100*z)",
+  "collision_hulls": 3,
+  "export_settings": {
+    "use_selection": true,
+    "object_types": [
+      "MESH"
+    ],
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_NONE",
+    "axis_forward": "-Y",
+    "axis_up": "Z",
+    "use_space_transform": true,
+    "bake_space_transform": false,
+    "use_mesh_modifiers": true,
+    "mesh_smooth_type": "FACE",
+    "use_triangles": true,
+    "use_tspace": true,
+    "bake_anim": false,
+    "add_leaf_bones": false,
+    "path_mode": "RELATIVE",
+    "embed_textures": false
+  },
+  "fbx_sha256": "f979292579737ab78462eaddc6627132cce41d56b6f4990b3befc62187e69398"
+}

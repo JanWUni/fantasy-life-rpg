@@ -4,7 +4,7 @@
 
 Diese Datei beschreibt ausschließlich den überprüften technischen Arbeitsstand. Technische Zielrichtungen und offene Architekturentscheidungen stehen in [IMPLEMENTATION_APPROACH.md](IMPLEMENTATION_APPROACH.md); verbindliche Spiel- und Weltentscheidungen stehen in [DECISIONS.md](DECISIONS.md).
 
-Der neueste Prüfstand steht im Abschnitt „Untersuchung der verbleibenden Unreal-Meldungen“. Die vorherigen Ausbauabschnitte dokumentieren ihre jeweiligen früheren Testläufe.
+Der neueste Pipeline-Prüfstand steht im Abschnitt „Blender→Unreal-Kalibrierung 01“. „Untersuchung der verbleibenden Unreal-Meldungen“ und die übrigen Ausbauabschnitte dokumentieren ihre jeweiligen früheren Prüfungen.
 
 ## Repository und Projekt
 
@@ -273,6 +273,14 @@ Das zweifeldrige Anschlussmuster ist jetzt als `BP_EB_House_A60_Prototype01` mit
 **Geprüft:** Geschlossene Hülle einschließlich Dachanschlüssen, freie Türöffnung nach Öffnen und Sperre durch das geschlossene Blatt. Tatsächlicher Spieler wird geschlossen blockiert, öffnet über den vorhandenen `TryInteract`-Pfad, geht hinein, schließt/öffnet innen, geht hinaus und schließt außen. Bewegung über transiente CharacterMovement-Impulse ohne Durchgangsteleport/NoClip; kein physischer Tastaturtest behauptet. Rahmen bleibt unverändert, goldene Türhervorhebung nachgewiesen. Drei bestehende Tests einschließlich `Interaction.DoorPIE` bestehen **3/3 in 10,39 s**, ohne Testwarnungen/-fehler. Abschließende Endflächenabdeckung statisch/visuell geprüft, Assets und Lab gespeichert und wieder geladen. Temporäre Prüf-Hilfe entfernt; kein neuer Gameplay-Code, PCG, C++-Build oder Änderung bestehender Türlogik.
 
 Quelle und Grenzen: [technical/ELVEN_CLOSED_HOUSE_01.md](technical/ELVEN_CLOSED_HOUSE_01.md). Manuelle E-/WASD-/Kameraprüfung bleibt offen. Keine Fenster/Möblierung oder finale Material-/Kollisionsoptimierung. Ursprüngliche Stilstudien-, Tür- und Materialassets sowie übrige Karten bleiben unverändert.
+
+## Blender→Unreal-Kalibrierung 01 – 22. Oktober 2026
+
+Der isolierte Static-Mesh-Kalibrierungsimport mit Blender 5.2.2 LTS und Unreal 5.8 ist durchgeführt. Neues Testmesh, drei Materialinstanzen und eine eigene Prüfkarte liegen ausschließlich unter `/Game/Art/Calibration/BlenderUE01`; editierbare Quelle, FBX, Manifest, ausgelesenes Importprofil und Ergebnis unter `AssetSources/Calibration/BlenderUE01`. Generator: `Tools/AssetPipeline/blender_ue_calibration.py`.
+
+Bestätigt: 100 × 60 × 40 cm, unterer Ursprung, Einheitsskalierung, dokumentierte Achsenabbildung, drei stabile Materialslots, isolierter Instanz-Override, drei UCX-Hüllen, gedrehte Instanz, vier Abfragen am Modulstoß, sieben zusätzliche einfache Kollisionsabfragen und Erhalt der Referenzen nach gezieltem klassischem Reimport und Kartenwechsel. 36 Dreiecke, 72 Render-Vertices, ein LOD, Nanite aus. Keine Gameplay-/PIE-/Performance- oder Packagingabnahme.
+
+Wichtige Korrektur: Das frühere `FBX_SCALE_UNITS`-Startprofil lieferte um Faktor 100 zu kleine Geometrie. Geprüft ist `FBX_SCALE_NONE` mit `UE_cm=(100*B.x,-100*B.y,100*B.z)`. Der normale UI-Reimport wechselte zunächst vom klassischen FBX-Importer zu Interchange und behielt alte Kollisionshüllen. Der abschließende gezielte `FbxFactory`-Import aktualisiert auch diese korrekt. Importer deshalb ausdrücklich beibehalten; Interchange bleibt ungeprüft. Sitzungs-CVar zurückgesetzt, unbeabsichtigte Vorschaukonfiguration byteidentisch wiederhergestellt. Vor Dokumentationsänderungen waren alle 1.051 vorhandenen versionierten Dateien identisch zur Ausgangslage. Bestehende Assets und Level bleiben unverändert; ursprüngliches Asset-Lab wieder geöffnet und nicht dirty. Vollständige Werte, Grenzen und Belege: [BLENDER_UNREAL_CALIBRATION_01.md](technical/BLENDER_UNREAL_CALIBRATION_01.md).
 
 ## Noch offene technische Entscheidungen
 

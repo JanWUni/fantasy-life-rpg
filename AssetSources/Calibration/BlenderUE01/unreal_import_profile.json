@@ -1,0 +1,61 @@
+{
+  "profile_id": "Blender522_UE58_LegacyFBX_Calibration01",
+  "status": "calibrated_for_static_mesh_fixture",
+  "blender": "5.2.2 LTS",
+  "blender_build": "d13f752e3b9c",
+  "source_units": "meters",
+  "blender_to_unreal_cm": "(100*x, -100*y, 100*z)",
+  "export_settings": {
+    "use_selection": true,
+    "object_types": [
+      "MESH"
+    ],
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_NONE",
+    "axis_forward": "-Y",
+    "axis_up": "Z",
+    "use_space_transform": true,
+    "bake_space_transform": false,
+    "use_mesh_modifiers": true,
+    "mesh_smooth_type": "FACE",
+    "use_triangles": true,
+    "use_tspace": true,
+    "bake_anim": false,
+    "add_leaf_bones": false,
+    "path_mode": "RELATIVE",
+    "embed_textures": false
+  },
+  "unreal_importer": "FbxFactory / FbxStaticMeshImportData (legacy)",
+  "unreal_import_options_observed": {
+    "importUniformScale": 1,
+    "importTranslation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "importRotation": {
+      "pitch": 0,
+      "yaw": 0,
+      "roll": 0
+    },
+    "bConvertScene": true,
+    "bConvertSceneUnit": false,
+    "bForceFrontXAxis": false,
+    "coordinateSystemPolicy": "MatchUpForwardAxes",
+    "bUsingLUFCoordinateSysem": false,
+    "bTransformVertexToAbsolute": true,
+    "bBakePivotInVertex": false,
+    "normalImportMethod": "FBXNIM_ImportNormals",
+    "normalGenerationMethod": "MikkTSpace",
+    "bCombineMeshes": false,
+    "bOneConvexHullPerUCX": true,
+    "bAutoGenerateCollision": true,
+    "bGenerateLightmapUVs": true,
+    "bBuildNanite": false
+  },
+  "unreal_uv_channels_observed": 2,
+  "source_uv_channels": 1,
+  "session_requirement": "Keep Interchange.FeatureFlags.Import.FBX=0 for legacy UI reimport; restore previous value afterwards. Never mix importer backends without separate validation.",
+  "caveat": "This profile validates a single render mesh per FBX and source-owned UCX collision. It does not validate skeletal meshes, Nanite, production lightmap quality, or Interchange."
+}
