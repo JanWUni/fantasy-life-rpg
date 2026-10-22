@@ -1,0 +1,229 @@
+{
+  "status": "passed",
+  "scope": "Blender source reopen and FBX Blender roundtrip only; not Unreal validation",
+  "blender": "5.2.2 LTS",
+  "source": {
+    "vertices": 44,
+    "edges": 84,
+    "faces": 42,
+    "volume_m3": 0.7473574735392543,
+    "triangles": 84,
+    "bounds_ue_cm": [
+      [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      [
+        132.5,
+        42.82377624511719,
+        280.0
+      ]
+    ],
+    "reference_generator_max_error_cm": 7.62939453125e-06,
+    "two_instance_seam_error_cm": 1.9073486328125e-06,
+    "radial_normal_max_vector_error": 5.873780045418465e-06,
+    "seam_normal_max_vector_error": 1.1485499601439455e-05,
+    "collision": [
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_00",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "volume_m3": 0.07473574344126198,
+        "triangles": 12
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_01",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "volume_m3": 0.07473574421076402,
+        "triangles": 12
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_02",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "volume_m3": 0.07473574660561982,
+        "triangles": 12
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_03",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "volume_m3": 0.0747357327543672,
+        "triangles": 12
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_04",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "volume_m3": 0.0747357487107701,
+        "triangles": 12
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_05",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "volume_m3": 0.07473575412840489,
+        "triangles": 12
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_06",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "volume_m3": 0.07473573890016061,
+        "triangles": 12
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_07",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "volume_m3": 0.07473575784428474,
+        "triangles": 12
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_08",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "volume_m3": 0.07473572395741612,
+        "triangles": 12
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_09",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "volume_m3": 0.07473578298620484,
+        "triangles": 12
+      }
+    ],
+    "collision_volume_sum_error_m3": 0.0,
+    "uv_triangles_finite_nondegenerate_in_unit_square": true,
+    "closed_consistent_outward_manifold": true,
+    "roundtrip": false
+  },
+  "fbx_roundtrip": {
+    "vertices": 44,
+    "edges": 126,
+    "faces": 84,
+    "volume_m3": 0.7473574735392543,
+    "triangles": 84,
+    "bounds_ue_cm": [
+      [
+        -8.74227794156468e-07,
+        -10.0,
+        0.0
+      ],
+      [
+        132.5,
+        42.82376480102539,
+        280.0
+      ]
+    ],
+    "reference_generator_max_error_cm": 1.2212990259996125e-05,
+    "two_instance_seam_error_cm": 1.1444091796875e-05,
+    "radial_normal_max_vector_error": 6.396392201372149e-06,
+    "seam_normal_max_vector_error": 1.1245234190177179e-05,
+    "collision": [
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_00",
+        "vertices": 8,
+        "edges": 18,
+        "faces": 12,
+        "volume_m3": 0.07473574344126198,
+        "triangles": 12
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_01",
+        "vertices": 8,
+        "edges": 18,
+        "faces": 12,
+        "volume_m3": 0.07473574421076404,
+        "triangles": 12
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_02",
+        "vertices": 8,
+        "edges": 18,
+        "faces": 12,
+        "volume_m3": 0.07473574660561982,
+        "triangles": 12
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_03",
+        "vertices": 8,
+        "edges": 18,
+        "faces": 12,
+        "volume_m3": 0.07473573275436722,
+        "triangles": 12
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_04",
+        "vertices": 8,
+        "edges": 18,
+        "faces": 12,
+        "volume_m3": 0.0747357487107701,
+        "triangles": 12
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_05",
+        "vertices": 8,
+        "edges": 18,
+        "faces": 12,
+        "volume_m3": 0.07473575412840486,
+        "triangles": 12
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_06",
+        "vertices": 8,
+        "edges": 18,
+        "faces": 12,
+        "volume_m3": 0.0747357389001606,
+        "triangles": 12
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_07",
+        "vertices": 8,
+        "edges": 18,
+        "faces": 12,
+        "volume_m3": 0.07473575784428475,
+        "triangles": 12
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_08",
+        "vertices": 8,
+        "edges": 18,
+        "faces": 12,
+        "volume_m3": 0.07473572395741611,
+        "triangles": 12
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_09",
+        "vertices": 8,
+        "edges": 18,
+        "faces": 12,
+        "volume_m3": 0.07473578298620481,
+        "triangles": 12
+      }
+    ],
+    "collision_volume_sum_error_m3": 0.0,
+    "uv_triangles_finite_nondegenerate_in_unit_square": true,
+    "closed_consistent_outward_manifold": true,
+    "roundtrip": true
+  },
+  "hashes_verified": {
+    "SM_EB_WallInner_R255_A30_H280.blend": "12e0de915a47fa7b9da25b8e777032a337e0079f977d79910d6c3a72c275c1be",
+    "Exports/SM_EB_WallInner_R255_A30_H280.fbx": "0617e7534a0e272d504f966c7c14a293e1204126df7d7d4a60004defb40c072f",
+    "create_wall.py": "344d4b1f5f86f91c862302c428fc3a9a05361adc004d3e27b4ed3fbd3d44a7e8"
+  },
+  "unreal_import_performed": false
+}

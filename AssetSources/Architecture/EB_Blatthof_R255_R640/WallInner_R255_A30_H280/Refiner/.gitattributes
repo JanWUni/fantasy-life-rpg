@@ -1,0 +1,7 @@
+# Preserve byte-based delivery hashes across Windows checkouts; scope: this Refiner folder.
+.gitattributes text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json -text
+*.log -text
+SHA256SUMS text eol=lf

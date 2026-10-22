@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "tracked_files_checked": 1063,
+  "tracked_files_changed": [],
+  "head_before_and_after": "b1b2f051a2ead8d95c72e1253131eb9934d59b49",
+  "branch": "assets/refiner",
+  "new_files_only_under": "AssetSources/Architecture/EB_Blatthof_R255_R640/WallInner_R255_A30_H280/Refiner/",
+  "git_index_unchanged": true,
+  "input_snapshot_hashes_reverified": true,
+  "source_and_export_hashes_reverified": true,
+  "method": "SHA-256 of every tracked file before intake and after Blender work; final porcelain status has only untracked files under the authorized Refiner directory",
+  "unreal_started": false,
+  "creator_checkout_or_cherry_pick_performed": false
+}

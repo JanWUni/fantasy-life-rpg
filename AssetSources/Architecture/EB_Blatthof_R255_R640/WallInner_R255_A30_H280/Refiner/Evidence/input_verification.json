@@ -1,0 +1,22 @@
+{
+  "commit": "e66d5beed7bb85313501659d646f25778515134b",
+  "creator_path": "AssetSources/Architecture/EB_Blatthof_R255_R640/WallInner_R255_A30_H280/Creator/",
+  "creator_base_commit": "b1b2f051a2ead8d95c72e1253131eb9934d59b49",
+  "creator_revision": 1,
+  "all_sha256sums_passed": true,
+  "manifest_and_verification_hashes_passed": true,
+  "files": {
+    ".gitattributes": "a2a9653ea27a50640d867d2c904224f3b2a42b27c03f44786eafde7b7c157fee",
+    "create_wall.py": "344d4b1f5f86f91c862302c428fc3a9a05361adc004d3e27b4ed3fbd3d44a7e8",
+    "Exports/SM_EB_WallInner_R255_A30_H280.fbx": "0617e7534a0e272d504f966c7c14a293e1204126df7d7d4a60004defb40c072f",
+    "HANDOFF.md": "4255e023871326bca7beb8e65966decd0984a06b7c4386ebc571ce17793940a6",
+    "manifest.json": "7423ac40ce138bac35eee86bb87ff5df8d597cbfbd65659926e409da52ce8988",
+    "Previews/two_modules.png": "6a6c6c123b32f1e6cbfead7b40779a837c092d5fc6463bf2245451ee3dcc175b",
+    "SM_EB_WallInner_R255_A30_H280.blend": "12e0de915a47fa7b9da25b8e777032a337e0079f977d79910d6c3a72c275c1be",
+    "verification.json": "d65e99e53d198ae75650be6c05d745ad7334bf5da7077c3b5c5f22729bcf767c",
+    "SHA256SUMS": "d0517dce11fb5662a1997eebcd3d0a8389fde14ae9b75cd08dfd54895620fe7a"
+  },
+  "copy_sha256": "12e0de915a47fa7b9da25b8e777032a337e0079f977d79910d6c3a72c275c1be",
+  "method": "git show exact commit; LFS payload resolved read-only from local object store; no checkout/cherry-pick",
+  "refiner_head": "b1b2f051a2ead8d95c72e1253131eb9934d59b49"
+}

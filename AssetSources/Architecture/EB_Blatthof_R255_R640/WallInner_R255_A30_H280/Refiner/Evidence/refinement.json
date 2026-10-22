@@ -1,0 +1,512 @@
+{
+  "input_commit": "e66d5beed7bb85313501659d646f25778515134b",
+  "blender": "5.2.2 LTS",
+  "build": "d13f752e3b9c",
+  "before": {
+    "vertices": 44,
+    "edges": 84,
+    "faces": 42,
+    "triangles": 84,
+    "volume_m3": 0.7473574735392543,
+    "minimum_vertex_separation_m": 0.1282669982154705,
+    "closed_consistent_outward_manifold": true,
+    "duplicate_vertices": 0,
+    "bounds_ue_cm": [
+      [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      [
+        132.5,
+        42.82377624511719,
+        280.0
+      ]
+    ],
+    "analytic_profile_max_error_cm": 0.0,
+    "two_instance_seam_error_cm": 1.9073486328125e-06,
+    "radial_normal_error": 5.873780045418465e-06,
+    "planar_cap_normal_error": 1.6758913598547763e-06,
+    "seam_normal_error": 1.1485499601439455e-05,
+    "uv": {
+      "channels": 1,
+      "islands": 6,
+      "overlap_pairs_above_1e_9_uv_area": 0,
+      "density_uv_per_meter_min": 0.18641898576195207,
+      "density_uv_per_meter_max": 0.7255528448118694,
+      "density_max_min_ratio": 3.8920544591867103,
+      "max_triangle_anisotropy": 10.408980627666274,
+      "occupied_uv_area": 0.8099999842978962,
+      "minimum_chart_bbox_gap_uv": 0.03333333134651184,
+      "charts": [
+        {
+          "faces": 10,
+          "min": [
+            0.01666666753590107,
+            0.5249999165534973
+          ],
+          "max": [
+            0.3166666626930237,
+            0.9750000238418579
+          ]
+        },
+        {
+          "faces": 10,
+          "min": [
+            0.6833333373069763,
+            0.02499992400407791
+          ],
+          "max": [
+            0.9833333492279053,
+            0.4749999940395355
+          ]
+        },
+        {
+          "faces": 10,
+          "min": [
+            0.3499999940395355,
+            0.02500000037252903
+          ],
+          "max": [
+            0.6499999761581421,
+            0.4749999940395355
+          ]
+        },
+        {
+          "faces": 10,
+          "min": [
+            0.01666666753590107,
+            0.02500000037252903
+          ],
+          "max": [
+            0.3166666626930237,
+            0.4749999940395355
+          ]
+        },
+        {
+          "faces": 1,
+          "min": [
+            0.3499999940395355,
+            0.5249999761581421
+          ],
+          "max": [
+            0.6499999761581421,
+            0.9750000238418579
+          ]
+        },
+        {
+          "faces": 1,
+          "min": [
+            0.6833333373069763,
+            0.5249999761581421
+          ],
+          "max": [
+            0.9833332896232605,
+            0.9750000238418579
+          ]
+        }
+      ]
+    },
+    "collision_hulls": 10,
+    "collision_triangles": 120,
+    "collision": [
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_00",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "triangles": 12,
+        "volume_m3": 0.07473574344126198,
+        "minimum_vertex_separation_m": 0.1282670439713418,
+        "closed_consistent_outward_manifold": true,
+        "duplicate_vertices": 0,
+        "expected_segment_error_m": 0.0,
+        "convex_error_m": 0.0
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_01",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "triangles": 12,
+        "volume_m3": 0.07473574421076402,
+        "minimum_vertex_separation_m": 0.12826703568239006,
+        "closed_consistent_outward_manifold": true,
+        "duplicate_vertices": 0,
+        "expected_segment_error_m": 0.0,
+        "convex_error_m": 1.862645149230957e-09
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_02",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "triangles": 12,
+        "volume_m3": 0.07473574660561982,
+        "minimum_vertex_separation_m": 0.1282670669662668,
+        "closed_consistent_outward_manifold": true,
+        "duplicate_vertices": 0,
+        "expected_segment_error_m": 0.0,
+        "convex_error_m": 1.862645149230957e-09
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_03",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "triangles": 12,
+        "volume_m3": 0.0747357327543672,
+        "minimum_vertex_separation_m": 0.12826700729148532,
+        "closed_consistent_outward_manifold": true,
+        "duplicate_vertices": 0,
+        "expected_segment_error_m": 0.0,
+        "convex_error_m": 1.862645149230957e-09
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_04",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "triangles": 12,
+        "volume_m3": 0.0747357487107701,
+        "minimum_vertex_separation_m": 0.1282670445031394,
+        "closed_consistent_outward_manifold": true,
+        "duplicate_vertices": 0,
+        "expected_segment_error_m": 0.0,
+        "convex_error_m": 7.450580596923828e-09
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_05",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "triangles": 12,
+        "volume_m3": 0.07473575412840489,
+        "minimum_vertex_separation_m": 0.12826707581537652,
+        "closed_consistent_outward_manifold": true,
+        "duplicate_vertices": 0,
+        "expected_segment_error_m": 0.0,
+        "convex_error_m": 0.0
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_06",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "triangles": 12,
+        "volume_m3": 0.07473573890016061,
+        "minimum_vertex_separation_m": 0.12826701545989813,
+        "closed_consistent_outward_manifold": true,
+        "duplicate_vertices": 0,
+        "expected_segment_error_m": 0.0,
+        "convex_error_m": 7.450580596923828e-09
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_07",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "triangles": 12,
+        "volume_m3": 0.07473575784428474,
+        "minimum_vertex_separation_m": 0.1282670780843789,
+        "closed_consistent_outward_manifold": true,
+        "duplicate_vertices": 0,
+        "expected_segment_error_m": 0.0,
+        "convex_error_m": 3.725290298461914e-09
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_08",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "triangles": 12,
+        "volume_m3": 0.07473572395741612,
+        "minimum_vertex_separation_m": 0.1282669982154705,
+        "closed_consistent_outward_manifold": true,
+        "duplicate_vertices": 0,
+        "expected_segment_error_m": 0.0,
+        "convex_error_m": 7.450580596923828e-09
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_09",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "triangles": 12,
+        "volume_m3": 0.07473578298620484,
+        "minimum_vertex_separation_m": 0.12826711348081105,
+        "closed_consistent_outward_manifold": true,
+        "duplicate_vertices": 0,
+        "expected_segment_error_m": 0.0,
+        "convex_error_m": 3.725290298461914e-09
+      }
+    ],
+    "collision_volume_sum_error_m3": 0.0,
+    "identity_transforms": true,
+    "slots": [
+      "Ivory"
+    ],
+    "roundtrip": false,
+    "join_metadata_max_numeric_error": 0.0
+  },
+  "after": {
+    "vertices": 44,
+    "edges": 84,
+    "faces": 42,
+    "triangles": 84,
+    "volume_m3": 0.7473574735392543,
+    "minimum_vertex_separation_m": 0.1282669982154705,
+    "closed_consistent_outward_manifold": true,
+    "duplicate_vertices": 0,
+    "bounds_ue_cm": [
+      [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      [
+        132.5,
+        42.82377624511719,
+        280.0
+      ]
+    ],
+    "analytic_profile_max_error_cm": 0.0,
+    "two_instance_seam_error_cm": 1.9073486328125e-06,
+    "radial_normal_error": 5.873780045418465e-06,
+    "planar_cap_normal_error": 1.6758913598547763e-06,
+    "seam_normal_error": 1.1485499601439455e-05,
+    "uv": {
+      "channels": 1,
+      "islands": 6,
+      "overlap_pairs_above_1e_9_uv_area": 0,
+      "density_uv_per_meter_min": 0.29000306236495044,
+      "density_uv_per_meter_max": 0.29000338196213565,
+      "density_max_min_ratio": 1.0000011020476218,
+      "max_triangle_anisotropy": 1.0000013012065374,
+      "occupied_uv_area": 0.7678468917438681,
+      "minimum_chart_bbox_gap_uv": 0.011600106954574585,
+      "charts": [
+        {
+          "faces": 10,
+          "min": [
+            0.4074545204639435,
+            0.8352092504501343
+          ],
+          "max": [
+            0.791708767414093,
+            0.988399863243103
+          ]
+        },
+        {
+          "faces": 10,
+          "min": [
+            0.011600128374993801,
+            0.8352092504501343
+          ],
+          "max": [
+            0.3958543837070465,
+            0.988399863243103
+          ]
+        },
+        {
+          "faces": 10,
+          "min": [
+            0.39517879486083984,
+            0.011600128374993801
+          ],
+          "max": [
+            0.7975229620933533,
+            0.8236091136932373
+          ]
+        },
+        {
+          "faces": 10,
+          "min": [
+            0.011600128374993801,
+            0.011600128374993801
+          ],
+          "max": [
+            0.38357868790626526,
+            0.8236091136932373
+          ]
+        },
+        {
+          "faces": 1,
+          "min": [
+            0.8091230988502502,
+            0.011600128374993801
+          ],
+          "max": [
+            0.8671237230300903,
+            0.8236091136932373
+          ]
+        },
+        {
+          "faces": 1,
+          "min": [
+            0.8787238597869873,
+            0.011600128374993801
+          ],
+          "max": [
+            0.9367244839668274,
+            0.8236091136932373
+          ]
+        }
+      ]
+    },
+    "collision_hulls": 10,
+    "collision_triangles": 120,
+    "collision": [
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_00",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "triangles": 12,
+        "volume_m3": 0.07473574344126198,
+        "minimum_vertex_separation_m": 0.1282670439713418,
+        "closed_consistent_outward_manifold": true,
+        "duplicate_vertices": 0,
+        "expected_segment_error_m": 0.0,
+        "convex_error_m": 0.0
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_01",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "triangles": 12,
+        "volume_m3": 0.07473574421076402,
+        "minimum_vertex_separation_m": 0.12826703568239006,
+        "closed_consistent_outward_manifold": true,
+        "duplicate_vertices": 0,
+        "expected_segment_error_m": 0.0,
+        "convex_error_m": 1.862645149230957e-09
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_02",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "triangles": 12,
+        "volume_m3": 0.07473574660561982,
+        "minimum_vertex_separation_m": 0.1282670669662668,
+        "closed_consistent_outward_manifold": true,
+        "duplicate_vertices": 0,
+        "expected_segment_error_m": 0.0,
+        "convex_error_m": 1.862645149230957e-09
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_03",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "triangles": 12,
+        "volume_m3": 0.0747357327543672,
+        "minimum_vertex_separation_m": 0.12826700729148532,
+        "closed_consistent_outward_manifold": true,
+        "duplicate_vertices": 0,
+        "expected_segment_error_m": 0.0,
+        "convex_error_m": 1.862645149230957e-09
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_04",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "triangles": 12,
+        "volume_m3": 0.0747357487107701,
+        "minimum_vertex_separation_m": 0.1282670445031394,
+        "closed_consistent_outward_manifold": true,
+        "duplicate_vertices": 0,
+        "expected_segment_error_m": 0.0,
+        "convex_error_m": 7.450580596923828e-09
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_05",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "triangles": 12,
+        "volume_m3": 0.07473575412840489,
+        "minimum_vertex_separation_m": 0.12826707581537652,
+        "closed_consistent_outward_manifold": true,
+        "duplicate_vertices": 0,
+        "expected_segment_error_m": 0.0,
+        "convex_error_m": 0.0
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_06",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "triangles": 12,
+        "volume_m3": 0.07473573890016061,
+        "minimum_vertex_separation_m": 0.12826701545989813,
+        "closed_consistent_outward_manifold": true,
+        "duplicate_vertices": 0,
+        "expected_segment_error_m": 0.0,
+        "convex_error_m": 7.450580596923828e-09
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_07",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "triangles": 12,
+        "volume_m3": 0.07473575784428474,
+        "minimum_vertex_separation_m": 0.1282670780843789,
+        "closed_consistent_outward_manifold": true,
+        "duplicate_vertices": 0,
+        "expected_segment_error_m": 0.0,
+        "convex_error_m": 3.725290298461914e-09
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_08",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "triangles": 12,
+        "volume_m3": 0.07473572395741612,
+        "minimum_vertex_separation_m": 0.1282669982154705,
+        "closed_consistent_outward_manifold": true,
+        "duplicate_vertices": 0,
+        "expected_segment_error_m": 0.0,
+        "convex_error_m": 7.450580596923828e-09
+      },
+      {
+        "name": "UCX_SM_EB_WallInner_R255_A30_H280_09",
+        "vertices": 8,
+        "edges": 12,
+        "faces": 6,
+        "triangles": 12,
+        "volume_m3": 0.07473578298620484,
+        "minimum_vertex_separation_m": 0.12826711348081105,
+        "closed_consistent_outward_manifold": true,
+        "duplicate_vertices": 0,
+        "expected_segment_error_m": 0.0,
+        "convex_error_m": 3.725290298461914e-09
+      }
+    ],
+    "collision_volume_sum_error_m3": 0.0,
+    "identity_transforms": true,
+    "slots": [
+      "Ivory"
+    ],
+    "roundtrip": false,
+    "join_metadata_max_numeric_error": 0.0
+  },
+  "geometry_normals_transforms_bitwise_unchanged": true,
+  "packing": {
+    "layout": "Six physical-metric charts: chord-length side strips, planar XY caps, radial end strips",
+    "uniform_pack_side_m": 3.4482377675175666,
+    "padding_physical_m": 0.04,
+    "padding_uv": 0.011600128151486649,
+    "source_uv_layer": "UV0",
+    "seam_edges_marked": 48
+  },
+  "output_sha256": {
+    "SM_EB_WallInner_R255_A30_H280.blend": "a21ecbbb3185ac6ea3d04f5ef0490135617cbc8ee2d8e6c20b5675370244b0f0",
+    "Exports/SM_EB_WallInner_R255_A30_H280.fbx": "ee2210c67e1760e6870035ea1accb7e241eea4e365ed121aa0c68ae2b598feb0"
+  }
+}

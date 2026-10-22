@@ -1,0 +1,16 @@
+00:01.657  blend            | Read blend: "E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\SM_EB_WallInner_R255_A30_H280.blend"
+Traceback (most recent call last):
+  File "E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\refine_wall.py", line 449, in <module>
+    {'refine':refine,'verify':verify,'previews':previews}[args.mode]()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\refine_wall.py", line 314, in refine
+    before = inspect_scene()
+  File "E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\refine_wall.py", line 243, in inspect_scene
+    assert wall['Join_B_UE_cm_yaw_deg'][:] == jb['position'] + [jb['yaw']]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+Error: script failed, file: 'E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\refine_wall.py', exiting.
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

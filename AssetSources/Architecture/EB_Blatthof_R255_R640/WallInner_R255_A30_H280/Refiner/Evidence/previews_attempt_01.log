@@ -1,0 +1,11 @@
+00:01.469  blend            | Read blend: "E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\SM_EB_WallInner_R255_A30_H280.blend"
+00:03.703  render           | Saved: 'E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\Previews\two_modules.png'
+00:04.047  render           | Saved: 'E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\Previews\two_modules_outer.png'
+00:04.047  blend            | Read blend: "E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\Evidence\Input\SM_EB_WallInner_R255_A30_H280.blend"
+00:05.594  render           | Saved: 'E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\Previews\uv_before.png'
+00:05.610  blend            | Read blend: "E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\SM_EB_WallInner_R255_A30_H280.blend"
+00:06.500  render           | Saved: 'E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\Previews\uv_after.png'
+PREVIEWS_OK; no preview objects saved into source
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

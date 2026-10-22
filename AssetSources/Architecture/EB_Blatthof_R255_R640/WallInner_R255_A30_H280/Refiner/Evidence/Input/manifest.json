@@ -1,0 +1,262 @@
+{
+  "asset_name": "SM_EB_WallInner_R255_A30_H280",
+  "kit_id": "EB.Blatthof.R255_R640",
+  "kit_directory": "EB_Blatthof_R255_R640",
+  "module_id": "WallInner_R255_A30_H280",
+  "interface_version": 1,
+  "revision": 1,
+  "status": "creator_ready",
+  "role": "Asset Creator",
+  "base_commit": "b1b2f051a2ead8d95c72e1253131eb9934d59b49",
+  "allowed_write_directory": "AssetSources/Architecture/EB_Blatthof_R255_R640/WallInner_R255_A30_H280/Creator",
+  "sources": {
+    "blend": "SM_EB_WallInner_R255_A30_H280.blend",
+    "fbx": "Exports/SM_EB_WallInner_R255_A30_H280.fbx",
+    "generator": "create_wall.py"
+  },
+  "reference": {
+    "generator": "Tools/Prototype/generate_elven_join_sample.py",
+    "commit": "b1b2f051a2ead8d95c72e1253131eb9934d59b49",
+    "contract": "docs/technical/ELVEN_JOIN_SAMPLE_01.md",
+    "visual": "docs/technical/ELVEN_BLATTHOF_STUDY.md"
+  },
+  "blender": {
+    "version": "5.2.2 LTS",
+    "build": "d13f752e3b9c",
+    "addons": [
+      "io_scene_fbx"
+    ],
+    "external_dependencies": [],
+    "modifier": "TRIANGULATE/FIXED"
+  },
+  "units": {
+    "blender": "meters",
+    "unreal": "centimeters",
+    "unit_scale": 1,
+    "blender_to_unreal_cm": "(100*x,-100*y,100*z)"
+  },
+  "profile": {
+    "layer": "InnerWall",
+    "radius_reference_cm": 255,
+    "radii_cm": [
+      245,
+      265
+    ],
+    "angle_degrees": 30,
+    "height_cm": 280,
+    "floor_top_z_cm": 0,
+    "segments": 10,
+    "thickness_radial_cm": 20,
+    "openings": [],
+    "decor": "none"
+  },
+  "pivot": {
+    "location_cm": [
+      0,
+      0,
+      0
+    ],
+    "description": "Start on R255 at floor Z0; X tangent, UE Y inward, Z up",
+    "circle_center_ue_cm": [
+      0,
+      255,
+      0
+    ],
+    "circle_center_blender_m": [
+      0,
+      -2.55,
+      0
+    ]
+  },
+  "object_transform_blender": {
+    "location_m": [
+      0,
+      0,
+      0
+    ],
+    "rotation_degrees": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "joins_ue_cm_degrees": {
+    "Join_A": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "yaw": 180
+    },
+    "Join_B": {
+      "position": [
+        127.49999999999999,
+        34.16352203496813,
+        0
+      ],
+      "yaw": 30
+    }
+  },
+  "joins_blender_m_degrees": {
+    "Join_A": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "yaw": -180
+    },
+    "Join_B": {
+      "position": [
+        1.275,
+        -0.3416352203496813,
+        0
+      ],
+      "yaw": -30
+    }
+  },
+  "tolerances": {
+    "join_position_cm": 0.1,
+    "join_angle_degrees": 0.1
+  },
+  "material_slots": [
+    {
+      "index": 0,
+      "name": "Ivory",
+      "unreal_material": "/Game/Art/Materials/ElvenBlatthof/MI_Blatthof_Ivory"
+    }
+  ],
+  "uv": {
+    "channels_source": 1,
+    "name": "UV0",
+    "layout": "Six separate padded islands; cylindrical sides continuous over ten segments",
+    "overlap": "none",
+    "lightmap_channel": "not authored; calibrated importer generates UV1; production quality untested"
+  },
+  "normal_policy": "Explicit radial split normals on curved sides; hard top/bottom/end caps; controlled export triangulation",
+  "collision": {
+    "mode_intended_unreal": "UseSimpleAsComplex",
+    "hulls": 10,
+    "triangles_total": 120,
+    "description": "Ten closed convex 3-degree prisms exactly matching render segments; shared cap planes, no volume overlap",
+    "difference_from_reference": "Source-owned convex prisms replace the five approximate editor boxes; same structural interface",
+    "unreal_validation": "not performed"
+  },
+  "render": {
+    "vertices_source": 44,
+    "quads_source": 42,
+    "triangles_evaluated": 84,
+    "material_slots": 1,
+    "textures": [],
+    "texture_sizes": [],
+    "lods_delivered": 1,
+    "nanite_intended": false,
+    "lod_plan": "Keep simple 84-triangle LOD0; any further LODs require a separate assignment"
+  },
+  "export": {
+    "settings": {
+      "use_selection": true,
+      "object_types": [
+        "MESH"
+      ],
+      "global_scale": 1.0,
+      "apply_unit_scale": true,
+      "apply_scale_options": "FBX_SCALE_NONE",
+      "axis_forward": "-Y",
+      "axis_up": "Z",
+      "use_space_transform": true,
+      "bake_space_transform": false,
+      "use_mesh_modifiers": true,
+      "mesh_smooth_type": "FACE",
+      "use_triangles": true,
+      "use_tspace": true,
+      "bake_anim": false,
+      "add_leaf_bones": false,
+      "path_mode": "RELATIVE",
+      "embed_textures": false
+    },
+    "calibration_profile_id": "Blender522_UE58_LegacyFBX_Calibration01",
+    "profile_path": "AssetSources/Calibration/BlenderUE01/unreal_import_profile.json",
+    "validation": "passed Blender roundtrip; Unreal import/reimport not performed"
+  },
+  "unreal": {
+    "import_performed": false,
+    "intended_importer": "FbxFactory / FbxStaticMeshImportData (legacy)",
+    "import_settings_reference": "AssetSources/Calibration/BlenderUE01/unreal_import_profile.json",
+    "calibration_observed_options": {
+      "importUniformScale": 1,
+      "importTranslation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "importRotation": {
+        "pitch": 0,
+        "yaw": 0,
+        "roll": 0
+      },
+      "bConvertScene": true,
+      "bConvertSceneUnit": false,
+      "bForceFrontXAxis": false,
+      "coordinateSystemPolicy": "MatchUpForwardAxes",
+      "bUsingLUFCoordinateSysem": false,
+      "bTransformVertexToAbsolute": true,
+      "bBakePivotInVertex": false,
+      "normalImportMethod": "FBXNIM_ImportNormals",
+      "normalGenerationMethod": "MikkTSpace",
+      "bCombineMeshes": false,
+      "bOneConvexHullPerUCX": true,
+      "bAutoGenerateCollision": true,
+      "bGenerateLightmapUVs": true,
+      "bBuildNanite": false
+    },
+    "warning": "Observed calibration settings are reference values, not measured settings for this module. Interchange is not validated.",
+    "integration": "Separate assignment; no replacement of the existing same-named JoinSample01 asset is authorized"
+  },
+  "not_tested": [
+    "Unreal import/reimport",
+    "Unreal render vertices/UV generation/material assignment",
+    "Kapsel/PIE/camera/gameplay",
+    "Performance/packaging/multiplayer",
+    "Combined floor/roof assembly"
+  ],
+  "sha256": {
+    "SM_EB_WallInner_R255_A30_H280.blend": "12e0de915a47fa7b9da25b8e777032a337e0079f977d79910d6c3a72c275c1be",
+    "Exports/SM_EB_WallInner_R255_A30_H280.fbx": "0617e7534a0e272d504f966c7c14a293e1204126df7d7d4a60004defb40c072f",
+    "create_wall.py": "344d4b1f5f86f91c862302c428fc3a9a05361adc004d3e27b4ed3fbd3d44a7e8"
+  },
+  "bounds_ue_cm": [
+    [
+      0.0,
+      -10.0,
+      0.0
+    ],
+    [
+      132.5,
+      42.82377624511719,
+      280.0
+    ]
+  ],
+  "bounds_blender_m": [
+    [
+      0.0,
+      -0.4282377624511719,
+      0
+    ],
+    [
+      1.325,
+      0.1,
+      2.8
+    ]
+  ],
+  "verification": {
+    "file": "verification.json",
+    "sha256": "d65e99e53d198ae75650be6c05d745ad7334bf5da7077c3b5c5f22729bcf767c"
+  }
+}
