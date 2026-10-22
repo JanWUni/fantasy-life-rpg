@@ -1,0 +1,644 @@
+{
+  "meshes": {
+    "SM_EH_Wall_SolidA_200x24x320": {
+      "bounds": {
+        "min": {
+          "x": -2.0981467514502583e-06,
+          "y": -24.000017166137695,
+          "z": 0
+        },
+        "max": {
+          "x": 201.47593688964844,
+          "y": 15.5,
+          "z": 320
+        },
+        "isValid": true
+      },
+      "triangles": 528,
+      "hulls": 1,
+      "collision_trace": "CTF_UseDefault",
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "import_options": {
+        "importUniformScale": 1,
+        "importTranslation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "importRotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "bConvertScene": true,
+        "bConvertSceneUnit": false,
+        "bForceFrontXAxis": false,
+        "bTransformVertexToAbsolute": true,
+        "bBakePivotInVertex": false,
+        "normalImportMethod": "FBXNIM_ImportNormals",
+        "normalGenerationMethod": "MikkTSpace",
+        "bCombineMeshes": false,
+        "bOneConvexHullPerUCX": true,
+        "bAutoGenerateCollision": false,
+        "bGenerateLightmapUVs": true,
+        "bBuildNanite": false
+      }
+    },
+    "SM_EH_Wall_SolidB_200x24x320": {
+      "bounds": {
+        "min": {
+          "x": -2.0981467514502583e-06,
+          "y": -24.000017166137695,
+          "z": 0
+        },
+        "max": {
+          "x": 202.47059631347656,
+          "y": 15.5,
+          "z": 320
+        },
+        "isValid": true
+      },
+      "triangles": 560,
+      "hulls": 1,
+      "collision_trace": "CTF_UseDefault",
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "import_options": {
+        "importUniformScale": 1,
+        "importTranslation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "importRotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "bConvertScene": true,
+        "bConvertSceneUnit": false,
+        "bForceFrontXAxis": false,
+        "bTransformVertexToAbsolute": true,
+        "bBakePivotInVertex": false,
+        "normalImportMethod": "FBXNIM_ImportNormals",
+        "normalGenerationMethod": "MikkTSpace",
+        "bCombineMeshes": false,
+        "bOneConvexHullPerUCX": true,
+        "bAutoGenerateCollision": false,
+        "bGenerateLightmapUVs": true,
+        "bBuildNanite": false
+      }
+    },
+    "SM_EH_Wall_Window_200x24x320": {
+      "bounds": {
+        "min": {
+          "x": -2.0981467514502583e-06,
+          "y": -24.000017166137695,
+          "z": 0
+        },
+        "max": {
+          "x": 201.47593688964844,
+          "y": 28.999996185302734,
+          "z": 320
+        },
+        "isValid": true
+      },
+      "triangles": 1272,
+      "hulls": 1,
+      "collision_trace": "CTF_UseDefault",
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone",
+        "Glass"
+      ],
+      "import_options": {
+        "importUniformScale": 1,
+        "importTranslation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "importRotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "bConvertScene": true,
+        "bConvertSceneUnit": false,
+        "bForceFrontXAxis": false,
+        "bTransformVertexToAbsolute": true,
+        "bBakePivotInVertex": false,
+        "normalImportMethod": "FBXNIM_ImportNormals",
+        "normalGenerationMethod": "MikkTSpace",
+        "bCombineMeshes": false,
+        "bOneConvexHullPerUCX": true,
+        "bAutoGenerateCollision": false,
+        "bGenerateLightmapUVs": true,
+        "bBuildNanite": false
+      }
+    },
+    "SM_EH_Wall_Entry_200x24x320": {
+      "bounds": {
+        "min": {
+          "x": -2.0981467514502583e-06,
+          "y": -24.000017166137695,
+          "z": -3.0298144817352295
+        },
+        "max": {
+          "x": 201.47593688964844,
+          "y": 18,
+          "z": 320
+        },
+        "isValid": true
+      },
+      "triangles": 904,
+      "hulls": 6,
+      "collision_trace": "CTF_UseDefault",
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "import_options": {
+        "importUniformScale": 1,
+        "importTranslation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "importRotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "bConvertScene": true,
+        "bConvertSceneUnit": false,
+        "bForceFrontXAxis": false,
+        "bTransformVertexToAbsolute": true,
+        "bBakePivotInVertex": false,
+        "normalImportMethod": "FBXNIM_ImportNormals",
+        "normalGenerationMethod": "MikkTSpace",
+        "bCombineMeshes": false,
+        "bOneConvexHullPerUCX": true,
+        "bAutoGenerateCollision": false,
+        "bGenerateLightmapUVs": true,
+        "bBuildNanite": false
+      }
+    },
+    "SM_EH_Roof_Mid_W1000": {
+      "bounds": {
+        "min": {
+          "x": -70.02296447753906,
+          "y": -200.00009155273438,
+          "z": 361.84002685546875
+        },
+        "max": {
+          "x": 1070.0228271484375,
+          "y": 4.503337860107422,
+          "z": 603.2999877929688
+        },
+        "isValid": true
+      },
+      "triangles": 1080,
+      "hulls": 16,
+      "collision_trace": "CTF_UseDefault",
+      "slots": [
+        "Jade",
+        "Timber"
+      ],
+      "import_options": {
+        "importUniformScale": 1,
+        "importTranslation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "importRotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "bConvertScene": true,
+        "bConvertSceneUnit": false,
+        "bForceFrontXAxis": false,
+        "bTransformVertexToAbsolute": true,
+        "bBakePivotInVertex": false,
+        "normalImportMethod": "FBXNIM_ImportNormals",
+        "normalGenerationMethod": "MikkTSpace",
+        "bCombineMeshes": false,
+        "bOneConvexHullPerUCX": true,
+        "bAutoGenerateCollision": false,
+        "bGenerateLightmapUVs": true,
+        "bBuildNanite": false
+      }
+    },
+    "SM_EH_Roof_End_W1000": {
+      "bounds": {
+        "min": {
+          "x": -70.0229721069336,
+          "y": -280.34930419921875,
+          "z": 361.84002685546875
+        },
+        "max": {
+          "x": 1070.0228271484375,
+          "y": 4.503337860107422,
+          "z": 641.2894897460938
+        },
+        "isValid": true
+      },
+      "triangles": 2400,
+      "hulls": 16,
+      "collision_trace": "CTF_UseDefault",
+      "slots": [
+        "Jade",
+        "Timber"
+      ],
+      "import_options": {
+        "importUniformScale": 1,
+        "importTranslation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "importRotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "bConvertScene": true,
+        "bConvertSceneUnit": false,
+        "bForceFrontXAxis": false,
+        "bTransformVertexToAbsolute": true,
+        "bBakePivotInVertex": false,
+        "normalImportMethod": "FBXNIM_ImportNormals",
+        "normalGenerationMethod": "MikkTSpace",
+        "bCombineMeshes": false,
+        "bOneConvexHullPerUCX": true,
+        "bAutoGenerateCollision": false,
+        "bGenerateLightmapUVs": true,
+        "bBuildNanite": false
+      }
+    },
+    "SM_EH_Gable_W1000": {
+      "bounds": {
+        "min": {
+          "x": -7.000000476837158,
+          "y": -24.00008773803711,
+          "z": 319.9999694824219
+        },
+        "max": {
+          "x": 1007,
+          "y": 11.5,
+          "z": 614.2664794921875
+        },
+        "isValid": true
+      },
+      "triangles": 1328,
+      "hulls": 0,
+      "collision_trace": "CTF_UseDefault",
+      "slots": [
+        "Plaster",
+        "Timber"
+      ],
+      "import_options": {
+        "importUniformScale": 1,
+        "importTranslation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "importRotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "bConvertScene": true,
+        "bConvertSceneUnit": false,
+        "bForceFrontXAxis": false,
+        "bTransformVertexToAbsolute": true,
+        "bBakePivotInVertex": false,
+        "normalImportMethod": "FBXNIM_ImportNormals",
+        "normalGenerationMethod": "MikkTSpace",
+        "bCombineMeshes": false,
+        "bOneConvexHullPerUCX": true,
+        "bAutoGenerateCollision": false,
+        "bGenerateLightmapUVs": true,
+        "bBuildNanite": false
+      }
+    },
+    "SM_EH_EaveFill_Mid_200": {
+      "bounds": {
+        "min": {
+          "x": -2.0981467514502583e-06,
+          "y": -24.000017166137695,
+          "z": 320
+        },
+        "max": {
+          "x": 200,
+          "y": 6.964101791381836,
+          "z": 365.34881591796875
+        },
+        "isValid": true
+      },
+      "triangles": 44,
+      "hulls": 0,
+      "collision_trace": "CTF_UseDefault",
+      "slots": [
+        "Plaster",
+        "Timber"
+      ],
+      "import_options": {
+        "importUniformScale": 1,
+        "importTranslation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "importRotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "bConvertScene": true,
+        "bConvertSceneUnit": false,
+        "bForceFrontXAxis": false,
+        "bTransformVertexToAbsolute": true,
+        "bBakePivotInVertex": false,
+        "normalImportMethod": "FBXNIM_ImportNormals",
+        "normalGenerationMethod": "MikkTSpace",
+        "bCombineMeshes": false,
+        "bOneConvexHullPerUCX": true,
+        "bAutoGenerateCollision": false,
+        "bGenerateLightmapUVs": true,
+        "bBuildNanite": false
+      }
+    },
+    "SM_EH_EaveFill_EndA_200": {
+      "bounds": {
+        "min": {
+          "x": -0.5964318513870239,
+          "y": -24.000017166137695,
+          "z": 320
+        },
+        "max": {
+          "x": 200.24082946777344,
+          "y": 6.964101791381836,
+          "z": 395.5075378417969
+        },
+        "isValid": true
+      },
+      "triangles": 188,
+      "hulls": 0,
+      "collision_trace": "CTF_UseDefault",
+      "slots": [
+        "Plaster",
+        "Timber"
+      ],
+      "import_options": {
+        "importUniformScale": 1,
+        "importTranslation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "importRotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "bConvertScene": true,
+        "bConvertSceneUnit": false,
+        "bForceFrontXAxis": false,
+        "bTransformVertexToAbsolute": true,
+        "bBakePivotInVertex": false,
+        "normalImportMethod": "FBXNIM_ImportNormals",
+        "normalGenerationMethod": "MikkTSpace",
+        "bCombineMeshes": false,
+        "bOneConvexHullPerUCX": true,
+        "bAutoGenerateCollision": false,
+        "bGenerateLightmapUVs": true,
+        "bBuildNanite": false
+      }
+    },
+    "SM_EH_EaveFill_EndB_200": {
+      "bounds": {
+        "min": {
+          "x": -0.24083204567432404,
+          "y": -24.000017166137695,
+          "z": 320
+        },
+        "max": {
+          "x": 200.596435546875,
+          "y": 6.964101791381836,
+          "z": 395.5075378417969
+        },
+        "isValid": true
+      },
+      "triangles": 188,
+      "hulls": 0,
+      "collision_trace": "CTF_UseDefault",
+      "slots": [
+        "Plaster",
+        "Timber"
+      ],
+      "import_options": {
+        "importUniformScale": 1,
+        "importTranslation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "importRotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "bConvertScene": true,
+        "bConvertSceneUnit": false,
+        "bForceFrontXAxis": false,
+        "bTransformVertexToAbsolute": true,
+        "bBakePivotInVertex": false,
+        "normalImportMethod": "FBXNIM_ImportNormals",
+        "normalGenerationMethod": "MikkTSpace",
+        "bCombineMeshes": false,
+        "bOneConvexHullPerUCX": true,
+        "bAutoGenerateCollision": false,
+        "bGenerateLightmapUVs": true,
+        "bBuildNanite": false
+      }
+    },
+    "SM_EH_Floor_200x200x20": {
+      "bounds": {
+        "min": {
+          "x": -1.7449587176088244e-05,
+          "y": -200.00001525878906,
+          "z": -20
+        },
+        "max": {
+          "x": 200,
+          "y": -3.496919021017675e-08,
+          "z": 0
+        },
+        "isValid": true
+      },
+      "triangles": 44,
+      "hulls": 1,
+      "collision_trace": "CTF_UseDefault",
+      "slots": [
+        "Stone"
+      ],
+      "import_options": {
+        "importUniformScale": 1,
+        "importTranslation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "importRotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "bConvertScene": true,
+        "bConvertSceneUnit": false,
+        "bForceFrontXAxis": false,
+        "bTransformVertexToAbsolute": true,
+        "bBakePivotInVertex": false,
+        "normalImportMethod": "FBXNIM_ImportNormals",
+        "normalGenerationMethod": "MikkTSpace",
+        "bCombineMeshes": false,
+        "bOneConvexHullPerUCX": true,
+        "bAutoGenerateCollision": false,
+        "bGenerateLightmapUVs": true,
+        "bBuildNanite": false
+      }
+    },
+    "SM_EH_DoorLeaf_132_Study": {
+      "bounds": {
+        "min": {
+          "x": -3.059797393234476e-07,
+          "y": -3.500011444091797,
+          "z": 3.5
+        },
+        "max": {
+          "x": 132,
+          "y": 12.499990463256836,
+          "z": 281
+        },
+        "isValid": true
+      },
+      "triangles": 332,
+      "hulls": 0,
+      "collision_trace": "CTF_UseDefault",
+      "slots": [
+        "Timber",
+        "Bronze"
+      ],
+      "import_options": {
+        "importUniformScale": 1,
+        "importTranslation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "importRotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "bConvertScene": true,
+        "bConvertSceneUnit": false,
+        "bForceFrontXAxis": false,
+        "bTransformVertexToAbsolute": true,
+        "bBakePivotInVertex": false,
+        "normalImportMethod": "FBXNIM_ImportNormals",
+        "normalGenerationMethod": "MikkTSpace",
+        "bCombineMeshes": false,
+        "bOneConvexHullPerUCX": true,
+        "bAutoGenerateCollision": false,
+        "bGenerateLightmapUVs": true,
+        "bBuildNanite": false
+      }
+    },
+    "SM_EH_EntryCanopy_224": {
+      "bounds": {
+        "min": {
+          "x": -114.58629608154297,
+          "y": -8.810521125793457,
+          "z": 268.1999816894531
+        },
+        "max": {
+          "x": 114.5863037109375,
+          "y": 98.8105239868164,
+          "z": 330.1999816894531
+        },
+        "isValid": true
+      },
+      "triangles": 1044,
+      "hulls": 0,
+      "collision_trace": "CTF_UseDefault",
+      "slots": [
+        "Jade",
+        "Timber"
+      ],
+      "import_options": {
+        "importUniformScale": 1,
+        "importTranslation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "importRotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "bConvertScene": true,
+        "bConvertSceneUnit": false,
+        "bForceFrontXAxis": false,
+        "bTransformVertexToAbsolute": true,
+        "bBakePivotInVertex": false,
+        "normalImportMethod": "FBXNIM_ImportNormals",
+        "normalGenerationMethod": "MikkTSpace",
+        "bCombineMeshes": false,
+        "bOneConvexHullPerUCX": true,
+        "bAutoGenerateCollision": false,
+        "bGenerateLightmapUVs": true,
+        "bBuildNanite": false
+      }
+    }
+  },
+  "source_collision_counts_match": true,
+  "legacy_fbx_metadata": true,
+  "actors": [
+    {
+      "refPath": "/Game/Art/Architecture/ElvenHouseB01/Maps/Lvl_ElvenHouseB01_Review.Lvl_ElvenHouseB01_Review:PersistentLevel.WorldSettings"
+    },
+    {
+      "refPath": "/Game/Art/Architecture/ElvenHouseB01/Maps/Lvl_ElvenHouseB01_Review.Lvl_ElvenHouseB01_Review:PersistentLevel.Brush_0"
+    },
+    {
+      "refPath": "/Game/Art/Architecture/ElvenHouseB01/Maps/Lvl_ElvenHouseB01_Review.Lvl_ElvenHouseB01_Review:PersistentLevel.BuoyancyManager_0"
+    },
+    {
+      "refPath": "/Game/Art/Architecture/ElvenHouseB01/Maps/Lvl_ElvenHouseB01_Review.Lvl_ElvenHouseB01_Review:PersistentLevel.DefaultPhysicsVolume_0"
+    },
+    {
+      "refPath": "/Game/Art/Architecture/ElvenHouseB01/Maps/Lvl_ElvenHouseB01_Review.Lvl_ElvenHouseB01_Review:PersistentLevel.GameplayDebuggerPlayerManager_0"
+    },
+    {
+      "refPath": "/Game/Art/Architecture/ElvenHouseB01/Maps/Lvl_ElvenHouseB01_Review.Lvl_ElvenHouseB01_Review:PersistentLevel.ChaosDebugDrawActor"
+    },
+    {
+      "refPath": "/Game/Art/Architecture/ElvenHouseB01/Maps/Lvl_ElvenHouseB01_Review.Lvl_ElvenHouseB01_Review:PersistentLevel.AbstractNavData-Default"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "materials": {
+    "Plaster": {
+      "refPath": "/Game/Art/Materials/ElvenHouseB01/M_EH_Plaster.M_EH_Plaster"
+    },
+    "Timber": {
+      "refPath": "/Game/Art/Materials/ElvenHouseB01/M_EH_Timber.M_EH_Timber"
+    },
+    "Stone": {
+      "refPath": "/Game/Art/Materials/ElvenHouseB01/M_EH_Stone.M_EH_Stone"
+    },
+    "Jade": {
+      "refPath": "/Game/Art/Materials/ElvenHouseB01/M_EH_Jade.M_EH_Jade"
+    },
+    "Glass": {
+      "refPath": "/Game/Art/Materials/ElvenHouseB01/M_EH_Glass.M_EH_Glass"
+    },
+    "Bronze": {
+      "refPath": "/Game/Art/Materials/ElvenHouseB01/M_EH_Bronze.M_EH_Bronze"
+    },
+    "ReviewGround": {
+      "refPath": "/Game/Art/Materials/ElvenHouseB01/M_EH_ReviewGround.M_EH_ReviewGround"
+    }
+  },
+  "normal_green_flipped": true,
+  "normal_xy_strength": {
+    "Timber": 0.32,
+    "others": 0.2
+  }
+}

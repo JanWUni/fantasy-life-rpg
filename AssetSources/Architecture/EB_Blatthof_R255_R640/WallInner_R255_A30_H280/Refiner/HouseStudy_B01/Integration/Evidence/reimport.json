@@ -1,0 +1,117 @@
+{
+  "status": "passed",
+  "scope": "Same-source legacy reimport; no changed geometry revision",
+  "assets": {
+    "SM_EH_Wall_SolidA_200x24x320": {
+      "before": {
+        "bounds": [
+          [
+            -2.0981467514502583e-06,
+            -24.000017166137695,
+            0.0
+          ],
+          [
+            201.47593688964844,
+            15.5,
+            320.0
+          ]
+        ],
+        "triangles": 528,
+        "slots": [
+          "Plaster",
+          "Timber",
+          "Stone"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB01/M_EH_Plaster.M_EH_Plaster",
+          "/Game/Art/Materials/ElvenHouseB01/M_EH_Timber.M_EH_Timber",
+          "/Game/Art/Materials/ElvenHouseB01/M_EH_Stone.M_EH_Stone"
+        ],
+        "hulls": 1,
+        "importer": "FbxStaticMeshImportData"
+      },
+      "after": {
+        "bounds": [
+          [
+            -2.0981467514502583e-06,
+            -24.000017166137695,
+            0.0
+          ],
+          [
+            201.47593688964844,
+            15.5,
+            320.0
+          ]
+        ],
+        "triangles": 528,
+        "slots": [
+          "Plaster",
+          "Timber",
+          "Stone"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB01/M_EH_Plaster.M_EH_Plaster",
+          "/Game/Art/Materials/ElvenHouseB01/M_EH_Timber.M_EH_Timber",
+          "/Game/Art/Materials/ElvenHouseB01/M_EH_Stone.M_EH_Stone"
+        ],
+        "hulls": 1,
+        "importer": "FbxStaticMeshImportData"
+      },
+      "unchanged_actor_references": 16
+    },
+    "SM_EH_Roof_Mid_W1000": {
+      "before": {
+        "bounds": [
+          [
+            -70.02296447753906,
+            -200.00009155273438,
+            361.84002685546875
+          ],
+          [
+            1070.0228271484375,
+            4.503337860107422,
+            603.2999877929688
+          ]
+        ],
+        "triangles": 1080,
+        "slots": [
+          "Jade",
+          "Timber"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB01/M_EH_Jade.M_EH_Jade",
+          "/Game/Art/Materials/ElvenHouseB01/M_EH_Timber.M_EH_Timber"
+        ],
+        "hulls": 16,
+        "importer": "FbxStaticMeshImportData"
+      },
+      "after": {
+        "bounds": [
+          [
+            -70.02296447753906,
+            -200.00009155273438,
+            361.84002685546875
+          ],
+          [
+            1070.0228271484375,
+            4.503337860107422,
+            603.2999877929688
+          ]
+        ],
+        "triangles": 1080,
+        "slots": [
+          "Jade",
+          "Timber"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB01/M_EH_Jade.M_EH_Jade",
+          "/Game/Art/Materials/ElvenHouseB01/M_EH_Timber.M_EH_Timber"
+        ],
+        "hulls": 16,
+        "importer": "FbxStaticMeshImportData"
+      },
+      "unchanged_actor_references": 10
+    }
+  },
+  "fallback_reason": "Dedicated MCP import_file deliberately refuses existing assets"
+}

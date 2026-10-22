@@ -1,0 +1,617 @@
+{
+  "status": "passed",
+  "project": "E:\\Business\\fantasy-rpg-refiner",
+  "map": "/Game/Art/Architecture/ElvenHouseB01/Maps/Lvl_ElvenHouseB01_Review",
+  "meshes": {
+    "SM_EH_Wall_SolidA_200x24x320": {
+      "bounds_cm": [
+        [
+          -2.0981467514502583e-06,
+          -24.000017166137695,
+          0.0
+        ],
+        [
+          201.47593688964844,
+          15.5,
+          320.0
+        ]
+      ],
+      "source_bounds_max_error_cm": 1.7702579498291016e-05,
+      "triangles": 528,
+      "uv_channels": 1,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "simple_collision_count": 0,
+      "convex_collision_count": 1
+    },
+    "SM_EH_Wall_SolidB_200x24x320": {
+      "bounds_cm": [
+        [
+          -2.0981467514502583e-06,
+          -24.000017166137695,
+          0.0
+        ],
+        [
+          202.47059631347656,
+          15.5,
+          320.0
+        ]
+      ],
+      "source_bounds_max_error_cm": 1.7702579498291016e-05,
+      "triangles": 560,
+      "uv_channels": 1,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "simple_collision_count": 0,
+      "convex_collision_count": 1
+    },
+    "SM_EH_Wall_Window_200x24x320": {
+      "bounds_cm": [
+        [
+          -2.0981467514502583e-06,
+          -24.000017166137695,
+          0.0
+        ],
+        [
+          201.47593688964844,
+          28.999996185302734,
+          320.0
+        ]
+      ],
+      "source_bounds_max_error_cm": 1.7702579498291016e-05,
+      "triangles": 1272,
+      "uv_channels": 1,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone",
+        "Glass"
+      ],
+      "simple_collision_count": 0,
+      "convex_collision_count": 1
+    },
+    "SM_EH_Wall_Entry_200x24x320": {
+      "bounds_cm": [
+        [
+          -2.0981467514502583e-06,
+          -24.000017166137695,
+          -3.0298144817352295
+        ],
+        [
+          201.47593688964844,
+          18.0,
+          320.0
+        ]
+      ],
+      "source_bounds_max_error_cm": 1.7702579498291016e-05,
+      "triangles": 904,
+      "uv_channels": 1,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "simple_collision_count": 0,
+      "convex_collision_count": 6
+    },
+    "SM_EH_Roof_Mid_W1000": {
+      "bounds_cm": [
+        [
+          -70.02296447753906,
+          -200.00009155273438,
+          361.84002685546875
+        ],
+        [
+          1070.0228271484375,
+          4.503337860107422,
+          603.2999877929688
+        ]
+      ],
+      "source_bounds_max_error_cm": 9.1552734375e-05,
+      "triangles": 1080,
+      "uv_channels": 1,
+      "slots": [
+        "Jade",
+        "Timber"
+      ],
+      "simple_collision_count": 0,
+      "convex_collision_count": 16
+    },
+    "SM_EH_Roof_End_W1000": {
+      "bounds_cm": [
+        [
+          -70.0229721069336,
+          -280.34930419921875,
+          361.84002685546875
+        ],
+        [
+          1070.0228271484375,
+          4.503337860107422,
+          641.2894897460938
+        ]
+      ],
+      "source_bounds_max_error_cm": 9.72747802734375e-05,
+      "triangles": 2400,
+      "uv_channels": 1,
+      "slots": [
+        "Jade",
+        "Timber"
+      ],
+      "simple_collision_count": 0,
+      "convex_collision_count": 16
+    },
+    "SM_EH_Gable_W1000": {
+      "bounds_cm": [
+        [
+          -7.000000476837158,
+          -24.00008773803711,
+          319.9999694824219
+        ],
+        [
+          1007.0,
+          11.5,
+          614.2664794921875
+        ]
+      ],
+      "source_bounds_max_error_cm": 8.827447891235352e-05,
+      "triangles": 1328,
+      "uv_channels": 1,
+      "slots": [
+        "Plaster",
+        "Timber"
+      ],
+      "simple_collision_count": 0,
+      "convex_collision_count": 0
+    },
+    "SM_EH_EaveFill_Mid_200": {
+      "bounds_cm": [
+        [
+          -2.0981467514502583e-06,
+          -24.000017166137695,
+          320.0
+        ],
+        [
+          200.0,
+          6.964101791381836,
+          365.34881591796875
+        ]
+      ],
+      "source_bounds_max_error_cm": 1.7702579498291016e-05,
+      "triangles": 44,
+      "uv_channels": 1,
+      "slots": [
+        "Plaster",
+        "Timber"
+      ],
+      "simple_collision_count": 0,
+      "convex_collision_count": 0
+    },
+    "SM_EH_EaveFill_EndA_200": {
+      "bounds_cm": [
+        [
+          -0.5964318513870239,
+          -24.000017166137695,
+          320.0
+        ],
+        [
+          200.24082946777344,
+          6.964101791381836,
+          395.5075378417969
+        ]
+      ],
+      "source_bounds_max_error_cm": 1.7702579498291016e-05,
+      "triangles": 188,
+      "uv_channels": 1,
+      "slots": [
+        "Plaster",
+        "Timber"
+      ],
+      "simple_collision_count": 0,
+      "convex_collision_count": 0
+    },
+    "SM_EH_EaveFill_EndB_200": {
+      "bounds_cm": [
+        [
+          -0.24083204567432404,
+          -24.000017166137695,
+          320.0
+        ],
+        [
+          200.596435546875,
+          6.964101791381836,
+          395.5075378417969
+        ]
+      ],
+      "source_bounds_max_error_cm": 1.7702579498291016e-05,
+      "triangles": 188,
+      "uv_channels": 1,
+      "slots": [
+        "Plaster",
+        "Timber"
+      ],
+      "simple_collision_count": 0,
+      "convex_collision_count": 0
+    },
+    "SM_EH_Floor_200x200x20": {
+      "bounds_cm": [
+        [
+          -1.7449587176088244e-05,
+          -200.00001525878906,
+          -20.0
+        ],
+        [
+          200.0,
+          -3.496919021017675e-08,
+          0.0
+        ]
+      ],
+      "source_bounds_max_error_cm": 1.7449587176088244e-05,
+      "triangles": 44,
+      "uv_channels": 1,
+      "slots": [
+        "Stone"
+      ],
+      "simple_collision_count": 0,
+      "convex_collision_count": 1
+    },
+    "SM_EH_DoorLeaf_132_Study": {
+      "bounds_cm": [
+        [
+          -3.059797393234476e-07,
+          -3.500011444091797,
+          3.5
+        ],
+        [
+          132.0,
+          12.499990463256836,
+          281.0
+        ]
+      ],
+      "source_bounds_max_error_cm": 1.1429190635681152e-05,
+      "triangles": 332,
+      "uv_channels": 1,
+      "slots": [
+        "Timber",
+        "Bronze"
+      ],
+      "simple_collision_count": 0,
+      "convex_collision_count": 1
+    },
+    "SM_EH_EntryCanopy_224": {
+      "bounds_cm": [
+        [
+          -114.58629608154297,
+          -8.810521125793457,
+          268.1999816894531
+        ],
+        [
+          114.5863037109375,
+          98.8105239868164,
+          330.1999816894531
+        ]
+      ],
+      "source_bounds_max_error_cm": 1.2159347534179688e-05,
+      "triangles": 1044,
+      "uv_channels": 1,
+      "slots": [
+        "Jade",
+        "Timber"
+      ],
+      "simple_collision_count": 0,
+      "convex_collision_count": 0
+    }
+  },
+  "module_instances": 168,
+  "functional_door_instances": 2,
+  "capsule_cm": {
+    "radius": 35.0,
+    "half_height": 90.0
+  },
+  "trace_complex": false,
+  "collision_tests": {
+    "1200_floor_A": {
+      "location": [
+        199.99,
+        -100.0,
+        31.000003814697266
+      ],
+      "impact_point": [
+        199.99,
+        -100.0,
+        31.0
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "1200_floor_B": {
+      "location": [
+        200.01,
+        -100.0,
+        31.000003814697266
+      ],
+      "impact_point": [
+        200.01,
+        -100.0,
+        31.0
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "1200_floor_center": {
+      "location": [
+        500.0,
+        -600.0,
+        31.000003814697266
+      ],
+      "impact_point": [
+        500.0,
+        -600.0,
+        31.0
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "1200_closed_door": {
+      "location": [
+        500.0,
+        48.52928400039673,
+        122.0
+      ],
+      "impact_point": [
+        500.5841522216797,
+        13.534133899956942,
+        114.48038482666016
+      ],
+      "normal": [
+        -0.016690007483858436,
+        0.9998607121245383,
+        0.0
+      ]
+    },
+    "1200_open_door": null,
+    "1200_front_wall": {
+      "location": [
+        100.0,
+        -1.1920928955078125e-05,
+        181.0
+      ],
+      "impact_point": [
+        100.0,
+        -8.742277060491688e-06,
+        181.0
+      ],
+      "normal": [
+        8.742278367890288e-08,
+        0.9999999999999962,
+        0.0
+      ]
+    },
+    "1200_rear_wall": {
+      "location": [
+        500.0,
+        -1175.9999871253967,
+        181.0
+      ],
+      "impact_point": [
+        499.9999999999992,
+        -1175.9999826746534,
+        181.0
+      ],
+      "normal": [
+        1.7325346846064222e-07,
+        0.9999999999999851,
+        0.0
+      ]
+    },
+    "1200_roof_A": {
+      "location": [
+        300.0,
+        -199.99,
+        553.2589554786682
+      ],
+      "impact_point": [
+        300.0,
+        -199.99,
+        553.2589283649672
+      ],
+      "normal": [
+        -0.424092224925463,
+        -0.12178873778729625,
+        0.8973924938988223
+      ]
+    },
+    "1200_roof_B": {
+      "location": [
+        300.0,
+        -200.01,
+        553.2575249671936
+      ],
+      "impact_point": [
+        300.0,
+        -200.01,
+        553.2575398437037
+      ],
+      "normal": [
+        -0.4272722118128197,
+        6.250850668142856e-08,
+        0.9041230320108967
+      ]
+    },
+    "1600_floor_A": {
+      "location": [
+        1999.99,
+        -100.0,
+        31.000003814697266
+      ],
+      "impact_point": [
+        1999.99,
+        -100.0,
+        31.0
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "1600_floor_B": {
+      "location": [
+        2000.01,
+        -100.0,
+        31.000003814697266
+      ],
+      "impact_point": [
+        2000.01,
+        -100.0,
+        31.0
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "1600_floor_center": {
+      "location": [
+        2300.0,
+        -800.0,
+        31.000003814697266
+      ],
+      "impact_point": [
+        2300.0,
+        -800.0,
+        31.0
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "1600_closed_door": {
+      "location": [
+        2300.0,
+        48.52928400039673,
+        122.0
+      ],
+      "impact_point": [
+        2300.5841522216797,
+        13.534133899956942,
+        114.48038482666016
+      ],
+      "normal": [
+        -0.016690007483858436,
+        0.9998607121245383,
+        0.0
+      ]
+    },
+    "1600_open_door": null,
+    "1600_front_wall": {
+      "location": [
+        1900.0,
+        -1.1920928955078125e-05,
+        181.0
+      ],
+      "impact_point": [
+        1900.0,
+        -8.742277060491688e-06,
+        181.0
+      ],
+      "normal": [
+        8.742278367890288e-08,
+        0.9999999999999962,
+        0.0
+      ]
+    },
+    "1600_rear_wall": {
+      "location": [
+        2300.0,
+        -1575.9999871253967,
+        181.0
+      ],
+      "impact_point": [
+        2299.999999999999,
+        -1575.9999826746534,
+        181.0
+      ],
+      "normal": [
+        1.7325346846064222e-07,
+        0.9999999999999851,
+        0.0
+      ]
+    },
+    "1600_roof_A": {
+      "location": [
+        2100.0,
+        -199.99,
+        553.2589554786682
+      ],
+      "impact_point": [
+        2100.0,
+        -199.99,
+        553.2589283649672
+      ],
+      "normal": [
+        -0.424092224925463,
+        -0.12178873778729625,
+        0.8973924938988223
+      ]
+    },
+    "1600_roof_B": {
+      "location": [
+        2100.0,
+        -200.01,
+        553.2575249671936
+      ],
+      "impact_point": [
+        2100.0,
+        -200.01,
+        553.2575398437037
+      ],
+      "normal": [
+        -0.4272722118128197,
+        6.250850668142856e-08,
+        0.9041230320108967
+      ]
+    }
+  },
+  "normal_maps": {
+    "Plaster": {
+      "flip_green": true,
+      "srgb": false,
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>"
+    },
+    "Timber": {
+      "flip_green": true,
+      "srgb": false,
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>"
+    },
+    "Stone": {
+      "flip_green": true,
+      "srgb": false,
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>"
+    },
+    "Jade": {
+      "flip_green": true,
+      "srgb": false,
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>"
+    }
+  },
+  "source_sha256": "3f035ddc7293918d456d0c8b3f26ec3658f35e5f1797c43a81b9c5035f4a9e0c",
+  "scope": "Editor world probes; actual PIE interaction and movement are separate checks"
+}

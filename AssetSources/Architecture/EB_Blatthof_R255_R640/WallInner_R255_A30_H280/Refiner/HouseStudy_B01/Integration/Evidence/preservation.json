@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "baseline_commit": "1dfb743f85e08c9e5a826f641398c63d8e135153",
+  "baseline_tracked_files": 1149,
+  "changed_baseline_files": [],
+  "blender_checkpoint_sha256sums_all_50_unchanged": true
+}

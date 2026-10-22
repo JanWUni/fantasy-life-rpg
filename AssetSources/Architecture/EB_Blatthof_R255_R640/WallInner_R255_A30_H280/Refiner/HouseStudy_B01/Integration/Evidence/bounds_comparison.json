@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "max_error_cm": 9.72747802734375e-05,
+  "errors_cm": {
+    "SM_EH_Wall_SolidA_200x24x320": 1.7702579498291016e-05,
+    "SM_EH_Wall_SolidB_200x24x320": 1.7702579498291016e-05,
+    "SM_EH_Wall_Window_200x24x320": 1.7702579498291016e-05,
+    "SM_EH_Wall_Entry_200x24x320": 1.7702579498291016e-05,
+    "SM_EH_Roof_Mid_W1000": 9.1552734375e-05,
+    "SM_EH_Roof_End_W1000": 9.72747802734375e-05,
+    "SM_EH_Gable_W1000": 8.827447891235352e-05,
+    "SM_EH_EaveFill_Mid_200": 1.7702579498291016e-05,
+    "SM_EH_EaveFill_EndA_200": 1.7702579498291016e-05,
+    "SM_EH_EaveFill_EndB_200": 1.7702579498291016e-05,
+    "SM_EH_Floor_200x200x20": 1.7449587176088244e-05,
+    "SM_EH_DoorLeaf_132_Study": 1.1429190635681152e-05,
+    "SM_EH_EntryCanopy_224": 1.2159347534179688e-05
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "project": "E:\\Business\\fantasy-rpg-refiner",
+  "map": "/Game/Art/Architecture/ElvenHouseB01/Maps/Lvl_ElvenHouseB01_Review",
+  "prior_interchange_cvar": 1,
+  "legacy_session_defaults": {
+    "import_uniform_scale": "1.0",
+    "convert_scene": "True",
+    "convert_scene_unit": "False",
+    "force_front_x_axis": "False",
+    "transform_vertex_to_absolute": "True",
+    "bake_pivot_in_vertex": "False",
+    "auto_generate_collision": "False",
+    "one_convex_hull_per_ucx": "True",
+    "generate_lightmap_u_vs": "True",
+    "normal_import_method": "<FBXNormalImportMethod.FBXNIM_IMPORT_NORMALS: 1>",
+    "normal_generation_method": "<FBXNormalGenerationMethod.MIKK_T_SPACE: 1>"
+  }
+}

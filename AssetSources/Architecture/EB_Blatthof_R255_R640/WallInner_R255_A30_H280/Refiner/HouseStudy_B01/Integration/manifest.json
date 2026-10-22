@@ -1,0 +1,106 @@
+{
+  "status": "review_ready",
+  "accepted": false,
+  "kit_id": "EH.HouseB.Prototype01",
+  "interface_version": "draft_1",
+  "source_commit": "1dfb743f85e08c9e5a826f641398c63d8e135153",
+  "source_blend_sha256": "3f035ddc7293918d456d0c8b3f26ec3658f35e5f1797c43a81b9c5035f4a9e0c",
+  "source_checkpoint_unchanged": true,
+  "branch": "assets/refiner",
+  "engine": "5.8 (installed 5.8.4)",
+  "map": "/Game/Art/Architecture/ElvenHouseB01/Maps/Lvl_ElvenHouseB01_Review",
+  "engine_assets": {
+    "Content/Art/Architecture/ElvenHouseB01/Blueprints/BP_EH_ReviewDoor.uasset": "dc366916d48cf3a7f3e4aec39ea4064c04106e03b856ab0bad2439f69f99ead7",
+    "Content/Art/Architecture/ElvenHouseB01/Maps/Lvl_ElvenHouseB01_Review.umap": "2ea135c89dbaa605066caee16d660d655575644d3a14bdc92f8832765d41b230",
+    "Content/Art/Architecture/ElvenHouseB01/Meshes/SM_EH_DoorLeaf_132_Study.uasset": "cd5d588fae67ca3cd2dd465ecf2b325eae83d2287042147615686c93db35d95f",
+    "Content/Art/Architecture/ElvenHouseB01/Meshes/SM_EH_EaveFill_EndA_200.uasset": "f1f2b82455d8f35818ba1f6736625fa98714af9cf0dc0b1b30ef6e9003c4690f",
+    "Content/Art/Architecture/ElvenHouseB01/Meshes/SM_EH_EaveFill_EndB_200.uasset": "71939fa7fa39c40207261b70e86b97056cff2913c29b41a1b94729d1d59be8f0",
+    "Content/Art/Architecture/ElvenHouseB01/Meshes/SM_EH_EaveFill_Mid_200.uasset": "718b61e765ab836d43d2273be1ec2012da460856f56120fa999d39e9342453e7",
+    "Content/Art/Architecture/ElvenHouseB01/Meshes/SM_EH_EntryCanopy_224.uasset": "019343997901ad291f4b9749fd0278efe0f4434c1d560af94d28ed939c19e4fa",
+    "Content/Art/Architecture/ElvenHouseB01/Meshes/SM_EH_Floor_200x200x20.uasset": "ccfb777ac9e66132b88f532f6d41ca2bcaa19de65764fbe226dcac923e304b24",
+    "Content/Art/Architecture/ElvenHouseB01/Meshes/SM_EH_Gable_W1000.uasset": "7010055b9abeda0161fd1154311b83ad0385228f80a1f0caf4365e5bc5050ddb",
+    "Content/Art/Architecture/ElvenHouseB01/Meshes/SM_EH_Roof_End_W1000.uasset": "4290dc2314f457afb086176e8a1c534a6584d10c9f9a031c50d5923863105902",
+    "Content/Art/Architecture/ElvenHouseB01/Meshes/SM_EH_Roof_Mid_W1000.uasset": "972c9ee77cda316a8d7df02b937a8e151b7eed8588b620bba5dc96af096b5bbc",
+    "Content/Art/Architecture/ElvenHouseB01/Meshes/SM_EH_Wall_Entry_200x24x320.uasset": "b6dd5a901d83fe9a68d88a3b419ceee70b8f8b508256db92d5fa7f95a8892e60",
+    "Content/Art/Architecture/ElvenHouseB01/Meshes/SM_EH_Wall_SolidA_200x24x320.uasset": "d142a68df386a9fa0510d5b5171e154663e7374230fa1a5293e2f7f9d7264bd3",
+    "Content/Art/Architecture/ElvenHouseB01/Meshes/SM_EH_Wall_SolidB_200x24x320.uasset": "4ebff506561ccfe12da8cedd17430c9f32b6686d377418e78e30bcb0a0087956",
+    "Content/Art/Architecture/ElvenHouseB01/Meshes/SM_EH_Wall_Window_200x24x320.uasset": "a594b7d9c7049810d21c4c659f15f94fccfe1f8ed8c94e31800d52bfa82a7d20",
+    "Content/Art/Materials/ElvenHouseB01/M_EH_Bronze.uasset": "2cee5946178efe18388aa65144d35344e98786c9512285bf86330d4c121e24f0",
+    "Content/Art/Materials/ElvenHouseB01/M_EH_Glass.uasset": "0e885b25670cfca68559d6799531bf28152256e43c3a0f967f8a2295c70a3f42",
+    "Content/Art/Materials/ElvenHouseB01/M_EH_Jade.uasset": "cc883f5798f04cf1dd9950e6f9aa3cc55a0426f42ed452bb17ff40b2425b8de5",
+    "Content/Art/Materials/ElvenHouseB01/M_EH_Plaster.uasset": "96bc428db88470ccd90385165c9f800dac476cc9be36f3ab270c7852fa5e50b2",
+    "Content/Art/Materials/ElvenHouseB01/M_EH_ReviewGround.uasset": "8151f2044ff75d78a65a8c6e61a24c1a2f55aaa10ef7ec750ef8cb65a291fb00",
+    "Content/Art/Materials/ElvenHouseB01/M_EH_Stone.uasset": "b850a8980fea38761483b94b320ac715c5adcf5b018d5d7923d9db2904d5652c",
+    "Content/Art/Materials/ElvenHouseB01/M_EH_Timber.uasset": "4b7864b712c22d19e33ab9257260723314c810de580512afd261a9534318efba",
+    "Content/Art/Textures/ElvenHouseB01/T_EH_Jade_BaseColor.uasset": "f456e8685d2cf7c4fb0c66b4bddf95034de094e4d8275813dedf49ccf1fc7e9d",
+    "Content/Art/Textures/ElvenHouseB01/T_EH_Jade_Normal.uasset": "2af8495cd157c265d189f4f0f51e50b8d79e8967b762c211196cf87a43c5d017",
+    "Content/Art/Textures/ElvenHouseB01/T_EH_Jade_Roughness.uasset": "89ab8f4173623d215d31711f36672d4f31c45fc72acdf90b9942595b687e57c6",
+    "Content/Art/Textures/ElvenHouseB01/T_EH_Plaster_BaseColor.uasset": "d46cbb4b8544bb485de28216ead6df083621df82d7c1b96039731e3744b180ad",
+    "Content/Art/Textures/ElvenHouseB01/T_EH_Plaster_Normal.uasset": "d67e077642f91c5ed8f383bb5d4108bdb1fe0e113263da024117fbb7e2141377",
+    "Content/Art/Textures/ElvenHouseB01/T_EH_Plaster_Roughness.uasset": "a29f2bf37e30cc83036633e76f94f1a0b5d3bbb63e0b48432f117a6e1f7f5ccd",
+    "Content/Art/Textures/ElvenHouseB01/T_EH_Stone_BaseColor.uasset": "99d1df07a75d697b0912ca2a7a5291abae3cabc5ef3a0dd8c3e1e900556e6d0b",
+    "Content/Art/Textures/ElvenHouseB01/T_EH_Stone_Normal.uasset": "08450d39d9ba78ecc8002fe6f42a40a17dc908406342dd67eeca1cef032f73ae",
+    "Content/Art/Textures/ElvenHouseB01/T_EH_Stone_Roughness.uasset": "038ce0fffeee8cd7a9f458b5cc356e72429ca833add09350cebad2add3e90437",
+    "Content/Art/Textures/ElvenHouseB01/T_EH_Timber_BaseColor.uasset": "4fb4fa44d6b705e18751297a362497e102ab7bd1483a0e9f6523ec0c7f606c8e",
+    "Content/Art/Textures/ElvenHouseB01/T_EH_Timber_Normal.uasset": "092d93ee027d5898201624d1caf1c6f4ac37e1ecb41e2c7b460e46aa84b07155",
+    "Content/Art/Textures/ElvenHouseB01/T_EH_Timber_Roughness.uasset": "2273d69ef28e8d0eb411d0e931d5a8b6ef0de68fb154d0d5d5e1f8960f6def5a"
+  },
+  "asset_counts": {
+    "meshes": 13,
+    "materials": 7,
+    "textures": 12,
+    "door_blueprints": 1,
+    "maps": 1
+  },
+  "module_instances": 168,
+  "validation": {
+    "bounds_max_error_cm": 9.72747802734375e-05,
+    "source_ucx_counts_matched_on_import": true,
+    "legacy_same_source_reimport": [
+      "SM_EH_Wall_SolidA_200x24x320",
+      "SM_EH_Roof_Mid_W1000"
+    ],
+    "source_reopen_and_fbx_roundtrip": "See immutable Blender checkpoint verification.json",
+    "map_reopen": true,
+    "pie_e_open_close_open": true,
+    "pie_walk_inside": true,
+    "capsule_cm": {
+      "radius": 35.0,
+      "half_height": 90.0
+    }
+  },
+  "derived_unreal_collision": {
+    "SM_EH_DoorLeaf_132_Study": {
+      "convex_hulls_actual": 1,
+      "requested_max_hulls": 4,
+      "source_ucx_hulls": 0,
+      "rebuild_on_reimport_required": true
+    }
+  },
+  "open_points": [
+    "Human visual approval and longer camera/collision traversal",
+    "Upper gable/eave/canopy source collision missing",
+    "Opaque glass placeholder, unworked interior, material and interior detail polish",
+    "Lumen cached-lighting/exposure warning during PIE; rendering profile review",
+    "VRAM budget warning with two concurrent editors: no performance claim",
+    "LOD/Nanite and serial-house scene budget, cooking/packaging and multiplayer untested",
+    "More architectural/silhouette variants and grander homes remain design work"
+  ],
+  "previews": [
+    "Previews/comparison.png",
+    "Previews/front.png",
+    "Previews/inside.png",
+    "Previews/pie_door_open.png",
+    "Previews/pie_inside.png",
+    "Previews/rear.png"
+  ],
+  "review_presentation": {
+    "eye_adaptation_ev": [
+      6,
+      13
+    ],
+    "exposure_bias": -1.25,
+    "production_lighting": false,
+    "pie_evidence_before_final_exposure_bias": true
+  }
+}

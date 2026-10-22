@@ -1,0 +1,2694 @@
+{
+  "House_10x12": [
+    {
+      "label": "SM_EH_Wall_SolidA_200x24x320_Instance",
+      "module": "SM_EH_Wall_SolidA_200x24x320",
+      "location_cm": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_Window_200x24x320_Instance",
+      "module": "SM_EH_Wall_Window_200x24x320",
+      "location_cm": [
+        200.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_Entry_200x24x320_Instance",
+      "module": "SM_EH_Wall_Entry_200x24x320",
+      "location_cm": [
+        400.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_Window_200x24x320_Instance.001",
+      "module": "SM_EH_Wall_Window_200x24x320",
+      "location_cm": [
+        600.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_SolidA_200x24x320_Instance.001",
+      "module": "SM_EH_Wall_SolidA_200x24x320",
+      "location_cm": [
+        800.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_SolidA_200x24x320_Instance.002",
+      "module": "SM_EH_Wall_SolidA_200x24x320",
+      "location_cm": [
+        1000.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_EndA_200_Instance",
+      "module": "SM_EH_EaveFill_EndA_200",
+      "location_cm": [
+        1000.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_Window_200x24x320_Instance.002",
+      "module": "SM_EH_Wall_Window_200x24x320",
+      "location_cm": [
+        1000.0,
+        -200.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_Mid_200_Instance",
+      "module": "SM_EH_EaveFill_Mid_200",
+      "location_cm": [
+        1000.0,
+        -200.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_SolidB_200x24x320_Instance",
+      "module": "SM_EH_Wall_SolidB_200x24x320",
+      "location_cm": [
+        1000.0,
+        -400.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_Mid_200_Instance.001",
+      "module": "SM_EH_EaveFill_Mid_200",
+      "location_cm": [
+        1000.0,
+        -400.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_Window_200x24x320_Instance.003",
+      "module": "SM_EH_Wall_Window_200x24x320",
+      "location_cm": [
+        1000.0,
+        -600.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_Mid_200_Instance.002",
+      "module": "SM_EH_EaveFill_Mid_200",
+      "location_cm": [
+        1000.0,
+        -600.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_SolidA_200x24x320_Instance.003",
+      "module": "SM_EH_Wall_SolidA_200x24x320",
+      "location_cm": [
+        1000.0,
+        -800.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_Mid_200_Instance.003",
+      "module": "SM_EH_EaveFill_Mid_200",
+      "location_cm": [
+        1000.0,
+        -800.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_Window_200x24x320_Instance.004",
+      "module": "SM_EH_Wall_Window_200x24x320",
+      "location_cm": [
+        1000.0,
+        -1000.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_EndB_200_Instance",
+      "module": "SM_EH_EaveFill_EndB_200",
+      "location_cm": [
+        1000.0,
+        -1000.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_SolidA_200x24x320_Instance.004",
+      "module": "SM_EH_Wall_SolidA_200x24x320",
+      "location_cm": [
+        1000.0,
+        -1200.0,
+        0.0
+      ],
+      "yaw_deg": -180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_Window_200x24x320_Instance.005",
+      "module": "SM_EH_Wall_Window_200x24x320",
+      "location_cm": [
+        800.0,
+        -1200.0,
+        0.0
+      ],
+      "yaw_deg": -180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_SolidB_200x24x320_Instance.001",
+      "module": "SM_EH_Wall_SolidB_200x24x320",
+      "location_cm": [
+        600.0,
+        -1200.0,
+        0.0
+      ],
+      "yaw_deg": -180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_Window_200x24x320_Instance.006",
+      "module": "SM_EH_Wall_Window_200x24x320",
+      "location_cm": [
+        400.0,
+        -1200.0,
+        0.0
+      ],
+      "yaw_deg": -180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_SolidA_200x24x320_Instance.005",
+      "module": "SM_EH_Wall_SolidA_200x24x320",
+      "location_cm": [
+        200.0,
+        -1200.0,
+        0.0
+      ],
+      "yaw_deg": -180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_SolidA_200x24x320_Instance.006",
+      "module": "SM_EH_Wall_SolidA_200x24x320",
+      "location_cm": [
+        0.0,
+        -1200.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_EndA_200_Instance.001",
+      "module": "SM_EH_EaveFill_EndA_200",
+      "location_cm": [
+        0.0,
+        -1200.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_Window_200x24x320_Instance.007",
+      "module": "SM_EH_Wall_Window_200x24x320",
+      "location_cm": [
+        -3.6739402930577075e-14,
+        -1000.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_Mid_200_Instance.004",
+      "module": "SM_EH_EaveFill_Mid_200",
+      "location_cm": [
+        -3.6739402930577075e-14,
+        -1000.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_SolidB_200x24x320_Instance.002",
+      "module": "SM_EH_Wall_SolidB_200x24x320",
+      "location_cm": [
+        -7.347880586115415e-14,
+        -800.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_Mid_200_Instance.005",
+      "module": "SM_EH_EaveFill_Mid_200",
+      "location_cm": [
+        -7.347880586115415e-14,
+        -800.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_Window_200x24x320_Instance.008",
+      "module": "SM_EH_Wall_Window_200x24x320",
+      "location_cm": [
+        -1.1021821408568715e-13,
+        -600.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_Mid_200_Instance.006",
+      "module": "SM_EH_EaveFill_Mid_200",
+      "location_cm": [
+        -1.1021821408568715e-13,
+        -600.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_SolidA_200x24x320_Instance.007",
+      "module": "SM_EH_Wall_SolidA_200x24x320",
+      "location_cm": [
+        -1.469576117223083e-13,
+        -400.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_Mid_200_Instance.007",
+      "module": "SM_EH_EaveFill_Mid_200",
+      "location_cm": [
+        -1.469576117223083e-13,
+        -400.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_Window_200x24x320_Instance.009",
+      "module": "SM_EH_Wall_Window_200x24x320",
+      "location_cm": [
+        -1.8369700935892946e-13,
+        -200.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_EndB_200_Instance.001",
+      "module": "SM_EH_EaveFill_EndB_200",
+      "location_cm": [
+        -1.8369700935892946e-13,
+        -200.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.001",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        0.0,
+        -200.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.002",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        0.0,
+        -400.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.003",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        0.0,
+        -600.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.004",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        0.0,
+        -800.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.005",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        0.0,
+        -1000.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.006",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        200.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.007",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        200.0,
+        -200.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.008",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        200.0,
+        -400.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.009",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        200.0,
+        -600.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.010",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        200.0,
+        -800.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.011",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        200.0,
+        -1000.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.012",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        400.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.013",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        400.0,
+        -200.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.014",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        400.0,
+        -400.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.015",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        400.0,
+        -600.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.016",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        400.0,
+        -800.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.017",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        400.0,
+        -1000.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.018",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        600.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.019",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        600.0,
+        -200.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.020",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        600.0,
+        -400.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.021",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        600.0,
+        -600.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.022",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        600.0,
+        -800.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.023",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        600.0,
+        -1000.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.024",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        800.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.025",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        800.0,
+        -200.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.026",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        800.0,
+        -400.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.027",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        800.0,
+        -600.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.028",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        800.0,
+        -800.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.029",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        800.0,
+        -1000.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Gable_W1000_Instance",
+      "module": "SM_EH_Gable_W1000",
+      "location_cm": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Gable_W1000_Instance.001",
+      "module": "SM_EH_Gable_W1000",
+      "location_cm": [
+        1000.0,
+        -1200.0,
+        0.0
+      ],
+      "yaw_deg": -180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Roof_End_W1000_Instance",
+      "module": "SM_EH_Roof_End_W1000",
+      "location_cm": [
+        0.0,
+        80.0000011920929,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Roof_Mid_W1000_Instance",
+      "module": "SM_EH_Roof_Mid_W1000",
+      "location_cm": [
+        0.0,
+        -200.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Roof_Mid_W1000_Instance.001",
+      "module": "SM_EH_Roof_Mid_W1000",
+      "location_cm": [
+        0.0,
+        -400.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Roof_Mid_W1000_Instance.002",
+      "module": "SM_EH_Roof_Mid_W1000",
+      "location_cm": [
+        0.0,
+        -600.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Roof_Mid_W1000_Instance.003",
+      "module": "SM_EH_Roof_Mid_W1000",
+      "location_cm": [
+        0.0,
+        -800.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Roof_End_W1000_Instance.001",
+      "module": "SM_EH_Roof_End_W1000",
+      "location_cm": [
+        1000.0,
+        -1280.0000190734863,
+        0.0
+      ],
+      "yaw_deg": -180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "FrontDoor_Only",
+      "module": "SM_EH_DoorLeaf_132_Study",
+      "location_cm": [
+        434.00001525878906,
+        0.4999999888241291,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EntryCanopy_224_Instance",
+      "module": "SM_EH_EntryCanopy_224",
+      "location_cm": [
+        500.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "Study_EntranceStep_0",
+      "module": null,
+      "location_cm": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds_blender_m": [
+        [
+          3.924999952316284,
+          -1.7100000381469727,
+          -0.3100000023841858
+        ],
+        [
+          6.074999809265137,
+          -0.9900000095367432,
+          -0.09000000357627869
+        ]
+      ],
+      "material": "Stone"
+    },
+    {
+      "label": "Study_EntranceStep_1",
+      "module": null,
+      "location_cm": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds_blender_m": [
+        [
+          3.9650001525878906,
+          -1.3700000047683716,
+          -0.3100000023841858
+        ],
+        [
+          6.034999847412109,
+          -0.6499999761581421,
+          0.02000001072883606
+        ]
+      ],
+      "material": "Stone"
+    },
+    {
+      "label": "Study_EntranceStep_2",
+      "module": null,
+      "location_cm": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds_blender_m": [
+        [
+          4.005000114440918,
+          -1.0299999713897705,
+          -0.3100000023841858
+        ],
+        [
+          5.994999885559082,
+          -0.3100000023841858,
+          0.12999999523162842
+        ]
+      ],
+      "material": "Stone"
+    }
+  ],
+  "House_10x16_Variation": [
+    {
+      "label": "SM_EH_Wall_SolidA_200x24x320_Instance.008",
+      "module": "SM_EH_Wall_SolidA_200x24x320",
+      "location_cm": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_Window_200x24x320_Instance.010",
+      "module": "SM_EH_Wall_Window_200x24x320",
+      "location_cm": [
+        200.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_Entry_200x24x320_Instance.001",
+      "module": "SM_EH_Wall_Entry_200x24x320",
+      "location_cm": [
+        400.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_Window_200x24x320_Instance.011",
+      "module": "SM_EH_Wall_Window_200x24x320",
+      "location_cm": [
+        600.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_SolidA_200x24x320_Instance.009",
+      "module": "SM_EH_Wall_SolidA_200x24x320",
+      "location_cm": [
+        800.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_SolidA_200x24x320_Instance.010",
+      "module": "SM_EH_Wall_SolidA_200x24x320",
+      "location_cm": [
+        1000.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_EndA_200_Instance.002",
+      "module": "SM_EH_EaveFill_EndA_200",
+      "location_cm": [
+        1000.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_Window_200x24x320_Instance.012",
+      "module": "SM_EH_Wall_Window_200x24x320",
+      "location_cm": [
+        1000.0,
+        -200.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_Mid_200_Instance.008",
+      "module": "SM_EH_EaveFill_Mid_200",
+      "location_cm": [
+        1000.0,
+        -200.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_SolidB_200x24x320_Instance.003",
+      "module": "SM_EH_Wall_SolidB_200x24x320",
+      "location_cm": [
+        1000.0,
+        -400.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_Mid_200_Instance.009",
+      "module": "SM_EH_EaveFill_Mid_200",
+      "location_cm": [
+        1000.0,
+        -400.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_Window_200x24x320_Instance.013",
+      "module": "SM_EH_Wall_Window_200x24x320",
+      "location_cm": [
+        1000.0,
+        -600.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_Mid_200_Instance.010",
+      "module": "SM_EH_EaveFill_Mid_200",
+      "location_cm": [
+        1000.0,
+        -600.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_SolidA_200x24x320_Instance.011",
+      "module": "SM_EH_Wall_SolidA_200x24x320",
+      "location_cm": [
+        1000.0,
+        -800.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_Mid_200_Instance.011",
+      "module": "SM_EH_EaveFill_Mid_200",
+      "location_cm": [
+        1000.0,
+        -800.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_Window_200x24x320_Instance.014",
+      "module": "SM_EH_Wall_Window_200x24x320",
+      "location_cm": [
+        1000.0,
+        -1000.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_Mid_200_Instance.012",
+      "module": "SM_EH_EaveFill_Mid_200",
+      "location_cm": [
+        1000.0,
+        -1000.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_SolidB_200x24x320_Instance.004",
+      "module": "SM_EH_Wall_SolidB_200x24x320",
+      "location_cm": [
+        1000.0,
+        -1200.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_Mid_200_Instance.013",
+      "module": "SM_EH_EaveFill_Mid_200",
+      "location_cm": [
+        1000.0,
+        -1200.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_Window_200x24x320_Instance.015",
+      "module": "SM_EH_Wall_Window_200x24x320",
+      "location_cm": [
+        1000.0,
+        -1400.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_EndB_200_Instance.002",
+      "module": "SM_EH_EaveFill_EndB_200",
+      "location_cm": [
+        1000.0,
+        -1400.0,
+        0.0
+      ],
+      "yaw_deg": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_SolidA_200x24x320_Instance.012",
+      "module": "SM_EH_Wall_SolidA_200x24x320",
+      "location_cm": [
+        1000.0,
+        -1600.0,
+        0.0
+      ],
+      "yaw_deg": -180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_Window_200x24x320_Instance.016",
+      "module": "SM_EH_Wall_Window_200x24x320",
+      "location_cm": [
+        800.0,
+        -1600.0,
+        0.0
+      ],
+      "yaw_deg": -180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_SolidB_200x24x320_Instance.005",
+      "module": "SM_EH_Wall_SolidB_200x24x320",
+      "location_cm": [
+        600.0,
+        -1600.0,
+        0.0
+      ],
+      "yaw_deg": -180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_Window_200x24x320_Instance.017",
+      "module": "SM_EH_Wall_Window_200x24x320",
+      "location_cm": [
+        400.0,
+        -1600.0,
+        0.0
+      ],
+      "yaw_deg": -180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_SolidA_200x24x320_Instance.013",
+      "module": "SM_EH_Wall_SolidA_200x24x320",
+      "location_cm": [
+        200.0,
+        -1600.0,
+        0.0
+      ],
+      "yaw_deg": -180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_SolidA_200x24x320_Instance.014",
+      "module": "SM_EH_Wall_SolidA_200x24x320",
+      "location_cm": [
+        0.0,
+        -1600.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_EndA_200_Instance.003",
+      "module": "SM_EH_EaveFill_EndA_200",
+      "location_cm": [
+        0.0,
+        -1600.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_Window_200x24x320_Instance.018",
+      "module": "SM_EH_Wall_Window_200x24x320",
+      "location_cm": [
+        -3.6739402930577075e-14,
+        -1400.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_Mid_200_Instance.014",
+      "module": "SM_EH_EaveFill_Mid_200",
+      "location_cm": [
+        -3.6739402930577075e-14,
+        -1400.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_SolidB_200x24x320_Instance.006",
+      "module": "SM_EH_Wall_SolidB_200x24x320",
+      "location_cm": [
+        -7.347880586115415e-14,
+        -1200.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_Mid_200_Instance.015",
+      "module": "SM_EH_EaveFill_Mid_200",
+      "location_cm": [
+        -7.347880586115415e-14,
+        -1200.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_Window_200x24x320_Instance.019",
+      "module": "SM_EH_Wall_Window_200x24x320",
+      "location_cm": [
+        -1.1021821408568715e-13,
+        -1000.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_Mid_200_Instance.016",
+      "module": "SM_EH_EaveFill_Mid_200",
+      "location_cm": [
+        -1.1021821408568715e-13,
+        -1000.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_SolidA_200x24x320_Instance.015",
+      "module": "SM_EH_Wall_SolidA_200x24x320",
+      "location_cm": [
+        -1.469576117223083e-13,
+        -800.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_Mid_200_Instance.017",
+      "module": "SM_EH_EaveFill_Mid_200",
+      "location_cm": [
+        -1.469576117223083e-13,
+        -800.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_Window_200x24x320_Instance.020",
+      "module": "SM_EH_Wall_Window_200x24x320",
+      "location_cm": [
+        -1.8369700935892946e-13,
+        -600.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_Mid_200_Instance.018",
+      "module": "SM_EH_EaveFill_Mid_200",
+      "location_cm": [
+        -1.8369700935892946e-13,
+        -600.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_SolidB_200x24x320_Instance.007",
+      "module": "SM_EH_Wall_SolidB_200x24x320",
+      "location_cm": [
+        -2.204364281713743e-13,
+        -400.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_Mid_200_Instance.019",
+      "module": "SM_EH_EaveFill_Mid_200",
+      "location_cm": [
+        -2.204364281713743e-13,
+        -400.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Wall_Window_200x24x320_Instance.021",
+      "module": "SM_EH_Wall_Window_200x24x320",
+      "location_cm": [
+        -2.5717582580799545e-13,
+        -200.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EaveFill_EndB_200_Instance.003",
+      "module": "SM_EH_EaveFill_EndB_200",
+      "location_cm": [
+        -2.5717582580799545e-13,
+        -200.0,
+        0.0
+      ],
+      "yaw_deg": -270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.030",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.031",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        0.0,
+        -200.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.032",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        0.0,
+        -400.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.033",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        0.0,
+        -600.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.034",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        0.0,
+        -800.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.035",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        0.0,
+        -1000.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.036",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        0.0,
+        -1200.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.037",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        0.0,
+        -1400.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.038",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        200.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.039",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        200.0,
+        -200.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.040",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        200.0,
+        -400.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.041",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        200.0,
+        -600.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.042",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        200.0,
+        -800.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.043",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        200.0,
+        -1000.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.044",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        200.0,
+        -1200.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.045",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        200.0,
+        -1400.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.046",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        400.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.047",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        400.0,
+        -200.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.048",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        400.0,
+        -400.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.049",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        400.0,
+        -600.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.050",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        400.0,
+        -800.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.051",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        400.0,
+        -1000.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.052",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        400.0,
+        -1200.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.053",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        400.0,
+        -1400.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.054",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        600.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.055",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        600.0,
+        -200.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.056",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        600.0,
+        -400.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.057",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        600.0,
+        -600.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.058",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        600.0,
+        -800.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.059",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        600.0,
+        -1000.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.060",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        600.0,
+        -1200.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.061",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        600.0,
+        -1400.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.062",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        800.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.063",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        800.0,
+        -200.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.064",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        800.0,
+        -400.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.065",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        800.0,
+        -600.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.066",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        800.0,
+        -800.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.067",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        800.0,
+        -1000.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.068",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        800.0,
+        -1200.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Floor_200x200x20_Instance.069",
+      "module": "SM_EH_Floor_200x200x20",
+      "location_cm": [
+        800.0,
+        -1400.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Gable_W1000_Instance.002",
+      "module": "SM_EH_Gable_W1000",
+      "location_cm": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Gable_W1000_Instance.003",
+      "module": "SM_EH_Gable_W1000",
+      "location_cm": [
+        1000.0,
+        -1600.0,
+        0.0
+      ],
+      "yaw_deg": -180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Roof_End_W1000_Instance.002",
+      "module": "SM_EH_Roof_End_W1000",
+      "location_cm": [
+        0.0,
+        80.0000011920929,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Roof_Mid_W1000_Instance.004",
+      "module": "SM_EH_Roof_Mid_W1000",
+      "location_cm": [
+        0.0,
+        -200.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Roof_Mid_W1000_Instance.005",
+      "module": "SM_EH_Roof_Mid_W1000",
+      "location_cm": [
+        0.0,
+        -400.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Roof_Mid_W1000_Instance.006",
+      "module": "SM_EH_Roof_Mid_W1000",
+      "location_cm": [
+        0.0,
+        -600.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Roof_Mid_W1000_Instance.007",
+      "module": "SM_EH_Roof_Mid_W1000",
+      "location_cm": [
+        0.0,
+        -800.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Roof_Mid_W1000_Instance.008",
+      "module": "SM_EH_Roof_Mid_W1000",
+      "location_cm": [
+        0.0,
+        -1000.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Roof_Mid_W1000_Instance.009",
+      "module": "SM_EH_Roof_Mid_W1000",
+      "location_cm": [
+        0.0,
+        -1200.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_Roof_End_W1000_Instance.003",
+      "module": "SM_EH_Roof_End_W1000",
+      "location_cm": [
+        1000.0,
+        -1679.9999237060547,
+        0.0
+      ],
+      "yaw_deg": -180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "FrontDoor_Only.001",
+      "module": "SM_EH_DoorLeaf_132_Study",
+      "location_cm": [
+        434.00001525878906,
+        0.4999999888241291,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "SM_EH_EntryCanopy_224_Instance.001",
+      "module": "SM_EH_EntryCanopy_224",
+      "location_cm": [
+        500.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "Study_EntranceStep_0.001",
+      "module": null,
+      "location_cm": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds_blender_m": [
+        [
+          3.924999952316284,
+          -1.7100000381469727,
+          -0.3100000023841858
+        ],
+        [
+          6.074999809265137,
+          -0.9900000095367432,
+          -0.09000000357627869
+        ]
+      ],
+      "material": "Stone"
+    },
+    {
+      "label": "Study_EntranceStep_1.001",
+      "module": null,
+      "location_cm": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds_blender_m": [
+        [
+          3.9650001525878906,
+          -1.3700000047683716,
+          -0.3100000023841858
+        ],
+        [
+          6.034999847412109,
+          -0.6499999761581421,
+          0.02000001072883606
+        ]
+      ],
+      "material": "Stone"
+    },
+    {
+      "label": "Study_EntranceStep_2.001",
+      "module": null,
+      "location_cm": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "yaw_deg": -0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds_blender_m": [
+        [
+          4.005000114440918,
+          -1.0299999713897705,
+          -0.3100000023841858
+        ],
+        [
+          5.994999885559082,
+          -0.3100000023841858,
+          0.12999999523162842
+        ]
+      ],
+      "material": "Stone"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "blueprint": {
+    "refPath": "/Game/Art/Architecture/ElvenHouseB01/Blueprints/BP_EH_ReviewDoor.BP_EH_ReviewDoor"
+  },
+  "cdo": {
+    "refPath": "/Game/Art/Architecture/ElvenHouseB01/Blueprints/BP_EH_ReviewDoor.Default__BP_EH_ReviewDoor_C"
+  },
+  "components": [
+    {
+      "refPath": "/Game/Art/Architecture/ElvenHouseB01/Blueprints/BP_EH_ReviewDoor.Default__BP_EH_ReviewDoor_C:Mesh"
+    },
+    {
+      "refPath": "/Game/Art/Architecture/ElvenHouseB01/Blueprints/BP_EH_ReviewDoor.Default__BP_EH_ReviewDoor_C:InteractionPoint"
+    },
+    {
+      "refPath": "/Game/Art/Architecture/ElvenHouseB01/Blueprints/BP_EH_ReviewDoor.BP_EH_ReviewDoor_C:Handle_GEN_VARIABLE"
+    }
+  ],
+  "updated": [
+    "Mesh",
+    "InteractionPoint"
+  ],
+  "collision": "UE convex decomposition, requested 4 hulls/24 vertices; inspect actual count"
+}

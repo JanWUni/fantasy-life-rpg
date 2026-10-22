@@ -1,0 +1,22 @@
+{
+  "review_only_lights": [
+    {
+      "refPath": "/Game/Art/Architecture/ElvenHouseB01/Maps/Lvl_ElvenHouseB01_Review.Lvl_ElvenHouseB01_Review:PersistentLevel.PointLight_0"
+    },
+    {
+      "refPath": "/Game/Art/Architecture/ElvenHouseB01/Maps/Lvl_ElvenHouseB01_Review.Lvl_ElvenHouseB01_Review:PersistentLevel.PointLight_1"
+    },
+    {
+      "refPath": "/Game/Art/Architecture/ElvenHouseB01/Maps/Lvl_ElvenHouseB01_Review.Lvl_ElvenHouseB01_Review:PersistentLevel.PointLight_2"
+    },
+    {
+      "refPath": "/Game/Art/Architecture/ElvenHouseB01/Maps/Lvl_ElvenHouseB01_Review.Lvl_ElvenHouseB01_Review:PersistentLevel.PointLight_3"
+    }
+  ],
+  "eye_adaptation_ev": [
+    6,
+    13
+  ],
+  "exposure_bias": -1.25,
+  "production_lighting": false
+}
