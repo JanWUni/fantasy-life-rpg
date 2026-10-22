@@ -1,0 +1,15 @@
+00:01.625  blend            | Read blend: "E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\HouseStudy_B01\EH_HouseB01_Study.blend"
+E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\HouseStudy_B01\build_house.py:374: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('PresentationWorld_'+scene.name);world.use_nodes=True
+E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\HouseStudy_B01\build_house.py:380: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new('PresentationGround');mat.use_nodes=True
+00:34.016  render           | Saved: 'E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\HouseStudy_B01\Previews\house_front.png'
+Info: Saved as "EH_HouseB01_Study.blend"
+RENDER_OK house_front.png
+01:04.516  render           | Saved: 'E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\HouseStudy_B01\Previews\house_rear.png'
+RENDER_OK house_rear.png
+01:45.797  render           | Saved: 'E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\HouseStudy_B01\Previews\house_long_variant.png'
+RENDER_OK house_long_variant.png
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

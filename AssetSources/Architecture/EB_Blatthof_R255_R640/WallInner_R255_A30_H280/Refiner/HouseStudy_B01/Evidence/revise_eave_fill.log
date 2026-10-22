@@ -1,0 +1,48 @@
+E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\HouseStudy_B01\build_house.py:114: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new(key); mat.use_nodes=True
+E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\HouseStudy_B01\build_house.py:131: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new(key); mat.use_nodes=True; bsdf=mat.node_tree.nodes.get('Principled BSDF')
+
+FBX export starting... 'E:\\Business\\fantasy-rpg-refiner\\AssetSources\\Architecture\\EB_Blatthof_R255_R640\\WallInner_R255_A30_H280\\Refiner\\HouseStudy_B01\\Exports\\SM_EH_Wall_SolidA_200x24x320.fbx'
+export finished in 0.0209 sec.
+
+FBX export starting... 'E:\\Business\\fantasy-rpg-refiner\\AssetSources\\Architecture\\EB_Blatthof_R255_R640\\WallInner_R255_A30_H280\\Refiner\\HouseStudy_B01\\Exports\\SM_EH_Wall_SolidB_200x24x320.fbx'
+export finished in 0.0214 sec.
+
+FBX export starting... 'E:\\Business\\fantasy-rpg-refiner\\AssetSources\\Architecture\\EB_Blatthof_R255_R640\\WallInner_R255_A30_H280\\Refiner\\HouseStudy_B01\\Exports\\SM_EH_Wall_Window_200x24x320.fbx'
+export finished in 0.0220 sec.
+
+FBX export starting... 'E:\\Business\\fantasy-rpg-refiner\\AssetSources\\Architecture\\EB_Blatthof_R255_R640\\WallInner_R255_A30_H280\\Refiner\\HouseStudy_B01\\Exports\\SM_EH_Wall_Entry_200x24x320.fbx'
+export finished in 0.0350 sec.
+
+FBX export starting... 'E:\\Business\\fantasy-rpg-refiner\\AssetSources\\Architecture\\EB_Blatthof_R255_R640\\WallInner_R255_A30_H280\\Refiner\\HouseStudy_B01\\Exports\\SM_EH_Roof_Mid_W1000.fbx'
+export finished in 0.0591 sec.
+
+FBX export starting... 'E:\\Business\\fantasy-rpg-refiner\\AssetSources\\Architecture\\EB_Blatthof_R255_R640\\WallInner_R255_A30_H280\\Refiner\\HouseStudy_B01\\Exports\\SM_EH_Roof_End_W1000.fbx'
+export finished in 0.0877 sec.
+
+FBX export starting... 'E:\\Business\\fantasy-rpg-refiner\\AssetSources\\Architecture\\EB_Blatthof_R255_R640\\WallInner_R255_A30_H280\\Refiner\\HouseStudy_B01\\Exports\\SM_EH_Gable_W1000.fbx'
+export finished in 0.0287 sec.
+
+FBX export starting... 'E:\\Business\\fantasy-rpg-refiner\\AssetSources\\Architecture\\EB_Blatthof_R255_R640\\WallInner_R255_A30_H280\\Refiner\\HouseStudy_B01\\Exports\\SM_EH_EaveFill_Mid_200.fbx'
+export finished in 0.0254 sec.
+
+FBX export starting... 'E:\\Business\\fantasy-rpg-refiner\\AssetSources\\Architecture\\EB_Blatthof_R255_R640\\WallInner_R255_A30_H280\\Refiner\\HouseStudy_B01\\Exports\\SM_EH_EaveFill_EndA_200.fbx'
+export finished in 0.0192 sec.
+
+FBX export starting... 'E:\\Business\\fantasy-rpg-refiner\\AssetSources\\Architecture\\EB_Blatthof_R255_R640\\WallInner_R255_A30_H280\\Refiner\\HouseStudy_B01\\Exports\\SM_EH_EaveFill_EndB_200.fbx'
+export finished in 0.0242 sec.
+
+FBX export starting... 'E:\\Business\\fantasy-rpg-refiner\\AssetSources\\Architecture\\EB_Blatthof_R255_R640\\WallInner_R255_A30_H280\\Refiner\\HouseStudy_B01\\Exports\\SM_EH_Floor_200x200x20.fbx'
+export finished in 0.0261 sec.
+
+FBX export starting... 'E:\\Business\\fantasy-rpg-refiner\\AssetSources\\Architecture\\EB_Blatthof_R255_R640\\WallInner_R255_A30_H280\\Refiner\\HouseStudy_B01\\Exports\\SM_EH_DoorLeaf_132_Study.fbx'
+export finished in 0.0222 sec.
+
+FBX export starting... 'E:\\Business\\fantasy-rpg-refiner\\AssetSources\\Architecture\\EB_Blatthof_R255_R640\\WallInner_R255_A30_H280\\Refiner\\HouseStudy_B01\\Exports\\SM_EH_EntryCanopy_224.fbx'
+export finished in 0.0295 sec.
+Info: Saved as "EH_HouseB01_Study.blend"
+HOUSE_BUILD_OK 13 exported modules
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

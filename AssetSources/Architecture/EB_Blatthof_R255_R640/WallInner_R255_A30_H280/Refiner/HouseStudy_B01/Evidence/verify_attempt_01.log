@@ -1,0 +1,14 @@
+00:01.797  blend            | Read blend: "E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\HouseStudy_B01\EH_HouseB01_Study.blend"
+Traceback (most recent call last):
+  File "E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\HouseStudy_B01\build_house.py", line 479, in <module>
+    {'build':build,'verify':verify,'render':render_study}[args.mode]()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\HouseStudy_B01\build_house.py", line 450, in verify
+    assert len(sets)==2,(sn,y,len(sets))
+           ^^^^^^^^^^^^
+AssertionError: ('House_10x16_Variation', 2, 6)
+
+Error: script failed, file: 'E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\HouseStudy_B01\build_house.py', exiting.
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

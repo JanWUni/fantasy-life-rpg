@@ -22,6 +22,12 @@
 - Exakte Architekturmerkmale einzelner Siedlungen und Unterschiede zwischen elfischen Kulturräumen.
 - Konkrete Orte, Städtenamen und regionale Stilrichtungen.
 
+## Aktuelle visuelle Arbeitsrichtung – 22. Oktober 2026
+
+Gemäß [ART-ELF-01](../../../DECISIONS.md) bevorzugt der Nutzer für gewöhnliche elfische Wohnhäuser die holzbetonte Bildvariante B des aktuellen Asset-Stilvergleichs: warme Holzrahmen und helle Wandflächen. Als nächste Studie wird ein geschlossenes Haus mit einem klaren vorderen Eingang und geschwungener Fantasy-Dachform untersucht. Der offene, halbkreisförmige Blatthof ist keine verbindliche Wohnhausform. Prachtvollere Häuser sollen später ebenfalls ausgearbeitet werden; eine Zuordnung zu Adel, Regionen oder anderen Gruppen ist damit nicht festgelegt.
+
+Der anschließende geschlossene Bildvorschlag B01 wurde vom Nutzer als Startpunkt bestätigt, mit dem Wunsch nach etwas mehr Größe und dem Auftrag, die Ausarbeitung zu beginnen. Dies ist weiterhin eine **Arbeitsrichtung**, keine fertige oder allgemeingültige Architekturregel. Produktionsmaße, genaue Bauteilprofile, Dachmaterialien und die spätere Verbreitung bleiben offen; die Maße der Blender-Testaufstellung sind technische Prüfannahmen. Die Variante B dieser Bildauswahl bezeichnet einen anderen Vergleich als die frühere Worldbuilding-Richtung B unter „Natur und Architektur“.
+
 ## Vorschläge – nicht beschlossen
 - Öffentliche Gärten, Hallen, Terrassen, Brücken und Wasserläufe als mögliche Gestaltungselemente.
 - Weitere Unterschiede zwischen alten Kernstädten, offenen Handelsstädten und ländlichen Siedlungen.

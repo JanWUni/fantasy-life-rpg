@@ -4,6 +4,14 @@ Stand: 22. Oktober 2026, Unreal Engine 5.8.
 
 Der Nutzer hat den unteren der drei Fantasy-Entwürfe (C, Blatthof) als Grundlage für ein erstes Muster im Asset-Lab gewählt. Die Studie untersucht die Formensprache im Spielmaßstab: geschwungener Grundriss, helle Wände, grünblaue Blattdächer mit Mittelrippen, verzweigte Holzstützen, Fenstermaßwerk und ein Hof mit angedeutetem Wasserlauf. Der Stand ist ein begehbarer Geometrie-/Farbprototyp. Gesellschaftliche Zuordnungen, regionale Bautypen und endgültige Architekturregeln werden hier nicht festgelegt. Worldbuilding bleibt unverändert.
 
+## Aktuelle Folgerichtung – 22. Oktober 2026
+
+Der Nutzer bevorzugt inzwischen für die nächste gewöhnliche Wohnhausstudie die **holzbetonte Variante B** des neuen Stilvergleichs: ausgearbeitete warme Holzrahmen und helle Wandflächen. Der bisherige Halbkreis mit offenem Hof wurde für diesen nächsten Entwurf verworfen. Untersucht werden soll ein geschlossener Baukörper mit einem klaren vorderen Hauseingang und einer gewölbten bzw. geschwungenen Fantasy-Dachform. Prachtvollere Häuser sind ein späteres Ziel. Der neue Bildvorschlag ist eine Konzeptstudie, kein implementiertes Haus; genaue Proportionen und Modulmaße sind noch nicht bestätigt. Diese Arbeitsrichtung ist in [ART-ELF-01](../DECISIONS.md) und der [Kulturdatei](../worldbuilding/voelker/elfen/kultur.md) dokumentiert.
+
+Stilvergleich und geschlossener Bildvorschlag liegen als getrennte Konzeptbelege unter [Refiner/StyleStudies/ClosedHouse_B01](../../AssetSources/Architecture/EB_Blatthof_R255_R640/WallInner_R255_A30_H280/Refiner/StyleStudies/ClosedHouse_B01/README.md). Sie gehören nicht zur bereits geprüften technischen Lieferung von Refiner-Revision 1. Der bestehende Blatthof, seine Unreal-Assets und das R255/A30-Wandmodul bleiben erhalten. Ein geschlossener Grundriss darf nicht durch Verbiegen oder Skalieren des alten Radiusvertrags erzwungen werden. Neue gerade Module, Ecken oder andere Dachprofile benötigen vor Produktion einen eigenen ausdrücklich abgestimmten Anschlussvertrag. Die folgende Bestandsbeschreibung dokumentiert weiterhin die ursprüngliche Blatthof-Stilstudie.
+
+Auf Nutzerauftrag wurde der geschlossene Bildvorschlag anschließend als Startpunkt für eine größere eigenständige [Blender-Hausstudie B01](../../AssetSources/Architecture/EB_Blatthof_R255_R640/WallInner_R255_A30_H280/Refiner/HouseStudy_B01/README.md) übernommen. Vorläufige Prüfanordnung: 10 × 12 m, dazu eine 10 × 16 m lange Zusammenstellung aus denselben Bauteilen. Diese Maße sind technische Studienannahmen, kein bestätigter Baustandard. Die neue Studie verwendet eine eigene vorläufige Kit-ID `EH.HouseB.Prototype01` und ersetzt keine R255-Profile. Sie ist noch keine Unreal-Integration oder Produktionsfreigabe.
+
 ## Im Editor finden und verwenden
 
 - Karte: `/Game/Prototype/Maps/Lvl_AssetLab`.

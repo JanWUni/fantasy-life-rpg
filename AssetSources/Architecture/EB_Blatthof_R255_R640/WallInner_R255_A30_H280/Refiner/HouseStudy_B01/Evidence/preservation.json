@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "baseline_files": 1098,
+  "unchanged_files": 1095,
+  "changed_design_documents_only": [
+    "docs/DECISIONS.md",
+    "docs/technical/ELVEN_BLATTHOF_STUDY.md",
+    "docs/worldbuilding/voelker/elfen/kultur.md"
+  ],
+  "head_unchanged": "4702ccf44e88d06e97d8e3975ec34b3982673a7f",
+  "previous_refiner_delivery_all_31_hashes_unchanged": true,
+  "unreal_started": false,
+  "existing_assets_modified": false
+}

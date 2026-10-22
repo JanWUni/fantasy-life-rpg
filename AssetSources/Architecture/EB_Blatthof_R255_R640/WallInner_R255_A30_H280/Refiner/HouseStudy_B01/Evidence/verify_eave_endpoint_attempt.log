@@ -1,0 +1,17 @@
+00:01.906  blend            | Read blend: "E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\HouseStudy_B01\EH_HouseB01_Study.blend"
+Traceback (most recent call last):
+  File "E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\HouseStudy_B01\build_house.py", line 520, in <module>
+    {'build':build,'revise':lambda:build(revise=True),'verify':verify,'render':render_study}[args.mode]()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\HouseStudy_B01\build_house.py", line 455, in verify
+    obj=modules.objects[item['name']];source[item['name']]=audit(obj)
+                                                           ~~~~~^^^^^
+  File "E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\HouseStudy_B01\build_house.py", line 432, in audit
+    assert all(t.area>1e-12 for t in m.loop_triangles),obj.name+': degenerate triangle'
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: SM_EH_EaveFill_EndA_200: degenerate triangle
+
+Error: script failed, file: 'E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\HouseStudy_B01\build_house.py', exiting.
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

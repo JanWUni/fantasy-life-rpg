@@ -1,0 +1,71 @@
+E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\HouseStudy_B01\build_house.py:110: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new(key); mat.use_nodes=True
+E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\HouseStudy_B01\build_house.py:127: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new(key); mat.use_nodes=True; bsdf=mat.node_tree.nodes.get('Principled BSDF')
+E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\HouseStudy_B01\build_house.py:158: RuntimeWarning: invalid value encountered in scalar power
+  top=lambda x:spring+rise*(1-abs((x-1)/half))**.72
+Traceback (most recent call last):
+  File "C:\Users\janwi\AppData\Local\Programs\Blender Foundation\blender-5.2.2-windows-x64\5.2\scripts\addons_core\io_scene_fbx\__init__.py", line 622, in execute
+    return export_fbx_bin.save(self, context, **keywords)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\janwi\AppData\Local\Programs\Blender Foundation\blender-5.2.2-windows-x64\5.2\scripts\addons_core\io_scene_fbx\export_fbx_bin.py", line 3754, in save
+    ret = save_single(operator, context.scene, depsgraph, filepath, **kwargs_mod)
+  File "C:\Users\janwi\AppData\Local\Programs\Blender Foundation\blender-5.2.2-windows-x64\5.2\scripts\addons_core\io_scene_fbx\export_fbx_bin.py", line 3623, in save_single
+    fbx_objects_elements(root, scene_data)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\janwi\AppData\Local\Programs\Blender Foundation\blender-5.2.2-windows-x64\5.2\scripts\addons_core\io_scene_fbx\export_fbx_bin.py", line 3417, in fbx_objects_elements
+    fbx_data_mesh_elements(objects, me_obj, scene_data, done_meshes)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\janwi\AppData\Local\Programs\Blender Foundation\blender-5.2.2-windows-x64\5.2\scripts\addons_core\io_scene_fbx\export_fbx_bin.py", line 1437, in fbx_data_mesh_elements
+    raise RuntimeError("UV layer %s on %r has invalid UVs containing NaN values" % (uvlayer.name, me))
+RuntimeError: UV layer UV0 on bpy.data.meshes['SM_EH_Wall_Entry_200x24x320.001'] has invalid UVs containing NaN values
+00:07.594  bpy.rna          | ERROR Python script error in EXPORT_SCENE_OT_fbx.execute
+Traceback (most recent call last):
+  File "E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\HouseStudy_B01\build_house.py", line 360, in <module>
+    if args.mode=='build':build()
+                          ~~~~~^^
+  File "E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\HouseStudy_B01\build_house.py", line 335, in build
+    assert bpy.ops.export_scene.fbx(filepath=str(ROOT/'Exports'/(name+'.fbx')),**settings)=={'FINISHED'}
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Error: Python: Traceback (most recent call last):
+
+FBX export starting... 'E:\\Business\\fantasy-rpg-refiner\\AssetSources\\Architecture\\EB_Blatthof_R255_R640\\WallInner_R255_A30_H280\\Refiner\\HouseStudy_B01\\Exports\\SM_EH_Wall_SolidA_200x24x320.fbx'
+  File "C:\Users\janwi\AppData\Local\Programs\Blender Foundation\blender-5.2.2-windows-x64\5.2\scripts\addons_core\io_scene_fbx\__init__.py", line 622, in execute
+export finished in 0.0446 sec.
+
+FBX export starting... 'E:\\Business\\fantasy-rpg-refiner\\AssetSources\\Architecture\\EB_Blatthof_R255_R640\\WallInner_R255_A30_H280\\Refiner\\HouseStudy_B01\\Exports\\SM_EH_Wall_SolidB_200x24x320.fbx'
+export finished in 0.0278 sec.
+
+FBX export starting... 'E:\\Business\\fantasy-rpg-refiner\\AssetSources\\Architecture\\EB_Blatthof_R255_R640\\WallInner_R255_A30_H280\\Refiner\\HouseStudy_B01\\Exports\\SM_EH_Wall_Window_200x24x320.fbx'
+export finished in 0.1177 sec.
+
+FBX export starting... 'E:\\Business\\fantasy-rpg-refiner\\AssetSources\\Architecture\\EB_Blatthof_R255_R640\\WallInner_R255_A30_H280\\Refiner\\HouseStudy_B01\\Exports\\SM_EH_Wall_Entry_200x24x320.fbx'
+Error: Python: Traceback (most recent call last):
+    return export_fbx_bin.save(self, context, **keywords)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\janwi\AppData\Local\Programs\Blender Foundation\blender-5.2.2-windows-x64\5.2\scripts\addons_core\io_scene_fbx\export_fbx_bin.py", line 3754, in save
+    ret = save_single(operator, context.scene, depsgraph, filepath, **kwargs_mod)
+  File "C:\Users\janwi\AppData\Local\Programs\Blender Foundation\blender-5.2.2-windows-x64\5.2\scripts\addons_core\io_scene_fbx\__init__.py", line 622, in execute
+    return export_fbx_bin.save(self, context, **keywords)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\janwi\AppData\Local\Programs\Blender Foundation\blender-5.2.2-windows-x64\5.2\scripts\addons_core\io_scene_fbx\export_fbx_bin.py", line 3754, in save
+    ret = save_single(operator, context.scene, depsgraph, filepath, **kwargs_mod)
+  File "C:\Users\janwi\AppData\Local\Programs\Blender Foundation\blender-5.2.2-windows-x64\5.2\scripts\addons_core\io_scene_fbx\export_fbx_bin.py", line 3623, in save_single
+    fbx_objects_elements(root, scene_data)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\janwi\AppData\Local\Programs\Blender Foundation\blender-5.2.2-windows-x64\5.2\scripts\addons_core\io_scene_fbx\export_fbx_bin.py", line 3623, in save_single
+    fbx_objects_elements(root, scene_data)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\janwi\AppData\Local\Programs\Blender Foundation\blender-5.2.2-windows-x64\5.2\scripts\addons_core\io_scene_fbx\export_fbx_bin.py", line 3417, in fbx_objects_elements
+    fbx_data_mesh_elements(objects, me_obj, scene_data, done_meshes)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\janwi\AppData\Local\Programs\Blender Foundation\blender-5.2.2-windows-x64\5.2\scripts\addons_core\io_scene_fbx\export_fbx_bin.py", line 1437, in fbx_data_mesh_elements
+    raise RuntimeError("UV layer %s on %r has invalid UVs containing NaN values" % (uvlayer.name, me))
+RuntimeError: UV layer UV0 on bpy.data.meshes['SM_EH_Wall_Entry_200x24x320.001'] has invalid UVs containing NaN values
+Location: E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\HouseStudy_B01\build_house.py:335
+
+
+Error: script failed, file: 'E:\Business\fantasy-rpg-refiner\AssetSources\Architecture\EB_Blatthof_R255_R640\WallInner_R255_A30_H280\Refiner\HouseStudy_B01\build_house.py', exiting.
+  File "C:\Users\janwi\AppData\Local\Programs\Blender Foundation\blender-5.2.2-windows-x64\5.2\scripts\addons_core\io_scene_fbx\export_fbx_bin.py", line 3417, in ... truncatedBlender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

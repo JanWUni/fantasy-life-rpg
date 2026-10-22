@@ -1,0 +1,705 @@
+{
+  "status": "passed",
+  "scope": "Blender source reopen, geometry and per-module FBX Blender roundtrip; not Unreal validation",
+  "source": {
+    "SM_EH_Wall_SolidA_200x24x320": {
+      "vertices": 284,
+      "triangles": 528,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "closed_components_consistent_winding": true,
+      "signed_volume_m3": 1.8553036358104324,
+      "uv_channels": 1,
+      "bounds_m": [
+        [
+          0.0,
+          -0.1550000011920929,
+          0.0
+        ],
+        [
+          2.0147593021392822,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ]
+    },
+    "SM_EH_Wall_SolidB_200x24x320": {
+      "vertices": 302,
+      "triangles": 560,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "closed_components_consistent_winding": true,
+      "signed_volume_m3": 1.861648993605763,
+      "uv_channels": 1,
+      "bounds_m": [
+        [
+          0.0,
+          -0.1550000011920929,
+          0.0
+        ],
+        [
+          2.0247058868408203,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ]
+    },
+    "SM_EH_Wall_Window_200x24x320": {
+      "vertices": 702,
+      "triangles": 1272,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone",
+        "Glass"
+      ],
+      "closed_components_consistent_winding": true,
+      "signed_volume_m3": 1.6251971359616169,
+      "uv_channels": 1,
+      "bounds_m": [
+        [
+          0.0,
+          -0.28999999165534973,
+          0.0
+        ],
+        [
+          2.0147593021392822,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ]
+    },
+    "SM_EH_Wall_Entry_200x24x320": {
+      "vertices": 500,
+      "triangles": 904,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "closed_components_consistent_winding": true,
+      "signed_volume_m3": 0.9471876524520858,
+      "uv_channels": 1,
+      "bounds_m": [
+        [
+          0.0,
+          -0.17999999225139618,
+          -0.03029814548790455
+        ],
+        [
+          2.0147593021392822,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ]
+    },
+    "SM_EH_Roof_Mid_W1000": {
+      "vertices": 558,
+      "triangles": 1080,
+      "slots": [
+        "Jade",
+        "Timber"
+      ],
+      "closed_components_consistent_winding": true,
+      "signed_volume_m3": 2.853156865667851,
+      "uv_channels": 1,
+      "bounds_m": [
+        [
+          -0.7002294659614563,
+          -0.04503332078456879,
+          3.6184003353118896
+        ],
+        [
+          10.700228691101074,
+          2.0,
+          6.0329999923706055
+        ]
+      ]
+    },
+    "SM_EH_Roof_End_W1000": {
+      "vertices": 1218,
+      "triangles": 2400,
+      "slots": [
+        "Jade",
+        "Timber"
+      ],
+      "closed_components_consistent_winding": true,
+      "signed_volume_m3": 3.960642923900078,
+      "uv_channels": 1,
+      "bounds_m": [
+        [
+          -0.7002294659614563,
+          -0.04503332078456879,
+          3.6184003353118896
+        ],
+        [
+          10.700228691101074,
+          2.8034920692443848,
+          6.4128947257995605
+        ]
+      ]
+    },
+    "SM_EH_Gable_W1000": {
+      "vertices": 766,
+      "triangles": 1328,
+      "slots": [
+        "Plaster",
+        "Timber"
+      ],
+      "closed_components_consistent_winding": true,
+      "signed_volume_m3": 4.823022917503382,
+      "uv_channels": 1,
+      "bounds_m": [
+        [
+          -0.07000000029802322,
+          -0.11499999463558197,
+          3.1999998092651367
+        ],
+        [
+          10.069999694824219,
+          0.23999999463558197,
+          6.142664909362793
+        ]
+      ],
+      "roof_underside_fit_max_error_m": 2.994559444857714e-07
+    },
+    "SM_EH_EaveFill_Mid_200": {
+      "vertices": 28,
+      "triangles": 44,
+      "slots": [
+        "Plaster",
+        "Timber"
+      ],
+      "closed_components_consistent_winding": true,
+      "signed_volume_m3": 0.21592963899590245,
+      "uv_channels": 1,
+      "bounds_m": [
+        [
+          0.0,
+          -0.06964101642370224,
+          3.200000047683716
+        ],
+        [
+          2.0,
+          0.23999999463558197,
+          3.6534881591796875
+        ]
+      ],
+      "roof_underside_fit_max_error_m": 1.1513155007136788e-07
+    },
+    "SM_EH_EaveFill_EndA_200": {
+      "vertices": 116,
+      "triangles": 188,
+      "slots": [
+        "Plaster",
+        "Timber"
+      ],
+      "closed_components_consistent_winding": true,
+      "signed_volume_m3": 0.2765913320598655,
+      "uv_channels": 1,
+      "bounds_m": [
+        [
+          -0.0059643215499818325,
+          -0.06964101642370224,
+          3.200000047683716
+        ],
+        [
+          2.002408266067505,
+          0.23999999463558197,
+          3.95507550239563
+        ]
+      ],
+      "roof_underside_fit_max_error_m": 1.1513155051545709e-07
+    },
+    "SM_EH_EaveFill_EndB_200": {
+      "vertices": 116,
+      "triangles": 188,
+      "slots": [
+        "Plaster",
+        "Timber"
+      ],
+      "closed_components_consistent_winding": true,
+      "signed_volume_m3": 0.2765913304074935,
+      "uv_channels": 1,
+      "bounds_m": [
+        [
+          -0.0024083235766738653,
+          -0.06964101642370224,
+          3.200000047683716
+        ],
+        [
+          2.0059642791748047,
+          0.23999999463558197,
+          3.95507550239563
+        ]
+      ],
+      "roof_underside_fit_max_error_m": 1.1513155051545709e-07
+    },
+    "SM_EH_Floor_200x200x20": {
+      "vertices": 24,
+      "triangles": 44,
+      "slots": [
+        "Stone"
+      ],
+      "closed_components_consistent_winding": true,
+      "signed_volume_m3": 0.7998659541121322,
+      "uv_channels": 1,
+      "bounds_m": [
+        [
+          0.0,
+          0.0,
+          -0.20000000298023224
+        ],
+        [
+          2.0,
+          2.0,
+          0.0
+        ]
+      ]
+    },
+    "SM_EH_DoorLeaf_132_Study": {
+      "vertices": 194,
+      "triangles": 332,
+      "slots": [
+        "Timber",
+        "Bronze"
+      ],
+      "closed_components_consistent_winding": true,
+      "signed_volume_m3": 0.304356566503555,
+      "uv_channels": 1,
+      "bounds_m": [
+        [
+          0.0,
+          -0.125,
+          0.03500000014901161
+        ],
+        [
+          1.3200000524520874,
+          0.03500000014901161,
+          2.809999942779541
+        ]
+      ]
+    },
+    "SM_EH_EntryCanopy_224": {
+      "vertices": 528,
+      "triangles": 1044,
+      "slots": [
+        "Jade",
+        "Timber"
+      ],
+      "closed_components_consistent_winding": true,
+      "signed_volume_m3": 0.24848994364623284,
+      "uv_channels": 1,
+      "bounds_m": [
+        [
+          -1.1458629369735718,
+          -0.9881051182746887,
+          2.681999921798706
+        ],
+        [
+          1.1458629369735718,
+          0.08810511231422424,
+          3.301999807357788
+        ]
+      ]
+    }
+  },
+  "roundtrip": {
+    "SM_EH_Wall_SolidA_200x24x320": {
+      "vertices": 284,
+      "triangles": 528,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "closed_components_consistent_winding": true,
+      "signed_volume_m3": 1.8553036358699806,
+      "uv_channels": 1,
+      "bounds_m": [
+        [
+          0.0,
+          -0.1550000011920929,
+          0.0
+        ],
+        [
+          2.0147593021392822,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ],
+      "bounds_roundtrip_max_error_m": 0.0
+    },
+    "SM_EH_Wall_SolidB_200x24x320": {
+      "vertices": 302,
+      "triangles": 560,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "closed_components_consistent_winding": true,
+      "signed_volume_m3": 1.8616489936862592,
+      "uv_channels": 1,
+      "bounds_m": [
+        [
+          0.0,
+          -0.1550000011920929,
+          0.0
+        ],
+        [
+          2.0247058868408203,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ],
+      "bounds_roundtrip_max_error_m": 0.0
+    },
+    "SM_EH_Wall_Window_200x24x320": {
+      "vertices": 702,
+      "triangles": 1272,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone",
+        "Glass"
+      ],
+      "closed_components_consistent_winding": true,
+      "signed_volume_m3": 1.6251971359877084,
+      "uv_channels": 1,
+      "bounds_m": [
+        [
+          0.0,
+          -0.28999999165534973,
+          0.0
+        ],
+        [
+          2.0147593021392822,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ],
+      "bounds_roundtrip_max_error_m": 0.0
+    },
+    "SM_EH_Wall_Entry_200x24x320": {
+      "vertices": 500,
+      "triangles": 904,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "closed_components_consistent_winding": true,
+      "signed_volume_m3": 0.9471876526067049,
+      "uv_channels": 1,
+      "bounds_m": [
+        [
+          0.0,
+          -0.17999999225139618,
+          -0.03029814548790455
+        ],
+        [
+          2.0147593021392822,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ],
+      "bounds_roundtrip_max_error_m": 0.0
+    },
+    "SM_EH_Roof_Mid_W1000": {
+      "vertices": 558,
+      "triangles": 1080,
+      "slots": [
+        "Jade",
+        "Timber"
+      ],
+      "closed_components_consistent_winding": true,
+      "signed_volume_m3": 2.8531568654349377,
+      "uv_channels": 1,
+      "bounds_m": [
+        [
+          -0.7002294659614563,
+          -0.04503332078456879,
+          3.6184003353118896
+        ],
+        [
+          10.700228691101074,
+          2.0,
+          6.0329999923706055
+        ]
+      ],
+      "bounds_roundtrip_max_error_m": 0.0
+    },
+    "SM_EH_Roof_End_W1000": {
+      "vertices": 1218,
+      "triangles": 2400,
+      "slots": [
+        "Jade",
+        "Timber"
+      ],
+      "closed_components_consistent_winding": true,
+      "signed_volume_m3": 3.9606429224364494,
+      "uv_channels": 1,
+      "bounds_m": [
+        [
+          -0.7002294659614563,
+          -0.04503332078456879,
+          3.6184003353118896
+        ],
+        [
+          10.700228691101074,
+          2.8034920692443848,
+          6.4128947257995605
+        ]
+      ],
+      "bounds_roundtrip_max_error_m": 0.0
+    },
+    "SM_EH_Gable_W1000": {
+      "vertices": 766,
+      "triangles": 1328,
+      "slots": [
+        "Plaster",
+        "Timber"
+      ],
+      "closed_components_consistent_winding": true,
+      "signed_volume_m3": 4.823022915435922,
+      "uv_channels": 1,
+      "bounds_m": [
+        [
+          -0.07000000029802322,
+          -0.11499999463558197,
+          3.1999998092651367
+        ],
+        [
+          10.069999694824219,
+          0.23999999463558197,
+          6.142664909362793
+        ]
+      ],
+      "bounds_roundtrip_max_error_m": 0.0
+    },
+    "SM_EH_EaveFill_Mid_200": {
+      "vertices": 28,
+      "triangles": 44,
+      "slots": [
+        "Plaster",
+        "Timber"
+      ],
+      "closed_components_consistent_winding": true,
+      "signed_volume_m3": 0.21592963899590245,
+      "uv_channels": 1,
+      "bounds_m": [
+        [
+          0.0,
+          -0.06964101642370224,
+          3.200000047683716
+        ],
+        [
+          2.0,
+          0.23999999463558197,
+          3.6534881591796875
+        ]
+      ],
+      "bounds_roundtrip_max_error_m": 0.0
+    },
+    "SM_EH_EaveFill_EndA_200": {
+      "vertices": 116,
+      "triangles": 188,
+      "slots": [
+        "Plaster",
+        "Timber"
+      ],
+      "closed_components_consistent_winding": true,
+      "signed_volume_m3": 0.2765913320421223,
+      "uv_channels": 1,
+      "bounds_m": [
+        [
+          -0.0059643215499818325,
+          -0.06964101642370224,
+          3.200000047683716
+        ],
+        [
+          2.002408266067505,
+          0.23999999463558197,
+          3.95507550239563
+        ]
+      ],
+      "bounds_roundtrip_max_error_m": 0.0
+    },
+    "SM_EH_EaveFill_EndB_200": {
+      "vertices": 116,
+      "triangles": 188,
+      "slots": [
+        "Plaster",
+        "Timber"
+      ],
+      "closed_components_consistent_winding": true,
+      "signed_volume_m3": 0.27659133043128825,
+      "uv_channels": 1,
+      "bounds_m": [
+        [
+          -0.0024083235766738653,
+          -0.06964101642370224,
+          3.200000047683716
+        ],
+        [
+          2.0059642791748047,
+          0.23999999463558197,
+          3.95507550239563
+        ]
+      ],
+      "bounds_roundtrip_max_error_m": 0.0
+    },
+    "SM_EH_Floor_200x200x20": {
+      "vertices": 24,
+      "triangles": 44,
+      "slots": [
+        "Stone"
+      ],
+      "closed_components_consistent_winding": true,
+      "signed_volume_m3": 0.7998659541121325,
+      "uv_channels": 1,
+      "bounds_m": [
+        [
+          0.0,
+          0.0,
+          -0.20000000298023224
+        ],
+        [
+          2.0,
+          2.0,
+          0.0
+        ]
+      ],
+      "bounds_roundtrip_max_error_m": 0.0
+    },
+    "SM_EH_DoorLeaf_132_Study": {
+      "vertices": 194,
+      "triangles": 332,
+      "slots": [
+        "Timber",
+        "Bronze"
+      ],
+      "closed_components_consistent_winding": true,
+      "signed_volume_m3": 0.3043565665035551,
+      "uv_channels": 1,
+      "bounds_m": [
+        [
+          0.0,
+          -0.125,
+          0.03500000014901161
+        ],
+        [
+          1.3200000524520874,
+          0.03500000014901161,
+          2.809999942779541
+        ]
+      ],
+      "bounds_roundtrip_max_error_m": 0.0
+    },
+    "SM_EH_EntryCanopy_224": {
+      "vertices": 528,
+      "triangles": 1044,
+      "slots": [
+        "Jade",
+        "Timber"
+      ],
+      "closed_components_consistent_winding": true,
+      "signed_volume_m3": 0.24848994365645946,
+      "uv_channels": 1,
+      "bounds_m": [
+        [
+          -1.1458629369735718,
+          -0.9881051182746887,
+          2.681999921798706
+        ],
+        [
+          1.1458629369735718,
+          0.08810511231422424,
+          3.301999807357788
+        ]
+      ],
+      "bounds_roundtrip_max_error_m": 0.0
+    }
+  },
+  "assemblies": {
+    "House_10x12": {
+      "footprint_m": [
+        10,
+        12
+      ],
+      "entry_fields": 1,
+      "mesh_instances": 74,
+      "shared_module_data": true,
+      "roof_seams": [
+        {
+          "y_m": 2,
+          "max_shell_position_error_m": 0.0
+        },
+        {
+          "y_m": 4,
+          "max_shell_position_error_m": 0.0
+        },
+        {
+          "y_m": 6,
+          "max_shell_position_error_m": 0.0
+        },
+        {
+          "y_m": 8,
+          "max_shell_position_error_m": 0.0
+        },
+        {
+          "y_m": 10,
+          "max_shell_position_error_m": 1.1246181883879427e-06
+        }
+      ]
+    },
+    "House_10x16_Variation": {
+      "footprint_m": [
+        10,
+        16
+      ],
+      "entry_fields": 1,
+      "mesh_instances": 94,
+      "shared_module_data": true,
+      "roof_seams": [
+        {
+          "y_m": 2,
+          "max_shell_position_error_m": 0.0
+        },
+        {
+          "y_m": 4,
+          "max_shell_position_error_m": 0.0
+        },
+        {
+          "y_m": 6,
+          "max_shell_position_error_m": 0.0
+        },
+        {
+          "y_m": 8,
+          "max_shell_position_error_m": 0.0
+        },
+        {
+          "y_m": 10,
+          "max_shell_position_error_m": 0.0
+        },
+        {
+          "y_m": 12,
+          "max_shell_position_error_m": 0.0
+        },
+        {
+          "y_m": 14,
+          "max_shell_position_error_m": 1.998311831264521e-06
+        }
+      ]
+    }
+  },
+  "blender": "5.2.2 LTS",
+  "unreal_import_performed": false
+}

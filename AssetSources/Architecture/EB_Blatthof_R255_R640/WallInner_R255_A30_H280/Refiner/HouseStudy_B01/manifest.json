@@ -1,0 +1,460 @@
+{
+  "status": "draft",
+  "kit_id": "EH.HouseB.Prototype01",
+  "interface_version": "draft_1",
+  "source": "EH_HouseB01_Study.blend",
+  "source_revision": "4702ccf44e88d06e97d8e3975ec34b3982673a7f",
+  "units": "Blender meters; UE_cm=(100*x,-100*y,100*z)",
+  "primary_footprint_m": [
+    10,
+    12
+  ],
+  "comparison_footprint_m": [
+    10,
+    16
+  ],
+  "wall_height_m": 3.2,
+  "dimensions_status": "Provisional study dimensions, not a canonical building standard",
+  "blender": "5.2.2 LTS",
+  "build": "d13f752e3b9c",
+  "export_profile": {
+    "profile_id": "Blender522_UE58_LegacyFBX_Calibration01",
+    "status": "calibrated_for_static_mesh_fixture",
+    "blender": "5.2.2 LTS",
+    "blender_build": "d13f752e3b9c",
+    "source_units": "meters",
+    "blender_to_unreal_cm": "(100*x, -100*y, 100*z)",
+    "export_settings": {
+      "use_selection": true,
+      "object_types": [
+        "MESH"
+      ],
+      "global_scale": 1.0,
+      "apply_unit_scale": true,
+      "apply_scale_options": "FBX_SCALE_NONE",
+      "axis_forward": "-Y",
+      "axis_up": "Z",
+      "use_space_transform": true,
+      "bake_space_transform": false,
+      "use_mesh_modifiers": true,
+      "mesh_smooth_type": "FACE",
+      "use_triangles": true,
+      "use_tspace": true,
+      "bake_anim": false,
+      "add_leaf_bones": false,
+      "path_mode": "RELATIVE",
+      "embed_textures": false
+    },
+    "unreal_importer": "FbxFactory / FbxStaticMeshImportData (legacy)",
+    "unreal_import_options_observed": {
+      "importUniformScale": 1,
+      "importTranslation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "importRotation": {
+        "pitch": 0,
+        "yaw": 0,
+        "roll": 0
+      },
+      "bConvertScene": true,
+      "bConvertSceneUnit": false,
+      "bForceFrontXAxis": false,
+      "coordinateSystemPolicy": "MatchUpForwardAxes",
+      "bUsingLUFCoordinateSysem": false,
+      "bTransformVertexToAbsolute": true,
+      "bBakePivotInVertex": false,
+      "normalImportMethod": "FBXNIM_ImportNormals",
+      "normalGenerationMethod": "MikkTSpace",
+      "bCombineMeshes": false,
+      "bOneConvexHullPerUCX": true,
+      "bAutoGenerateCollision": true,
+      "bGenerateLightmapUVs": true,
+      "bBuildNanite": false
+    },
+    "unreal_uv_channels_observed": 2,
+    "source_uv_channels": 1,
+    "session_requirement": "Keep Interchange.FeatureFlags.Import.FBX=0 for legacy UI reimport; restore previous value afterwards. Never mix importer backends without separate validation.",
+    "caveat": "This profile validates a single render mesh per FBX and source-owned UCX collision. It does not validate skeletal meshes, Nanite, production lightmap quality, or Interchange."
+  },
+  "assets": [
+    {
+      "name": "SM_EH_Wall_SolidA_200x24x320",
+      "vertices": 284,
+      "triangles": 528,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "uv_channels": 1,
+      "ucx_hulls": 1,
+      "description": "2m panel; local X along wall, +Y interior, +Z up; A owns post; SolidA",
+      "joins_draft": [
+        {
+          "position_m": [
+            0,
+            0,
+            0
+          ],
+          "yaw_blender_deg": 180
+        },
+        {
+          "position_m": [
+            2,
+            0,
+            0
+          ],
+          "yaw_blender_deg": 0
+        }
+      ],
+      "fbx": "Exports/SM_EH_Wall_SolidA_200x24x320.fbx"
+    },
+    {
+      "name": "SM_EH_Wall_SolidB_200x24x320",
+      "vertices": 302,
+      "triangles": 560,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "uv_channels": 1,
+      "ucx_hulls": 1,
+      "description": "2m panel; local X along wall, +Y interior, +Z up; A owns post; SolidB",
+      "joins_draft": [
+        {
+          "position_m": [
+            0,
+            0,
+            0
+          ],
+          "yaw_blender_deg": 180
+        },
+        {
+          "position_m": [
+            2,
+            0,
+            0
+          ],
+          "yaw_blender_deg": 0
+        }
+      ],
+      "fbx": "Exports/SM_EH_Wall_SolidB_200x24x320.fbx"
+    },
+    {
+      "name": "SM_EH_Wall_Window_200x24x320",
+      "vertices": 702,
+      "triangles": 1272,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone",
+        "Glass"
+      ],
+      "uv_channels": 1,
+      "ucx_hulls": 1,
+      "description": "2m panel; local X along wall, +Y interior, +Z up; A owns post; Window",
+      "joins_draft": [
+        {
+          "position_m": [
+            0,
+            0,
+            0
+          ],
+          "yaw_blender_deg": 180
+        },
+        {
+          "position_m": [
+            2,
+            0,
+            0
+          ],
+          "yaw_blender_deg": 0
+        }
+      ],
+      "fbx": "Exports/SM_EH_Wall_Window_200x24x320.fbx"
+    },
+    {
+      "name": "SM_EH_Wall_Entry_200x24x320",
+      "vertices": 500,
+      "triangles": 904,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "uv_channels": 1,
+      "ucx_hulls": 6,
+      "description": "2m panel; local X along wall, +Y interior, +Z up; A owns post; Entry",
+      "joins_draft": [
+        {
+          "position_m": [
+            0,
+            0,
+            0
+          ],
+          "yaw_blender_deg": 180
+        },
+        {
+          "position_m": [
+            2,
+            0,
+            0
+          ],
+          "yaw_blender_deg": 0
+        }
+      ],
+      "fbx": "Exports/SM_EH_Wall_Entry_200x24x320.fbx"
+    },
+    {
+      "name": "SM_EH_Roof_Mid_W1000",
+      "vertices": 558,
+      "triangles": 1080,
+      "slots": [
+        "Jade",
+        "Timber"
+      ],
+      "uv_channels": 1,
+      "ucx_hulls": 16,
+      "description": "Draft 10m wall span with 65cm side eaves; Mid length 2.0m",
+      "joins_draft": [
+        {
+          "position_m": [
+            0,
+            0,
+            0
+          ],
+          "yaw_blender_deg": 180
+        },
+        {
+          "position_m": [
+            0,
+            2.0,
+            0
+          ],
+          "yaw_blender_deg": 0
+        }
+      ],
+      "fbx": "Exports/SM_EH_Roof_Mid_W1000.fbx"
+    },
+    {
+      "name": "SM_EH_Roof_End_W1000",
+      "vertices": 1218,
+      "triangles": 2400,
+      "slots": [
+        "Jade",
+        "Timber"
+      ],
+      "uv_channels": 1,
+      "ucx_hulls": 16,
+      "description": "Draft 10m wall span with 65cm side eaves; End length 2.8m",
+      "joins_draft": [
+        {
+          "position_m": [
+            0,
+            0,
+            0
+          ],
+          "yaw_blender_deg": 180
+        },
+        {
+          "position_m": [
+            0,
+            2.8,
+            0
+          ],
+          "yaw_blender_deg": 0
+        }
+      ],
+      "fbx": "Exports/SM_EH_Roof_End_W1000.fbx"
+    },
+    {
+      "name": "SM_EH_Gable_W1000",
+      "vertices": 766,
+      "triangles": 1328,
+      "slots": [
+        "Plaster",
+        "Timber"
+      ],
+      "uv_channels": 1,
+      "ucx_hulls": 0,
+      "description": "Full-width closed gable infill; front/back reuse at positive-scale 180 degree rotation; collision not supplied yet",
+      "joins_draft": [],
+      "fbx": "Exports/SM_EH_Gable_W1000.fbx"
+    },
+    {
+      "name": "SM_EH_EaveFill_Mid_200",
+      "vertices": 28,
+      "triangles": 44,
+      "slots": [
+        "Plaster",
+        "Timber"
+      ],
+      "uv_channels": 1,
+      "ucx_hulls": 0,
+      "description": "Closed sidewall crown infill matched to the sampled roof underside; Mid; upper collision pending",
+      "joins_draft": [],
+      "fbx": "Exports/SM_EH_EaveFill_Mid_200.fbx"
+    },
+    {
+      "name": "SM_EH_EaveFill_EndA_200",
+      "vertices": 116,
+      "triangles": 188,
+      "slots": [
+        "Plaster",
+        "Timber"
+      ],
+      "uv_channels": 1,
+      "ucx_hulls": 0,
+      "description": "Closed sidewall crown infill matched to the sampled roof underside; EndA; upper collision pending",
+      "joins_draft": [],
+      "fbx": "Exports/SM_EH_EaveFill_EndA_200.fbx"
+    },
+    {
+      "name": "SM_EH_EaveFill_EndB_200",
+      "vertices": 116,
+      "triangles": 188,
+      "slots": [
+        "Plaster",
+        "Timber"
+      ],
+      "uv_channels": 1,
+      "ucx_hulls": 0,
+      "description": "Closed sidewall crown infill matched to the sampled roof underside; EndB; upper collision pending",
+      "joins_draft": [],
+      "fbx": "Exports/SM_EH_EaveFill_EndB_200.fbx"
+    },
+    {
+      "name": "SM_EH_Floor_200x200x20",
+      "vertices": 24,
+      "triangles": 44,
+      "slots": [
+        "Stone"
+      ],
+      "uv_channels": 1,
+      "ucx_hulls": 1,
+      "description": "2m floor tile, upper surface Z0",
+      "joins_draft": [],
+      "fbx": "Exports/SM_EH_Floor_200x200x20.fbx"
+    },
+    {
+      "name": "SM_EH_DoorLeaf_132_Study",
+      "vertices": 194,
+      "triangles": 332,
+      "slots": [
+        "Timber",
+        "Bronze"
+      ],
+      "uv_channels": 1,
+      "ucx_hulls": 0,
+      "description": "Static visual door leaf with hinge at local X0/Z0. No gameplay or validated door collision",
+      "joins_draft": [],
+      "fbx": "Exports/SM_EH_DoorLeaf_132_Study.fbx"
+    },
+    {
+      "name": "SM_EH_EntryCanopy_224",
+      "vertices": 528,
+      "triangles": 1044,
+      "slots": [
+        "Jade",
+        "Timber"
+      ],
+      "uv_channels": 1,
+      "ucx_hulls": 0,
+      "description": "Optional entrance canopy; visual decoration, no collision",
+      "joins_draft": [],
+      "fbx": "Exports/SM_EH_EntryCanopy_224.fbx"
+    }
+  ],
+  "textures": {
+    "Plaster": {
+      "base_color": "Textures/T_EH_Plaster_BaseColor.png",
+      "normal": "Textures/T_EH_Plaster_Normal.png",
+      "roughness": "Textures/T_EH_Plaster_Roughness.png",
+      "size_px": [
+        1024,
+        1024
+      ],
+      "normal_convention": "Blender/OpenGL tangent +Y; Unreal conversion must be checked"
+    },
+    "Timber": {
+      "base_color": "Textures/T_EH_Timber_BaseColor.png",
+      "normal": "Textures/T_EH_Timber_Normal.png",
+      "roughness": "Textures/T_EH_Timber_Roughness.png",
+      "size_px": [
+        1024,
+        1024
+      ],
+      "normal_convention": "Blender/OpenGL tangent +Y; Unreal conversion must be checked"
+    },
+    "Stone": {
+      "base_color": "Textures/T_EH_Stone_BaseColor.png",
+      "normal": "Textures/T_EH_Stone_Normal.png",
+      "roughness": "Textures/T_EH_Stone_Roughness.png",
+      "size_px": [
+        1024,
+        1024
+      ],
+      "normal_convention": "Blender/OpenGL tangent +Y; Unreal conversion must be checked"
+    },
+    "Jade": {
+      "base_color": "Textures/T_EH_Jade_BaseColor.png",
+      "normal": "Textures/T_EH_Jade_Normal.png",
+      "roughness": "Textures/T_EH_Jade_Roughness.png",
+      "size_px": [
+        1024,
+        1024
+      ],
+      "normal_convention": "Blender/OpenGL tangent +Y; Unreal conversion must be checked"
+    }
+  },
+  "unreal_import_performed": false,
+  "not_validated": [
+    "Unreal materials/import/reimport",
+    "gameplay door",
+    "Kapsel/PIE/camera",
+    "performance/LOD budgets",
+    "production interface acceptance"
+  ],
+  "collision_caveats": [
+    "Gable, eave infills, static door and entry canopy have no supplied UCX yet",
+    "Roof convex approximation must be measured and reviewed in Unreal",
+    "Window glazing blocks intentionally using a single full-panel hull; no breakability gameplay",
+    "Entry arch collision has four upper strips: conservatively approximated, rectangular minimum clearance 136x222 cm"
+  ],
+  "variation": "Separate 10x16 assembly reuses exactly the same mesh datablocks; two solid wall detail variants",
+  "sha256": {
+    "EH_HouseB01_Study.blend": "3f035ddc7293918d456d0c8b3f26ec3658f35e5f1797c43a81b9c5035f4a9e0c",
+    "Exports/SM_EH_DoorLeaf_132_Study.fbx": "6fb06c2c90978dc3a10555bf39937f9ee2d2723b8234d292e1ef532f8f56aade",
+    "Exports/SM_EH_EaveFill_EndA_200.fbx": "6938b2ab2dd89c408ab46a2eac1cb4c52f8a10579854c21e4a3e1ff814c44947",
+    "Exports/SM_EH_EaveFill_EndB_200.fbx": "af7763e56622445c673628735a981ad476f51738948236576948636ed50769cd",
+    "Exports/SM_EH_EaveFill_Mid_200.fbx": "e0114c29e2dd7ae2abb3e01817e4b09dfb8c49fde0edcfc16b6e6f94148fc24e",
+    "Exports/SM_EH_EntryCanopy_224.fbx": "cd0442241a85cf1003f535c1b2b57811ea1d3401ca41f7f16e2c81e37e689ba7",
+    "Exports/SM_EH_Floor_200x200x20.fbx": "5a1d9a391266fa6434df5eb301c6c598f37f0ef746d7ef3f29423ba6526c635f",
+    "Exports/SM_EH_Gable_W1000.fbx": "5889617d3b585eb639eafd1f06c27a10a999a5a6f87b33da3229a4d53f961d4e",
+    "Exports/SM_EH_Roof_End_W1000.fbx": "488cb27e9123bd12b549a02152bef64f9a156df27e661dc670d50223cecb9794",
+    "Exports/SM_EH_Roof_Mid_W1000.fbx": "36ec80b186c32d3a7a1ab8f3e58a01307622ff8086682ed004d76984f8c8372e",
+    "Exports/SM_EH_Wall_Entry_200x24x320.fbx": "ce3cfbd1c6322dec98d130a2816bdcf65112c3cbe85b6315a77172b36b87f8f4",
+    "Exports/SM_EH_Wall_SolidA_200x24x320.fbx": "9045cbc35cfba2f5d1e18a330dce47414fdd0b261ca27285effbe088e55e9dbf",
+    "Exports/SM_EH_Wall_SolidB_200x24x320.fbx": "1d09a23f06c9632aefcc6d415a875d7ebbf51ebe75bfca27192c11fc93bbef45",
+    "Exports/SM_EH_Wall_Window_200x24x320.fbx": "6df250d2fa2abf24c2846c20b31fb89c13843d168d8d7bc8c6ae6c08d7c662f7"
+  },
+  "validation_status": "Blender source/module FBX checks passed; visual study for user review; not production accepted",
+  "verification": {
+    "path": "verification.json",
+    "sha256": "819d05fc0998553bbaebdfaaba0eae0df2221fa6d25d36e3e37161eef6ad025d"
+  },
+  "previews": [
+    "Previews/house_front.png",
+    "Previews/house_rear.png",
+    "Previews/house_long_variant.png"
+  ],
+  "uv_policy": "UV0 intentionally tiles/repeats; no unique lightmap unwrap supplied. Production texel density not fixed.",
+  "roof_collision_approximation": "16 convex strips per roof module; End uses straight longitudinal hull interpolation; source approximation only, untested in Unreal",
+  "geometry_review_exceptions": {
+    "window_triangles": 1272,
+    "note": "The detailed arch/window includes frame, glass and tracery. Above 1000-triangle simple-wall review threshold; optimize/review before serial production."
+  }
+}
