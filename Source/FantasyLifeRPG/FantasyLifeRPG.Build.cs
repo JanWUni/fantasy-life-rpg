@@ -21,7 +21,13 @@ public class FantasyLifeRPG : ModuleRules
 			"Slate"
 		});
 
-		PrivateDependencyModuleNames.AddRange(new string[] { });
+		PrivateDependencyModuleNames.AddRange(new string[] { "SlateCore", "Niagara" });
+
+		// Editor automation starts/stops PIE; no UnrealEd dependency in game builds.
+		if (Target.bBuildEditor)
+		{
+			PrivateDependencyModuleNames.AddRange(new string[] { "UnrealEd", "NavigationSystem" });
+		}
 
 		PublicIncludePaths.AddRange(new string[] {
 			"FantasyLifeRPG",

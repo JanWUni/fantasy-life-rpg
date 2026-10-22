@@ -29,3 +29,8 @@
 # OS noise
 .DS_Store
 Thumbs.db
+
+# Blender recovery files and Python bytecode (sources/exports remain tracked)
+*.blend[0-9]*
+**/__pycache__/
+*.py[cod]

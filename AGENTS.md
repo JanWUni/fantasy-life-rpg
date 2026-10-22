@@ -32,6 +32,12 @@ Spezifische Worldbuilding-Regeln in untergeordneten Verzeichnissen ergänzen die
 - Generierte Dateien, Build-Artefakte, Editor-Zustände und Shader-Caches bleiben außerhalb der Versionsverwaltung.
 - Binäre Unreal- und Quell-Assets werden entsprechend `.gitattributes` über Git LFS verwaltet.
 
+## Parallele 3D-Asset-Arbeit
+
+- Asset Creator und Asset Refiner lesen vor Arbeitsbeginn die gemeinsame [Asset-Pipeline](docs/technical/ASSET_PIPELINE.md), insbesondere „Paralleler Creator-/Refiner-Workflow“. Dort stehen Rollen, Startaufträge, Dateizuständigkeiten, Übergabe und Qualitätskontrollen.
+- Parallelität nur für getrennte Module bzw. getrennte Creator-/Refiner-Dateien. Pro Datei genau ein Schreibverantwortlicher; übergebene Creator-Stände bleiben unverändert. Gemeinsame Unreal-Imports, Materialien, Blueprints und Karten werden nacheinander durch einen im Auftrag benannten Integrationsverantwortlichen bearbeitet.
+- Das vorhandene Elfenhaus ist visuelle Referenz, keine Erlaubnis für neue Kultur-/Architekturfestlegungen. Bestehende Assets und Level nur im ausdrücklich beauftragten Umfang bearbeiten.
+
 ## Vor jeder Änderung
 
 1. Die betroffenen Sach- und Entscheidungsdokumente lesen.

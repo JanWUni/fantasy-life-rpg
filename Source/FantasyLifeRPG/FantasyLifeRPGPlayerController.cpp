@@ -8,6 +8,12 @@
 #include "Blueprint/UserWidget.h"
 #include "FantasyLifeRPG.h"
 #include "Widgets/Input/SVirtualJoystick.h"
+#include "Development/DeveloperToolboxComponent.h"
+
+AFantasyLifeRPGPlayerController::AFantasyLifeRPGPlayerController()
+{
+	DeveloperToolbox = CreateDefaultSubobject<UDeveloperToolboxComponent>(TEXT("DeveloperToolbox"));
+}
 
 void AFantasyLifeRPGPlayerController::BeginPlay()
 {

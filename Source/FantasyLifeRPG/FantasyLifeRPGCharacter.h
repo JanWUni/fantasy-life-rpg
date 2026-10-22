@@ -10,6 +10,7 @@
 class USpringArmComponent;
 class UCameraComponent;
 class UInputAction;
+class UInteractionComponent;
 struct FInputActionValue;
 
 DECLARE_LOG_CATEGORY_EXTERN(LogTemplateCharacter, Log, All);
@@ -32,6 +33,15 @@ class AFantasyLifeRPGCharacter : public ACharacter
 	UCameraComponent* FollowCamera;
 
 protected:
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Interaction")
+	TObjectPtr<UInteractionComponent> InteractionComponent;
+
+	/** Optional; configured only by the interaction prototype Blueprint. */
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category="Input")
+	TObjectPtr<UInputAction> InteractAction;
+
+	void HandleInteract();
 
 	/** Jump Input Action */
 	UPROPERTY(EditAnywhere, Category="Input")

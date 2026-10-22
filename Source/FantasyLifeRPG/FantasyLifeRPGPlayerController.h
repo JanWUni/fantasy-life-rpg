@@ -8,6 +8,7 @@
 
 class UInputMappingContext;
 class UUserWidget;
+class UDeveloperToolboxComponent;
 
 /**
  *  Basic PlayerController class for a third person game
@@ -17,6 +18,14 @@ UCLASS(abstract)
 class AFantasyLifeRPGPlayerController : public APlayerController
 {
 	GENERATED_BODY()
+
+public:
+	AFantasyLifeRPGPlayerController();
+
+protected:
+	/** Opt-in through the prototype controller Blueprint; inert in Shipping/network games. */
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Development")
+	TObjectPtr<UDeveloperToolboxComponent> DeveloperToolbox;
 
 protected:
 

@@ -11,9 +11,11 @@
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
 #include "FantasyLifeRPG.h"
+#include "Interaction/InteractionComponent.h"
 
 AFantasyLifeRPGCharacter::AFantasyLifeRPGCharacter()
 {
+	InteractionComponent = CreateDefaultSubobject<UInteractionComponent>(TEXT("InteractionComponent"));
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
 
@@ -54,6 +56,10 @@ void AFantasyLifeRPGCharacter::SetupPlayerInputComponent(UInputComponent* Player
 {
 	// Set up action bindings
 	if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(PlayerInputComponent)) {
+		if (InteractAction)
+		{
+			EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Started, this, &AFantasyLifeRPGCharacter::HandleInteract);
+		}
 
 		// Jumping
 		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Started, this, &ACharacter::Jump);
@@ -70,6 +76,11 @@ void AFantasyLifeRPGCharacter::SetupPlayerInputComponent(UInputComponent* Player
 	{
 		UE_LOG(LogFantasyLifeRPG, Error, TEXT("'%s' Failed to find an Enhanced Input component! This template is built to use the Enhanced Input system. If you intend to use the legacy system, then you will need to update this C++ file."), *GetNameSafe(this));
 	}
+}
+
+void AFantasyLifeRPGCharacter::HandleInteract()
+{
+	InteractionComponent->TryInteract();
 }
 
 void AFantasyLifeRPGCharacter::Move(const FInputActionValue& Value)
