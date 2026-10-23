@@ -2,6 +2,8 @@
 
 Stand: **22. Oktober 2026**, Unreal Engine 5.8. Das [zweifeldrige Anschlussmuster](ELVEN_JOIN_SAMPLE_01.md) wurde auf Nutzerauftrag zu einem geschlossenen, begehbaren Haus mit Funktionstür ergänzt. Es bleibt ein einfacher Architekturprototyp; Fenster, Möblierung, Stützen und weitere Verzierungen wurden nicht ergänzt.
 
+**Folgestand:** Auf weiteren Nutzerauftrag ersetzt jetzt ein [Fenstermodul](ELVEN_WINDOW_01.md) das erste Außenwandfeld des Prefabs und seiner Lab-Instanz. Der folgende Bericht beschreibt den vorherigen Stand mit zwei geschlossenen Außenwandfeldern; die damaligen Modulassets bleiben erhalten. Aktuelle Fensterdaten und Testergebnisse einschließlich offener Eingabe-Regressionen stehen im Fensterbericht.
+
 ## Finden und wiederverwenden
 
 - Karte: `/Game/Prototype/Maps/Lvl_AssetLab`.
