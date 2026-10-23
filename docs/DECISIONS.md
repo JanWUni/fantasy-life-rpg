@@ -38,7 +38,13 @@ Status: **FEST** = vom Nutzer entschieden; **RICHTUNG** = angestrebtes, noch anp
 - **MP-01 FEST:** Fokus Koop mit bekannten Mitspielern, grundsätzlich Open-World-PvP auch in Städten; Stadtwachen, Verfolgung, Kopfgelder und Recht statt unverwundbarer Safezones.
 - **DEATH-01 FEST:** Normalmodus bewahrt Charakter und langfristigen Fortschritt, aber Tod hat einen spürbaren Soft-Reset, etwa Item-/Ausrüstungsverlust.
 
+## Bestätigter Prototypumfang
+
+- **INV-01 FEST – PROTOTYP, 23.10.2026:** Lose neutrale Testgegenstände mit E aufnehmen; 20 Plätze ohne Gewicht; gleiche Arten bis zunächst 99 stapeln, Maximum je Art einstellbar. Name und Anzahl anzeigen. Bei Platzmangel gesamte Aufnahme ablehnen, Objekt und Menge in der Welt erhalten und Meldung anzeigen; vorhandene Stapel dürfen weiter aufgefüllt werden. Ausgewählten Gegenstand stückweise vor der Figur ablegen und wieder aufnehmen. Startregeln später anpassbar.
+- **INV-02 FEST – PROTOTYP, 23.10.2026:** Zunächst nur Sitzungszustand; Speichern von Inventar und abgelegten Weltgegenständen ausdrücklich auf später verschoben. Keine Entscheidung zu Ausrüstung, Benutzen, Diebstahl, Gewicht oder Todesfolgen. Siehe [GAME_SYSTEMS.md](GAME_SYSTEMS.md).
+
 ## Vorläufige Richtungen
+
 - Schwerere Spielmodi mit Reinkarnation/Permadeath möglich; Details offen.
 - Kampfunfähigkeit/Rettung und seltene NPC-Wiederbelebung wurden diskutiert, aber noch nicht abschließend geregelt.
 - Grafikreferenzen: Dark Souls 3 (Charaktere/Gefahren), Skyrim (Orte/Atmosphäre), Enshrouded (Natur/Licht); ausdrücklich veränderbar.

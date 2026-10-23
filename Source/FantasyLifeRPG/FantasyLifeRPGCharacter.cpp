@@ -12,10 +12,12 @@
 #include "InputActionValue.h"
 #include "FantasyLifeRPG.h"
 #include "Interaction/InteractionComponent.h"
+#include "Inventory/InventoryComponent.h"
 
 AFantasyLifeRPGCharacter::AFantasyLifeRPGCharacter()
 {
 	InteractionComponent = CreateDefaultSubobject<UInteractionComponent>(TEXT("InteractionComponent"));
+	InventoryComponent = CreateDefaultSubobject<UInventoryComponent>(TEXT("InventoryComponent"));
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
 

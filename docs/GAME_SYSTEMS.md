@@ -16,3 +16,16 @@ Der Normalmodus ist auf lange Spielzeit mit demselben Charakter ausgelegt. Tod z
 
 ## Noch offen
 Fairness gegen Griefing, Konsequenzen für Reinkarnation einer gesuchten Person, Loot-/Bergungssystem, Strafrecht, NPC-Resurrection, Heilmöglichkeiten, technische Server-/Save-Architektur.
+
+## Aufsammeln und Inventar – bestätigter Prototypumfang, 23. Oktober 2026
+
+Vom Nutzer für den ersten spielbaren Ausbau bestätigt; einstellbare Startregeln, keine endgültige Balance:
+
+- Lose, zunächst neutrale Testgegenstände werden über die bestehende E-Interaktion aufgenommen.
+- 20 Inventarplätze; vorerst kein Gewichtssystem.
+- Gleiche Gegenstandsarten stapeln sich zunächst bis 99. Das Maximum ist je Art einstellbar.
+- Ist für die gesamte aufzunehmende Menge kein Platz, bleibt der Weltgegenstand vollständig liegen. Eine kurze Meldung erklärt den Platzmangel. Freie Plätze in vorhandenen Stapeln können auch bei 20 belegten Inventarplätzen genutzt werden.
+- Das einfache Inventar zeigt Name und Anzahl. Nach Auswahl wird zunächst genau ein Stück vor der Figur abgelegt und kann erneut aufgenommen werden.
+- Inventar und abgelegte Gegenstände bestehen nur während der laufenden Sitzung. Dauerhaftes Speichern wird später gemeinsam für Inventar und Weltzustand ergänzt.
+
+Ausrüstung, Benutzen, Gewicht, Diebstahl-/Eigentumsregeln und Inventarfolgen beim Tod sind damit nicht festgelegt. Bedienung und technischer Prüfstand: [INVENTORY_SYSTEM.md](INVENTORY_SYSTEM.md).

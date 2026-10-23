@@ -9,10 +9,12 @@
 #include "FantasyLifeRPG.h"
 #include "Widgets/Input/SVirtualJoystick.h"
 #include "Development/DeveloperToolboxComponent.h"
+#include "Inventory/UI/InventoryUIComponent.h"
 
 AFantasyLifeRPGPlayerController::AFantasyLifeRPGPlayerController()
 {
 	DeveloperToolbox = CreateDefaultSubobject<UDeveloperToolboxComponent>(TEXT("DeveloperToolbox"));
+	InventoryUI = CreateDefaultSubobject<UInventoryUIComponent>(TEXT("InventoryUI"));
 }
 
 void AFantasyLifeRPGPlayerController::BeginPlay()

@@ -9,6 +9,7 @@
 class UInputMappingContext;
 class UUserWidget;
 class UDeveloperToolboxComponent;
+class UInventoryUIComponent;
 
 /**
  *  Basic PlayerController class for a third person game
@@ -26,6 +27,9 @@ protected:
 	/** Opt-in through the prototype controller Blueprint; inert in Shipping/network games. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Development")
 	TObjectPtr<UDeveloperToolboxComponent> DeveloperToolbox;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Inventory")
+	TObjectPtr<UInventoryUIComponent> InventoryUI;
 
 protected:
 

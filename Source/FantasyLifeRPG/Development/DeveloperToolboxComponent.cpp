@@ -139,6 +139,7 @@ void UDeveloperToolboxComponent::TogglePanel()
 {
 	if (!CanUse()) return;
 	if (bPanelOpen) { CloseInternal(); return; }
+	if (PC->IsMoveInputIgnored() || PC->IsLookInputIgnored()) return;
 	if (!Panel) Panel = CreateWidget<UDeveloperToolboxWidget>(PC.Get(),WidgetClass);
 	if (!Panel) return;
 	Panel->InitializeToolbox(this);
@@ -373,6 +374,9 @@ void UDeveloperToolboxComponent::TickComponent(float DeltaTime, ELevelTick TickT
 {
 	Super::TickComponent(DeltaTime,TickType,Function);
 	if (!CanUse()) { Cleanup(); return; }
+	// Another local UI can own input too. Do not retain axes/boost when its
+	// higher-priority input component prevents delivery of release callbacks.
+	if (PC->IsMoveInputIgnored() || PC->IsLookInputIgnored()) ClearAxes();
 	UpdateGroundSprint();
 	if (bHasSnapshot && (!Character.IsValid() || PC->GetPawn() != Character.Get()))
 	{
@@ -386,7 +390,7 @@ void UDeveloperToolboxComponent::TickComponent(float DeltaTime, ELevelTick TickT
 	}
 	if (FreeCamera && CameraPawn.Get() != PC->GetPawn()) { EndFreeCamera(); return; }
 	if (FreeCamera && PC->GetViewTarget() != FreeCamera) { EndFreeCamera(); return; }
-	if (bPanelOpen) { ClearAxes(); return; }
+	if (bPanelOpen || PC->IsMoveInputIgnored() || PC->IsLookInputIgnored()) { ClearAxes(); return; }
 	if (FreeCamera)
 	{
 		const FRotator Rotation(0,FreeCamera->GetActorRotation().Yaw,0);

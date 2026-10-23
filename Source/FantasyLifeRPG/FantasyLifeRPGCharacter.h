@@ -11,6 +11,7 @@ class USpringArmComponent;
 class UCameraComponent;
 class UInputAction;
 class UInteractionComponent;
+class UInventoryComponent;
 struct FInputActionValue;
 
 DECLARE_LOG_CATEGORY_EXTERN(LogTemplateCharacter, Log, All);
@@ -36,6 +37,9 @@ protected:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Interaction")
 	TObjectPtr<UInteractionComponent> InteractionComponent;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Inventory")
+	TObjectPtr<UInventoryComponent> InventoryComponent;
 
 	/** Optional; configured only by the interaction prototype Blueprint. */
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category="Input")
