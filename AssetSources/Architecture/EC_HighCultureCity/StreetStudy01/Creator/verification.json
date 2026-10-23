@@ -1,0 +1,701 @@
+{
+  "status": "passed",
+  "scope": "Source reopen, Blender FBX roundtrip for every exported unit; sampled render doorway/floor/roof tests",
+  "source_assets": [
+    {
+      "asset": "SM_EC_Facade_700x390",
+      "source_reopen": {
+        "vertices": 80,
+        "triangles": 164,
+        "material_slots": [
+          "Stone"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.5,
+            0.0,
+            0.0
+          ],
+          [
+            3.5,
+            0.3499999940395355,
+            3.9000000953674316
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_EC_SideWall_800x390",
+      "source_reopen": {
+        "vertices": 48,
+        "triangles": 100,
+        "material_slots": [
+          "Stone"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -4.0,
+            0.0,
+            0.0
+          ],
+          [
+            4.0,
+            0.3499999940395355,
+            3.9000000953674316
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_EC_RearWall_700x390",
+      "source_reopen": {
+        "vertices": 48,
+        "triangles": 100,
+        "material_slots": [
+          "Stone"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.5,
+            0.0,
+            0.0
+          ],
+          [
+            3.5,
+            0.3499999940395355,
+            3.9000000953674316
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_EC_Floor_700x800",
+      "source_reopen": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "StoneFloor"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.5,
+            -4.0,
+            -0.1599999964237213
+          ],
+          [
+            3.5,
+            4.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_EC_HipRoof_790x890",
+      "source_reopen": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Slate"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.950000047683716,
+            -4.449999809265137,
+            3.9000000953674316
+          ],
+          [
+            3.950000047683716,
+            4.449999809265137,
+            5.400000095367432
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_EC_HipRoof_LowVariant_790x890",
+      "source_reopen": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Slate"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.950000047683716,
+            -4.449999809265137,
+            3.9000000953674316
+          ],
+          [
+            3.950000047683716,
+            4.449999809265137,
+            5.0
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_EC_PorchPosts_220x270",
+      "source_reopen": {
+        "vertices": 16,
+        "triangles": 24,
+        "material_slots": [
+          "StoneLight"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -1.1200000047683716,
+            -0.10000000149011612,
+            0.0
+          ],
+          [
+            1.1200000047683716,
+            0.10000000149011612,
+            2.700000047683716
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_EC_PorchRoof_240x150",
+      "source_reopen": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Slate"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -1.2000000476837158,
+            -0.75,
+            0.0
+          ],
+          [
+            1.2000000476837158,
+            0.75,
+            0.3199999928474426
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_EC_StoneDressings",
+      "source_reopen": {
+        "vertices": 192,
+        "triangles": 344,
+        "material_slots": [
+          "StoneLight"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.609999895095825,
+            -4.220000267028809,
+            0.0
+          ],
+          [
+            3.609999895095825,
+            -3.75,
+            3.9600000381469727
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_EC_EntryWoodArch",
+      "source_reopen": {
+        "vertices": 120,
+        "triangles": 236,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.7900000214576721,
+            -0.06499999761581421,
+            0.0
+          ],
+          [
+            0.7900000214576721,
+            0.06499999761581421,
+            2.5250000953674316
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_EC_TreeRelief",
+      "source_reopen": {
+        "vertices": 144,
+        "triangles": 268,
+        "material_slots": [
+          "StoneLight"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.5187006592750549,
+            -0.07500000298023224,
+            0.0
+          ],
+          [
+            0.5187006592750549,
+            0.07500000298023224,
+            1.2011349201202393
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_EC_DoorLeaf_140x235",
+      "source_reopen": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            0.0,
+            -0.05999999865889549,
+            0.0
+          ],
+          [
+            1.399999976158142,
+            0.05999999865889549,
+            2.3499999046325684
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_EC_CityWindowFrame_65x80",
+      "source_reopen": {
+        "vertices": 72,
+        "triangles": 124,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.4000000059604645,
+            -0.13899999856948853,
+            -0.05999999865889549
+          ],
+          [
+            0.4000000059604645,
+            0.14000000059604645,
+            0.8999999761581421
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_EC_CityWindowGlass_65x80",
+      "source_reopen": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Glass"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.32499998807907104,
+            0.10000000149011612,
+            0.0
+          ],
+          [
+            0.32499998807907104,
+            0.12999999523162842,
+            0.800000011920929
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_EC_CityShutter_32x84",
+      "source_reopen": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.3199999928474426,
+            -0.04500000178813934,
+            0.0
+          ],
+          [
+            0.0,
+            0.04500000178813934,
+            0.8399999737739563
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_EC_Paving_120x80",
+      "source_reopen": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "StoneFloor"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.593999981880188,
+            -0.39399999380111694,
+            -0.10000000149011612
+          ],
+          [
+            0.593999981880188,
+            0.39399999380111694,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_EC_GroundBase_3200x3000",
+      "source_reopen": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Soil"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -16.0,
+            -10.0,
+            -0.3499999940395355
+          ],
+          [
+            16.0,
+            20.0,
+            -0.11999999731779099
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_EC_Curb_100x20",
+      "source_reopen": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "StoneLight"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.49000000953674316,
+            -0.10000000149011612,
+            -0.10000000149011612
+          ],
+          [
+            0.49000000953674316,
+            0.10000000149011612,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_EC_PlanterRim",
+      "source_reopen": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Stone"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.75,
+            -0.75,
+            0.0
+          ],
+          [
+            0.75,
+            0.75,
+            0.44999998807907104
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_EC_StreetTreeTrunk",
+      "source_reopen": {
+        "vertices": 187,
+        "triangles": 342,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -1.8836731910705566,
+            -1.8081002235412598,
+            -0.011395737528800964
+          ],
+          [
+            1.9100804328918457,
+            1.7492880821228027,
+            6.508592128753662
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_EC_StreetTreeCrown",
+      "source_reopen": {
+        "vertices": 630,
+        "triangles": 1200,
+        "material_slots": [
+          "Leaves"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -2.326256275177002,
+            -2.0365350246429443,
+            4.920000076293945
+          ],
+          [
+            2.315973997116089,
+            2.114638090133667,
+            7.539999961853027
+          ]
+        ]
+      }
+    }
+  ],
+  "interior_probes": [
+    {
+      "interior": "House_A",
+      "door_grid_9_rays": "clear",
+      "floor_and_roof_samples": "hit",
+      "scope": "render and source UCX BVH, not capsule/Unreal"
+    },
+    {
+      "interior": "House_B",
+      "door_grid_9_rays": "clear",
+      "floor_and_roof_samples": "hit",
+      "scope": "render and source UCX BVH, not capsule/Unreal"
+    },
+    {
+      "interior": "House_C",
+      "door_grid_9_rays": "clear",
+      "floor_and_roof_samples": "hit",
+      "scope": "render and source UCX BVH, not capsule/Unreal"
+    }
+  ],
+  "roundtrips": [
+    {
+      "asset": "SM_EC_Facade_700x390",
+      "triangles": 164,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 23,
+      "passed": true
+    },
+    {
+      "asset": "SM_EC_SideWall_800x390",
+      "triangles": 100,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 13,
+      "passed": true
+    },
+    {
+      "asset": "SM_EC_RearWall_700x390",
+      "triangles": 100,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 13,
+      "passed": true
+    },
+    {
+      "asset": "SM_EC_Floor_700x800",
+      "triangles": 12,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 1,
+      "passed": true
+    },
+    {
+      "asset": "SM_EC_HipRoof_790x890",
+      "triangles": 12,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 1,
+      "passed": true
+    },
+    {
+      "asset": "SM_EC_HipRoof_LowVariant_790x890",
+      "triangles": 12,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 1,
+      "passed": true
+    },
+    {
+      "asset": "SM_EC_PorchPosts_220x270",
+      "triangles": 24,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 2,
+      "passed": true
+    },
+    {
+      "asset": "SM_EC_PorchRoof_240x150",
+      "triangles": 12,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 1,
+      "passed": true
+    },
+    {
+      "asset": "SM_EC_StoneDressings",
+      "triangles": 344,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 0,
+      "passed": true
+    },
+    {
+      "asset": "SM_EC_EntryWoodArch",
+      "triangles": 236,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 0,
+      "passed": true
+    },
+    {
+      "asset": "SM_EC_TreeRelief",
+      "triangles": 268,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 0,
+      "passed": true
+    },
+    {
+      "asset": "SM_EC_DoorLeaf_140x235",
+      "triangles": 12,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 1,
+      "passed": true
+    },
+    {
+      "asset": "SM_EC_CityWindowFrame_65x80",
+      "triangles": 124,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 0,
+      "passed": true
+    },
+    {
+      "asset": "SM_EC_CityWindowGlass_65x80",
+      "triangles": 12,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 0,
+      "passed": true
+    },
+    {
+      "asset": "SM_EC_CityShutter_32x84",
+      "triangles": 12,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 0,
+      "passed": true
+    },
+    {
+      "asset": "SM_EC_Paving_120x80",
+      "triangles": 12,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 0,
+      "passed": true
+    },
+    {
+      "asset": "SM_EC_GroundBase_3200x3000",
+      "triangles": 12,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 1,
+      "passed": true
+    },
+    {
+      "asset": "SM_EC_Curb_100x20",
+      "triangles": 12,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 0,
+      "passed": true
+    },
+    {
+      "asset": "SM_EC_PlanterRim",
+      "triangles": 12,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 0,
+      "passed": true
+    },
+    {
+      "asset": "SM_EC_StreetTreeTrunk",
+      "triangles": 342,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 0,
+      "passed": true
+    },
+    {
+      "asset": "SM_EC_StreetTreeCrown",
+      "triangles": 1200,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 0,
+      "passed": true
+    }
+  ],
+  "unreal_import": false
+}

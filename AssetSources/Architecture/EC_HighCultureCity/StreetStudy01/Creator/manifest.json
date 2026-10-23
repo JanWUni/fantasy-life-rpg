@@ -1,0 +1,8499 @@
+{
+  "kit_id": "EC.HighCultureCity",
+  "module_id": "StreetStudy01",
+  "interface_version": "0.1",
+  "revision": 1,
+  "status": "creator_ready",
+  "base_commit": "e66d5beed7bb85313501659d646f25778515134b",
+  "creator_directory": "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator",
+  "blender": "5.2.2 LTS",
+  "reference_image_sha256": "195a27381b9088b2f095ddfc4ab4d6c29add66e7626060700fe29c94c1af678f",
+  "source_blend": "StreetStudy01.blend",
+  "source_blend_sha256": "6f147895db5668b77083984a5553af15cfe4f3d338a1bbc60a86a81e076b7b25",
+  "units": {
+    "blender": "meters",
+    "unit_scale": 1,
+    "ue": "centimeters",
+    "mapping": "(100*x,-100*y,100*z)"
+  },
+  "export_profile": "Blender522_UE58_LegacyFBX_Calibration01",
+  "importer_intended": "FbxFactory / FbxStaticMeshImportData; Interchange not validated",
+  "unreal_import_performed": false,
+  "exports": [
+    {
+      "label": "Facade_700x390",
+      "asset_name": "SM_EC_Facade_700x390",
+      "category": "Structure",
+      "path": "Exports/SM_EC_Facade_700x390.fbx",
+      "sha256": "33b13a96bc211062d7abade4584c2eaecc7190711ab9d1ee0d28e7c0ded7b4b0",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [
+        "UCX_SM_EC_Facade_700x390_00",
+        "UCX_SM_EC_Facade_700x390_01",
+        "UCX_SM_EC_Facade_700x390_02",
+        "UCX_SM_EC_Facade_700x390_03",
+        "UCX_SM_EC_Facade_700x390_04",
+        "UCX_SM_EC_Facade_700x390_05",
+        "UCX_SM_EC_Facade_700x390_06",
+        "UCX_SM_EC_Facade_700x390_07",
+        "UCX_SM_EC_Facade_700x390_08",
+        "UCX_SM_EC_Facade_700x390_09",
+        "UCX_SM_EC_Facade_700x390_10",
+        "UCX_SM_EC_Facade_700x390_11",
+        "UCX_SM_EC_Facade_700x390_12",
+        "UCX_SM_EC_Facade_700x390_13",
+        "UCX_SM_EC_Facade_700x390_14",
+        "UCX_SM_EC_Facade_700x390_15",
+        "UCX_SM_EC_Facade_700x390_16",
+        "UCX_SM_EC_Facade_700x390_17",
+        "UCX_SM_EC_Facade_700x390_18",
+        "UCX_SM_EC_Facade_700x390_19",
+        "UCX_SM_EC_Facade_700x390_20",
+        "UCX_SM_EC_Facade_700x390_21",
+        "UCX_SM_EC_Facade_700x390_22"
+      ],
+      "source_stats": {
+        "vertices": 80,
+        "triangles": 164,
+        "material_slots": [
+          "Stone"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.5,
+            0.0,
+            0.0
+          ],
+          [
+            3.5,
+            0.3499999940395355,
+            3.9000000953674316
+          ]
+        ]
+      }
+    },
+    {
+      "label": "SideWall_800x390",
+      "asset_name": "SM_EC_SideWall_800x390",
+      "category": "Structure",
+      "path": "Exports/SM_EC_SideWall_800x390.fbx",
+      "sha256": "e7d9464b7920afc7f714b24acf13d3b4248db5f8b2549b65d0d9c3278e4d6686",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [
+        "UCX_SM_EC_SideWall_800x390_00",
+        "UCX_SM_EC_SideWall_800x390_01",
+        "UCX_SM_EC_SideWall_800x390_02",
+        "UCX_SM_EC_SideWall_800x390_03",
+        "UCX_SM_EC_SideWall_800x390_04",
+        "UCX_SM_EC_SideWall_800x390_05",
+        "UCX_SM_EC_SideWall_800x390_06",
+        "UCX_SM_EC_SideWall_800x390_07",
+        "UCX_SM_EC_SideWall_800x390_08",
+        "UCX_SM_EC_SideWall_800x390_09",
+        "UCX_SM_EC_SideWall_800x390_10",
+        "UCX_SM_EC_SideWall_800x390_11",
+        "UCX_SM_EC_SideWall_800x390_12"
+      ],
+      "source_stats": {
+        "vertices": 48,
+        "triangles": 100,
+        "material_slots": [
+          "Stone"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -4.0,
+            0.0,
+            0.0
+          ],
+          [
+            4.0,
+            0.3499999940395355,
+            3.9000000953674316
+          ]
+        ]
+      }
+    },
+    {
+      "label": "RearWall_700x390",
+      "asset_name": "SM_EC_RearWall_700x390",
+      "category": "Structure",
+      "path": "Exports/SM_EC_RearWall_700x390.fbx",
+      "sha256": "dc7859cf3bfe018248473b88414779792f13694cebd6a1d1826557965e1f4ba0",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [
+        "UCX_SM_EC_RearWall_700x390_00",
+        "UCX_SM_EC_RearWall_700x390_01",
+        "UCX_SM_EC_RearWall_700x390_02",
+        "UCX_SM_EC_RearWall_700x390_03",
+        "UCX_SM_EC_RearWall_700x390_04",
+        "UCX_SM_EC_RearWall_700x390_05",
+        "UCX_SM_EC_RearWall_700x390_06",
+        "UCX_SM_EC_RearWall_700x390_07",
+        "UCX_SM_EC_RearWall_700x390_08",
+        "UCX_SM_EC_RearWall_700x390_09",
+        "UCX_SM_EC_RearWall_700x390_10",
+        "UCX_SM_EC_RearWall_700x390_11",
+        "UCX_SM_EC_RearWall_700x390_12"
+      ],
+      "source_stats": {
+        "vertices": 48,
+        "triangles": 100,
+        "material_slots": [
+          "Stone"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.5,
+            0.0,
+            0.0
+          ],
+          [
+            3.5,
+            0.3499999940395355,
+            3.9000000953674316
+          ]
+        ]
+      }
+    },
+    {
+      "label": "Floor_700x800",
+      "asset_name": "SM_EC_Floor_700x800",
+      "category": "Structure",
+      "path": "Exports/SM_EC_Floor_700x800.fbx",
+      "sha256": "198cdcafa087706412d2802d579ccde498aa6d4c65ce1a3e47e0be2f56c33358",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [
+        "UCX_SM_EC_Floor_700x800_00"
+      ],
+      "source_stats": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "StoneFloor"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.5,
+            -4.0,
+            -0.1599999964237213
+          ],
+          [
+            3.5,
+            4.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "label": "HipRoof_790x890",
+      "asset_name": "SM_EC_HipRoof_790x890",
+      "category": "Structure",
+      "path": "Exports/SM_EC_HipRoof_790x890.fbx",
+      "sha256": "f8811b484fa1436b91b689e91740db2e02c27c3e169f14de7b1ba6e58c54f862",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [
+        "UCX_SM_EC_HipRoof_790x890_00"
+      ],
+      "source_stats": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Slate"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.950000047683716,
+            -4.449999809265137,
+            3.9000000953674316
+          ],
+          [
+            3.950000047683716,
+            4.449999809265137,
+            5.400000095367432
+          ]
+        ]
+      }
+    },
+    {
+      "label": "HipRoof_LowVariant_790x890",
+      "asset_name": "SM_EC_HipRoof_LowVariant_790x890",
+      "category": "Structure",
+      "path": "Exports/SM_EC_HipRoof_LowVariant_790x890.fbx",
+      "sha256": "e23104c14005dfd5a175bd80450a273c7e5340113a4fdc04cf7612c2867f60e9",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [
+        "UCX_SM_EC_HipRoof_LowVariant_790x890_00"
+      ],
+      "source_stats": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Slate"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.950000047683716,
+            -4.449999809265137,
+            3.9000000953674316
+          ],
+          [
+            3.950000047683716,
+            4.449999809265137,
+            5.0
+          ]
+        ]
+      }
+    },
+    {
+      "label": "PorchPosts_220x270",
+      "asset_name": "SM_EC_PorchPosts_220x270",
+      "category": "Structure",
+      "path": "Exports/SM_EC_PorchPosts_220x270.fbx",
+      "sha256": "c33bca01ea000d6e80cf49085a77b2f17ccace6ef3aa5ce371cae6e916cb2693",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [
+        "UCX_SM_EC_PorchPosts_220x270_00",
+        "UCX_SM_EC_PorchPosts_220x270_01"
+      ],
+      "source_stats": {
+        "vertices": 16,
+        "triangles": 24,
+        "material_slots": [
+          "StoneLight"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -1.1200000047683716,
+            -0.10000000149011612,
+            0.0
+          ],
+          [
+            1.1200000047683716,
+            0.10000000149011612,
+            2.700000047683716
+          ]
+        ]
+      }
+    },
+    {
+      "label": "PorchRoof_240x150",
+      "asset_name": "SM_EC_PorchRoof_240x150",
+      "category": "Structure",
+      "path": "Exports/SM_EC_PorchRoof_240x150.fbx",
+      "sha256": "285ad4307d80bf5828b15bc4b62b07f78fa054304774ca57212e93d22e2c5e09",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [
+        "UCX_SM_EC_PorchRoof_240x150_00"
+      ],
+      "source_stats": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Slate"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -1.2000000476837158,
+            -0.75,
+            0.0
+          ],
+          [
+            1.2000000476837158,
+            0.75,
+            0.3199999928474426
+          ]
+        ]
+      }
+    },
+    {
+      "label": "StoneDressings",
+      "asset_name": "SM_EC_StoneDressings",
+      "category": "Decor",
+      "path": "Exports/SM_EC_StoneDressings.fbx",
+      "sha256": "5f893820df483fa7bcc9c096d658122e658207011a8c4a567520da3617428f22",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [],
+      "source_stats": {
+        "vertices": 192,
+        "triangles": 344,
+        "material_slots": [
+          "StoneLight"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.609999895095825,
+            -4.220000267028809,
+            0.0
+          ],
+          [
+            3.609999895095825,
+            -3.75,
+            3.9600000381469727
+          ]
+        ]
+      }
+    },
+    {
+      "label": "EntryWoodArch",
+      "asset_name": "SM_EC_EntryWoodArch",
+      "category": "Decor",
+      "path": "Exports/SM_EC_EntryWoodArch.fbx",
+      "sha256": "2d1ffb89bc1de1d6d8cb1f4f4c4a7ff1ad336a62e52b22d285850ec148f3a593",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [],
+      "source_stats": {
+        "vertices": 120,
+        "triangles": 236,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.7900000214576721,
+            -0.06499999761581421,
+            0.0
+          ],
+          [
+            0.7900000214576721,
+            0.06499999761581421,
+            2.5250000953674316
+          ]
+        ]
+      }
+    },
+    {
+      "label": "TreeRelief",
+      "asset_name": "SM_EC_TreeRelief",
+      "category": "Decor",
+      "path": "Exports/SM_EC_TreeRelief.fbx",
+      "sha256": "b4c1a90c9ce97acccbee2d95cbe252cc41e6c395fdfaa16cff82afebf3f06913",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [],
+      "source_stats": {
+        "vertices": 144,
+        "triangles": 268,
+        "material_slots": [
+          "StoneLight"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.5187006592750549,
+            -0.07500000298023224,
+            0.0
+          ],
+          [
+            0.5187006592750549,
+            0.07500000298023224,
+            1.2011349201202393
+          ]
+        ]
+      }
+    },
+    {
+      "label": "DoorLeaf_140x235",
+      "asset_name": "SM_EC_DoorLeaf_140x235",
+      "category": "Windows_Doors",
+      "path": "Exports/SM_EC_DoorLeaf_140x235.fbx",
+      "sha256": "1dbd54ddda622cbd69275d3fcef7007ac3a2c19cc023753a29db6510431944ed",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [
+        "UCX_SM_EC_DoorLeaf_140x235_00"
+      ],
+      "source_stats": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            0.0,
+            -0.05999999865889549,
+            0.0
+          ],
+          [
+            1.399999976158142,
+            0.05999999865889549,
+            2.3499999046325684
+          ]
+        ]
+      }
+    },
+    {
+      "label": "CityWindowFrame_65x80",
+      "asset_name": "SM_EC_CityWindowFrame_65x80",
+      "category": "Windows_Doors",
+      "path": "Exports/SM_EC_CityWindowFrame_65x80.fbx",
+      "sha256": "7e4067f03aaba4ad545e4335ce3e2795af3b9839a7c358af0703b8e391d6d7e9",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [],
+      "source_stats": {
+        "vertices": 72,
+        "triangles": 124,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.4000000059604645,
+            -0.13899999856948853,
+            -0.05999999865889549
+          ],
+          [
+            0.4000000059604645,
+            0.14000000059604645,
+            0.8999999761581421
+          ]
+        ]
+      }
+    },
+    {
+      "label": "CityWindowGlass_65x80",
+      "asset_name": "SM_EC_CityWindowGlass_65x80",
+      "category": "Windows_Doors",
+      "path": "Exports/SM_EC_CityWindowGlass_65x80.fbx",
+      "sha256": "ce91d5acde3c7c40918271b7ee49a1a8b3fb5090fcccd47563b97067be11a721",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [],
+      "source_stats": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Glass"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.32499998807907104,
+            0.10000000149011612,
+            0.0
+          ],
+          [
+            0.32499998807907104,
+            0.12999999523162842,
+            0.800000011920929
+          ]
+        ]
+      }
+    },
+    {
+      "label": "CityShutter_32x84",
+      "asset_name": "SM_EC_CityShutter_32x84",
+      "category": "Windows_Doors",
+      "path": "Exports/SM_EC_CityShutter_32x84.fbx",
+      "sha256": "f81f4dfb213b367ea6aa734a46dff29bf196ea6ed0dca1752c9ae697cf6d4e0a",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [],
+      "source_stats": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.3199999928474426,
+            -0.04500000178813934,
+            0.0
+          ],
+          [
+            0.0,
+            0.04500000178813934,
+            0.8399999737739563
+          ]
+        ]
+      }
+    },
+    {
+      "label": "Paving_120x80",
+      "asset_name": "SM_EC_Paving_120x80",
+      "category": "Ground",
+      "path": "Exports/SM_EC_Paving_120x80.fbx",
+      "sha256": "ac378cd46a97bc9c5200b7da2b11c2bd8eed74337856d0af817ae7c86f198226",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [],
+      "source_stats": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "StoneFloor"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.593999981880188,
+            -0.39399999380111694,
+            -0.10000000149011612
+          ],
+          [
+            0.593999981880188,
+            0.39399999380111694,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "label": "GroundBase_3200x3000",
+      "asset_name": "SM_EC_GroundBase_3200x3000",
+      "category": "Ground",
+      "path": "Exports/SM_EC_GroundBase_3200x3000.fbx",
+      "sha256": "ebf75ef6f6a8027c10c2a9285d90effb11162f998fe36ac510ff0325124432bc",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [
+        "UCX_SM_EC_GroundBase_3200x3000_00"
+      ],
+      "source_stats": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Soil"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -16.0,
+            -10.0,
+            -0.3499999940395355
+          ],
+          [
+            16.0,
+            20.0,
+            -0.11999999731779099
+          ]
+        ]
+      }
+    },
+    {
+      "label": "Curb_100x20",
+      "asset_name": "SM_EC_Curb_100x20",
+      "category": "Ground",
+      "path": "Exports/SM_EC_Curb_100x20.fbx",
+      "sha256": "2779daeea0c0ce82244779e03e8306e9c0e716dd4fc27d2a0fcb8a11ae9fc8a0",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [],
+      "source_stats": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "StoneLight"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.49000000953674316,
+            -0.10000000149011612,
+            -0.10000000149011612
+          ],
+          [
+            0.49000000953674316,
+            0.10000000149011612,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "label": "PlanterRim",
+      "asset_name": "SM_EC_PlanterRim",
+      "category": "Ground",
+      "path": "Exports/SM_EC_PlanterRim.fbx",
+      "sha256": "80d0aec27d796822d164679d1fb644736deca5fe222d83e6f65c148fb0cf2ce7",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [],
+      "source_stats": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Stone"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.75,
+            -0.75,
+            0.0
+          ],
+          [
+            0.75,
+            0.75,
+            0.44999998807907104
+          ]
+        ]
+      }
+    },
+    {
+      "label": "StreetTreeTrunk",
+      "asset_name": "SM_EC_StreetTreeTrunk",
+      "category": "Nature",
+      "path": "Exports/SM_EC_StreetTreeTrunk.fbx",
+      "sha256": "3629aa14dd52ab9e77d766d20b906581dbb73c1fc7dce31c2b19de2e488413d1",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [],
+      "source_stats": {
+        "vertices": 187,
+        "triangles": 342,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -1.8836731910705566,
+            -1.8081002235412598,
+            -0.011395737528800964
+          ],
+          [
+            1.9100804328918457,
+            1.7492880821228027,
+            6.508592128753662
+          ]
+        ]
+      }
+    },
+    {
+      "label": "StreetTreeCrown",
+      "asset_name": "SM_EC_StreetTreeCrown",
+      "category": "Nature",
+      "path": "Exports/SM_EC_StreetTreeCrown.fbx",
+      "sha256": "18068e30220ed5683750001707ea8e8d314ca39de773f6f57571d14d50e722f4",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [],
+      "source_stats": {
+        "vertices": 630,
+        "triangles": 1200,
+        "material_slots": [
+          "Leaves"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -2.326256275177002,
+            -2.0365350246429443,
+            4.920000076293945
+          ],
+          [
+            2.315973997116089,
+            2.114638090133667,
+            7.539999961853027
+          ]
+        ]
+      }
+    }
+  ],
+  "interior_test_contracts": [
+    {
+      "name": "House_A",
+      "center": [
+        -8.5,
+        0,
+        0
+      ],
+      "yaw": 90,
+      "floor_samples": [
+        [
+          -2,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "door_local_front": [
+        0,
+        -4,
+        0
+      ],
+      "clear_width_m": 1.3,
+      "clear_height_m": 2.3,
+      "inside_top_m": 3.9
+    },
+    {
+      "name": "House_B",
+      "center": [
+        -8.5,
+        10,
+        0
+      ],
+      "yaw": 90,
+      "floor_samples": [
+        [
+          -2,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "door_local_front": [
+        0,
+        -4,
+        0
+      ],
+      "clear_width_m": 1.3,
+      "clear_height_m": 2.3,
+      "inside_top_m": 3.9
+    },
+    {
+      "name": "House_C",
+      "center": [
+        8.5,
+        5,
+        0
+      ],
+      "yaw": -90,
+      "floor_samples": [
+        [
+          -2,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "door_local_front": [
+        0,
+        -4,
+        0
+      ],
+      "clear_width_m": 1.3,
+      "clear_height_m": 2.3,
+      "inside_top_m": 3.9
+    }
+  ],
+  "review_views": {
+    "01_eye_overview": [
+      [
+        0,
+        -10,
+        1.8
+      ],
+      [
+        0,
+        5,
+        2.6
+      ],
+      24
+    ],
+    "02_house": [
+      [
+        1,
+        -8,
+        2.1
+      ],
+      [
+        -7,
+        0,
+        2.3
+      ],
+      30
+    ],
+    "03_plan": [
+      [
+        22,
+        -20,
+        26
+      ],
+      [
+        -1,
+        5,
+        0
+      ],
+      40
+    ],
+    "04_interior": [
+      [
+        -10.8,
+        0,
+        1.65
+      ],
+      [
+        -3.8,
+        0,
+        1.65
+      ],
+      22
+    ]
+  },
+  "placement_instances": [
+    {
+      "object": "EC_House_A_Floor_700x800",
+      "asset": "SM_EC_Floor_700x800",
+      "location_blender_m": [
+        -8.5,
+        0.0,
+        0.0
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_Facade_700x390",
+      "asset": "SM_EC_Facade_700x390",
+      "location_blender_m": [
+        -4.5,
+        -2.4492937051703357e-16,
+        0.0
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_SideWall_800x390",
+      "asset": "SM_EC_SideWall_800x390",
+      "location_blender_m": [
+        -8.5,
+        -3.5,
+        0.0
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_SideWall_800x390.001",
+      "asset": "SM_EC_SideWall_800x390",
+      "location_blender_m": [
+        -8.5,
+        3.5,
+        0.0
+      ],
+      "yaw_blender_degrees": 180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_RearWall_700x390",
+      "asset": "SM_EC_RearWall_700x390",
+      "location_blender_m": [
+        -12.5,
+        2.4492937051703357e-16,
+        0.0
+      ],
+      "yaw_blender_degrees": 270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_HipRoof_790x890",
+      "asset": "SM_EC_HipRoof_790x890",
+      "location_blender_m": [
+        -8.5,
+        0.0,
+        0.0
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_StoneDressings",
+      "asset": "SM_EC_StoneDressings",
+      "location_blender_m": [
+        -8.5,
+        0.0,
+        0.0
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_EntryWoodArch",
+      "asset": "SM_EC_EntryWoodArch",
+      "location_blender_m": [
+        -4.480000019073486,
+        -2.461539948703061e-16,
+        0.0
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_TreeRelief",
+      "asset": "SM_EC_TreeRelief",
+      "location_blender_m": [
+        -4.474999904632568,
+        -2.464601708109589e-16,
+        2.6500000953674316
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_CityWindowFrame_65x80",
+      "asset": "SM_EC_CityWindowFrame_65x80",
+      "location_blender_m": [
+        -4.480000019073486,
+        -2.200000047683716,
+        1.25
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_CityWindowGlass_65x80",
+      "asset": "SM_EC_CityWindowGlass_65x80",
+      "location_blender_m": [
+        -4.5,
+        -2.200000047683716,
+        1.25
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_CityShutter_32x84",
+      "asset": "SM_EC_CityShutter_32x84",
+      "location_blender_m": [
+        -4.320000171661377,
+        -2.630000114440918,
+        1.2300000190734863
+      ],
+      "yaw_blender_degrees": 65.00000067042492,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_CityShutter_32x84.001",
+      "asset": "SM_EC_CityShutter_32x84",
+      "location_blender_m": [
+        -4.320000171661377,
+        -1.7699999809265137,
+        1.2300000190734863
+      ],
+      "yaw_blender_degrees": 294.9999956871094,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_CityWindowFrame_65x80.001",
+      "asset": "SM_EC_CityWindowFrame_65x80",
+      "location_blender_m": [
+        -12.520000457763672,
+        2.200000047683716,
+        1.25
+      ],
+      "yaw_blender_degrees": 270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_CityWindowGlass_65x80.001",
+      "asset": "SM_EC_CityWindowGlass_65x80",
+      "location_blender_m": [
+        -12.5,
+        2.200000047683716,
+        1.25
+      ],
+      "yaw_blender_degrees": 270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_CityWindowFrame_65x80.002",
+      "asset": "SM_EC_CityWindowFrame_65x80",
+      "location_blender_m": [
+        -4.480000019073486,
+        2.200000047683716,
+        1.25
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_CityWindowGlass_65x80.002",
+      "asset": "SM_EC_CityWindowGlass_65x80",
+      "location_blender_m": [
+        -4.5,
+        2.200000047683716,
+        1.25
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_CityShutter_32x84.002",
+      "asset": "SM_EC_CityShutter_32x84",
+      "location_blender_m": [
+        -4.320000171661377,
+        1.7699999809265137,
+        1.2300000190734863
+      ],
+      "yaw_blender_degrees": 65.00000067042492,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_CityShutter_32x84.003",
+      "asset": "SM_EC_CityShutter_32x84",
+      "location_blender_m": [
+        -4.320000171661377,
+        2.630000114440918,
+        1.2300000190734863
+      ],
+      "yaw_blender_degrees": 294.9999956871094,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_CityWindowFrame_65x80.003",
+      "asset": "SM_EC_CityWindowFrame_65x80",
+      "location_blender_m": [
+        -12.520000457763672,
+        -2.200000047683716,
+        1.25
+      ],
+      "yaw_blender_degrees": 270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_CityWindowGlass_65x80.003",
+      "asset": "SM_EC_CityWindowGlass_65x80",
+      "location_blender_m": [
+        -12.5,
+        -2.200000047683716,
+        1.25
+      ],
+      "yaw_blender_degrees": 270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_CityWindowFrame_65x80.004",
+      "asset": "SM_EC_CityWindowFrame_65x80",
+      "location_blender_m": [
+        -6.5,
+        -3.5,
+        1.25
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_CityWindowGlass_65x80.004",
+      "asset": "SM_EC_CityWindowGlass_65x80",
+      "location_blender_m": [
+        -6.5,
+        -3.5,
+        1.25
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_CityWindowFrame_65x80.005",
+      "asset": "SM_EC_CityWindowFrame_65x80",
+      "location_blender_m": [
+        -6.5,
+        3.5,
+        1.25
+      ],
+      "yaw_blender_degrees": 180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_CityWindowGlass_65x80.005",
+      "asset": "SM_EC_CityWindowGlass_65x80",
+      "location_blender_m": [
+        -6.5,
+        3.5,
+        1.25
+      ],
+      "yaw_blender_degrees": 180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_CityWindowFrame_65x80.006",
+      "asset": "SM_EC_CityWindowFrame_65x80",
+      "location_blender_m": [
+        -10.5,
+        -3.5,
+        1.25
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_CityWindowGlass_65x80.006",
+      "asset": "SM_EC_CityWindowGlass_65x80",
+      "location_blender_m": [
+        -10.5,
+        -3.5,
+        1.25
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_CityWindowFrame_65x80.007",
+      "asset": "SM_EC_CityWindowFrame_65x80",
+      "location_blender_m": [
+        -10.5,
+        3.5,
+        1.25
+      ],
+      "yaw_blender_degrees": 180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_CityWindowGlass_65x80.007",
+      "asset": "SM_EC_CityWindowGlass_65x80",
+      "location_blender_m": [
+        -10.5,
+        3.5,
+        1.25
+      ],
+      "yaw_blender_degrees": 180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_A_DoorLeaf_140x235",
+      "asset": "SM_EC_DoorLeaf_140x235",
+      "location_blender_m": [
+        -4.809999942779541,
+        -0.699999988079071,
+        0.0
+      ],
+      "yaw_blender_degrees": 190.00000301050196,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_Floor_700x800",
+      "asset": "SM_EC_Floor_700x800",
+      "location_blender_m": [
+        -8.5,
+        10.0,
+        0.0
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_Facade_700x390",
+      "asset": "SM_EC_Facade_700x390",
+      "location_blender_m": [
+        -4.5,
+        10.0,
+        0.0
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_SideWall_800x390",
+      "asset": "SM_EC_SideWall_800x390",
+      "location_blender_m": [
+        -8.5,
+        6.5,
+        0.0
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_SideWall_800x390.001",
+      "asset": "SM_EC_SideWall_800x390",
+      "location_blender_m": [
+        -8.5,
+        13.5,
+        0.0
+      ],
+      "yaw_blender_degrees": 180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_RearWall_700x390",
+      "asset": "SM_EC_RearWall_700x390",
+      "location_blender_m": [
+        -12.5,
+        10.0,
+        0.0
+      ],
+      "yaw_blender_degrees": 270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_HipRoof_LowVariant_790x890",
+      "asset": "SM_EC_HipRoof_LowVariant_790x890",
+      "location_blender_m": [
+        -8.5,
+        10.0,
+        0.0
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_StoneDressings",
+      "asset": "SM_EC_StoneDressings",
+      "location_blender_m": [
+        -8.5,
+        10.0,
+        0.0
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_EntryWoodArch",
+      "asset": "SM_EC_EntryWoodArch",
+      "location_blender_m": [
+        -4.480000019073486,
+        10.0,
+        0.0
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_TreeRelief",
+      "asset": "SM_EC_TreeRelief",
+      "location_blender_m": [
+        -4.474999904632568,
+        10.0,
+        2.6500000953674316
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_CityWindowFrame_65x80",
+      "asset": "SM_EC_CityWindowFrame_65x80",
+      "location_blender_m": [
+        -4.480000019073486,
+        7.800000190734863,
+        1.25
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_CityWindowGlass_65x80",
+      "asset": "SM_EC_CityWindowGlass_65x80",
+      "location_blender_m": [
+        -4.5,
+        7.800000190734863,
+        1.25
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_CityShutter_32x84",
+      "asset": "SM_EC_CityShutter_32x84",
+      "location_blender_m": [
+        -4.320000171661377,
+        7.369999885559082,
+        1.2300000190734863
+      ],
+      "yaw_blender_degrees": 65.00000067042492,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_CityShutter_32x84.001",
+      "asset": "SM_EC_CityShutter_32x84",
+      "location_blender_m": [
+        -4.320000171661377,
+        8.229999542236328,
+        1.2300000190734863
+      ],
+      "yaw_blender_degrees": 294.9999956871094,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_CityWindowFrame_65x80.001",
+      "asset": "SM_EC_CityWindowFrame_65x80",
+      "location_blender_m": [
+        -12.520000457763672,
+        12.199999809265137,
+        1.25
+      ],
+      "yaw_blender_degrees": 270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_CityWindowGlass_65x80.001",
+      "asset": "SM_EC_CityWindowGlass_65x80",
+      "location_blender_m": [
+        -12.5,
+        12.199999809265137,
+        1.25
+      ],
+      "yaw_blender_degrees": 270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_CityWindowFrame_65x80.002",
+      "asset": "SM_EC_CityWindowFrame_65x80",
+      "location_blender_m": [
+        -4.480000019073486,
+        12.199999809265137,
+        1.25
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_CityWindowGlass_65x80.002",
+      "asset": "SM_EC_CityWindowGlass_65x80",
+      "location_blender_m": [
+        -4.5,
+        12.199999809265137,
+        1.25
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_CityShutter_32x84.002",
+      "asset": "SM_EC_CityShutter_32x84",
+      "location_blender_m": [
+        -4.320000171661377,
+        11.770000457763672,
+        1.2300000190734863
+      ],
+      "yaw_blender_degrees": 65.00000067042492,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_CityShutter_32x84.003",
+      "asset": "SM_EC_CityShutter_32x84",
+      "location_blender_m": [
+        -4.320000171661377,
+        12.630000114440918,
+        1.2300000190734863
+      ],
+      "yaw_blender_degrees": 294.9999956871094,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_CityWindowFrame_65x80.003",
+      "asset": "SM_EC_CityWindowFrame_65x80",
+      "location_blender_m": [
+        -12.520000457763672,
+        7.800000190734863,
+        1.25
+      ],
+      "yaw_blender_degrees": 270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_CityWindowGlass_65x80.003",
+      "asset": "SM_EC_CityWindowGlass_65x80",
+      "location_blender_m": [
+        -12.5,
+        7.800000190734863,
+        1.25
+      ],
+      "yaw_blender_degrees": 270.00000068324533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_CityWindowFrame_65x80.004",
+      "asset": "SM_EC_CityWindowFrame_65x80",
+      "location_blender_m": [
+        -6.5,
+        6.5,
+        1.25
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_CityWindowGlass_65x80.004",
+      "asset": "SM_EC_CityWindowGlass_65x80",
+      "location_blender_m": [
+        -6.5,
+        6.5,
+        1.25
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_CityWindowFrame_65x80.005",
+      "asset": "SM_EC_CityWindowFrame_65x80",
+      "location_blender_m": [
+        -6.5,
+        13.5,
+        1.25
+      ],
+      "yaw_blender_degrees": 180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_CityWindowGlass_65x80.005",
+      "asset": "SM_EC_CityWindowGlass_65x80",
+      "location_blender_m": [
+        -6.5,
+        13.5,
+        1.25
+      ],
+      "yaw_blender_degrees": 180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_CityWindowFrame_65x80.006",
+      "asset": "SM_EC_CityWindowFrame_65x80",
+      "location_blender_m": [
+        -10.5,
+        6.5,
+        1.25
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_CityWindowGlass_65x80.006",
+      "asset": "SM_EC_CityWindowGlass_65x80",
+      "location_blender_m": [
+        -10.5,
+        6.5,
+        1.25
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_CityWindowFrame_65x80.007",
+      "asset": "SM_EC_CityWindowFrame_65x80",
+      "location_blender_m": [
+        -10.5,
+        13.5,
+        1.25
+      ],
+      "yaw_blender_degrees": 180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_CityWindowGlass_65x80.007",
+      "asset": "SM_EC_CityWindowGlass_65x80",
+      "location_blender_m": [
+        -10.5,
+        13.5,
+        1.25
+      ],
+      "yaw_blender_degrees": 180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_B_DoorLeaf_140x235",
+      "asset": "SM_EC_DoorLeaf_140x235",
+      "location_blender_m": [
+        -4.809999942779541,
+        9.300000190734863,
+        0.0
+      ],
+      "yaw_blender_degrees": 190.00000301050196,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_Floor_700x800",
+      "asset": "SM_EC_Floor_700x800",
+      "location_blender_m": [
+        8.5,
+        5.0,
+        0.0
+      ],
+      "yaw_blender_degrees": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_Facade_700x390",
+      "asset": "SM_EC_Facade_700x390",
+      "location_blender_m": [
+        4.5,
+        5.0,
+        0.0
+      ],
+      "yaw_blender_degrees": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_SideWall_800x390",
+      "asset": "SM_EC_SideWall_800x390",
+      "location_blender_m": [
+        8.5,
+        8.5,
+        0.0
+      ],
+      "yaw_blender_degrees": -180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_SideWall_800x390.001",
+      "asset": "SM_EC_SideWall_800x390",
+      "location_blender_m": [
+        8.5,
+        1.5,
+        0.0
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_RearWall_700x390",
+      "asset": "SM_EC_RearWall_700x390",
+      "location_blender_m": [
+        12.5,
+        5.0,
+        0.0
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_HipRoof_790x890",
+      "asset": "SM_EC_HipRoof_790x890",
+      "location_blender_m": [
+        8.5,
+        5.0,
+        0.0
+      ],
+      "yaw_blender_degrees": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_StoneDressings",
+      "asset": "SM_EC_StoneDressings",
+      "location_blender_m": [
+        8.5,
+        5.0,
+        0.0
+      ],
+      "yaw_blender_degrees": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_EntryWoodArch",
+      "asset": "SM_EC_EntryWoodArch",
+      "location_blender_m": [
+        4.480000019073486,
+        5.0,
+        0.0
+      ],
+      "yaw_blender_degrees": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_TreeRelief",
+      "asset": "SM_EC_TreeRelief",
+      "location_blender_m": [
+        4.474999904632568,
+        5.0,
+        2.6500000953674316
+      ],
+      "yaw_blender_degrees": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_CityWindowFrame_65x80",
+      "asset": "SM_EC_CityWindowFrame_65x80",
+      "location_blender_m": [
+        4.480000019073486,
+        7.199999809265137,
+        1.25
+      ],
+      "yaw_blender_degrees": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_CityWindowGlass_65x80",
+      "asset": "SM_EC_CityWindowGlass_65x80",
+      "location_blender_m": [
+        4.5,
+        7.199999809265137,
+        1.25
+      ],
+      "yaw_blender_degrees": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_CityShutter_32x84",
+      "asset": "SM_EC_CityShutter_32x84",
+      "location_blender_m": [
+        4.320000171661377,
+        7.630000114440918,
+        1.2300000190734863
+      ],
+      "yaw_blender_degrees": -115.00000433853141,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_CityShutter_32x84.001",
+      "asset": "SM_EC_CityShutter_32x84",
+      "location_blender_m": [
+        4.320000171661377,
+        6.769999980926514,
+        1.2300000190734863
+      ],
+      "yaw_blender_degrees": 115.00000433853141,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_CityWindowFrame_65x80.001",
+      "asset": "SM_EC_CityWindowFrame_65x80",
+      "location_blender_m": [
+        12.520000457763672,
+        2.799999952316284,
+        1.25
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_CityWindowGlass_65x80.001",
+      "asset": "SM_EC_CityWindowGlass_65x80",
+      "location_blender_m": [
+        12.5,
+        2.799999952316284,
+        1.25
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_CityWindowFrame_65x80.002",
+      "asset": "SM_EC_CityWindowFrame_65x80",
+      "location_blender_m": [
+        4.480000019073486,
+        2.799999952316284,
+        1.25
+      ],
+      "yaw_blender_degrees": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_CityWindowGlass_65x80.002",
+      "asset": "SM_EC_CityWindowGlass_65x80",
+      "location_blender_m": [
+        4.5,
+        2.799999952316284,
+        1.25
+      ],
+      "yaw_blender_degrees": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_CityShutter_32x84.002",
+      "asset": "SM_EC_CityShutter_32x84",
+      "location_blender_m": [
+        4.320000171661377,
+        3.2300000190734863,
+        1.2300000190734863
+      ],
+      "yaw_blender_degrees": -115.00000433853141,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_CityShutter_32x84.003",
+      "asset": "SM_EC_CityShutter_32x84",
+      "location_blender_m": [
+        4.320000171661377,
+        2.369999885559082,
+        1.2300000190734863
+      ],
+      "yaw_blender_degrees": 115.00000433853141,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_CityWindowFrame_65x80.003",
+      "asset": "SM_EC_CityWindowFrame_65x80",
+      "location_blender_m": [
+        12.520000457763672,
+        7.199999809265137,
+        1.25
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_CityWindowGlass_65x80.003",
+      "asset": "SM_EC_CityWindowGlass_65x80",
+      "location_blender_m": [
+        12.5,
+        7.199999809265137,
+        1.25
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_CityWindowFrame_65x80.004",
+      "asset": "SM_EC_CityWindowFrame_65x80",
+      "location_blender_m": [
+        6.5,
+        8.5,
+        1.25
+      ],
+      "yaw_blender_degrees": -180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_CityWindowGlass_65x80.004",
+      "asset": "SM_EC_CityWindowGlass_65x80",
+      "location_blender_m": [
+        6.5,
+        8.5,
+        1.25
+      ],
+      "yaw_blender_degrees": -180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_CityWindowFrame_65x80.005",
+      "asset": "SM_EC_CityWindowFrame_65x80",
+      "location_blender_m": [
+        6.5,
+        1.5,
+        1.25
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_CityWindowGlass_65x80.005",
+      "asset": "SM_EC_CityWindowGlass_65x80",
+      "location_blender_m": [
+        6.5,
+        1.5,
+        1.25
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_CityWindowFrame_65x80.006",
+      "asset": "SM_EC_CityWindowFrame_65x80",
+      "location_blender_m": [
+        10.5,
+        8.5,
+        1.25
+      ],
+      "yaw_blender_degrees": -180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_CityWindowGlass_65x80.006",
+      "asset": "SM_EC_CityWindowGlass_65x80",
+      "location_blender_m": [
+        10.5,
+        8.5,
+        1.25
+      ],
+      "yaw_blender_degrees": -180.00000500895632,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_CityWindowFrame_65x80.007",
+      "asset": "SM_EC_CityWindowFrame_65x80",
+      "location_blender_m": [
+        10.5,
+        1.5,
+        1.25
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_CityWindowGlass_65x80.007",
+      "asset": "SM_EC_CityWindowGlass_65x80",
+      "location_blender_m": [
+        10.5,
+        1.5,
+        1.25
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_DoorLeaf_140x235",
+      "asset": "SM_EC_DoorLeaf_140x235",
+      "location_blender_m": [
+        4.809999942779541,
+        5.699999809265137,
+        0.0
+      ],
+      "yaw_blender_degrees": 9.99999970909292,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_PorchPosts_220x270",
+      "asset": "SM_EC_PorchPosts_220x270",
+      "location_blender_m": [
+        3.5999999046325684,
+        5.0,
+        0.0
+      ],
+      "yaw_blender_degrees": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_House_C_PorchRoof_240x150",
+      "asset": "SM_EC_PorchRoof_240x150",
+      "location_blender_m": [
+        3.8499999046325684,
+        5.0,
+        2.700000047683716
+      ],
+      "yaw_blender_degrees": -90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_GroundBase_3200x3000",
+      "asset": "SM_EC_GroundBase_3200x3000",
+      "location_blender_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.679999828338623,
+        -8.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.001",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.800000190734863,
+        -8.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.002",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.679999828338623,
+        -7.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.003",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.800000190734863,
+        -6.400000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.004",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.679999828338623,
+        -5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.005",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.800000190734863,
+        -4.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.006",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.679999828338623,
+        -4.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.007",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.800000190734863,
+        -3.200000047683716,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.008",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.679999828338623,
+        -2.4000000953674316,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.009",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.800000190734863,
+        -1.600000023841858,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.010",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.679999828338623,
+        -0.800000011920929,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.011",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.800000190734863,
+        0.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.012",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.679999828338623,
+        0.800000011920929,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.013",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.800000190734863,
+        1.600000023841858,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.014",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.679999828338623,
+        2.4000000953674316,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.015",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.800000190734863,
+        3.200000047683716,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.016",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.679999828338623,
+        4.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.017",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.800000190734863,
+        4.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.018",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.679999828338623,
+        5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.019",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.800000190734863,
+        6.400000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.020",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.679999828338623,
+        7.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.021",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.800000190734863,
+        8.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.022",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.679999828338623,
+        8.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.023",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.800000190734863,
+        9.600000381469727,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.024",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.679999828338623,
+        10.399999618530273,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.025",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.800000190734863,
+        11.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.026",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.679999828338623,
+        12.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.027",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.800000190734863,
+        12.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.028",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.679999828338623,
+        13.600000381469727,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.029",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.800000190734863,
+        14.399999618530273,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.030",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.679999828338623,
+        15.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.031",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.800000190734863,
+        16.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.032",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.679999828338623,
+        16.799999237060547,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.033",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.800000190734863,
+        17.600000381469727,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.034",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -4.679999828338623,
+        18.399999618530273,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.035",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.4800000190734863,
+        -8.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.036",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.5999999046325684,
+        -8.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.037",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.4800000190734863,
+        -7.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.038",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.5999999046325684,
+        -6.400000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.039",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.4800000190734863,
+        -5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.040",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.5999999046325684,
+        -4.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.041",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.4800000190734863,
+        -4.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.042",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.5999999046325684,
+        -3.200000047683716,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.043",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.4800000190734863,
+        -2.4000000953674316,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.044",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.5999999046325684,
+        -1.600000023841858,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.045",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.4800000190734863,
+        -0.800000011920929,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.046",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.5999999046325684,
+        0.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.047",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.4800000190734863,
+        0.800000011920929,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.048",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.5999999046325684,
+        1.600000023841858,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.049",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.4800000190734863,
+        2.4000000953674316,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.050",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.5999999046325684,
+        3.200000047683716,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.051",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.4800000190734863,
+        4.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.052",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.5999999046325684,
+        4.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.053",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.4800000190734863,
+        5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.054",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.5999999046325684,
+        6.400000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.055",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.4800000190734863,
+        7.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.056",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.5999999046325684,
+        8.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.057",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.4800000190734863,
+        8.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.058",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.5999999046325684,
+        9.600000381469727,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.059",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.4800000190734863,
+        10.399999618530273,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.060",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.5999999046325684,
+        11.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.061",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.4800000190734863,
+        12.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.062",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.5999999046325684,
+        12.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.063",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.4800000190734863,
+        13.600000381469727,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.064",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.5999999046325684,
+        14.399999618530273,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.065",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.4800000190734863,
+        15.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.066",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.5999999046325684,
+        16.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.067",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.4800000190734863,
+        16.799999237060547,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.068",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.5999999046325684,
+        17.600000381469727,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.069",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -3.4800000190734863,
+        18.399999618530273,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.070",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.2799999713897705,
+        -8.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.071",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.4000000953674316,
+        -8.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.072",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.2799999713897705,
+        -7.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.073",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.4000000953674316,
+        -6.400000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.074",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.2799999713897705,
+        -5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.075",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.4000000953674316,
+        -4.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.076",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.2799999713897705,
+        -4.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.077",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.4000000953674316,
+        -3.200000047683716,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.078",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.2799999713897705,
+        -2.4000000953674316,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.079",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.4000000953674316,
+        -1.600000023841858,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.080",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.2799999713897705,
+        -0.800000011920929,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.081",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.4000000953674316,
+        0.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.082",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.2799999713897705,
+        0.800000011920929,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.083",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.4000000953674316,
+        1.600000023841858,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.084",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.2799999713897705,
+        2.4000000953674316,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.085",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.4000000953674316,
+        3.200000047683716,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.086",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.2799999713897705,
+        4.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.087",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.4000000953674316,
+        4.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.088",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.2799999713897705,
+        5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.089",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.4000000953674316,
+        6.400000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.090",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.2799999713897705,
+        7.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.091",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.4000000953674316,
+        8.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.092",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.2799999713897705,
+        8.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.093",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.4000000953674316,
+        9.600000381469727,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.094",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.2799999713897705,
+        10.399999618530273,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.095",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.4000000953674316,
+        11.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.096",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.2799999713897705,
+        12.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.097",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.4000000953674316,
+        12.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.098",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.2799999713897705,
+        13.600000381469727,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.099",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.4000000953674316,
+        14.399999618530273,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.100",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.2799999713897705,
+        15.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.101",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.4000000953674316,
+        16.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.102",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.2799999713897705,
+        16.799999237060547,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.103",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.4000000953674316,
+        17.600000381469727,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.104",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -2.2799999713897705,
+        18.399999618530273,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.105",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.0800000429153442,
+        -8.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.106",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.2000000476837158,
+        -8.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.107",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.0800000429153442,
+        -7.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.108",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.2000000476837158,
+        -6.400000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.109",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.0800000429153442,
+        -5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.110",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.2000000476837158,
+        -4.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.111",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.0800000429153442,
+        -4.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.112",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.2000000476837158,
+        -3.200000047683716,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.113",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.0800000429153442,
+        -2.4000000953674316,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.114",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.2000000476837158,
+        -1.600000023841858,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.115",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.0800000429153442,
+        -0.800000011920929,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.116",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.2000000476837158,
+        0.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.117",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.0800000429153442,
+        0.800000011920929,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.118",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.2000000476837158,
+        1.600000023841858,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.119",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.0800000429153442,
+        2.4000000953674316,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.120",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.2000000476837158,
+        3.200000047683716,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.121",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.0800000429153442,
+        4.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.122",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.2000000476837158,
+        4.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.123",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.0800000429153442,
+        5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.124",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.2000000476837158,
+        6.400000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.125",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.0800000429153442,
+        7.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.126",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.2000000476837158,
+        8.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.127",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.0800000429153442,
+        8.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.128",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.2000000476837158,
+        9.600000381469727,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.129",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.0800000429153442,
+        10.399999618530273,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.130",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.2000000476837158,
+        11.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.131",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.0800000429153442,
+        12.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.132",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.2000000476837158,
+        12.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.133",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.0800000429153442,
+        13.600000381469727,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.134",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.2000000476837158,
+        14.399999618530273,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.135",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.0800000429153442,
+        15.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.136",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.2000000476837158,
+        16.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.137",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.0800000429153442,
+        16.799999237060547,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.138",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.2000000476837158,
+        17.600000381469727,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.139",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        -1.0800000429153442,
+        18.399999618530273,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.140",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.11999999731779099,
+        -8.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.141",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.0,
+        -8.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.142",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.11999999731779099,
+        -7.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.143",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.0,
+        -6.400000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.144",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.11999999731779099,
+        -5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.145",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.0,
+        -4.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.146",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.11999999731779099,
+        -4.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.147",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.0,
+        -3.200000047683716,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.148",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.11999999731779099,
+        -2.4000000953674316,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.149",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.0,
+        -1.600000023841858,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.150",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.11999999731779099,
+        -0.800000011920929,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.151",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.0,
+        0.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.152",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.11999999731779099,
+        0.800000011920929,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.153",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.0,
+        1.600000023841858,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.154",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.11999999731779099,
+        2.4000000953674316,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.155",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.0,
+        3.200000047683716,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.156",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.11999999731779099,
+        4.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.157",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.0,
+        4.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.158",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.11999999731779099,
+        5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.159",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.0,
+        6.400000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.160",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.11999999731779099,
+        7.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.161",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.0,
+        8.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.162",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.11999999731779099,
+        8.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.163",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.0,
+        9.600000381469727,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.164",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.11999999731779099,
+        10.399999618530273,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.165",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.0,
+        11.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.166",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.11999999731779099,
+        12.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.167",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.0,
+        12.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.168",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.11999999731779099,
+        13.600000381469727,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.169",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.0,
+        14.399999618530273,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.170",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.11999999731779099,
+        15.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.171",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.0,
+        16.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.172",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.11999999731779099,
+        16.799999237060547,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.173",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.0,
+        17.600000381469727,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.174",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        0.11999999731779099,
+        18.399999618530273,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.175",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.3200000524520874,
+        -8.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.176",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.2000000476837158,
+        -8.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.177",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.3200000524520874,
+        -7.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.178",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.2000000476837158,
+        -6.400000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.179",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.3200000524520874,
+        -5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.180",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.2000000476837158,
+        -4.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.181",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.3200000524520874,
+        -4.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.182",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.2000000476837158,
+        -3.200000047683716,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.183",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.3200000524520874,
+        -2.4000000953674316,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.184",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.2000000476837158,
+        -1.600000023841858,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.185",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.3200000524520874,
+        -0.800000011920929,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.186",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.2000000476837158,
+        0.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.187",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.3200000524520874,
+        0.800000011920929,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.188",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.2000000476837158,
+        1.600000023841858,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.189",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.3200000524520874,
+        2.4000000953674316,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.190",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.2000000476837158,
+        3.200000047683716,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.191",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.3200000524520874,
+        4.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.192",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.2000000476837158,
+        4.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.193",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.3200000524520874,
+        5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.194",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.2000000476837158,
+        6.400000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.195",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.3200000524520874,
+        7.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.196",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.2000000476837158,
+        8.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.197",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.3200000524520874,
+        8.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.198",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.2000000476837158,
+        9.600000381469727,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.199",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.3200000524520874,
+        10.399999618530273,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.200",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.2000000476837158,
+        11.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.201",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.3200000524520874,
+        12.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.202",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.2000000476837158,
+        12.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.203",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.3200000524520874,
+        13.600000381469727,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.204",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.2000000476837158,
+        14.399999618530273,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.205",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.3200000524520874,
+        15.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.206",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.2000000476837158,
+        16.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.207",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.3200000524520874,
+        16.799999237060547,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.208",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.2000000476837158,
+        17.600000381469727,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.209",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        1.3200000524520874,
+        18.399999618530273,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.210",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.5199999809265137,
+        -8.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.211",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.4000000953674316,
+        -8.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.212",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.5199999809265137,
+        -7.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.213",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.4000000953674316,
+        -6.400000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.214",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.5199999809265137,
+        -5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.215",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.4000000953674316,
+        -4.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.216",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.5199999809265137,
+        -4.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.217",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.4000000953674316,
+        -3.200000047683716,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.218",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.5199999809265137,
+        -2.4000000953674316,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.219",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.4000000953674316,
+        -1.600000023841858,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.220",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.5199999809265137,
+        -0.800000011920929,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.221",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.4000000953674316,
+        0.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.222",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.5199999809265137,
+        0.800000011920929,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.223",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.4000000953674316,
+        1.600000023841858,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.224",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.5199999809265137,
+        2.4000000953674316,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.225",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.4000000953674316,
+        3.200000047683716,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.226",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.5199999809265137,
+        4.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.227",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.4000000953674316,
+        4.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.228",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.5199999809265137,
+        5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.229",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.4000000953674316,
+        6.400000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.230",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.5199999809265137,
+        7.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.231",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.4000000953674316,
+        8.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.232",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.5199999809265137,
+        8.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.233",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.4000000953674316,
+        9.600000381469727,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.234",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.5199999809265137,
+        10.399999618530273,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.235",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.4000000953674316,
+        11.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.236",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.5199999809265137,
+        12.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.237",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.4000000953674316,
+        12.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.238",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.5199999809265137,
+        13.600000381469727,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.239",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.4000000953674316,
+        14.399999618530273,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.240",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.5199999809265137,
+        15.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.241",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.4000000953674316,
+        16.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.242",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.5199999809265137,
+        16.799999237060547,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.243",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.4000000953674316,
+        17.600000381469727,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.244",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        2.5199999809265137,
+        18.399999618530273,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.245",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.7200000286102295,
+        -8.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.246",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.5999999046325684,
+        -8.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.247",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.7200000286102295,
+        -7.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.248",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.5999999046325684,
+        -6.400000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.249",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.7200000286102295,
+        -5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.250",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.5999999046325684,
+        -4.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.251",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.7200000286102295,
+        -4.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.252",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.5999999046325684,
+        -3.200000047683716,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.253",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.7200000286102295,
+        -2.4000000953674316,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.254",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.5999999046325684,
+        -1.600000023841858,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.255",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.7200000286102295,
+        -0.800000011920929,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.256",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.5999999046325684,
+        0.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.257",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.7200000286102295,
+        0.800000011920929,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.258",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.5999999046325684,
+        1.600000023841858,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.259",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.7200000286102295,
+        2.4000000953674316,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.260",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.5999999046325684,
+        3.200000047683716,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.261",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.7200000286102295,
+        4.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.262",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.5999999046325684,
+        4.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.263",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.7200000286102295,
+        5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.264",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.5999999046325684,
+        6.400000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.265",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.7200000286102295,
+        7.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.266",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.5999999046325684,
+        8.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.267",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.7200000286102295,
+        8.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.268",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.5999999046325684,
+        9.600000381469727,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.269",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.7200000286102295,
+        10.399999618530273,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.270",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.5999999046325684,
+        11.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.271",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.7200000286102295,
+        12.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.272",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.5999999046325684,
+        12.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.273",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.7200000286102295,
+        13.600000381469727,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.274",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.5999999046325684,
+        14.399999618530273,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.275",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.7200000286102295,
+        15.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.276",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.5999999046325684,
+        16.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.277",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.7200000286102295,
+        16.799999237060547,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.278",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.5999999046325684,
+        17.600000381469727,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.279",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        3.7200000286102295,
+        18.399999618530273,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.280",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.920000076293945,
+        -8.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.281",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.800000190734863,
+        -8.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.282",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.920000076293945,
+        -7.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.283",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.800000190734863,
+        -6.400000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.284",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.920000076293945,
+        -5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.285",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.800000190734863,
+        -4.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.286",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.920000076293945,
+        -4.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.287",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.800000190734863,
+        -3.200000047683716,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.288",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.920000076293945,
+        -2.4000000953674316,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.289",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.800000190734863,
+        -1.600000023841858,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.290",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.920000076293945,
+        -0.800000011920929,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.291",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.800000190734863,
+        0.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.292",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.920000076293945,
+        0.800000011920929,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.293",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.800000190734863,
+        1.600000023841858,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.294",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.920000076293945,
+        2.4000000953674316,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.295",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.800000190734863,
+        3.200000047683716,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.296",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.920000076293945,
+        4.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.297",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.800000190734863,
+        4.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.298",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.920000076293945,
+        5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.299",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.800000190734863,
+        6.400000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.300",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.920000076293945,
+        7.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.301",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.800000190734863,
+        8.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.302",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.920000076293945,
+        8.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.303",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.800000190734863,
+        9.600000381469727,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.304",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.920000076293945,
+        10.399999618530273,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.305",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.800000190734863,
+        11.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.306",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.920000076293945,
+        12.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.307",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.800000190734863,
+        12.800000190734863,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.308",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.920000076293945,
+        13.600000381469727,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.309",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.800000190734863,
+        14.399999618530273,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.310",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.920000076293945,
+        15.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.311",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.800000190734863,
+        16.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.312",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.920000076293945,
+        16.799999237060547,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.313",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.800000190734863,
+        17.600000381469727,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Paving_120x80.314",
+      "asset": "SM_EC_Paving_120x80",
+      "location_blender_m": [
+        4.920000076293945,
+        18.399999618530273,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        -9.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.001",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        -8.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.002",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        -7.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.003",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        -6.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.004",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        -5.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.005",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        -4.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.006",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        -3.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.007",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        -2.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.008",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        -1.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.009",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        0.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.010",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        1.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.011",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        2.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.012",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        3.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.013",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        4.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.014",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        5.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.015",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        6.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.016",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        7.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.017",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        8.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.018",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        9.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.019",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        10.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.020",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        11.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.021",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        12.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.022",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        13.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.023",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        14.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.024",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        15.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.025",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        16.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.026",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        17.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.027",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        -4.199999809265137,
+        18.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.028",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        -9.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.029",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        -8.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.030",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        -7.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.031",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        -6.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.032",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        -5.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.033",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        -4.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.034",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        -3.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.035",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        -2.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.036",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        -1.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.037",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        0.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.038",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        1.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.039",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        2.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.040",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        3.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.041",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        4.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.042",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        5.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.043",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        6.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.044",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        7.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.045",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        8.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.046",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        9.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.047",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        10.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.048",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        11.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.049",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        12.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.050",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        13.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.051",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        14.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.052",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        15.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.053",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        16.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.054",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        17.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_Curb_100x20.055",
+      "asset": "SM_EC_Curb_100x20",
+      "location_blender_m": [
+        4.199999809265137,
+        18.0,
+        -0.009999999776482582
+      ],
+      "yaw_blender_degrees": 90.00000250447816,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_PlanterRim",
+      "asset": "SM_EC_PlanterRim",
+      "location_blender_m": [
+        -3.5,
+        5.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_StreetTreeTrunk",
+      "asset": "SM_EC_StreetTreeTrunk",
+      "location_blender_m": [
+        -3.5,
+        5.0,
+        0.4000000059604645
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_StreetTreeCrown",
+      "asset": "SM_EC_StreetTreeCrown",
+      "location_blender_m": [
+        -3.5,
+        5.0,
+        0.4000000059604645
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_PlanterRim.001",
+      "asset": "SM_EC_PlanterRim",
+      "location_blender_m": [
+        3.5,
+        11.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_StreetTreeTrunk.001",
+      "asset": "SM_EC_StreetTreeTrunk",
+      "location_blender_m": [
+        3.5,
+        11.0,
+        0.4000000059604645
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_StreetTreeCrown.001",
+      "asset": "SM_EC_StreetTreeCrown",
+      "location_blender_m": [
+        3.5,
+        11.0,
+        0.4000000059604645
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "EC_ScaleFigure_H180",
+      "asset": "SM_EC_ScaleFigure_H180",
+      "location_blender_m": [
+        -0.800000011920929,
+        1.7999999523162842,
+        0.0
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "Stone",
+      "roughness": 0.8199999928474426,
+      "base_color": [
+        0.6800000071525574,
+        0.6100000143051147,
+        0.46000000834465027,
+        1.0
+      ]
+    },
+    {
+      "name": "StoneLight",
+      "roughness": 0.75,
+      "base_color": [
+        0.8399999737739563,
+        0.7599999904632568,
+        0.5799999833106995,
+        1.0
+      ]
+    },
+    {
+      "name": "StoneFloor",
+      "roughness": 0.8799999952316284,
+      "base_color": [
+        0.41999998688697815,
+        0.4300000071525574,
+        0.38999998569488525,
+        1.0
+      ]
+    },
+    {
+      "name": "Slate",
+      "roughness": 0.7200000286102295,
+      "base_color": [
+        0.07500000298023224,
+        0.11999999731779099,
+        0.15000000596046448,
+        1.0
+      ]
+    },
+    {
+      "name": "Wood",
+      "roughness": 0.5799999833106995,
+      "base_color": [
+        0.15000000596046448,
+        0.07500000298023224,
+        0.03200000151991844,
+        1.0
+      ]
+    },
+    {
+      "name": "BarkOld",
+      "roughness": 0.9399999976158142,
+      "base_color": [
+        0.2199999988079071,
+        0.18000000715255737,
+        0.11500000208616257,
+        1.0
+      ]
+    },
+    {
+      "name": "BarkYoung",
+      "roughness": 0.8799999952316284,
+      "base_color": [
+        0.3400000035762787,
+        0.23000000417232513,
+        0.11500000208616257,
+        1.0
+      ]
+    },
+    {
+      "name": "Leaves",
+      "roughness": 0.8999999761581421,
+      "base_color": [
+        0.1599999964237213,
+        0.23999999463558197,
+        0.06499999761581421,
+        1.0
+      ]
+    },
+    {
+      "name": "Herbs",
+      "roughness": 0.8999999761581421,
+      "base_color": [
+        0.2199999988079071,
+        0.3100000023841858,
+        0.11999999731779099,
+        1.0
+      ]
+    },
+    {
+      "name": "Soil",
+      "roughness": 1.0,
+      "base_color": [
+        0.18000000715255737,
+        0.17000000178813934,
+        0.11999999731779099,
+        1.0
+      ]
+    },
+    {
+      "name": "Glass",
+      "roughness": 0.2199999988079071,
+      "base_color": [
+        0.11999999731779099,
+        0.20000000298023224,
+        0.2199999988079071,
+        1.0
+      ]
+    },
+    {
+      "name": "Figure",
+      "roughness": 0.6499999761581421,
+      "base_color": [
+        0.3499999940395355,
+        0.4000000059604645,
+        0.4300000071525574,
+        1.0
+      ]
+    }
+  ],
+  "uv_policy": "UV0 per-face metric planar projections; overlaps intentionally allowed for prototype tile surfaces; no production atlas or lightmap UVs",
+  "collision_policy": "Source-owned convex UCX on structural units; no enclosing whole-house hull. Decorative meshes have no collision.",
+  "prototype_assumptions": [
+    "Three 7x8m one-storey houses; 3.9m wall crown; 5.0/5.4m roof tops; 9m facade-to-facade street",
+    "1.5x2.45m structural door apertures, 1.3x2.3m tested central clearance",
+    "65x80cm small windows; source wall thickness35cm"
+  ],
+  "interface": "0.1 study assembly, not a production snap kit. No compatibility with R255. Component bases/pivots and placements form the provisional interface.",
+  "lods": 1,
+  "nanite_intended": false,
+  "textures": [],
+  "not_validated": [
+    "Unreal import/reimport",
+    "PIE/player capsule/camera",
+    "performance",
+    "packaging",
+    "production materials/lightmaps"
+  ],
+  "verification": {
+    "file": "verification.json",
+    "sha256": "c9648fb2bc252ef3cbc01ea29baf68a192a66e8e05be1d6bf9c2c7993f531d76"
+  },
+  "reference_image": {
+    "original": "C:\\Users\\janwi\\Documents\\ChatGPT\\Fantasy Life RPG\\output\\stilfindung-elfische-wohnhaeuser\\2026-10-23-hochkultur-stein-und-schnitzholz\\33-geordnete-wohnstrasse.png",
+    "local_copy": "References/33-geordnete-wohnstrasse.png",
+    "sha256": "195a27381b9088b2f095ddfc4ab4d6c29add66e7626060700fe29c94c1af678f",
+    "visually_inspected": true
+  },
+  "documentation_inputs": [
+    {
+      "path": "AGENTS.md",
+      "worktree_sha256": "0e0f2ad3146463766c4d03e4b127035737a459076eeabf51893ff61c092b5abf",
+      "main_repository_sha256": "c93e0a0c5ebc92ef886af6ee9cc5fefd30493c4095e9b398d58bdee597f2c3eb",
+      "main_repository_read_only": true
+    },
+    {
+      "path": "docs/technical/ASSET_PIPELINE.md",
+      "worktree_sha256": "f2cd5a29de87e5881bd6e7f2251eaa207df5cad11168e6441a5bafd30636a6f9",
+      "main_repository_sha256": "b511ae933b2b941db28582a55fea13f8d83fe13e07b55030e4c6b804f9a18c76",
+      "main_repository_read_only": true
+    },
+    {
+      "path": "docs/technical/BLENDER_UNREAL_CALIBRATION_01.md",
+      "worktree_sha256": "8e083a40df35137410097d700b1587c59e4d955fff1a08beae42882ef87ef21a",
+      "main_repository_sha256": "ceaacc9c7cfb6835e221ad5236e97fcf2305095381b38497984e59e6db83307f",
+      "main_repository_read_only": true
+    },
+    {
+      "path": "docs/ART_DIRECTION_REFERENCES.md",
+      "worktree_sha256": "7cca7e59538e4d601a1af7012df5e9372c5ef8a78bc4bb70797beb15e0f3932c",
+      "main_repository_sha256": "7cca7e59538e4d601a1af7012df5e9372c5ef8a78bc4bb70797beb15e0f3932c",
+      "main_repository_read_only": true
+    },
+    {
+      "path": "docs/DECISIONS.md",
+      "worktree_sha256": "b2d48b279455f5c6cee0d72a792b62c507cc01eb39ec06972b6145aac903f839",
+      "main_repository_sha256": "baa525aa40898771b29d468764912fdd88565c4ab4112c3149a3e7c4bab14d23",
+      "main_repository_read_only": true
+    },
+    {
+      "path": "docs/worldbuilding/voelker/elfen/kultur.md",
+      "worktree_sha256": "4a68f056b715192834d95821dd1d5039cf27d2676e630aa1334b8fbf0b704600",
+      "main_repository_sha256": "4a68f056b715192834d95821dd1d5039cf27d2676e630aa1334b8fbf0b704600",
+      "main_repository_read_only": true
+    },
+    {
+      "path": "docs/worldbuilding/voelker/elfen/gesellschaft.md",
+      "worktree_sha256": "b74109c5412c0d4e315ff1017967ebd29a2123f16404988addf417443e05b73a",
+      "main_repository_sha256": "b74109c5412c0d4e315ff1017967ebd29a2123f16404988addf417443e05b73a",
+      "main_repository_read_only": true
+    },
+    {
+      "path": "docs/worldbuilding/voelker/elfen/geschichte.md",
+      "worktree_sha256": "cfdf0f3ddb7b7647f7db9096c17cc833d562422bdaea206a44cc9d258b469792",
+      "main_repository_sha256": "cfdf0f3ddb7b7647f7db9096c17cc833d562422bdaea206a44cc9d258b469792",
+      "main_repository_read_only": true
+    },
+    {
+      "path": "docs/worldbuilding/voelker/elfen/magie.md",
+      "worktree_sha256": "e6fcd0ee2962cc3f2a3c17aa62a3a3a9c51fb29b68977e3028f3bc039e8f4a49",
+      "main_repository_sha256": "e6fcd0ee2962cc3f2a3c17aa62a3a3a9c51fb29b68977e3028f3bc039e8f4a49",
+      "main_repository_read_only": true
+    }
+  ],
+  "generator": {
+    "file": "build_study.py",
+    "sha256": "60c4ec533dd224692dc5db727a89b36eea4d52e84fbf12751bae45dac6402f09"
+  },
+  "previews": [
+    {
+      "file": "Previews/01_eye_overview.png",
+      "sha256": "0f1682bb2c525a6fbb255353be3b5761666154ded14b64ba05ca482293015b0c",
+      "renderer": "Blender Cycles; 24 samples; AgX; shared neutral daylight setup",
+      "visually_reviewed": true
+    },
+    {
+      "file": "Previews/02_house.png",
+      "sha256": "98e984075237e41f0d3820de6451e15428fa7406da1fd068a441722788aab40d",
+      "renderer": "Blender Cycles; 24 samples; AgX; shared neutral daylight setup",
+      "visually_reviewed": true
+    },
+    {
+      "file": "Previews/03_plan.png",
+      "sha256": "1c91371f7e114b7a860417b2da1121f0c99358ff9cafa463b64c0ffb4fe0ebc3",
+      "renderer": "Blender Cycles; 24 samples; AgX; shared neutral daylight setup",
+      "visually_reviewed": true
+    },
+    {
+      "file": "Previews/04_interior.png",
+      "sha256": "8de990960951425978d4e138f33757f6b6fac5366d8c8cb89da1089d4dc0856c",
+      "renderer": "Blender Cycles; 24 samples; AgX; shared neutral daylight setup",
+      "visually_reviewed": true
+    }
+  ],
+  "status_note": "Creator-side prototype ready for visual review; no production, gameplay, or engine acceptance",
+  "preservation": {
+    "baseline_commit": "e66d5beed7bb85313501659d646f25778515134b",
+    "branch": "assets/creator",
+    "tracked_files": 1072,
+    "before_sha256": "D14BE76EA8A2B9C1A5F5D602C1834074A0900DF1595A2B3275FCC9E62AE27A5E",
+    "after_sha256": "D14BE76EA8A2B9C1A5F5D602C1834074A0900DF1595A2B3275FCC9E62AE27A5E",
+    "method": "SHA256 of UTF8 lines git-tracked-relative-path:UPPERCASE-file-SHA256 plus LF, git ls-files order",
+    "passed": true,
+    "scope": "Creator worktree tracked files only; no claim about parallel work in main or refiner worktrees"
+  }
+}
