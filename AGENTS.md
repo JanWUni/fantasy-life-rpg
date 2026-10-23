@@ -38,6 +38,13 @@ Spezifische Worldbuilding-Regeln in untergeordneten Verzeichnissen ergänzen die
 - Parallelität nur für getrennte Module bzw. getrennte Creator-/Refiner-Dateien. Pro Datei genau ein Schreibverantwortlicher; übergebene Creator-Stände bleiben unverändert. Gemeinsame Unreal-Imports, Materialien, Blueprints und Karten werden nacheinander durch einen im Auftrag benannten Integrationsverantwortlichen bearbeitet.
 - Das vorhandene Elfenhaus ist visuelle Referenz, keine Erlaubnis für neue Kultur-/Architekturfestlegungen. Bestehende Assets und Level nur im ausdrücklich beauftragten Umfang bearbeiten.
 
+## Gameplay-Entwicklung
+
+- Für Gameplay-Aufträge zuerst die [Gameplay-Pipeline](docs/technical/GAMEPLAY_PIPELINE.md) und die betroffenen Spielregeln/Entscheidungen lesen. Dieser Gameplay-Chat bleibt für Mechaniken verantwortlich; Asset Creator und Refiner behalten ihre bestehenden Zuständigkeiten.
+- Gameplay-Code wird bei paralleler Arbeit im eigenen Gameplay-Worktree bearbeitet. Arbeitsverzeichnis, Branch, Ausgangscommit und erlaubte Dateien vor Änderungen prüfen; ein anderer Chat allein trennt keine Dateien.
+- Pro Datei genau ein Schreibverantwortlicher. Gemeinsame Charakter-/Controllerklassen, Konfiguration und zentrale Dokumente vor parallelen Änderungen koordinieren. Zusätzliche Agenten nur im ausdrücklich beauftragten Umfang einsetzen.
+- Die laufende Unreal-MCP-Verbindung gehört zu einer konkreten Editor-/Projektinstanz. Vor Editoroperationen deren tatsächlichen Projektpfad prüfen. Gameplay-/Asset-Integration und gemeinsame PIE-Prüfungen erfolgen nacheinander durch eine benannte Zuständigkeit; keine gleichzeitigen Änderungen gemeinsamer binärer Assets oder Karten.
+
 ## Vor jeder Änderung
 
 1. Die betroffenen Sach- und Entscheidungsdokumente lesen.

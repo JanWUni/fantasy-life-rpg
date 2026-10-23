@@ -306,6 +306,14 @@ Inventarfenster mit ausgewähltem Stapel, Mengenanzeige und Ablegeschaltfläche 
 
 Anleitung, Erweiterung und genaue Grenzen: [INVENTORY_SYSTEM.md](INVENTORY_SYSTEM.md). Standalone/Tastatur/Maus sind der geprüfte Umfang; keine Multiplayer-/Packaging-Zusage. Echte längere Tastatur-/Mausbedienung bleibt manuell zu beurteilen. Keine Commits oder Pushes. Lokale, ignorierte Belege unter `Saved/InteractionDev/`: `inventory_build_final.log`, `inventory_tests_all.json`, `inventory_content_baseline.json`, `inventory_final_audit.json`, `inventory_panel.png` und `inventory_world_final.png`.
 
+## Getrennte Sicherung und Gameplay-Workflow – 23. Oktober 2026
+
+Auf Nutzerauftrag sind die zuvor offenen Arbeiten getrennt lokal gesichert: `472a787` enthält Elfenfenster, Haus-/Asset-Lab-Integration, Generator und zugehörige Dokumentation; `c008b03` enthält Inventar V1 mit Code, Testkarte/-gegenständen, Tests und bestätigten Regeln. Die gemeinsame Statusdatei wurde im Git-Index abschnittsweise zugeordnet; ihre vollständige Arbeitsfassung und sämtliche zuvor erfassten Projektdateien blieben dabei byteidentisch. Alle sechs binären Änderungen sind mit ihren SHA-256-Werten als LFS-Inhalte geprüft; `git lfs fsck --objects HEAD` war erfolgreich. Nach beiden Commits war das Hauptrepository sauber.
+
+Die neue [Gameplay-Pipeline](technical/GAMEPLAY_PIPELINE.md) dokumentiert diesen Chat als Gameplay-Verantwortlichen, einen getrennten Gameplay-Worktree sowie die nacheinander auszuführende Integration mit dem gemeinsamen Unreal-Editor. `AGENTS.md` verknüpft die Pipeline und hält Dateizuständigkeit und Editor-/MCP-Zuordnung fest. Eigener Arbeitsort ist `E:/Business/fantasy-rpg-gameplay` auf `gameplay/development`; der gemeinsame Integrationsstand bleibt das Hauptprojekt auf `main`. Bestehende Creator-/Refiner-Worktrees werden dabei nicht verändert.
+
+Die Sicherung und Workflow-Einrichtung verändern keine Gameplay-Implementierung, Assets oder Spielregeln. Der vorhandene Inventar-Prüfbeleg bleibt **16/16 erfolgreiche Tests in 83,03 s**; es wird dafür kein neuer Testlauf behauptet. Der frische Worktree übernimmt versionierte Quellen und LFS-Assets, aber keine lokalen Buildartefakte, MCP-Konfiguration oder `Saved/`-Belege. Ein Editor-Build und PIE im neuen Worktree sind damit noch nicht durchgeführt. Die vorhandene Hauptprojekt-Editorinstanz wird nicht automatisch auf den Worktree umgestellt. Kein Push oder Remote-Abgleich Bestandteil dieses Auftrags.
+
 ## Noch offene technische Entscheidungen
 
 Die Repository-Einrichtung bestätigt keine endgültige Gameplay-, Networking-, Persistenz-, Weltsimulations- oder Deployment-Architektur. Diese Punkte bleiben gemäß [IMPLEMENTATION_APPROACH.md](IMPLEMENTATION_APPROACH.md) offen, bis sie ausdrücklich entschieden und dokumentiert werden.
