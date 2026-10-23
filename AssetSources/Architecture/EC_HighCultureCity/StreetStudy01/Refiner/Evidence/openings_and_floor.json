@@ -1,0 +1,191 @@
+{
+  "status": "passed",
+  "windows": [
+    {
+      "asset": "SM_EC_Facade_700x390",
+      "openings": 2,
+      "clear_rays_each_representation": 98,
+      "below_and_above_solid": true
+    },
+    {
+      "asset": "SM_EC_RearWall_700x390",
+      "openings": 2,
+      "clear_rays_each_representation": 98,
+      "below_and_above_solid": true
+    },
+    {
+      "asset": "SM_EC_SideWall_800x390",
+      "openings": 2,
+      "clear_rays_each_representation": 98,
+      "below_and_above_solid": true
+    }
+  ],
+  "floors": [
+    {
+      "house": "House_A",
+      "samples": [
+        {
+          "local_xy": [
+            -3,
+            -3
+          ],
+          "render_and_ucx_z_m": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "local_xy": [
+            3,
+            -3
+          ],
+          "render_and_ucx_z_m": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "local_xy": [
+            -3,
+            3
+          ],
+          "render_and_ucx_z_m": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "local_xy": [
+            3,
+            3
+          ],
+          "render_and_ucx_z_m": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "local_xy": [
+            0,
+            0
+          ],
+          "render_and_ucx_z_m": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "house": "House_B",
+      "samples": [
+        {
+          "local_xy": [
+            -3,
+            -3
+          ],
+          "render_and_ucx_z_m": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "local_xy": [
+            3,
+            -3
+          ],
+          "render_and_ucx_z_m": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "local_xy": [
+            -3,
+            3
+          ],
+          "render_and_ucx_z_m": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "local_xy": [
+            3,
+            3
+          ],
+          "render_and_ucx_z_m": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "local_xy": [
+            0,
+            0
+          ],
+          "render_and_ucx_z_m": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "house": "House_C",
+      "samples": [
+        {
+          "local_xy": [
+            -3,
+            -3
+          ],
+          "render_and_ucx_z_m": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "local_xy": [
+            3,
+            -3
+          ],
+          "render_and_ucx_z_m": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "local_xy": [
+            -3,
+            3
+          ],
+          "render_and_ucx_z_m": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "local_xy": [
+            3,
+            3
+          ],
+          "render_and_ucx_z_m": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "local_xy": [
+            0,
+            0
+          ],
+          "render_and_ucx_z_m": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    }
+  ],
+  "scope": "Actual structural Render/UCX samples. Frame/glass are separate visual parts; no capsule or Unreal test."
+}

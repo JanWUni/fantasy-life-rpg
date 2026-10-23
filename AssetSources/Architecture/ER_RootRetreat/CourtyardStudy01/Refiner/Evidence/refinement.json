@@ -1,0 +1,2233 @@
+{
+  "status": "passed",
+  "changes": {
+    "SM_ER_WingWindowFacade_640x280_v02": {
+      "before": {
+        "vertices": 96,
+        "triangles": 200,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.200000047683716,
+            0.0,
+            0.0
+          ],
+          [
+            3.200000047683716,
+            0.3499999940395355,
+            2.799999952316284
+          ]
+        ],
+        "faces": 100,
+        "edges": 200,
+        "smooth_faces": 0,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          5.725999893931054
+        ],
+        "sharp_edges": 0
+      },
+      "after": {
+        "vertices": 96,
+        "triangles": 200,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.200000047683716,
+            0.0,
+            0.0
+          ],
+          [
+            3.200000047683716,
+            0.3499999940395355,
+            2.799999952316284
+          ]
+        ],
+        "faces": 100,
+        "edges": 200,
+        "smooth_faces": 100,
+        "has_custom_normals": true,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          5.725999893931054
+        ],
+        "sharp_edges": 100
+      },
+      "controlled_bevel_m": 0,
+      "bevel_rejected_to_preserve_contract": false,
+      "bounds_error_m": 0.0,
+      "max_vertex_distance_to_input_surface_m": 0.0
+    },
+    "SM_ER_WingRear_640x280": {
+      "before": {
+        "vertices": 48,
+        "triangles": 100,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.200000047683716,
+            0.0,
+            0.0
+          ],
+          [
+            3.200000047683716,
+            0.3499999940395355,
+            2.799999952316284
+          ]
+        ],
+        "faces": 50,
+        "edges": 100,
+        "smooth_faces": 0,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          5.907999833424888
+        ],
+        "sharp_edges": 0
+      },
+      "after": {
+        "vertices": 48,
+        "triangles": 100,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.200000047683716,
+            0.0,
+            0.0
+          ],
+          [
+            3.200000047683716,
+            0.3499999940395355,
+            2.799999952316284
+          ]
+        ],
+        "faces": 50,
+        "edges": 100,
+        "smooth_faces": 50,
+        "has_custom_normals": true,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          5.907999833424888
+        ],
+        "sharp_edges": 60
+      },
+      "controlled_bevel_m": 0,
+      "bevel_rejected_to_preserve_contract": false,
+      "bounds_error_m": 0.0,
+      "max_vertex_distance_to_input_surface_m": 0.0
+    },
+    "SM_ER_WingSide_550x311": {
+      "before": {
+        "vertices": 48,
+        "triangles": 100,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -2.75,
+            0.0,
+            0.0
+          ],
+          [
+            2.75,
+            0.3499999940395355,
+            3.109999895095825
+          ]
+        ],
+        "faces": 50,
+        "edges": 100,
+        "smooth_faces": 0,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          5.622749671339988
+        ],
+        "sharp_edges": 0
+      },
+      "after": {
+        "vertices": 48,
+        "triangles": 100,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -2.75,
+            0.0,
+            0.0
+          ],
+          [
+            2.75,
+            0.3499999940395355,
+            3.109999895095825
+          ]
+        ],
+        "faces": 50,
+        "edges": 100,
+        "smooth_faces": 50,
+        "has_custom_normals": true,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          5.622749671339988
+        ],
+        "sharp_edges": 60
+      },
+      "controlled_bevel_m": 0,
+      "bevel_rejected_to_preserve_contract": false,
+      "bounds_error_m": 0.0,
+      "max_vertex_distance_to_input_surface_m": 0.0
+    },
+    "SM_ER_WingInternalLink_550x311_v02": {
+      "before": {
+        "vertices": 24,
+        "triangles": 44,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -2.75,
+            0.0,
+            0.0
+          ],
+          [
+            2.75,
+            0.3499999940395355,
+            3.109999895095825
+          ]
+        ],
+        "faces": 22,
+        "edges": 44,
+        "smooth_faces": 0,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          4.642749726772309
+        ],
+        "sharp_edges": 0
+      },
+      "after": {
+        "vertices": 24,
+        "triangles": 44,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -2.75,
+            0.0,
+            0.0
+          ],
+          [
+            2.75,
+            0.3499999940395355,
+            3.109999895095825
+          ]
+        ],
+        "faces": 22,
+        "edges": 44,
+        "smooth_faces": 22,
+        "has_custom_normals": true,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          4.642749726772309
+        ],
+        "sharp_edges": 32
+      },
+      "controlled_bevel_m": 0,
+      "bevel_rejected_to_preserve_contract": false,
+      "bounds_error_m": 0.0,
+      "max_vertex_distance_to_input_surface_m": 0.0
+    },
+    "SM_ER_WingRootVault_720x620": {
+      "before": {
+        "vertices": 52,
+        "triangles": 100,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.5999999046325684,
+            -3.0999999046325684,
+            2.950000047683716
+          ],
+          [
+            3.5999999046325684,
+            3.0999999046325684,
+            3.9000000953674316
+          ]
+        ],
+        "faces": 50,
+        "edges": 100,
+        "smooth_faces": 0,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          8.928001527984941
+        ],
+        "sharp_edges": 0
+      },
+      "after": {
+        "vertices": 52,
+        "triangles": 100,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.5999999046325684,
+            -3.0999999046325684,
+            2.950000047683716
+          ],
+          [
+            3.5999999046325684,
+            3.0999999046325684,
+            3.9000000953674316
+          ]
+        ],
+        "faces": 50,
+        "edges": 100,
+        "smooth_faces": 50,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          8.928001527984941
+        ],
+        "sharp_edges": 56
+      },
+      "controlled_bevel_m": 0,
+      "bevel_rejected_to_preserve_contract": false,
+      "bounds_error_m": 0.0,
+      "max_vertex_distance_to_input_surface_m": 0.0
+    },
+    "SM_ER_WingCrownFill": {
+      "before": {
+        "vertices": 52,
+        "triangles": 100,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.200000047683716,
+            -0.17499999701976776,
+            2.799999952316284
+          ],
+          [
+            3.200000047683716,
+            0.17499999701976776,
+            3.700000047683716
+          ]
+        ],
+        "faces": 50,
+        "edges": 100,
+        "smooth_faces": 0,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          1.5673858153944222
+        ],
+        "sharp_edges": 0
+      },
+      "after": {
+        "vertices": 52,
+        "triangles": 100,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.200000047683716,
+            -0.17499999701976776,
+            2.799999952316284
+          ],
+          [
+            3.200000047683716,
+            0.17499999701976776,
+            3.700000047683716
+          ]
+        ],
+        "faces": 50,
+        "edges": 100,
+        "smooth_faces": 50,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          1.5673858153944222
+        ],
+        "sharp_edges": 56
+      },
+      "controlled_bevel_m": 0,
+      "bevel_rejected_to_preserve_contract": false,
+      "bounds_error_m": 0.0,
+      "max_vertex_distance_to_input_surface_m": 0.0
+    },
+    "SM_ER_DoorLeaf_140x230": {
+      "before": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            0.0,
+            -0.07000000029802322,
+            0.0
+          ],
+          [
+            1.399999976158142,
+            0.07000000029802322,
+            2.299999952316284
+          ]
+        ],
+        "faces": 6,
+        "edges": 12,
+        "smooth_faces": 0,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          0.45079998175303143
+        ],
+        "sharp_edges": 0
+      },
+      "after": {
+        "vertices": 32,
+        "triangles": 60,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            0.0,
+            -0.07000000029802322,
+            0.0
+          ],
+          [
+            1.399999976158142,
+            0.07000000029802322,
+            2.299999952316284
+          ]
+        ],
+        "faces": 30,
+        "edges": 60,
+        "smooth_faces": 30,
+        "has_custom_normals": true,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          0.4506621652737104
+        ],
+        "sharp_edges": 60
+      },
+      "controlled_bevel_m": 0.003,
+      "bevel_rejected_to_preserve_contract": false,
+      "bounds_error_m": 0.0,
+      "max_vertex_distance_to_input_surface_m": 0.00299999862909317
+    },
+    "SM_ER_RootDoorArch": {
+      "before": {
+        "vertices": 150,
+        "triangles": 296,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.9291267991065979,
+            -0.14999999105930328,
+            0.0
+          ],
+          [
+            0.9291267991065979,
+            0.08999999612569809,
+            2.634126663208008
+          ]
+        ],
+        "faces": 142,
+        "edges": 290,
+        "smooth_faces": 142,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          0.26009005656206835
+        ],
+        "sharp_edges": 0
+      },
+      "after": {
+        "vertices": 190,
+        "triangles": 376,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.9291267991065979,
+            -0.14999999105930328,
+            0.0
+          ],
+          [
+            0.9291267991065979,
+            0.08999999612569809,
+            2.634126663208008
+          ]
+        ],
+        "faces": 182,
+        "edges": 370,
+        "smooth_faces": 182,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          0.2600841822991284
+        ],
+        "sharp_edges": 60
+      },
+      "controlled_bevel_m": 0.002,
+      "bevel_rejected_to_preserve_contract": false,
+      "bounds_error_m": 0.0,
+      "max_vertex_distance_to_input_surface_m": 0.0020000000949949026
+    },
+    "SM_ER_RetreatWindowFrame_65x80": {
+      "before": {
+        "vertices": 74,
+        "triangles": 124,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.4000000059604645,
+            -0.13899999856948853,
+            -0.05999999865889549
+          ],
+          [
+            0.4000000059604645,
+            0.14000000059604645,
+            0.8999999761581421
+          ]
+        ],
+        "faces": 58,
+        "edges": 120,
+        "smooth_faces": 0,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 6,
+        "component_signed_volumes_m3": [
+          0.0007498084892176848,
+          0.015120003217210375,
+          0.01512000197544694,
+          0.0012286865749805045,
+          0.02304000034928322,
+          0.023039994140466053
+        ],
+        "sharp_edges": 0
+      },
+      "after": {
+        "vertices": 74,
+        "triangles": 124,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.4000000059604645,
+            -0.13899999856948853,
+            -0.05999999865889549
+          ],
+          [
+            0.4000000059604645,
+            0.14000000059604645,
+            0.8999999761581421
+          ]
+        ],
+        "faces": 58,
+        "edges": 120,
+        "smooth_faces": 58,
+        "has_custom_normals": true,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 6,
+        "component_signed_volumes_m3": [
+          0.023039994140466053,
+          0.0012286865749805045,
+          0.015120003217210375,
+          0.0007498084892176848,
+          0.01512000197544694,
+          0.02304000034928322
+        ],
+        "sharp_edges": 102
+      },
+      "controlled_bevel_m": 0,
+      "bevel_rejected_to_preserve_contract": true,
+      "bounds_error_m": 0.0,
+      "max_vertex_distance_to_input_surface_m": 0.0
+    },
+    "SM_ER_RetreatWindowGlass_65x80": {
+      "before": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Glass"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.32499998807907104,
+            0.10000000149011612,
+            0.0
+          ],
+          [
+            0.32499998807907104,
+            0.12999999523162842,
+            0.800000011920929
+          ]
+        ],
+        "faces": 6,
+        "edges": 12,
+        "smooth_faces": 0,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          0.015599996782839297
+        ],
+        "sharp_edges": 0
+      },
+      "after": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Glass"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.32499998807907104,
+            0.10000000149011612,
+            0.0
+          ],
+          [
+            0.32499998807907104,
+            0.12999999523162842,
+            0.800000011920929
+          ]
+        ],
+        "faces": 6,
+        "edges": 12,
+        "smooth_faces": 6,
+        "has_custom_normals": true,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          0.015599996782839297
+        ],
+        "sharp_edges": 12
+      },
+      "controlled_bevel_m": 0,
+      "bevel_rejected_to_preserve_contract": false,
+      "bounds_error_m": 0.0,
+      "max_vertex_distance_to_input_surface_m": 0.0
+    },
+    "SM_ER_RetreatShutter_32x84": {
+      "before": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.3199999928474426,
+            -0.04500000178813934,
+            0.0
+          ],
+          [
+            0.0,
+            0.04500000178813934,
+            0.8399999737739563
+          ]
+        ],
+        "faces": 6,
+        "edges": 12,
+        "smooth_faces": 0,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          0.024191999807953835
+        ],
+        "sharp_edges": 0
+      },
+      "after": {
+        "vertices": 32,
+        "triangles": 60,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.3199999928474426,
+            -0.04500000178813934,
+            0.0
+          ],
+          [
+            0.0,
+            0.04500000178813934,
+            0.8399999737739563
+          ]
+        ],
+        "faces": 30,
+        "edges": 60,
+        "smooth_faces": 30,
+        "has_custom_normals": true,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          0.024147431129560318
+        ],
+        "sharp_edges": 60
+      },
+      "controlled_bevel_m": 0.003,
+      "bevel_rejected_to_preserve_contract": false,
+      "bounds_error_m": 0.0,
+      "max_vertex_distance_to_input_surface_m": 0.00299999862909317
+    },
+    "SM_ER_WingRootRibs": {
+      "before": {
+        "vertices": 460,
+        "triangles": 900,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.5553834438323975,
+            -3.230985403060913,
+            -0.07724297046661377
+          ],
+          [
+            3.5553834438323975,
+            3.0299999713897705,
+            3.990000009536743
+          ]
+        ],
+        "faces": 426,
+        "edges": 876,
+        "smooth_faces": 426,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 5,
+        "component_signed_volumes_m3": [
+          0.342879688408478,
+          0.34298885686105995,
+          0.2044006845292945,
+          0.20440084149595344,
+          0.20440004098539563
+        ],
+        "sharp_edges": 0
+      },
+      "after": {
+        "vertices": 460,
+        "triangles": 900,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.5553834438323975,
+            -3.230985403060913,
+            -0.07724297046661377
+          ],
+          [
+            3.5553834438323975,
+            3.0299999713897705,
+            3.990000009536743
+          ]
+        ],
+        "faces": 426,
+        "edges": 876,
+        "smooth_faces": 426,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 5,
+        "component_signed_volumes_m3": [
+          0.342879688408478,
+          0.34298885686105995,
+          0.2044006845292945,
+          0.20440084149595344,
+          0.20440004098539563
+        ],
+        "sharp_edges": 276
+      },
+      "controlled_bevel_m": 0,
+      "bevel_rejected_to_preserve_contract": false,
+      "bounds_error_m": 0.0,
+      "max_vertex_distance_to_input_surface_m": 0.0
+    },
+    "SM_ER_WingClosedStoneSill_v02": {
+      "before": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "StoneFloor"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.200000047683716,
+            -2.8399999141693115,
+            0.0
+          ],
+          [
+            3.200000047683716,
+            -2.549999952316284,
+            0.25
+          ]
+        ],
+        "faces": 6,
+        "edges": 12,
+        "smooth_faces": 0,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          0.4640001580119133
+        ],
+        "sharp_edges": 0
+      },
+      "after": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "StoneFloor"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.200000047683716,
+            -2.8399999141693115,
+            0.0
+          ],
+          [
+            3.200000047683716,
+            -2.549999952316284,
+            0.25
+          ]
+        ],
+        "faces": 6,
+        "edges": 12,
+        "smooth_faces": 6,
+        "has_custom_normals": true,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          0.4640001580119133
+        ],
+        "sharp_edges": 12
+      },
+      "controlled_bevel_m": 0,
+      "bevel_rejected_to_preserve_contract": false,
+      "bounds_error_m": 0.0,
+      "max_vertex_distance_to_input_surface_m": 0.0
+    },
+    "SM_ER_OldCoreLinkedShell_R260_H430_v02": {
+      "before": {
+        "vertices": 222,
+        "triangles": 444,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -2.5999999046325684,
+            -2.5999999046325684,
+            0.0
+          ],
+          [
+            2.5999999046325684,
+            2.5999999046325684,
+            4.300000190734863
+          ]
+        ],
+        "faces": 222,
+        "edges": 444,
+        "smooth_faces": 0,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          21.415250733805212
+        ],
+        "sharp_edges": 0
+      },
+      "after": {
+        "vertices": 222,
+        "triangles": 444,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -2.5999999046325684,
+            -2.5999999046325684,
+            0.0
+          ],
+          [
+            2.5999999046325684,
+            2.5999999046325684,
+            4.300000190734863
+          ]
+        ],
+        "faces": 210,
+        "edges": 432,
+        "smooth_faces": 210,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          21.415250812036312
+        ],
+        "sharp_edges": 184
+      },
+      "controlled_bevel_m": 0,
+      "bevel_rejected_to_preserve_contract": false,
+      "bounds_error_m": 0.0,
+      "max_vertex_distance_to_input_surface_m": 0.0
+    },
+    "SM_ER_OldCoreCrown_640x620": {
+      "before": {
+        "vertices": 170,
+        "triangles": 336,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.200000047683716,
+            -3.0999999046325684,
+            3.700000047683716
+          ],
+          [
+            3.200000047683716,
+            3.0999999046325684,
+            5.5
+          ]
+        ],
+        "faces": 192,
+        "edges": 360,
+        "smooth_faces": 192,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          35.564632571612805
+        ],
+        "sharp_edges": 0
+      },
+      "after": {
+        "vertices": 170,
+        "triangles": 336,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.200000047683716,
+            -3.0999999046325684,
+            3.700000047683716
+          ],
+          [
+            3.200000047683716,
+            3.0999999046325684,
+            5.5
+          ]
+        ],
+        "faces": 192,
+        "edges": 360,
+        "smooth_faces": 192,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          35.564632571612805
+        ],
+        "sharp_edges": 24
+      },
+      "controlled_bevel_m": 0,
+      "bevel_rejected_to_preserve_contract": false,
+      "bounds_error_m": 0.0,
+      "max_vertex_distance_to_input_surface_m": 0.0
+    },
+    "SM_ER_LivingOldTrunk": {
+      "before": {
+        "vertices": 176,
+        "triangles": 332,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -4.054257392883301,
+            -2.8662469387054443,
+            4.5927042961120605
+          ],
+          [
+            3.550903797149658,
+            3.8684933185577393,
+            11.258325576782227
+          ]
+        ],
+        "faces": 132,
+        "edges": 298,
+        "smooth_faces": 132,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 5,
+        "component_signed_volumes_m3": [
+          1.0380412836093458,
+          1.2648066490267709,
+          0.9714871471126875,
+          9.747688778171627,
+          1.4225963714998218
+        ],
+        "sharp_edges": 0
+      },
+      "after": {
+        "vertices": 176,
+        "triangles": 332,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -4.054257392883301,
+            -2.8662469387054443,
+            4.5927042961120605
+          ],
+          [
+            3.550903797149658,
+            3.8684933185577393,
+            11.258325576782227
+          ]
+        ],
+        "faces": 132,
+        "edges": 298,
+        "smooth_faces": 132,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 5,
+        "component_signed_volumes_m3": [
+          1.4225963714998218,
+          1.0380412836093458,
+          1.2648066490267709,
+          0.9714871471126875,
+          9.747688778171627
+        ],
+        "sharp_edges": 108
+      },
+      "controlled_bevel_m": 0,
+      "bevel_rejected_to_preserve_contract": false,
+      "bounds_error_m": 0.0,
+      "max_vertex_distance_to_input_surface_m": 0.0
+    },
+    "SM_ER_OldButtressRoots": {
+      "before": {
+        "vertices": 300,
+        "triangles": 576,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.909787178039551,
+            -3.13173770904541,
+            -0.2098781317472458
+          ],
+          [
+            3.909787178039551,
+            2.3639650344848633,
+            5.700370788574219
+          ]
+        ],
+        "faces": 248,
+        "edges": 536,
+        "smooth_faces": 248,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 6,
+        "component_signed_volumes_m3": [
+          2.068221169097039,
+          2.07030438829679,
+          0.17053476824852012,
+          0.17099478797899792,
+          3.6151678403063374,
+          3.603614536191647
+        ],
+        "sharp_edges": 0
+      },
+      "after": {
+        "vertices": 468,
+        "triangles": 904,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.909787178039551,
+            -3.13173770904541,
+            -0.2098781317472458
+          ],
+          [
+            3.909787178039551,
+            2.3639650344848633,
+            5.700370788574219
+          ]
+        ],
+        "invalid_corner_normals": 0,
+        "faces": 904,
+        "edges": 1356,
+        "smooth_faces": 904,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 8,
+        "component_signed_volumes_m3": [
+          1.1002431991510095,
+          0.3897953471168879,
+          0.17053476824852012,
+          3.1798455069850533,
+          1.098348239475551,
+          0.38985144176209996,
+          0.17099478797899792,
+          3.1915928400897715
+        ],
+        "sharp_edges": 322
+      },
+      "controlled_bevel_m": 0,
+      "bevel_rejected_to_preserve_contract": false,
+      "bounds_error_m": 0.0,
+      "max_vertex_distance_to_input_surface_m": 0.07567350566387177,
+      "interior_root_trim": {
+        "before": {
+          "vertices": 300,
+          "triangles": 576,
+          "material_slots": [
+            "BarkOld"
+          ],
+          "uv_channels": 1,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "bounds_blender_m": [
+            [
+              -3.909787178039551,
+              -3.13173770904541,
+              -0.2098781317472458
+            ],
+            [
+              3.909787178039551,
+              2.3639650344848633,
+              5.700370788574219
+            ]
+          ],
+          "invalid_corner_normals": 0,
+          "faces": 248,
+          "edges": 536,
+          "smooth_faces": 248,
+          "has_custom_normals": false,
+          "degenerate_uv_triangles": 0,
+          "connected_components": 6,
+          "component_signed_volumes_m3": [
+            0.17099478797899792,
+            0.17053476824852012,
+            3.6151678403063374,
+            3.603614536191647,
+            2.07030438829679,
+            2.068221169097039
+          ],
+          "sharp_edges": 156
+        },
+        "after": {
+          "vertices": 468,
+          "triangles": 904,
+          "material_slots": [
+            "BarkOld"
+          ],
+          "uv_channels": 1,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "bounds_blender_m": [
+            [
+              -3.909787178039551,
+              -3.13173770904541,
+              -0.2098781317472458
+            ],
+            [
+              3.909787178039551,
+              2.3639650344848633,
+              5.700370788574219
+            ]
+          ],
+          "invalid_corner_normals": 0,
+          "faces": 904,
+          "edges": 1356,
+          "smooth_faces": 904,
+          "has_custom_normals": false,
+          "degenerate_uv_triangles": 0,
+          "connected_components": 8,
+          "component_signed_volumes_m3": [
+            1.1002431991510095,
+            0.3897953471168879,
+            0.17053476824852012,
+            3.1798455069850533,
+            1.098348239475551,
+            0.38985144176209996,
+            0.17099478797899792,
+            3.1915928400897715
+          ],
+          "sharp_edges": 322
+        },
+        "bounds_error_m": 0.0,
+        "bounds_delta_m": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "exterior_surface_samples": 2723,
+        "max_exterior_surface_error_m": 4.980555786460172e-06,
+        "cutter_center_m": [
+          0,
+          0,
+          0
+        ],
+        "cutter_radius_m": 2.24,
+        "cutter_sides": 40,
+        "cutter_z_range_m": [
+          -0.1,
+          4.3
+        ],
+        "interior_intruding_vertices_after": 0,
+        "material_slots_preserved": true
+      }
+    },
+    "SM_ER_OldTreeCanopy": {
+      "before": {
+        "vertices": 1092,
+        "triangles": 2080,
+        "material_slots": [
+          "Leaves"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -4.509504318237305,
+            -3.5781750679016113,
+            8.949999809265137
+          ],
+          [
+            4.486921310424805,
+            3.5943782329559326,
+            12.300000190734863
+          ]
+        ],
+        "faces": 1300,
+        "edges": 2340,
+        "smooth_faces": 1300,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 26,
+        "component_signed_volumes_m3": [
+          8.134344607669238,
+          8.134348570097542,
+          8.13434554263949,
+          8.134348593652259,
+          8.134347108813612,
+          8.134347506798813,
+          8.13434983417392,
+          8.134348432223005,
+          8.134351499378683,
+          8.134348224227633,
+          8.134348307425775,
+          8.134345913616318,
+          8.134344717177257,
+          8.134347556236502,
+          8.134351048618559,
+          8.13434460014104,
+          8.134346405665081,
+          8.134347276762128,
+          8.134345746909581,
+          8.13435381340484,
+          8.13435251141588,
+          8.134345717728142,
+          8.13434019684792,
+          8.134342366286251,
+          8.134351347883541,
+          8.134351585060351
+        ],
+        "sharp_edges": 0
+      },
+      "after": {
+        "vertices": 1092,
+        "triangles": 2080,
+        "material_slots": [
+          "Leaves"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -4.509504318237305,
+            -3.5781750679016113,
+            8.949999809265137
+          ],
+          [
+            4.486921310424805,
+            3.5943782329559326,
+            12.300000190734863
+          ]
+        ],
+        "faces": 1300,
+        "edges": 2340,
+        "smooth_faces": 1300,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 26,
+        "component_signed_volumes_m3": [
+          8.134347108813612,
+          8.134347506798813,
+          8.13434983417392,
+          8.134348432223005,
+          8.134351499378683,
+          8.134348224227633,
+          8.134348307425775,
+          8.134345913616318,
+          8.134344717177257,
+          8.134347556236502,
+          8.134351048618559,
+          8.13434460014104,
+          8.134346405665081,
+          8.134347276762128,
+          8.134345746909581,
+          8.13435381340484,
+          8.13435251141588,
+          8.134345717728142,
+          8.13434019684792,
+          8.134342366286251,
+          8.134351347883541,
+          8.134351585060351,
+          8.134348570097542,
+          8.134344607669238,
+          8.13434554263949,
+          8.134348593652259
+        ],
+        "sharp_edges": 0
+      },
+      "controlled_bevel_m": 0,
+      "bevel_rejected_to_preserve_contract": false,
+      "bounds_error_m": 0.0,
+      "max_vertex_distance_to_input_surface_m": 0.0
+    },
+    "SM_ER_YoungLivingTrunk": {
+      "before": {
+        "vertices": 78,
+        "triangles": 144,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.7142271399497986,
+            1.3673895597457886,
+            3.3947033882141113
+          ],
+          [
+            2.024909019470215,
+            2.0326104164123535,
+            6.515947341918945
+          ]
+        ],
+        "faces": 58,
+        "edges": 130,
+        "smooth_faces": 58,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 3,
+        "component_signed_volumes_m3": [
+          0.48844965225240844,
+          0.059556821671624904,
+          0.039123361619810296
+        ],
+        "sharp_edges": 0
+      },
+      "after": {
+        "vertices": 78,
+        "triangles": 144,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.7142271399497986,
+            1.3673895597457886,
+            3.3947033882141113
+          ],
+          [
+            2.024909019470215,
+            2.0326104164123535,
+            6.515947341918945
+          ]
+        ],
+        "faces": 58,
+        "edges": 130,
+        "smooth_faces": 58,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 3,
+        "component_signed_volumes_m3": [
+          0.48844965225240844,
+          0.059556821671624904,
+          0.039123361619810296
+        ],
+        "sharp_edges": 60
+      },
+      "controlled_bevel_m": 0,
+      "bevel_rejected_to_preserve_contract": false,
+      "bounds_error_m": 0.0,
+      "max_vertex_distance_to_input_surface_m": 0.0
+    },
+    "SM_ER_YoungTreeCrown": {
+      "before": {
+        "vertices": 210,
+        "triangles": 400,
+        "material_slots": [
+          "Leaves"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -1.7461621761322021,
+            -0.10450849682092667,
+            5.650000095367432
+          ],
+          [
+            3.0461621284484863,
+            3.7045085430145264,
+            7.300000190734863
+          ]
+        ],
+        "faces": 250,
+        "edges": 450,
+        "smooth_faces": 250,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 5,
+        "component_signed_volumes_m3": [
+          2.534233719420931,
+          2.5342305240531777,
+          2.53423079786201,
+          2.534231287698882,
+          2.5342301202278272
+        ],
+        "sharp_edges": 0
+      },
+      "after": {
+        "vertices": 210,
+        "triangles": 400,
+        "material_slots": [
+          "Leaves"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -1.7461621761322021,
+            -0.10450849682092667,
+            5.650000095367432
+          ],
+          [
+            3.0461621284484863,
+            3.7045085430145264,
+            7.300000190734863
+          ]
+        ],
+        "faces": 250,
+        "edges": 450,
+        "smooth_faces": 250,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 5,
+        "component_signed_volumes_m3": [
+          2.534231287698882,
+          2.5342301202278272,
+          2.534233719420931,
+          2.5342305240531777,
+          2.53423079786201
+        ],
+        "sharp_edges": 0
+      },
+      "controlled_bevel_m": 0,
+      "bevel_rejected_to_preserve_contract": false,
+      "bounds_error_m": 0.0,
+      "max_vertex_distance_to_input_surface_m": 0.0
+    },
+    "SM_ER_LinkingRootArches": {
+      "before": {
+        "vertices": 80,
+        "triangles": 152,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -5.083291530609131,
+            0.6877144575119019,
+            2.3537981510162354
+          ],
+          [
+            5.083291530609131,
+            2.750042676925659,
+            3.591555118560791
+          ]
+        ],
+        "faces": 64,
+        "edges": 140,
+        "smooth_faces": 64,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 2,
+        "component_signed_volumes_m3": [
+          0.7737003785247603,
+          0.7714540672798955
+        ],
+        "sharp_edges": 0
+      },
+      "after": {
+        "vertices": 108,
+        "triangles": 208,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -5.083291530609131,
+            0.6877144575119019,
+            2.373715877532959
+          ],
+          [
+            5.083291530609131,
+            2.7135021686553955,
+            3.591555118560791
+          ]
+        ],
+        "invalid_corner_normals": 0,
+        "faces": 208,
+        "edges": 312,
+        "smooth_faces": 208,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 2,
+        "component_signed_volumes_m3": [
+          0.7285154967879254,
+          0.7262863245947909
+        ],
+        "sharp_edges": 68
+      },
+      "controlled_bevel_m": 0,
+      "bevel_rejected_to_preserve_contract": false,
+      "bounds_error_m": 0.0,
+      "max_vertex_distance_to_input_surface_m": 0.000531080411747098,
+      "interior_root_trim": {
+        "before": {
+          "vertices": 80,
+          "triangles": 152,
+          "material_slots": [
+            "BarkOld"
+          ],
+          "uv_channels": 1,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "bounds_blender_m": [
+            [
+              -5.083291530609131,
+              0.6877144575119019,
+              2.3537981510162354
+            ],
+            [
+              5.083291530609131,
+              2.750042676925659,
+              3.591555118560791
+            ]
+          ],
+          "invalid_corner_normals": 0,
+          "faces": 64,
+          "edges": 140,
+          "smooth_faces": 64,
+          "has_custom_normals": false,
+          "degenerate_uv_triangles": 0,
+          "connected_components": 2,
+          "component_signed_volumes_m3": [
+            0.7737003785247603,
+            0.7714540672798955
+          ],
+          "sharp_edges": 40
+        },
+        "after": {
+          "vertices": 108,
+          "triangles": 208,
+          "material_slots": [
+            "BarkOld"
+          ],
+          "uv_channels": 1,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "bounds_blender_m": [
+            [
+              -5.083291530609131,
+              0.6877144575119019,
+              2.373715877532959
+            ],
+            [
+              5.083291530609131,
+              2.7135021686553955,
+              3.591555118560791
+            ]
+          ],
+          "invalid_corner_normals": 0,
+          "faces": 208,
+          "edges": 312,
+          "smooth_faces": 208,
+          "has_custom_normals": false,
+          "degenerate_uv_triangles": 0,
+          "connected_components": 2,
+          "component_signed_volumes_m3": [
+            0.7285154967879254,
+            0.7262863245947909
+          ],
+          "sharp_edges": 68
+        },
+        "bounds_error_m": 0.03654050827026367,
+        "bounds_delta_m": [
+          [
+            0.0,
+            0.0,
+            0.019917726516723633
+          ],
+          [
+            0.0,
+            -0.03654050827026367,
+            0.0
+          ]
+        ],
+        "exterior_surface_samples": 849,
+        "max_exterior_surface_error_m": 1.8245253841087106e-06,
+        "cutter_center_m": [
+          0,
+          3,
+          0
+        ],
+        "cutter_radius_m": 2.24,
+        "cutter_sides": 40,
+        "cutter_z_range_m": [
+          -0.1,
+          4.3
+        ],
+        "interior_intruding_vertices_after": 0,
+        "material_slots_preserved": true
+      }
+    },
+    "SM_ER_Ground_2600x2300": {
+      "before": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Soil"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -13.0,
+            -10.0,
+            -0.30000001192092896
+          ],
+          [
+            13.0,
+            13.0,
+            -0.11999999731779099
+          ]
+        ],
+        "faces": 6,
+        "edges": 12,
+        "smooth_faces": 0,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          107.64000829060872
+        ],
+        "sharp_edges": 0
+      },
+      "after": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Soil"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -13.0,
+            -10.0,
+            -0.30000001192092896
+          ],
+          [
+            13.0,
+            13.0,
+            -0.11999999731779099
+          ]
+        ],
+        "faces": 6,
+        "edges": 12,
+        "smooth_faces": 6,
+        "has_custom_normals": true,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          107.64000829060872
+        ],
+        "sharp_edges": 12
+      },
+      "controlled_bevel_m": 0,
+      "bevel_rejected_to_preserve_contract": false,
+      "bounds_error_m": 0.0,
+      "max_vertex_distance_to_input_surface_m": 0.0
+    },
+    "SM_ER_CourtStone_100x70": {
+      "before": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "StoneFloor"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.48500001430511475,
+            -0.33500000834465027,
+            -0.10000000149011612
+          ],
+          [
+            0.48500001430511475,
+            0.33500000834465027,
+            0.0
+          ]
+        ],
+        "faces": 6,
+        "edges": 12,
+        "smooth_faces": 0,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          0.06499000638723375
+        ],
+        "sharp_edges": 0
+      },
+      "after": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "StoneFloor"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.48500001430511475,
+            -0.33500000834465027,
+            -0.10000000149011612
+          ],
+          [
+            0.48500001430511475,
+            0.33500000834465027,
+            0.0
+          ]
+        ],
+        "faces": 6,
+        "edges": 12,
+        "smooth_faces": 6,
+        "has_custom_normals": true,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          0.06499000638723375
+        ],
+        "sharp_edges": 12
+      },
+      "controlled_bevel_m": 0,
+      "bevel_rejected_to_preserve_contract": false,
+      "bounds_error_m": 0.0,
+      "max_vertex_distance_to_input_surface_m": 0.0
+    },
+    "SM_ER_Bench_210x56": {
+      "before": {
+        "vertices": 24,
+        "triangles": 36,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -1.0499999523162842,
+            -0.2800000011920929,
+            0.0
+          ],
+          [
+            1.0499999523162842,
+            0.2800000011920929,
+            0.5299999713897705
+          ]
+        ],
+        "faces": 18,
+        "edges": 36,
+        "smooth_faces": 0,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 3,
+        "component_signed_volumes_m3": [
+          0.033263999968767166,
+          0.033263997485240296,
+          0.1293599729736646
+        ],
+        "sharp_edges": 0
+      },
+      "after": {
+        "vertices": 96,
+        "triangles": 180,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -1.0499999523162842,
+            -0.2800000011920929,
+            0.0
+          ],
+          [
+            1.0499999523162842,
+            0.2800000011920929,
+            0.5299999713897705
+          ]
+        ],
+        "faces": 90,
+        "edges": 180,
+        "smooth_faces": 90,
+        "has_custom_normals": true,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 3,
+        "component_signed_volumes_m3": [
+          0.03319846035982775,
+          0.12918371215016386,
+          0.033198460185415654
+        ],
+        "sharp_edges": 180
+      },
+      "controlled_bevel_m": 0.004,
+      "bevel_rejected_to_preserve_contract": false,
+      "bounds_error_m": 0.0,
+      "max_vertex_distance_to_input_surface_m": 0.003999993205070496
+    },
+    "SM_ER_HerbBed_250x140": {
+      "before": {
+        "vertices": 16,
+        "triangles": 32,
+        "material_slots": [
+          "StoneFloor"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -1.25,
+            -0.699999988079071,
+            0.0
+          ],
+          [
+            1.25,
+            0.699999988079071,
+            0.3400000035762787
+          ]
+        ],
+        "faces": 16,
+        "edges": 32,
+        "smooth_faces": 0,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          0.43329601734876627
+        ],
+        "sharp_edges": 0
+      },
+      "after": {
+        "vertices": 16,
+        "triangles": 32,
+        "material_slots": [
+          "StoneFloor"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -1.25,
+            -0.699999988079071,
+            0.0
+          ],
+          [
+            1.25,
+            0.699999988079071,
+            0.3400000035762787
+          ]
+        ],
+        "faces": 16,
+        "edges": 32,
+        "smooth_faces": 16,
+        "has_custom_normals": true,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          0.43329601734876627
+        ],
+        "sharp_edges": 24
+      },
+      "controlled_bevel_m": 0,
+      "bevel_rejected_to_preserve_contract": true,
+      "bounds_error_m": 0.0,
+      "max_vertex_distance_to_input_surface_m": 0.0
+    },
+    "SM_ER_HerbClusters": {
+      "before": {
+        "vertices": 312,
+        "triangles": 576,
+        "material_slots": [
+          "Herbs"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -1.1200000047683716,
+            -0.5099999904632568,
+            0.11999999731779099
+          ],
+          [
+            1.1200000047683716,
+            0.5099999904632568,
+            0.5799999833106995
+          ]
+        ],
+        "faces": 384,
+        "edges": 672,
+        "smooth_faces": 384,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 12,
+        "component_signed_volumes_m3": [
+          0.029318207254012428,
+          0.029318213918789603,
+          0.02931820569210686,
+          0.029318208107724782,
+          0.029318205910385593,
+          0.029318210891991228,
+          0.029318210891991235,
+          0.029318205910385586,
+          0.02931820810772478,
+          0.029318205692106858,
+          0.029318213918789603,
+          0.029318207254012428
+        ],
+        "sharp_edges": 0
+      },
+      "after": {
+        "vertices": 312,
+        "triangles": 576,
+        "material_slots": [
+          "Herbs"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -1.1200000047683716,
+            -0.5099999904632568,
+            0.11999999731779099
+          ],
+          [
+            1.1200000047683716,
+            0.5099999904632568,
+            0.5799999833106995
+          ]
+        ],
+        "faces": 384,
+        "edges": 672,
+        "smooth_faces": 384,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 12,
+        "component_signed_volumes_m3": [
+          0.029318213918789603,
+          0.029318207254012428,
+          0.029318207254012428,
+          0.029318213918789603,
+          0.02931820569210686,
+          0.029318208107724782,
+          0.029318205910385593,
+          0.029318210891991228,
+          0.029318210891991235,
+          0.029318205910385586,
+          0.02931820810772478,
+          0.029318205692106858
+        ],
+        "sharp_edges": 0
+      },
+      "controlled_bevel_m": 0,
+      "bevel_rejected_to_preserve_contract": false,
+      "bounds_error_m": 0.0,
+      "max_vertex_distance_to_input_surface_m": 0.0
+    },
+    "SM_ER_ConnectedFloor_v02": {
+      "before": {
+        "vertices": 104,
+        "triangles": 204,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -9.20182991027832,
+            0.3447766900062561,
+            -0.18000000715255737
+          ],
+          [
+            9.20182991027832,
+            7.05522346496582,
+            0.0
+          ]
+        ],
+        "faces": 50,
+        "edges": 152,
+        "smooth_faces": 0,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          16.328538914521534
+        ],
+        "sharp_edges": 0
+      },
+      "after": {
+        "vertices": 84,
+        "triangles": 164,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -9.20182991027832,
+            0.3447766900062561,
+            -0.18000000715255737
+          ],
+          [
+            9.20182991027832,
+            7.05522346496582,
+            0.0
+          ]
+        ],
+        "faces": 50,
+        "edges": 132,
+        "smooth_faces": 50,
+        "has_custom_normals": true,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 1,
+        "component_signed_volumes_m3": [
+          16.328538856158655
+        ],
+        "sharp_edges": 92
+      },
+      "controlled_bevel_m": 0,
+      "bevel_rejected_to_preserve_contract": false,
+      "bounds_error_m": 0.0,
+      "max_vertex_distance_to_input_surface_m": 0.0
+    }
+  },
+  "colliders_unchanged": true,
+  "instances_unchanged": true
+}

@@ -1,0 +1,215 @@
+{
+  "status": "passed",
+  "previous_source_sha256": "72ef15ff7f32614137db93779e6d3087e4d7dd7ec8aef713521159f8a0f7c2c9",
+  "changes": {
+    "SM_ER_OldButtressRoots": {
+      "before": {
+        "vertices": 300,
+        "triangles": 576,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.909787178039551,
+            -3.13173770904541,
+            -0.2098781317472458
+          ],
+          [
+            3.909787178039551,
+            2.3639650344848633,
+            5.700370788574219
+          ]
+        ],
+        "invalid_corner_normals": 0,
+        "faces": 248,
+        "edges": 536,
+        "smooth_faces": 248,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 6,
+        "component_signed_volumes_m3": [
+          0.17099478797899792,
+          0.17053476824852012,
+          3.6151678403063374,
+          3.603614536191647,
+          2.07030438829679,
+          2.068221169097039
+        ],
+        "sharp_edges": 156
+      },
+      "after": {
+        "vertices": 468,
+        "triangles": 904,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.909787178039551,
+            -3.13173770904541,
+            -0.2098781317472458
+          ],
+          [
+            3.909787178039551,
+            2.3639650344848633,
+            5.700370788574219
+          ]
+        ],
+        "invalid_corner_normals": 0,
+        "faces": 904,
+        "edges": 1356,
+        "smooth_faces": 904,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 8,
+        "component_signed_volumes_m3": [
+          1.1002431991510095,
+          0.3897953471168879,
+          0.17053476824852012,
+          3.1798455069850533,
+          1.098348239475551,
+          0.38985144176209996,
+          0.17099478797899792,
+          3.1915928400897715
+        ],
+        "sharp_edges": 322
+      },
+      "bounds_error_m": 0.0,
+      "bounds_delta_m": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "exterior_surface_samples": 2723,
+      "max_exterior_surface_error_m": 4.980555786460172e-06,
+      "cutter_center_m": [
+        0,
+        0,
+        0
+      ],
+      "cutter_radius_m": 2.24,
+      "cutter_sides": 40,
+      "cutter_z_range_m": [
+        -0.1,
+        4.3
+      ],
+      "interior_intruding_vertices_after": 0,
+      "material_slots_preserved": true
+    },
+    "SM_ER_LinkingRootArches": {
+      "before": {
+        "vertices": 80,
+        "triangles": 152,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -5.083291530609131,
+            0.6877144575119019,
+            2.3537981510162354
+          ],
+          [
+            5.083291530609131,
+            2.750042676925659,
+            3.591555118560791
+          ]
+        ],
+        "invalid_corner_normals": 0,
+        "faces": 64,
+        "edges": 140,
+        "smooth_faces": 64,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 2,
+        "component_signed_volumes_m3": [
+          0.7737003785247603,
+          0.7714540672798955
+        ],
+        "sharp_edges": 40
+      },
+      "after": {
+        "vertices": 108,
+        "triangles": 208,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -5.083291530609131,
+            0.6877144575119019,
+            2.373715877532959
+          ],
+          [
+            5.083291530609131,
+            2.7135021686553955,
+            3.591555118560791
+          ]
+        ],
+        "invalid_corner_normals": 0,
+        "faces": 208,
+        "edges": 312,
+        "smooth_faces": 208,
+        "has_custom_normals": false,
+        "degenerate_uv_triangles": 0,
+        "connected_components": 2,
+        "component_signed_volumes_m3": [
+          0.7285154967879254,
+          0.7262863245947909
+        ],
+        "sharp_edges": 68
+      },
+      "bounds_error_m": 0.03654050827026367,
+      "bounds_delta_m": [
+        [
+          0.0,
+          0.0,
+          0.019917726516723633
+        ],
+        [
+          0.0,
+          -0.03654050827026367,
+          0.0
+        ]
+      ],
+      "exterior_surface_samples": 849,
+      "max_exterior_surface_error_m": 1.8245253841087106e-06,
+      "cutter_center_m": [
+        0,
+        3,
+        0
+      ],
+      "cutter_radius_m": 2.24,
+      "cutter_sides": 40,
+      "cutter_z_range_m": [
+        -0.1,
+        4.3
+      ],
+      "interior_intruding_vertices_after": 0,
+      "material_slots_preserved": true
+    }
+  },
+  "colliders_unchanged": true,
+  "instance_matrices_unchanged": true,
+  "intent": "Remove interior-only protrusions of existing decorative roots; caps buried behind existing inner wall. No new geometry added to cover defects."
+}

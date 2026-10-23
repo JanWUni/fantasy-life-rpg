@@ -1,0 +1,154 @@
+{
+  "status": "passed",
+  "input_commit": "08e7d7eea4a161a5e5025d656ca5b199ed0130da",
+  "checked_sha256_files": {
+    ".gitattributes": "dce56c765876cafbc60571dcc5c7b550eb17c4d852e64abebb6f0f3836225c34",
+    "build_study.py": "60c4ec533dd224692dc5db727a89b36eea4d52e84fbf12751bae45dac6402f09",
+    "Exports/SM_EC_CityShutter_32x84.fbx": "f81f4dfb213b367ea6aa734a46dff29bf196ea6ed0dca1752c9ae697cf6d4e0a",
+    "Exports/SM_EC_CityWindowFrame_65x80.fbx": "7e4067f03aaba4ad545e4335ce3e2795af3b9839a7c358af0703b8e391d6d7e9",
+    "Exports/SM_EC_CityWindowGlass_65x80.fbx": "ce91d5acde3c7c40918271b7ee49a1a8b3fb5090fcccd47563b97067be11a721",
+    "Exports/SM_EC_Curb_100x20.fbx": "2779daeea0c0ce82244779e03e8306e9c0e716dd4fc27d2a0fcb8a11ae9fc8a0",
+    "Exports/SM_EC_DoorLeaf_140x235.fbx": "1dbd54ddda622cbd69275d3fcef7007ac3a2c19cc023753a29db6510431944ed",
+    "Exports/SM_EC_EntryWoodArch.fbx": "2d1ffb89bc1de1d6d8cb1f4f4c4a7ff1ad336a62e52b22d285850ec148f3a593",
+    "Exports/SM_EC_Facade_700x390.fbx": "33b13a96bc211062d7abade4584c2eaecc7190711ab9d1ee0d28e7c0ded7b4b0",
+    "Exports/SM_EC_Floor_700x800.fbx": "198cdcafa087706412d2802d579ccde498aa6d4c65ce1a3e47e0be2f56c33358",
+    "Exports/SM_EC_GroundBase_3200x3000.fbx": "ebf75ef6f6a8027c10c2a9285d90effb11162f998fe36ac510ff0325124432bc",
+    "Exports/SM_EC_HipRoof_790x890.fbx": "f8811b484fa1436b91b689e91740db2e02c27c3e169f14de7b1ba6e58c54f862",
+    "Exports/SM_EC_HipRoof_LowVariant_790x890.fbx": "e23104c14005dfd5a175bd80450a273c7e5340113a4fdc04cf7612c2867f60e9",
+    "Exports/SM_EC_Paving_120x80.fbx": "ac378cd46a97bc9c5200b7da2b11c2bd8eed74337856d0af817ae7c86f198226",
+    "Exports/SM_EC_PlanterRim.fbx": "80d0aec27d796822d164679d1fb644736deca5fe222d83e6f65c148fb0cf2ce7",
+    "Exports/SM_EC_PorchPosts_220x270.fbx": "c33bca01ea000d6e80cf49085a77b2f17ccace6ef3aa5ce371cae6e916cb2693",
+    "Exports/SM_EC_PorchRoof_240x150.fbx": "285ad4307d80bf5828b15bc4b62b07f78fa054304774ca57212e93d22e2c5e09",
+    "Exports/SM_EC_RearWall_700x390.fbx": "dc7859cf3bfe018248473b88414779792f13694cebd6a1d1826557965e1f4ba0",
+    "Exports/SM_EC_SideWall_800x390.fbx": "e7d9464b7920afc7f714b24acf13d3b4248db5f8b2549b65d0d9c3278e4d6686",
+    "Exports/SM_EC_StoneDressings.fbx": "5f893820df483fa7bcc9c096d658122e658207011a8c4a567520da3617428f22",
+    "Exports/SM_EC_StreetTreeCrown.fbx": "18068e30220ed5683750001707ea8e8d314ca39de773f6f57571d14d50e722f4",
+    "Exports/SM_EC_StreetTreeTrunk.fbx": "3629aa14dd52ab9e77d766d20b906581dbb73c1fc7dce31c2b19de2e488413d1",
+    "Exports/SM_EC_TreeRelief.fbx": "b4c1a90c9ce97acccbee2d95cbe252cc41e6c395fdfaa16cff82afebf3f06913",
+    "finalize_delivery.py": "89c78c173abb2bb0c333eca3c152e156dbbf4c9e3e0d9737ea2c4d2a15660592",
+    "HANDOFF.md": "4bbb1a7ec900eea6b888ef4cb9500be4b96c0f3bc62293e7dd213405dfb95283",
+    "manifest.json": "4ef2c26a4a66a5608c525eefb60fb23e1a690acf4dd337198a08a776932ed09f",
+    "preservation.json": "b03df9fac04a7a2a6cc8b3190032976a59718449059af93d7a89d56be3c5320a",
+    "Previews/01_eye_overview.png": "0f1682bb2c525a6fbb255353be3b5761666154ded14b64ba05ca482293015b0c",
+    "Previews/02_house.png": "98e984075237e41f0d3820de6451e15428fa7406da1fd068a441722788aab40d",
+    "Previews/03_plan.png": "1c91371f7e114b7a860417b2da1121f0c99358ff9cafa463b64c0ffb4fe0ebc3",
+    "Previews/04_interior.png": "8de990960951425978d4e138f33757f6b6fac5366d8c8cb89da1089d4dc0856c",
+    "References/33-geordnete-wohnstrasse.png": "195a27381b9088b2f095ddfc4ab4d6c29add66e7626060700fe29c94c1af678f",
+    "StreetStudy01.blend": "6f147895db5668b77083984a5553af15cfe4f3d338a1bbc60a86a81e076b7b25",
+    "verification.json": "c9648fb2bc252ef3cbc01ea29baf68a192a66e8e05be1d6bf9c2c7993f531d76"
+  },
+  "lfs_objects": {
+    "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator/Exports/SM_EC_CityShutter_32x84.fbx": {
+      "oid": "f81f4dfb213b367ea6aa734a46dff29bf196ea6ed0dca1752c9ae697cf6d4e0a",
+      "size": 16412
+    },
+    "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator/Exports/SM_EC_CityWindowFrame_65x80.fbx": {
+      "oid": "7e4067f03aaba4ad545e4335ce3e2795af3b9839a7c358af0703b8e391d6d7e9",
+      "size": 22140
+    },
+    "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator/Exports/SM_EC_CityWindowGlass_65x80.fbx": {
+      "oid": "ce91d5acde3c7c40918271b7ee49a1a8b3fb5090fcccd47563b97067be11a721",
+      "size": 16492
+    },
+    "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator/Exports/SM_EC_Curb_100x20.fbx": {
+      "oid": "2779daeea0c0ce82244779e03e8306e9c0e716dd4fc27d2a0fcb8a11ae9fc8a0",
+      "size": 16380
+    },
+    "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator/Exports/SM_EC_DoorLeaf_140x235.fbx": {
+      "oid": "1dbd54ddda622cbd69275d3fcef7007ac3a2c19cc023753a29db6510431944ed",
+      "size": 19964
+    },
+    "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator/Exports/SM_EC_EntryWoodArch.fbx": {
+      "oid": "2d1ffb89bc1de1d6d8cb1f4f4c4a7ff1ad336a62e52b22d285850ec148f3a593",
+      "size": 31276
+    },
+    "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator/Exports/SM_EC_Facade_700x390.fbx": {
+      "oid": "33b13a96bc211062d7abade4584c2eaecc7190711ab9d1ee0d28e7c0ded7b4b0",
+      "size": 98748
+    },
+    "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator/Exports/SM_EC_Floor_700x800.fbx": {
+      "oid": "198cdcafa087706412d2802d579ccde498aa6d4c65ce1a3e47e0be2f56c33358",
+      "size": 19804
+    },
+    "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator/Exports/SM_EC_GroundBase_3200x3000.fbx": {
+      "oid": "ebf75ef6f6a8027c10c2a9285d90effb11162f998fe36ac510ff0325124432bc",
+      "size": 19820
+    },
+    "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator/Exports/SM_EC_HipRoof_790x890.fbx": {
+      "oid": "f8811b484fa1436b91b689e91740db2e02c27c3e169f14de7b1ba6e58c54f862",
+      "size": 20140
+    },
+    "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator/Exports/SM_EC_HipRoof_LowVariant_790x890.fbx": {
+      "oid": "e23104c14005dfd5a175bd80450a273c7e5340113a4fdc04cf7612c2867f60e9",
+      "size": 20156
+    },
+    "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator/Exports/SM_EC_Paving_120x80.fbx": {
+      "oid": "ac378cd46a97bc9c5200b7da2b11c2bd8eed74337856d0af817ae7c86f198226",
+      "size": 16444
+    },
+    "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator/Exports/SM_EC_PlanterRim.fbx": {
+      "oid": "80d0aec27d796822d164679d1fb644736deca5fe222d83e6f65c148fb0cf2ce7",
+      "size": 16364
+    },
+    "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator/Exports/SM_EC_PorchPosts_220x270.fbx": {
+      "oid": "c33bca01ea000d6e80cf49085a77b2f17ccace6ef3aa5ce371cae6e916cb2693",
+      "size": 23740
+    },
+    "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator/Exports/SM_EC_PorchRoof_240x150.fbx": {
+      "oid": "285ad4307d80bf5828b15bc4b62b07f78fa054304774ca57212e93d22e2c5e09",
+      "size": 20044
+    },
+    "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator/Exports/SM_EC_RearWall_700x390.fbx": {
+      "oid": "dc7859cf3bfe018248473b88414779792f13694cebd6a1d1826557965e1f4ba0",
+      "size": 63356
+    },
+    "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator/Exports/SM_EC_SideWall_800x390.fbx": {
+      "oid": "e7d9464b7920afc7f714b24acf13d3b4248db5f8b2549b65d0d9c3278e4d6686",
+      "size": 63196
+    },
+    "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator/Exports/SM_EC_StoneDressings.fbx": {
+      "oid": "5f893820df483fa7bcc9c096d658122e658207011a8c4a567520da3617428f22",
+      "size": 36060
+    },
+    "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator/Exports/SM_EC_StreetTreeCrown.fbx": {
+      "oid": "18068e30220ed5683750001707ea8e8d314ca39de773f6f57571d14d50e722f4",
+      "size": 91772
+    },
+    "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator/Exports/SM_EC_StreetTreeTrunk.fbx": {
+      "oid": "3629aa14dd52ab9e77d766d20b906581dbb73c1fc7dce31c2b19de2e488413d1",
+      "size": 46332
+    },
+    "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator/Exports/SM_EC_TreeRelief.fbx": {
+      "oid": "b4c1a90c9ce97acccbee2d95cbe252cc41e6c395fdfaa16cff82afebf3f06913",
+      "size": 36092
+    },
+    "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator/Previews/01_eye_overview.png": {
+      "oid": "0f1682bb2c525a6fbb255353be3b5761666154ded14b64ba05ca482293015b0c",
+      "size": 1400934
+    },
+    "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator/Previews/02_house.png": {
+      "oid": "98e984075237e41f0d3820de6451e15428fa7406da1fd068a441722788aab40d",
+      "size": 1392576
+    },
+    "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator/Previews/03_plan.png": {
+      "oid": "1c91371f7e114b7a860417b2da1121f0c99358ff9cafa463b64c0ffb4fe0ebc3",
+      "size": 1424923
+    },
+    "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator/Previews/04_interior.png": {
+      "oid": "8de990960951425978d4e138f33757f6b6fac5366d8c8cb89da1089d4dc0856c",
+      "size": 1222133
+    },
+    "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator/References/33-geordnete-wohnstrasse.png": {
+      "oid": "195a27381b9088b2f095ddfc4ab4d6c29add66e7626060700fe29c94c1af678f",
+      "size": 3154732
+    },
+    "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Creator/StreetStudy01.blend": {
+      "oid": "6f147895db5668b77083984a5553af15cfe4f3d338a1bbc60a86a81e076b7b25",
+      "size": 252180
+    }
+  },
+  "blend_header_hex": "28b52ffda041060100253700",
+  "creator_matches_input_commit": true,
+  "branch": "assets/refiner",
+  "head_after_intake": "fe7b9a5239015dd1091dc20ebb0ca32cc420f62c"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "files_before": 1530,
+  "files_unchanged": 1530,
+  "changed_existing": [],
+  "deleted_existing": [],
+  "creator_files_unchanged": 41,
+  "completed_study_a_unchanged": true,
+  "study_a_sha256sums_sha256": "a0477f7614f07d82d549c6952dcd50d0dea82ce5a035fb286d9e05f4463dc20d",
+  "study_a_files_verified": 43,
+  "existing_refiner_work_preserved": true,
+  "no_unreal_operations": true
+}

@@ -1,0 +1,189 @@
+{
+  "status": "passed",
+  "input_commit": "7cf7bf322725559b4b3f5ccd220eb0544c589195",
+  "checked_sha256_files": {
+    ".gitattributes": "dce56c765876cafbc60571dcc5c7b550eb17c4d852e64abebb6f0f3836225c34",
+    "build_study.py": "85552f81b8f5b43d44bf17018492e0367289f533c13836cea2f81cfc3d75df5b",
+    "CourtyardStudy01.blend": "e90d818ff70e2ac521541c71662e9da561719ad3ccab65527155276628cb8fad",
+    "Exports/SM_ER_Bench_210x56.fbx": "a72fbdd71386dbb83b8bb9dd7928636d309e38278947db40087db4e5d3eebc6c",
+    "Exports/SM_ER_ConnectedFloor_v02.fbx": "eab37355e7c3df1b4a44a45e3a7f5ad50b01f37b05caeba8495b61e8d26decfc",
+    "Exports/SM_ER_CourtStone_100x70.fbx": "908fdb858d3aa488690c1cd8f6e639ec6375b5fdc7df41925b913790d82ba1ce",
+    "Exports/SM_ER_DoorLeaf_140x230.fbx": "4e62345ab7e7aa6d9728ce6cbadce73bd03386073d162a9fdeb1107fc92b6615",
+    "Exports/SM_ER_Ground_2600x2300.fbx": "f7f3ef57c1429c9aaa1c738c58ad68998c79dec9f4ceee57d6a885c592add17d",
+    "Exports/SM_ER_HerbBed_250x140.fbx": "daf2b24f5745a1177c91e1f63cabbf4d63bb91208fbfb67aa81ea6a8bd14576d",
+    "Exports/SM_ER_HerbClusters.fbx": "58443a8dc212ad9c6ea8a2bc2cd100081f627a3a5e107e9fad7e1fed40a3645f",
+    "Exports/SM_ER_LinkingRootArches.fbx": "5292bc173ec827316701a4d68aae892ff0cd8b557eddc7b4cae8805e36deb46c",
+    "Exports/SM_ER_LivingOldTrunk.fbx": "c19496b52304ff72883fa21cc80d715f11a3f91a24832eda714f628a2aed45ca",
+    "Exports/SM_ER_OldButtressRoots.fbx": "c0e66f3620c3977db352bc768f37347f355b283f342a1f6037eca7079611374a",
+    "Exports/SM_ER_OldCoreCrown_640x620.fbx": "d819cd38561c095f8d336b25c919369063757d44fcbdaa518f3a43de57392f65",
+    "Exports/SM_ER_OldCoreLinkedShell_R260_H430_v02.fbx": "c98d7aae14f1787bdfb47698bfddf2c99e1e6e937c95cb47f660345b6ac75d70",
+    "Exports/SM_ER_OldTreeCanopy.fbx": "221581e229ecfd772f2bd40839126179457c3f8a023b86c2c0ccf4c8e872de85",
+    "Exports/SM_ER_RetreatShutter_32x84.fbx": "ce9ab2d0846c55975051f4c7acd4145654ea3e86fe8c26085d191d3970523172",
+    "Exports/SM_ER_RetreatWindowFrame_65x80.fbx": "a8c74bc5e19b7d88d11d260f159e5023cf8d70c4ce6f4eee3ba4023f48bef3d0",
+    "Exports/SM_ER_RetreatWindowGlass_65x80.fbx": "1d56a967ed4544e8b0dcfad88597b8671f791d623bf5e88a9f86e0a268162c33",
+    "Exports/SM_ER_RootDoorArch.fbx": "dd775649c33a9fe39b9adae05c3e63f88722fa9dae0c0287309c96b2bd2b1f1e",
+    "Exports/SM_ER_WingClosedStoneSill_v02.fbx": "4a6ef1349b88a3b01a7d32791bf35a2a91a3976050c44fe38a346c5cb8c9952e",
+    "Exports/SM_ER_WingCrownFill.fbx": "d65c4fcb9d18a5d9288bdf4c25920e5ea69ef122d3ed9980f855df02f34e23cf",
+    "Exports/SM_ER_WingInternalLink_550x311_v02.fbx": "4db4e473cffc15202b5564e1bee64161704fca138f97acd1bad538c5a5ebbd72",
+    "Exports/SM_ER_WingRear_640x280.fbx": "508d4799fdcef8c9713c265457ff7d9004047d1c3d4ff3687384910de257f745",
+    "Exports/SM_ER_WingRootRibs.fbx": "b3ac1257f91fc0f0428c35038238d8c3a3fa861763b03b009c34d1ab4671935d",
+    "Exports/SM_ER_WingRootVault_720x620.fbx": "42917563e32499af30e36894ab9eeb8709cfd304950484cdc44b50ad429f855e",
+    "Exports/SM_ER_WingSide_550x311.fbx": "76fcd378d481f24a1f1f8c31a2933fe5a429e4f46a91bd42cb37705d4f12a15e",
+    "Exports/SM_ER_WingWindowFacade_640x280_v02.fbx": "43c25f409201995ccf65b68370f502df7b132bb54a4ef0c9ee733f77b10e2237",
+    "Exports/SM_ER_YoungLivingTrunk.fbx": "3cf4c25e3d879d33e69f2f588b336625066ee59fc6f4a0cab4fc059279602e55",
+    "Exports/SM_ER_YoungTreeCrown.fbx": "780975d39d8303fc86307f1651ae82cf5db1f2a716fb1a3aa6d0f3eb0e779701",
+    "finalize_delivery.py": "6619691bc2d5395beeb3041cea051cd157a58517776d3bb77567ec07fe8c34ac",
+    "HANDOFF.md": "2ed9d0c4b69e4a8aa1bc92c02916f42cb1b2008a0eccea51790028e58e89692b",
+    "manifest.json": "c262af8b2e3a7fd35d608ead4683cfda7424a6fbd5656a90e3e1821a295afeb3",
+    "preservation.json": "2c4899f0a1ba5ace6280a8892ed31e548a16cb629e1a6213a275722c8e33ac8b",
+    "Previews/01_eye_overview.png": "3acd05ef225a81a71fdb3f99a2250f3ccf4948f310604d95796b594c441e1c5a",
+    "Previews/02_house.png": "4f472b1cf6a7b60b030ecf7a8f18d566a67e7688888f2b7448ac4f21ae40e711",
+    "Previews/03_plan.png": "bf6e4f20fcfd205ee54c7a47ad5929f7e6af7b4e91ce8ca097e6a8e88da9541f",
+    "Previews/04_interior.png": "fbf74ddcc382f194c6be4011e55f2fb570bc6a3f264ec38c26b86fcd6e8c0a00",
+    "Previews/05_connected_plan.png": "5f8507b5b8ffd1d6f28db736d238f9c6b7f2d4a524b4b866c69a434d205e8c04",
+    "References/23-gewachsener-familienhof.png": "28dd234d36960c91154452c84d3eb225701985067dd9e93b28e40a06176f6afe",
+    "verification.json": "64697d0afc5e8041859ff26c35e46a867e92f596b5ef5160a0f91a6a81671803"
+  },
+  "lfs_objects": {
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/CourtyardStudy01.blend": {
+      "oid": "e90d818ff70e2ac521541c71662e9da561719ad3ccab65527155276628cb8fad",
+      "size": 345534
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Exports/SM_ER_Bench_210x56.fbx": {
+      "oid": "a72fbdd71386dbb83b8bb9dd7928636d309e38278947db40087db4e5d3eebc6c",
+      "size": 16940
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Exports/SM_ER_ConnectedFloor_v02.fbx": {
+      "oid": "eab37355e7c3df1b4a44a45e3a7f5ad50b01f37b05caeba8495b61e8d26decfc",
+      "size": 38012
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Exports/SM_ER_CourtStone_100x70.fbx": {
+      "oid": "908fdb858d3aa488690c1cd8f6e639ec6375b5fdc7df41925b913790d82ba1ce",
+      "size": 16428
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Exports/SM_ER_DoorLeaf_140x230.fbx": {
+      "oid": "4e62345ab7e7aa6d9728ce6cbadce73bd03386073d162a9fdeb1107fc92b6615",
+      "size": 19820
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Exports/SM_ER_Ground_2600x2300.fbx": {
+      "oid": "f7f3ef57c1429c9aaa1c738c58ad68998c79dec9f4ceee57d6a885c592add17d",
+      "size": 19788
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Exports/SM_ER_HerbBed_250x140.fbx": {
+      "oid": "daf2b24f5745a1177c91e1f63cabbf4d63bb91208fbfb67aa81ea6a8bd14576d",
+      "size": 17196
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Exports/SM_ER_HerbClusters.fbx": {
+      "oid": "58443a8dc212ad9c6ea8a2bc2cd100081f627a3a5e107e9fad7e1fed40a3645f",
+      "size": 47900
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Exports/SM_ER_LinkingRootArches.fbx": {
+      "oid": "5292bc173ec827316701a4d68aae892ff0cd8b557eddc7b4cae8805e36deb46c",
+      "size": 27228
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Exports/SM_ER_LivingOldTrunk.fbx": {
+      "oid": "c19496b52304ff72883fa21cc80d715f11a3f91a24832eda714f628a2aed45ca",
+      "size": 43836
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Exports/SM_ER_OldButtressRoots.fbx": {
+      "oid": "c0e66f3620c3977db352bc768f37347f355b283f342a1f6037eca7079611374a",
+      "size": 60620
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Exports/SM_ER_OldCoreCrown_640x620.fbx": {
+      "oid": "d819cd38561c095f8d336b25c919369063757d44fcbdaa518f3a43de57392f65",
+      "size": 52668
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Exports/SM_ER_OldCoreLinkedShell_R260_H430_v02.fbx": {
+      "oid": "c98d7aae14f1787bdfb47698bfddf2c99e1e6e937c95cb47f660345b6ac75d70",
+      "size": 280732
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Exports/SM_ER_OldTreeCanopy.fbx": {
+      "oid": "221581e229ecfd772f2bd40839126179457c3f8a023b86c2c0ccf4c8e872de85",
+      "size": 143068
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Exports/SM_ER_RetreatShutter_32x84.fbx": {
+      "oid": "ce9ab2d0846c55975051f4c7acd4145654ea3e86fe8c26085d191d3970523172",
+      "size": 16412
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Exports/SM_ER_RetreatWindowFrame_65x80.fbx": {
+      "oid": "a8c74bc5e19b7d88d11d260f159e5023cf8d70c4ce6f4eee3ba4023f48bef3d0",
+      "size": 22556
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Exports/SM_ER_RetreatWindowGlass_65x80.fbx": {
+      "oid": "1d56a967ed4544e8b0dcfad88597b8671f791d623bf5e88a9f86e0a268162c33",
+      "size": 16492
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Exports/SM_ER_RootDoorArch.fbx": {
+      "oid": "dd775649c33a9fe39b9adae05c3e63f88722fa9dae0c0287309c96b2bd2b1f1e",
+      "size": 34412
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Exports/SM_ER_WingClosedStoneSill_v02.fbx": {
+      "oid": "4a6ef1349b88a3b01a7d32791bf35a2a91a3976050c44fe38a346c5cb8c9952e",
+      "size": 16428
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Exports/SM_ER_WingCrownFill.fbx": {
+      "oid": "d65c4fcb9d18a5d9288bdf4c25920e5ea69ef122d3ed9980f855df02f34e23cf",
+      "size": 61148
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Exports/SM_ER_WingInternalLink_550x311_v02.fbx": {
+      "oid": "4db4e473cffc15202b5564e1bee64161704fca138f97acd1bad538c5a5ebbd72",
+      "size": 34284
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Exports/SM_ER_WingRear_640x280.fbx": {
+      "oid": "508d4799fdcef8c9713c265457ff7d9004047d1c3d4ff3687384910de257f745",
+      "size": 63772
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Exports/SM_ER_WingRootRibs.fbx": {
+      "oid": "b3ac1257f91fc0f0428c35038238d8c3a3fa861763b03b009c34d1ab4671935d",
+      "size": 74428
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Exports/SM_ER_WingRootVault_720x620.fbx": {
+      "oid": "42917563e32499af30e36894ab9eeb8709cfd304950484cdc44b50ad429f855e",
+      "size": 61676
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Exports/SM_ER_WingSide_550x311.fbx": {
+      "oid": "76fcd378d481f24a1f1f8c31a2933fe5a429e4f46a91bd42cb37705d4f12a15e",
+      "size": 63212
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Exports/SM_ER_WingWindowFacade_640x280_v02.fbx": {
+      "oid": "43c25f409201995ccf65b68370f502df7b132bb54a4ef0c9ee733f77b10e2237",
+      "size": 121260
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Exports/SM_ER_YoungLivingTrunk.fbx": {
+      "oid": "3cf4c25e3d879d33e69f2f588b336625066ee59fc6f4a0cab4fc059279602e55",
+      "size": 28076
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Exports/SM_ER_YoungTreeCrown.fbx": {
+      "oid": "780975d39d8303fc86307f1651ae82cf5db1f2a716fb1a3aa6d0f3eb0e779701",
+      "size": 39948
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Previews/01_eye_overview.png": {
+      "oid": "3acd05ef225a81a71fdb3f99a2250f3ccf4948f310604d95796b594c441e1c5a",
+      "size": 1344831
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Previews/02_house.png": {
+      "oid": "4f472b1cf6a7b60b030ecf7a8f18d566a67e7688888f2b7448ac4f21ae40e711",
+      "size": 1400380
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Previews/03_plan.png": {
+      "oid": "bf6e4f20fcfd205ee54c7a47ad5929f7e6af7b4e91ce8ca097e6a8e88da9541f",
+      "size": 1397123
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Previews/04_interior.png": {
+      "oid": "fbf74ddcc382f194c6be4011e55f2fb570bc6a3f264ec38c26b86fcd6e8c0a00",
+      "size": 1219771
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/Previews/05_connected_plan.png": {
+      "oid": "5f8507b5b8ffd1d6f28db736d238f9c6b7f2d4a524b4b866c69a434d205e8c04",
+      "size": 1338279
+    },
+    "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator/References/23-gewachsener-familienhof.png": {
+      "oid": "28dd234d36960c91154452c84d3eb225701985067dd9e93b28e40a06176f6afe",
+      "size": 3840122
+    }
+  },
+  "blend_header_hex": "28b52ffda041060100253700",
+  "creator_matches_input_commit": true,
+  "branch": "assets/refiner",
+  "head_after_intake": "95020dd1693250747aee24a05c6ff7cd944dc6dc"
+}

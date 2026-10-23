@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "external_door_leaves": 1,
+  "external_door_object": "ER_OldCore_DoorLeaf_140x230",
+  "internal_routes": [
+    {
+      "name": "WestWing",
+      "route_ray_count_per_representation": 144,
+      "route_width_m": 1.2,
+      "top_test_height_m": 2.2,
+      "floor_grid": [
+        64,
+        11
+      ],
+      "floor_samples_per_representation": 704,
+      "max_floor_z_error_m": 5.960464477539063e-08,
+      "both_wall_layers_clear": true
+    },
+    {
+      "name": "EastWing",
+      "route_ray_count_per_representation": 144,
+      "route_width_m": 1.2,
+      "top_test_height_m": 2.2,
+      "floor_grid": [
+        64,
+        11
+      ],
+      "floor_samples_per_representation": 704,
+      "max_floor_z_error_m": 5.960464477539063e-08,
+      "both_wall_layers_clear": true
+    }
+  ],
+  "windows": [
+    {
+      "asset": "SM_ER_WingWindowFacade_640x280_v02",
+      "window_openings": 3,
+      "clear_ray_count_per_representation": 147,
+      "closed_sills_and_headers": true
+    },
+    {
+      "asset": "SM_ER_WingRear_640x280",
+      "window_openings": 2,
+      "clear_ray_count_per_representation": 98,
+      "closed_sills_and_headers": true
+    },
+    {
+      "asset": "SM_ER_WingSide_550x311",
+      "window_openings": 2,
+      "clear_ray_count_per_representation": 98,
+      "closed_sills_and_headers": true
+    }
+  ],
+  "shared_floor_connected_components": 1,
+  "shared_floor_source_ucx": 3,
+  "core_uv": "Cylindrical metric UV0 on inner/outer curved walls; one periodic seam, planar jambs/caps; intentional tiling overlaps",
+  "scope": "Dense sampled real Render geometry including decor and original UCX; not a continuous capsule sweep or Unreal test"
+}
