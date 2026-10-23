@@ -1,0 +1,13 @@
+{
+  "baseline_commit": "e66d5beed7bb85313501659d646f25778515134b",
+  "branch": "assets/creator",
+  "tracked_files": 1072,
+  "before_sha256": "D14BE76EA8A2B9C1A5F5D602C1834074A0900DF1595A2B3275FCC9E62AE27A5E",
+  "after_sha256": "D14BE76EA8A2B9C1A5F5D602C1834074A0900DF1595A2B3275FCC9E62AE27A5E",
+  "protected_study_a_sha256sums": "EE1C15A6BD705F7D1BAC203053849C0DB107A6251F421846AC25315D60A236E5",
+  "study_a_delivery_verified_unchanged": true,
+  "study_b_revision": 2,
+  "method": "SHA256 of UTF8 lines git-tracked-relative-path:UPPERCASE-file-SHA256 plus LF, git ls-files order",
+  "passed": true,
+  "scope": "Only B Creator updated; tracked files, frozen inner wall and all A delivery bytes preserved"
+}
