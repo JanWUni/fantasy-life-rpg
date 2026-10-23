@@ -1,0 +1,915 @@
+{
+  "status": "passed",
+  "revision": 2,
+  "external_door_leaves": 1,
+  "shared_floor_connected_components": 1,
+  "central_room_enclosure": {
+    "rays": 1288,
+    "heights_m": [
+      1.0,
+      2.2
+    ],
+    "excluded": "intended front entrance +/-19deg",
+    "all_hit_render_geometry": true
+  },
+  "scope": "Source reopen, all FBX roundtrips; single exterior entrance, internal connections, closed former doors, continuous shared floor; sampled render/UCX tests",
+  "source_assets": [
+    {
+      "asset": "SM_ER_WingWindowFacade_640x280_v02",
+      "source_reopen": {
+        "vertices": 96,
+        "triangles": 200,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.200000047683716,
+            0.0,
+            0.0
+          ],
+          [
+            3.200000047683716,
+            0.3499999940395355,
+            2.799999952316284
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_ER_WingRear_640x280",
+      "source_reopen": {
+        "vertices": 48,
+        "triangles": 100,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.200000047683716,
+            0.0,
+            0.0
+          ],
+          [
+            3.200000047683716,
+            0.3499999940395355,
+            2.799999952316284
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_ER_WingSide_550x311",
+      "source_reopen": {
+        "vertices": 48,
+        "triangles": 100,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -2.75,
+            0.0,
+            0.0
+          ],
+          [
+            2.75,
+            0.3499999940395355,
+            3.109999895095825
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_ER_WingInternalLink_550x311_v02",
+      "source_reopen": {
+        "vertices": 24,
+        "triangles": 44,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -2.75,
+            0.0,
+            0.0
+          ],
+          [
+            2.75,
+            0.3499999940395355,
+            3.109999895095825
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_ER_WingRootVault_720x620",
+      "source_reopen": {
+        "vertices": 52,
+        "triangles": 100,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.5999999046325684,
+            -3.0999999046325684,
+            2.950000047683716
+          ],
+          [
+            3.5999999046325684,
+            3.0999999046325684,
+            3.9000000953674316
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_ER_WingCrownFill",
+      "source_reopen": {
+        "vertices": 52,
+        "triangles": 100,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.200000047683716,
+            -0.17499999701976776,
+            2.799999952316284
+          ],
+          [
+            3.200000047683716,
+            0.17499999701976776,
+            3.700000047683716
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_ER_DoorLeaf_140x230",
+      "source_reopen": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            0.0,
+            -0.07000000029802322,
+            0.0
+          ],
+          [
+            1.399999976158142,
+            0.07000000029802322,
+            2.299999952316284
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_ER_RootDoorArch",
+      "source_reopen": {
+        "vertices": 150,
+        "triangles": 296,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.9291267991065979,
+            -0.14999999105930328,
+            0.0
+          ],
+          [
+            0.9291267991065979,
+            0.08999999612569809,
+            2.634126663208008
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_ER_RetreatWindowFrame_65x80",
+      "source_reopen": {
+        "vertices": 74,
+        "triangles": 124,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.4000000059604645,
+            -0.13899999856948853,
+            -0.05999999865889549
+          ],
+          [
+            0.4000000059604645,
+            0.14000000059604645,
+            0.8999999761581421
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_ER_RetreatWindowGlass_65x80",
+      "source_reopen": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Glass"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.32499998807907104,
+            0.10000000149011612,
+            0.0
+          ],
+          [
+            0.32499998807907104,
+            0.12999999523162842,
+            0.800000011920929
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_ER_RetreatShutter_32x84",
+      "source_reopen": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.3199999928474426,
+            -0.04500000178813934,
+            0.0
+          ],
+          [
+            0.0,
+            0.04500000178813934,
+            0.8399999737739563
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_ER_WingRootRibs",
+      "source_reopen": {
+        "vertices": 460,
+        "triangles": 900,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.5553834438323975,
+            -3.230985403060913,
+            -0.07724297046661377
+          ],
+          [
+            3.5553834438323975,
+            3.0299999713897705,
+            3.990000009536743
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_ER_WingClosedStoneSill_v02",
+      "source_reopen": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "StoneFloor"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.200000047683716,
+            -2.8399999141693115,
+            0.0
+          ],
+          [
+            3.200000047683716,
+            -2.549999952316284,
+            0.25
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_ER_OldCoreLinkedShell_R260_H430_v02",
+      "source_reopen": {
+        "vertices": 222,
+        "triangles": 444,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -2.5999999046325684,
+            -2.5999999046325684,
+            0.0
+          ],
+          [
+            2.5999999046325684,
+            2.5999999046325684,
+            4.300000190734863
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_ER_OldCoreCrown_640x620",
+      "source_reopen": {
+        "vertices": 170,
+        "triangles": 336,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.200000047683716,
+            -3.0999999046325684,
+            3.700000047683716
+          ],
+          [
+            3.200000047683716,
+            3.0999999046325684,
+            5.5
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_ER_LivingOldTrunk",
+      "source_reopen": {
+        "vertices": 176,
+        "triangles": 332,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -4.054257392883301,
+            -2.8662469387054443,
+            4.5927042961120605
+          ],
+          [
+            3.550903797149658,
+            3.8684933185577393,
+            11.258325576782227
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_ER_OldButtressRoots",
+      "source_reopen": {
+        "vertices": 300,
+        "triangles": 576,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.909787178039551,
+            -3.13173770904541,
+            -0.2098781317472458
+          ],
+          [
+            3.909787178039551,
+            2.3639650344848633,
+            5.700370788574219
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_ER_OldTreeCanopy",
+      "source_reopen": {
+        "vertices": 1092,
+        "triangles": 2080,
+        "material_slots": [
+          "Leaves"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -4.509504318237305,
+            -3.5781750679016113,
+            8.949999809265137
+          ],
+          [
+            4.486921310424805,
+            3.5943782329559326,
+            12.300000190734863
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_ER_YoungLivingTrunk",
+      "source_reopen": {
+        "vertices": 78,
+        "triangles": 144,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.7142271399497986,
+            1.3673895597457886,
+            3.3947033882141113
+          ],
+          [
+            2.024909019470215,
+            2.0326104164123535,
+            6.515947341918945
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_ER_YoungTreeCrown",
+      "source_reopen": {
+        "vertices": 210,
+        "triangles": 400,
+        "material_slots": [
+          "Leaves"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -1.7461621761322021,
+            -0.10450849682092667,
+            5.650000095367432
+          ],
+          [
+            3.0461621284484863,
+            3.7045085430145264,
+            7.300000190734863
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_ER_LinkingRootArches",
+      "source_reopen": {
+        "vertices": 80,
+        "triangles": 152,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -5.083291530609131,
+            0.6877144575119019,
+            2.3537981510162354
+          ],
+          [
+            5.083291530609131,
+            2.750042676925659,
+            3.591555118560791
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_ER_Ground_2600x2300",
+      "source_reopen": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Soil"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -13.0,
+            -10.0,
+            -0.30000001192092896
+          ],
+          [
+            13.0,
+            13.0,
+            -0.11999999731779099
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_ER_CourtStone_100x70",
+      "source_reopen": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "StoneFloor"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.48500001430511475,
+            -0.33500000834465027,
+            -0.10000000149011612
+          ],
+          [
+            0.48500001430511475,
+            0.33500000834465027,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_ER_Bench_210x56",
+      "source_reopen": {
+        "vertices": 24,
+        "triangles": 36,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -1.0499999523162842,
+            -0.2800000011920929,
+            0.0
+          ],
+          [
+            1.0499999523162842,
+            0.2800000011920929,
+            0.5299999713897705
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_ER_HerbBed_250x140",
+      "source_reopen": {
+        "vertices": 16,
+        "triangles": 32,
+        "material_slots": [
+          "StoneFloor"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -1.25,
+            -0.699999988079071,
+            0.0
+          ],
+          [
+            1.25,
+            0.699999988079071,
+            0.3400000035762787
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_ER_HerbClusters",
+      "source_reopen": {
+        "vertices": 312,
+        "triangles": 576,
+        "material_slots": [
+          "Herbs"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -1.1200000047683716,
+            -0.5099999904632568,
+            0.11999999731779099
+          ],
+          [
+            1.1200000047683716,
+            0.5099999904632568,
+            0.5799999833106995
+          ]
+        ]
+      }
+    },
+    {
+      "asset": "SM_ER_ConnectedFloor_v02",
+      "source_reopen": {
+        "vertices": 104,
+        "triangles": 204,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -9.20182991027832,
+            0.3447766900062561,
+            -0.18000000715255737
+          ],
+          [
+            9.20182991027832,
+            7.05522346496582,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "interior_probes": [
+    {
+      "interior": "WestWing",
+      "door_grid_9_rays": "clear",
+      "floor_and_roof_samples": "hit",
+      "scope": "render and source UCX BVH, not capsule/Unreal",
+      "upper_facade_grid_21_rays": "render and UCX hit",
+      "former_external_door": "closed at floor/head heights; new65x80cm window above solid sill",
+      "internal_route_width_120_height_220": "nine unobstructed render/UCX rays across both room walls",
+      "route_floor_samples_per_representation": 96,
+      "max_floor_level_error_m": 5.960464477539063e-08
+    },
+    {
+      "interior": "EastWing",
+      "door_grid_9_rays": "clear",
+      "floor_and_roof_samples": "hit",
+      "scope": "render and source UCX BVH, not capsule/Unreal",
+      "upper_facade_grid_21_rays": "render and UCX hit",
+      "former_external_door": "closed at floor/head heights; new65x80cm window above solid sill",
+      "internal_route_width_120_height_220": "nine unobstructed render/UCX rays across both room walls",
+      "route_floor_samples_per_representation": 96,
+      "max_floor_level_error_m": 5.960464477539063e-08
+    },
+    {
+      "interior": "OldCore",
+      "door_grid_9_rays": "clear",
+      "floor_and_roof_samples": "hit",
+      "scope": "render and source UCX BVH, not capsule/Unreal"
+    }
+  ],
+  "roundtrips": [
+    {
+      "asset": "SM_ER_WingWindowFacade_640x280_v02",
+      "triangles": 200,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 29,
+      "passed": true
+    },
+    {
+      "asset": "SM_ER_WingRear_640x280",
+      "triangles": 100,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 13,
+      "passed": true
+    },
+    {
+      "asset": "SM_ER_WingSide_550x311",
+      "triangles": 100,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 13,
+      "passed": true
+    },
+    {
+      "asset": "SM_ER_WingInternalLink_550x311_v02",
+      "triangles": 44,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 5,
+      "passed": true
+    },
+    {
+      "asset": "SM_ER_WingRootVault_720x620",
+      "triangles": 100,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 12,
+      "passed": true
+    },
+    {
+      "asset": "SM_ER_WingCrownFill",
+      "triangles": 100,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 12,
+      "passed": true
+    },
+    {
+      "asset": "SM_ER_DoorLeaf_140x230",
+      "triangles": 12,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 1,
+      "passed": true
+    },
+    {
+      "asset": "SM_ER_RootDoorArch",
+      "triangles": 296,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 0,
+      "passed": true
+    },
+    {
+      "asset": "SM_ER_RetreatWindowFrame_65x80",
+      "triangles": 124,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 0,
+      "passed": true
+    },
+    {
+      "asset": "SM_ER_RetreatWindowGlass_65x80",
+      "triangles": 12,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 0,
+      "passed": true
+    },
+    {
+      "asset": "SM_ER_RetreatShutter_32x84",
+      "triangles": 12,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 0,
+      "passed": true
+    },
+    {
+      "asset": "SM_ER_WingRootRibs",
+      "triangles": 900,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 0,
+      "passed": true
+    },
+    {
+      "asset": "SM_ER_WingClosedStoneSill_v02",
+      "triangles": 12,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 0,
+      "passed": true
+    },
+    {
+      "asset": "SM_ER_OldCoreLinkedShell_R260_H430_v02",
+      "triangles": 444,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 68,
+      "passed": true
+    },
+    {
+      "asset": "SM_ER_OldCoreCrown_640x620",
+      "triangles": 336,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 1,
+      "passed": true
+    },
+    {
+      "asset": "SM_ER_LivingOldTrunk",
+      "triangles": 332,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 0,
+      "passed": true
+    },
+    {
+      "asset": "SM_ER_OldButtressRoots",
+      "triangles": 576,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 0,
+      "passed": true
+    },
+    {
+      "asset": "SM_ER_OldTreeCanopy",
+      "triangles": 2080,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 0,
+      "passed": true
+    },
+    {
+      "asset": "SM_ER_YoungLivingTrunk",
+      "triangles": 144,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 0,
+      "passed": true
+    },
+    {
+      "asset": "SM_ER_YoungTreeCrown",
+      "triangles": 400,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 0,
+      "passed": true
+    },
+    {
+      "asset": "SM_ER_LinkingRootArches",
+      "triangles": 152,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 0,
+      "passed": true
+    },
+    {
+      "asset": "SM_ER_Ground_2600x2300",
+      "triangles": 12,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 1,
+      "passed": true
+    },
+    {
+      "asset": "SM_ER_CourtStone_100x70",
+      "triangles": 12,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 0,
+      "passed": true
+    },
+    {
+      "asset": "SM_ER_Bench_210x56",
+      "triangles": 36,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 0,
+      "passed": true
+    },
+    {
+      "asset": "SM_ER_HerbBed_250x140",
+      "triangles": 32,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 0,
+      "passed": true
+    },
+    {
+      "asset": "SM_ER_HerbClusters",
+      "triangles": 576,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 0,
+      "passed": true
+    },
+    {
+      "asset": "SM_ER_ConnectedFloor_v02",
+      "triangles": 204,
+      "bounds_error_m": 0.0,
+      "collision_hulls": 3,
+      "passed": true
+    }
+  ],
+  "unreal_import": false
+}

@@ -1,0 +1,6649 @@
+{
+  "kit_id": "ER.RootRetreat",
+  "module_id": "CourtyardStudy01",
+  "interface_version": "0.2",
+  "revision": 2,
+  "status": "creator_ready",
+  "base_commit": "e66d5beed7bb85313501659d646f25778515134b",
+  "creator_directory": "AssetSources/Architecture/ER_RootRetreat/CourtyardStudy01/Creator",
+  "blender": "5.2.2 LTS",
+  "reference_image_sha256": "28dd234d36960c91154452c84d3eb225701985067dd9e93b28e40a06176f6afe",
+  "source_blend": "CourtyardStudy01.blend",
+  "source_blend_sha256": "e90d818ff70e2ac521541c71662e9da561719ad3ccab65527155276628cb8fad",
+  "units": {
+    "blender": "meters",
+    "unit_scale": 1,
+    "ue": "centimeters",
+    "mapping": "(100*x,-100*y,100*z)"
+  },
+  "export_profile": "Blender522_UE58_LegacyFBX_Calibration01",
+  "importer_intended": "FbxFactory / FbxStaticMeshImportData; Interchange not validated",
+  "unreal_import_performed": false,
+  "exports": [
+    {
+      "label": "WingWindowFacade_640x280_v02",
+      "asset_name": "SM_ER_WingWindowFacade_640x280_v02",
+      "category": "Structure",
+      "path": "Exports/SM_ER_WingWindowFacade_640x280_v02.fbx",
+      "sha256": "43c25f409201995ccf65b68370f502df7b132bb54a4ef0c9ee733f77b10e2237",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_00",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_01",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_02",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_03",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_04",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_05",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_06",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_07",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_08",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_09",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_10",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_11",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_12",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_13",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_14",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_15",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_16",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_17",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_18",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_19",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_20",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_21",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_22",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_23",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_24",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_25",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_26",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_27",
+        "UCX_SM_ER_WingWindowFacade_640x280_v02_28"
+      ],
+      "source_stats": {
+        "vertices": 96,
+        "triangles": 200,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.200000047683716,
+            0.0,
+            0.0
+          ],
+          [
+            3.200000047683716,
+            0.3499999940395355,
+            2.799999952316284
+          ]
+        ]
+      }
+    },
+    {
+      "label": "WingRear_640x280",
+      "asset_name": "SM_ER_WingRear_640x280",
+      "category": "Structure",
+      "path": "Exports/SM_ER_WingRear_640x280.fbx",
+      "sha256": "508d4799fdcef8c9713c265457ff7d9004047d1c3d4ff3687384910de257f745",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [
+        "UCX_SM_ER_WingRear_640x280_00",
+        "UCX_SM_ER_WingRear_640x280_01",
+        "UCX_SM_ER_WingRear_640x280_02",
+        "UCX_SM_ER_WingRear_640x280_03",
+        "UCX_SM_ER_WingRear_640x280_04",
+        "UCX_SM_ER_WingRear_640x280_05",
+        "UCX_SM_ER_WingRear_640x280_06",
+        "UCX_SM_ER_WingRear_640x280_07",
+        "UCX_SM_ER_WingRear_640x280_08",
+        "UCX_SM_ER_WingRear_640x280_09",
+        "UCX_SM_ER_WingRear_640x280_10",
+        "UCX_SM_ER_WingRear_640x280_11",
+        "UCX_SM_ER_WingRear_640x280_12"
+      ],
+      "source_stats": {
+        "vertices": 48,
+        "triangles": 100,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.200000047683716,
+            0.0,
+            0.0
+          ],
+          [
+            3.200000047683716,
+            0.3499999940395355,
+            2.799999952316284
+          ]
+        ]
+      }
+    },
+    {
+      "label": "WingSide_550x311",
+      "asset_name": "SM_ER_WingSide_550x311",
+      "category": "Structure",
+      "path": "Exports/SM_ER_WingSide_550x311.fbx",
+      "sha256": "76fcd378d481f24a1f1f8c31a2933fe5a429e4f46a91bd42cb37705d4f12a15e",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [
+        "UCX_SM_ER_WingSide_550x311_00",
+        "UCX_SM_ER_WingSide_550x311_01",
+        "UCX_SM_ER_WingSide_550x311_02",
+        "UCX_SM_ER_WingSide_550x311_03",
+        "UCX_SM_ER_WingSide_550x311_04",
+        "UCX_SM_ER_WingSide_550x311_05",
+        "UCX_SM_ER_WingSide_550x311_06",
+        "UCX_SM_ER_WingSide_550x311_07",
+        "UCX_SM_ER_WingSide_550x311_08",
+        "UCX_SM_ER_WingSide_550x311_09",
+        "UCX_SM_ER_WingSide_550x311_10",
+        "UCX_SM_ER_WingSide_550x311_11",
+        "UCX_SM_ER_WingSide_550x311_12"
+      ],
+      "source_stats": {
+        "vertices": 48,
+        "triangles": 100,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -2.75,
+            0.0,
+            0.0
+          ],
+          [
+            2.75,
+            0.3499999940395355,
+            3.109999895095825
+          ]
+        ]
+      }
+    },
+    {
+      "label": "WingInternalLink_550x311_v02",
+      "asset_name": "SM_ER_WingInternalLink_550x311_v02",
+      "category": "Structure",
+      "path": "Exports/SM_ER_WingInternalLink_550x311_v02.fbx",
+      "sha256": "4db4e473cffc15202b5564e1bee64161704fca138f97acd1bad538c5a5ebbd72",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [
+        "UCX_SM_ER_WingInternalLink_550x311_v02_00",
+        "UCX_SM_ER_WingInternalLink_550x311_v02_01",
+        "UCX_SM_ER_WingInternalLink_550x311_v02_02",
+        "UCX_SM_ER_WingInternalLink_550x311_v02_03",
+        "UCX_SM_ER_WingInternalLink_550x311_v02_04"
+      ],
+      "source_stats": {
+        "vertices": 24,
+        "triangles": 44,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -2.75,
+            0.0,
+            0.0
+          ],
+          [
+            2.75,
+            0.3499999940395355,
+            3.109999895095825
+          ]
+        ]
+      }
+    },
+    {
+      "label": "WingRootVault_720x620",
+      "asset_name": "SM_ER_WingRootVault_720x620",
+      "category": "Structure",
+      "path": "Exports/SM_ER_WingRootVault_720x620.fbx",
+      "sha256": "42917563e32499af30e36894ab9eeb8709cfd304950484cdc44b50ad429f855e",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [
+        "UCX_SM_ER_WingRootVault_720x620_00",
+        "UCX_SM_ER_WingRootVault_720x620_01",
+        "UCX_SM_ER_WingRootVault_720x620_02",
+        "UCX_SM_ER_WingRootVault_720x620_03",
+        "UCX_SM_ER_WingRootVault_720x620_04",
+        "UCX_SM_ER_WingRootVault_720x620_05",
+        "UCX_SM_ER_WingRootVault_720x620_06",
+        "UCX_SM_ER_WingRootVault_720x620_07",
+        "UCX_SM_ER_WingRootVault_720x620_08",
+        "UCX_SM_ER_WingRootVault_720x620_09",
+        "UCX_SM_ER_WingRootVault_720x620_10",
+        "UCX_SM_ER_WingRootVault_720x620_11"
+      ],
+      "source_stats": {
+        "vertices": 52,
+        "triangles": 100,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.5999999046325684,
+            -3.0999999046325684,
+            2.950000047683716
+          ],
+          [
+            3.5999999046325684,
+            3.0999999046325684,
+            3.9000000953674316
+          ]
+        ]
+      }
+    },
+    {
+      "label": "WingCrownFill",
+      "asset_name": "SM_ER_WingCrownFill",
+      "category": "Structure",
+      "path": "Exports/SM_ER_WingCrownFill.fbx",
+      "sha256": "d65c4fcb9d18a5d9288bdf4c25920e5ea69ef122d3ed9980f855df02f34e23cf",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [
+        "UCX_SM_ER_WingCrownFill_00",
+        "UCX_SM_ER_WingCrownFill_01",
+        "UCX_SM_ER_WingCrownFill_02",
+        "UCX_SM_ER_WingCrownFill_03",
+        "UCX_SM_ER_WingCrownFill_04",
+        "UCX_SM_ER_WingCrownFill_05",
+        "UCX_SM_ER_WingCrownFill_06",
+        "UCX_SM_ER_WingCrownFill_07",
+        "UCX_SM_ER_WingCrownFill_08",
+        "UCX_SM_ER_WingCrownFill_09",
+        "UCX_SM_ER_WingCrownFill_10",
+        "UCX_SM_ER_WingCrownFill_11"
+      ],
+      "source_stats": {
+        "vertices": 52,
+        "triangles": 100,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.200000047683716,
+            -0.17499999701976776,
+            2.799999952316284
+          ],
+          [
+            3.200000047683716,
+            0.17499999701976776,
+            3.700000047683716
+          ]
+        ]
+      }
+    },
+    {
+      "label": "DoorLeaf_140x230",
+      "asset_name": "SM_ER_DoorLeaf_140x230",
+      "category": "Windows_Doors",
+      "path": "Exports/SM_ER_DoorLeaf_140x230.fbx",
+      "sha256": "4e62345ab7e7aa6d9728ce6cbadce73bd03386073d162a9fdeb1107fc92b6615",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [
+        "UCX_SM_ER_DoorLeaf_140x230_00"
+      ],
+      "source_stats": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            0.0,
+            -0.07000000029802322,
+            0.0
+          ],
+          [
+            1.399999976158142,
+            0.07000000029802322,
+            2.299999952316284
+          ]
+        ]
+      }
+    },
+    {
+      "label": "RootDoorArch",
+      "asset_name": "SM_ER_RootDoorArch",
+      "category": "Decor",
+      "path": "Exports/SM_ER_RootDoorArch.fbx",
+      "sha256": "dd775649c33a9fe39b9adae05c3e63f88722fa9dae0c0287309c96b2bd2b1f1e",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [],
+      "source_stats": {
+        "vertices": 150,
+        "triangles": 296,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.9291267991065979,
+            -0.14999999105930328,
+            0.0
+          ],
+          [
+            0.9291267991065979,
+            0.08999999612569809,
+            2.634126663208008
+          ]
+        ]
+      }
+    },
+    {
+      "label": "RetreatWindowFrame_65x80",
+      "asset_name": "SM_ER_RetreatWindowFrame_65x80",
+      "category": "Windows_Doors",
+      "path": "Exports/SM_ER_RetreatWindowFrame_65x80.fbx",
+      "sha256": "a8c74bc5e19b7d88d11d260f159e5023cf8d70c4ce6f4eee3ba4023f48bef3d0",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [],
+      "source_stats": {
+        "vertices": 74,
+        "triangles": 124,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.4000000059604645,
+            -0.13899999856948853,
+            -0.05999999865889549
+          ],
+          [
+            0.4000000059604645,
+            0.14000000059604645,
+            0.8999999761581421
+          ]
+        ]
+      }
+    },
+    {
+      "label": "RetreatWindowGlass_65x80",
+      "asset_name": "SM_ER_RetreatWindowGlass_65x80",
+      "category": "Windows_Doors",
+      "path": "Exports/SM_ER_RetreatWindowGlass_65x80.fbx",
+      "sha256": "1d56a967ed4544e8b0dcfad88597b8671f791d623bf5e88a9f86e0a268162c33",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [],
+      "source_stats": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Glass"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.32499998807907104,
+            0.10000000149011612,
+            0.0
+          ],
+          [
+            0.32499998807907104,
+            0.12999999523162842,
+            0.800000011920929
+          ]
+        ]
+      }
+    },
+    {
+      "label": "RetreatShutter_32x84",
+      "asset_name": "SM_ER_RetreatShutter_32x84",
+      "category": "Windows_Doors",
+      "path": "Exports/SM_ER_RetreatShutter_32x84.fbx",
+      "sha256": "ce9ab2d0846c55975051f4c7acd4145654ea3e86fe8c26085d191d3970523172",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [],
+      "source_stats": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.3199999928474426,
+            -0.04500000178813934,
+            0.0
+          ],
+          [
+            0.0,
+            0.04500000178813934,
+            0.8399999737739563
+          ]
+        ]
+      }
+    },
+    {
+      "label": "WingRootRibs",
+      "asset_name": "SM_ER_WingRootRibs",
+      "category": "Decor",
+      "path": "Exports/SM_ER_WingRootRibs.fbx",
+      "sha256": "b3ac1257f91fc0f0428c35038238d8c3a3fa861763b03b009c34d1ab4671935d",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [],
+      "source_stats": {
+        "vertices": 460,
+        "triangles": 900,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.5553834438323975,
+            -3.230985403060913,
+            -0.07724297046661377
+          ],
+          [
+            3.5553834438323975,
+            3.0299999713897705,
+            3.990000009536743
+          ]
+        ]
+      }
+    },
+    {
+      "label": "WingClosedStoneSill_v02",
+      "asset_name": "SM_ER_WingClosedStoneSill_v02",
+      "category": "Decor",
+      "path": "Exports/SM_ER_WingClosedStoneSill_v02.fbx",
+      "sha256": "4a6ef1349b88a3b01a7d32791bf35a2a91a3976050c44fe38a346c5cb8c9952e",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [],
+      "source_stats": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "StoneFloor"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.200000047683716,
+            -2.8399999141693115,
+            0.0
+          ],
+          [
+            3.200000047683716,
+            -2.549999952316284,
+            0.25
+          ]
+        ]
+      }
+    },
+    {
+      "label": "OldCoreLinkedShell_R260_H430_v02",
+      "asset_name": "SM_ER_OldCoreLinkedShell_R260_H430_v02",
+      "category": "Structure",
+      "path": "Exports/SM_ER_OldCoreLinkedShell_R260_H430_v02.fbx",
+      "sha256": "c98d7aae14f1787bdfb47698bfddf2c99e1e6e937c95cb47f660345b6ac75d70",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_00",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_01",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_02",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_03",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_04",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_05",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_06",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_07",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_08",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_09",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_10",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_11",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_12",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_13",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_14",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_15",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_16",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_17",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_18",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_19",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_20",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_21",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_22",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_23",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_24",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_25",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_26",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_27",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_28",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_29",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_30",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_31",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_32",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_33",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_34",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_35",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_36",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_37",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_38",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_39",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_40",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_41",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_42",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_43",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_44",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_45",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_46",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_47",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_48",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_49",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_50",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_51",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_52",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_53",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_54",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_55",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_56",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_57",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_58",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_59",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_60",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_61",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_62",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_63",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_64",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_65",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_66",
+        "UCX_SM_ER_OldCoreLinkedShell_R260_H430_v02_67"
+      ],
+      "source_stats": {
+        "vertices": 222,
+        "triangles": 444,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -2.5999999046325684,
+            -2.5999999046325684,
+            0.0
+          ],
+          [
+            2.5999999046325684,
+            2.5999999046325684,
+            4.300000190734863
+          ]
+        ]
+      }
+    },
+    {
+      "label": "OldCoreCrown_640x620",
+      "asset_name": "SM_ER_OldCoreCrown_640x620",
+      "category": "Structure",
+      "path": "Exports/SM_ER_OldCoreCrown_640x620.fbx",
+      "sha256": "d819cd38561c095f8d336b25c919369063757d44fcbdaa518f3a43de57392f65",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [
+        "UCX_SM_ER_OldCoreCrown_640x620_00"
+      ],
+      "source_stats": {
+        "vertices": 170,
+        "triangles": 336,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.200000047683716,
+            -3.0999999046325684,
+            3.700000047683716
+          ],
+          [
+            3.200000047683716,
+            3.0999999046325684,
+            5.5
+          ]
+        ]
+      }
+    },
+    {
+      "label": "LivingOldTrunk",
+      "asset_name": "SM_ER_LivingOldTrunk",
+      "category": "Nature",
+      "path": "Exports/SM_ER_LivingOldTrunk.fbx",
+      "sha256": "c19496b52304ff72883fa21cc80d715f11a3f91a24832eda714f628a2aed45ca",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [],
+      "source_stats": {
+        "vertices": 176,
+        "triangles": 332,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -4.054257392883301,
+            -2.8662469387054443,
+            4.5927042961120605
+          ],
+          [
+            3.550903797149658,
+            3.8684933185577393,
+            11.258325576782227
+          ]
+        ]
+      }
+    },
+    {
+      "label": "OldButtressRoots",
+      "asset_name": "SM_ER_OldButtressRoots",
+      "category": "Decor",
+      "path": "Exports/SM_ER_OldButtressRoots.fbx",
+      "sha256": "c0e66f3620c3977db352bc768f37347f355b283f342a1f6037eca7079611374a",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [],
+      "source_stats": {
+        "vertices": 300,
+        "triangles": 576,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -3.909787178039551,
+            -3.13173770904541,
+            -0.2098781317472458
+          ],
+          [
+            3.909787178039551,
+            2.3639650344848633,
+            5.700370788574219
+          ]
+        ]
+      }
+    },
+    {
+      "label": "OldTreeCanopy",
+      "asset_name": "SM_ER_OldTreeCanopy",
+      "category": "Nature",
+      "path": "Exports/SM_ER_OldTreeCanopy.fbx",
+      "sha256": "221581e229ecfd772f2bd40839126179457c3f8a023b86c2c0ccf4c8e872de85",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [],
+      "source_stats": {
+        "vertices": 1092,
+        "triangles": 2080,
+        "material_slots": [
+          "Leaves"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -4.509504318237305,
+            -3.5781750679016113,
+            8.949999809265137
+          ],
+          [
+            4.486921310424805,
+            3.5943782329559326,
+            12.300000190734863
+          ]
+        ]
+      }
+    },
+    {
+      "label": "YoungLivingTrunk",
+      "asset_name": "SM_ER_YoungLivingTrunk",
+      "category": "Nature",
+      "path": "Exports/SM_ER_YoungLivingTrunk.fbx",
+      "sha256": "3cf4c25e3d879d33e69f2f588b336625066ee59fc6f4a0cab4fc059279602e55",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [],
+      "source_stats": {
+        "vertices": 78,
+        "triangles": 144,
+        "material_slots": [
+          "BarkYoung"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.7142271399497986,
+            1.3673895597457886,
+            3.3947033882141113
+          ],
+          [
+            2.024909019470215,
+            2.0326104164123535,
+            6.515947341918945
+          ]
+        ]
+      }
+    },
+    {
+      "label": "YoungTreeCrown",
+      "asset_name": "SM_ER_YoungTreeCrown",
+      "category": "Nature",
+      "path": "Exports/SM_ER_YoungTreeCrown.fbx",
+      "sha256": "780975d39d8303fc86307f1651ae82cf5db1f2a716fb1a3aa6d0f3eb0e779701",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [],
+      "source_stats": {
+        "vertices": 210,
+        "triangles": 400,
+        "material_slots": [
+          "Leaves"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -1.7461621761322021,
+            -0.10450849682092667,
+            5.650000095367432
+          ],
+          [
+            3.0461621284484863,
+            3.7045085430145264,
+            7.300000190734863
+          ]
+        ]
+      }
+    },
+    {
+      "label": "LinkingRootArches",
+      "asset_name": "SM_ER_LinkingRootArches",
+      "category": "Decor",
+      "path": "Exports/SM_ER_LinkingRootArches.fbx",
+      "sha256": "5292bc173ec827316701a4d68aae892ff0cd8b557eddc7b4cae8805e36deb46c",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [],
+      "source_stats": {
+        "vertices": 80,
+        "triangles": 152,
+        "material_slots": [
+          "BarkOld"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -5.083291530609131,
+            0.6877144575119019,
+            2.3537981510162354
+          ],
+          [
+            5.083291530609131,
+            2.750042676925659,
+            3.591555118560791
+          ]
+        ]
+      }
+    },
+    {
+      "label": "Ground_2600x2300",
+      "asset_name": "SM_ER_Ground_2600x2300",
+      "category": "Ground",
+      "path": "Exports/SM_ER_Ground_2600x2300.fbx",
+      "sha256": "f7f3ef57c1429c9aaa1c738c58ad68998c79dec9f4ceee57d6a885c592add17d",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [
+        "UCX_SM_ER_Ground_2600x2300_00"
+      ],
+      "source_stats": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "Soil"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -13.0,
+            -10.0,
+            -0.30000001192092896
+          ],
+          [
+            13.0,
+            13.0,
+            -0.11999999731779099
+          ]
+        ]
+      }
+    },
+    {
+      "label": "CourtStone_100x70",
+      "asset_name": "SM_ER_CourtStone_100x70",
+      "category": "Ground",
+      "path": "Exports/SM_ER_CourtStone_100x70.fbx",
+      "sha256": "908fdb858d3aa488690c1cd8f6e639ec6375b5fdc7df41925b913790d82ba1ce",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [],
+      "source_stats": {
+        "vertices": 8,
+        "triangles": 12,
+        "material_slots": [
+          "StoneFloor"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -0.48500001430511475,
+            -0.33500000834465027,
+            -0.10000000149011612
+          ],
+          [
+            0.48500001430511475,
+            0.33500000834465027,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "label": "Bench_210x56",
+      "asset_name": "SM_ER_Bench_210x56",
+      "category": "Decor",
+      "path": "Exports/SM_ER_Bench_210x56.fbx",
+      "sha256": "a72fbdd71386dbb83b8bb9dd7928636d309e38278947db40087db4e5d3eebc6c",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [],
+      "source_stats": {
+        "vertices": 24,
+        "triangles": 36,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -1.0499999523162842,
+            -0.2800000011920929,
+            0.0
+          ],
+          [
+            1.0499999523162842,
+            0.2800000011920929,
+            0.5299999713897705
+          ]
+        ]
+      }
+    },
+    {
+      "label": "HerbBed_250x140",
+      "asset_name": "SM_ER_HerbBed_250x140",
+      "category": "Decor",
+      "path": "Exports/SM_ER_HerbBed_250x140.fbx",
+      "sha256": "daf2b24f5745a1177c91e1f63cabbf4d63bb91208fbfb67aa81ea6a8bd14576d",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [],
+      "source_stats": {
+        "vertices": 16,
+        "triangles": 32,
+        "material_slots": [
+          "StoneFloor"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -1.25,
+            -0.699999988079071,
+            0.0
+          ],
+          [
+            1.25,
+            0.699999988079071,
+            0.3400000035762787
+          ]
+        ]
+      }
+    },
+    {
+      "label": "HerbClusters",
+      "asset_name": "SM_ER_HerbClusters",
+      "category": "Nature",
+      "path": "Exports/SM_ER_HerbClusters.fbx",
+      "sha256": "58443a8dc212ad9c6ea8a2bc2cd100081f627a3a5e107e9fad7e1fed40a3645f",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [],
+      "source_stats": {
+        "vertices": 312,
+        "triangles": 576,
+        "material_slots": [
+          "Herbs"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -1.1200000047683716,
+            -0.5099999904632568,
+            0.11999999731779099
+          ],
+          [
+            1.1200000047683716,
+            0.5099999904632568,
+            0.5799999833106995
+          ]
+        ]
+      }
+    },
+    {
+      "label": "ConnectedFloor_v02",
+      "asset_name": "SM_ER_ConnectedFloor_v02",
+      "category": "Structure",
+      "path": "Exports/SM_ER_ConnectedFloor_v02.fbx",
+      "sha256": "eab37355e7c3df1b4a44a45e3a7f5ad50b01f37b05caeba8495b61e8d26decfc",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "collision_names": [
+        "UCX_SM_ER_ConnectedFloor_v02_00",
+        "UCX_SM_ER_ConnectedFloor_v02_01",
+        "UCX_SM_ER_ConnectedFloor_v02_02"
+      ],
+      "source_stats": {
+        "vertices": 104,
+        "triangles": 204,
+        "material_slots": [
+          "Wood"
+        ],
+        "uv_channels": 1,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "bounds_blender_m": [
+          [
+            -9.20182991027832,
+            0.3447766900062561,
+            -0.18000000715255737
+          ],
+          [
+            9.20182991027832,
+            7.05522346496582,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "interior_test_contracts": [
+    {
+      "name": "WestWing",
+      "center": [
+        -5.5,
+        3.7,
+        0
+      ],
+      "yaw": -12,
+      "floor_samples": [
+        [
+          -1.8,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1.8,
+          1
+        ]
+      ],
+      "door_local_front": [
+        3.2,
+        0,
+        0
+      ],
+      "axis": "X",
+      "direction": 1,
+      "access": "internal_only",
+      "clear_width_m": 1.3,
+      "clear_height_m": 2.3,
+      "inside_top_m": 3.65
+    },
+    {
+      "name": "EastWing",
+      "center": [
+        5.5,
+        3.7,
+        0
+      ],
+      "yaw": 12,
+      "floor_samples": [
+        [
+          -1.8,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1.8,
+          1
+        ]
+      ],
+      "door_local_front": [
+        -3.2,
+        0,
+        0
+      ],
+      "axis": "X",
+      "direction": -1,
+      "access": "internal_only",
+      "clear_width_m": 1.3,
+      "clear_height_m": 2.3,
+      "inside_top_m": 3.65
+    },
+    {
+      "name": "OldCore",
+      "center": [
+        0,
+        3,
+        0
+      ],
+      "yaw": 0,
+      "floor_samples": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0.5
+        ]
+      ],
+      "door_local_front": [
+        0,
+        -2.6,
+        0
+      ],
+      "clear_width_m": 1.3,
+      "clear_height_m": 2.3,
+      "inside_top_m": 3.7
+    }
+  ],
+  "review_views": {
+    "01_eye_overview": [
+      [
+        0,
+        -17,
+        1.8
+      ],
+      [
+        0,
+        1.3,
+        4.1
+      ],
+      22
+    ],
+    "02_house": [
+      [
+        -11,
+        -9,
+        2.0
+      ],
+      [
+        -4.5,
+        0.7,
+        1.9
+      ],
+      27
+    ],
+    "03_plan": [
+      [
+        20,
+        -21,
+        25
+      ],
+      [
+        0,
+        1.5,
+        1
+      ],
+      36
+    ],
+    "04_interior": [
+      [
+        0.55,
+        3.15,
+        1.65
+      ],
+      [
+        -5.5,
+        3.65,
+        1.5
+      ],
+      20
+    ],
+    "05_connected_plan": [
+      [
+        0,
+        -1,
+        23
+      ],
+      [
+        0,
+        3,
+        0
+      ],
+      35
+    ]
+  },
+  "placement_instances": [
+    {
+      "object": "ER_WestWing_WingWindowFacade_640x280_v02",
+      "asset": "SM_ER_WingWindowFacade_640x280_v02",
+      "location_blender_m": [
+        -6.0717573165893555,
+        1.0100940465927124,
+        0.0
+      ],
+      "yaw_blender_degrees": -12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_WestWing_WingRear_640x280",
+      "asset": "SM_ER_WingRear_640x280",
+      "location_blender_m": [
+        -4.9282426834106445,
+        6.38990592956543,
+        0.0
+      ],
+      "yaw_blender_degrees": 168.0000046750259,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_WestWing_WingSide_550x311",
+      "asset": "SM_ER_WingSide_550x311",
+      "location_blender_m": [
+        -8.630072593688965,
+        4.365317344665527,
+        0.0
+      ],
+      "yaw_blender_degrees": -102.00000283840859,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_WestWing_WingInternalLink_550x311_v02",
+      "asset": "SM_ER_WingInternalLink_550x311_v02",
+      "location_blender_m": [
+        -2.3699276447296143,
+        3.034682512283325,
+        0.0
+      ],
+      "yaw_blender_degrees": 78.00000217054775,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_WestWing_WingCrownFill",
+      "asset": "SM_ER_WingCrownFill",
+      "location_blender_m": [
+        -6.035372734069824,
+        1.181269884109497,
+        0.0
+      ],
+      "yaw_blender_degrees": -12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_WestWing_WingCrownFill.001",
+      "asset": "SM_ER_WingCrownFill",
+      "location_blender_m": [
+        -4.964627265930176,
+        6.2187299728393555,
+        0.0
+      ],
+      "yaw_blender_degrees": -12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_WestWing_WingRootVault_720x620",
+      "asset": "SM_ER_WingRootVault_720x620",
+      "location_blender_m": [
+        -5.5,
+        3.700000047683716,
+        0.0
+      ],
+      "yaw_blender_degrees": -12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_WestWing_WingRootRibs",
+      "asset": "SM_ER_WingRootRibs",
+      "location_blender_m": [
+        -5.5,
+        3.700000047683716,
+        0.0
+      ],
+      "yaw_blender_degrees": -12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_WestWing_WingClosedStoneSill_v02",
+      "asset": "SM_ER_WingClosedStoneSill_v02",
+      "location_blender_m": [
+        -5.5,
+        3.700000047683716,
+        0.0
+      ],
+      "yaw_blender_degrees": -12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_WestWing_RootDoorArch",
+      "asset": "SM_ER_RootDoorArch",
+      "location_blender_m": [
+        -2.3699276447296143,
+        3.034682512283325,
+        0.0
+      ],
+      "yaw_blender_degrees": 78.00000217054775,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_WestWing_RetreatWindowFrame_65x80",
+      "asset": "SM_ER_RetreatWindowFrame_65x80",
+      "location_blender_m": [
+        -6.082152843475342,
+        0.9611867070198059,
+        1.0499999523162842
+      ],
+      "yaw_blender_degrees": -12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_WestWing_RetreatWindowGlass_65x80",
+      "asset": "SM_ER_RetreatWindowGlass_65x80",
+      "location_blender_m": [
+        -6.0717573165893555,
+        1.0100940465927124,
+        1.0499999523162842
+      ],
+      "yaw_blender_degrees": -12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_WestWing_Bench_210x56",
+      "asset": "SM_ER_Bench_210x56",
+      "location_blender_m": [
+        -4.191301345825195,
+        -0.003013428533449769,
+        0.0
+      ],
+      "yaw_blender_degrees": -12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_WestWing_RetreatWindowFrame_65x80.001",
+      "asset": "SM_ER_RetreatWindowFrame_65x80",
+      "location_blender_m": [
+        -8.087355613708496,
+        1.3874056339263916,
+        0.949999988079071
+      ],
+      "yaw_blender_degrees": -12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_WestWing_RetreatWindowGlass_65x80.001",
+      "asset": "SM_ER_RetreatWindowGlass_65x80",
+      "location_blender_m": [
+        -8.076959609985352,
+        1.4363130331039429,
+        0.949999988079071
+      ],
+      "yaw_blender_degrees": -12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_WestWing_RetreatWindowFrame_65x80.002",
+      "asset": "SM_ER_RetreatWindowFrame_65x80",
+      "location_blender_m": [
+        -2.912644624710083,
+        6.012594223022461,
+        0.949999988079071
+      ],
+      "yaw_blender_degrees": 168.0000046750259,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_WestWing_RetreatWindowGlass_65x80.002",
+      "asset": "SM_ER_RetreatWindowGlass_65x80",
+      "location_blender_m": [
+        -2.9230401515960693,
+        5.963686943054199,
+        0.949999988079071
+      ],
+      "yaw_blender_degrees": 168.0000046750259,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_WestWing_RetreatWindowFrame_65x80.003",
+      "asset": "SM_ER_RetreatWindowFrame_65x80",
+      "location_blender_m": [
+        -4.0769500732421875,
+        0.5349677801132202,
+        0.949999988079071
+      ],
+      "yaw_blender_degrees": -12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_WestWing_RetreatWindowGlass_65x80.003",
+      "asset": "SM_ER_RetreatWindowGlass_65x80",
+      "location_blender_m": [
+        -4.066554546356201,
+        0.5838751196861267,
+        0.949999988079071
+      ],
+      "yaw_blender_degrees": -12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_WestWing_RetreatWindowFrame_65x80.004",
+      "asset": "SM_ER_RetreatWindowFrame_65x80",
+      "location_blender_m": [
+        -6.9230499267578125,
+        6.865032196044922,
+        0.949999988079071
+      ],
+      "yaw_blender_degrees": 168.0000046750259,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_WestWing_RetreatWindowGlass_65x80.004",
+      "asset": "SM_ER_RetreatWindowGlass_65x80",
+      "location_blender_m": [
+        -6.933445453643799,
+        6.81612491607666,
+        0.949999988079071
+      ],
+      "yaw_blender_degrees": 168.0000046750259,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_WestWing_RetreatWindowFrame_65x80.005",
+      "asset": "SM_ER_RetreatWindowFrame_65x80",
+      "location_blender_m": [
+        -8.900357246398926,
+        3.0937254428863525,
+        0.949999988079071
+      ],
+      "yaw_blender_degrees": -102.00000283840859,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_WestWing_RetreatWindowGlass_65x80.005",
+      "asset": "SM_ER_RetreatWindowGlass_65x80",
+      "location_blender_m": [
+        -8.900357246398926,
+        3.0937254428863525,
+        0.949999988079071
+      ],
+      "yaw_blender_degrees": -102.00000283840859,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_WestWing_RetreatWindowFrame_65x80.006",
+      "asset": "SM_ER_RetreatWindowFrame_65x80",
+      "location_blender_m": [
+        -8.359786987304688,
+        5.636909484863281,
+        0.949999988079071
+      ],
+      "yaw_blender_degrees": -102.00000283840859,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_WestWing_RetreatWindowGlass_65x80.006",
+      "asset": "SM_ER_RetreatWindowGlass_65x80",
+      "location_blender_m": [
+        -8.359786987304688,
+        5.636909484863281,
+        0.949999988079071
+      ],
+      "yaw_blender_degrees": -102.00000283840859,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_EastWing_WingWindowFacade_640x280_v02",
+      "asset": "SM_ER_WingWindowFacade_640x280_v02",
+      "location_blender_m": [
+        6.0717573165893555,
+        1.0100940465927124,
+        0.0
+      ],
+      "yaw_blender_degrees": 12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_EastWing_WingRear_640x280",
+      "asset": "SM_ER_WingRear_640x280",
+      "location_blender_m": [
+        4.9282426834106445,
+        6.38990592956543,
+        0.0
+      ],
+      "yaw_blender_degrees": 192.00000534288677,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_EastWing_WingInternalLink_550x311_v02",
+      "asset": "SM_ER_WingInternalLink_550x311_v02",
+      "location_blender_m": [
+        2.3699276447296143,
+        3.034682512283325,
+        0.0
+      ],
+      "yaw_blender_degrees": -78.00000217054775,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_EastWing_WingSide_550x311",
+      "asset": "SM_ER_WingSide_550x311",
+      "location_blender_m": [
+        8.630072593688965,
+        4.365317344665527,
+        0.0
+      ],
+      "yaw_blender_degrees": 102.00000283840859,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_EastWing_WingCrownFill",
+      "asset": "SM_ER_WingCrownFill",
+      "location_blender_m": [
+        6.035372734069824,
+        1.181269884109497,
+        0.0
+      ],
+      "yaw_blender_degrees": 12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_EastWing_WingCrownFill.001",
+      "asset": "SM_ER_WingCrownFill",
+      "location_blender_m": [
+        4.964627265930176,
+        6.2187299728393555,
+        0.0
+      ],
+      "yaw_blender_degrees": 12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_EastWing_WingRootVault_720x620",
+      "asset": "SM_ER_WingRootVault_720x620",
+      "location_blender_m": [
+        5.5,
+        3.700000047683716,
+        0.0
+      ],
+      "yaw_blender_degrees": 12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_EastWing_WingRootRibs",
+      "asset": "SM_ER_WingRootRibs",
+      "location_blender_m": [
+        5.5,
+        3.700000047683716,
+        0.0
+      ],
+      "yaw_blender_degrees": 12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_EastWing_WingClosedStoneSill_v02",
+      "asset": "SM_ER_WingClosedStoneSill_v02",
+      "location_blender_m": [
+        5.5,
+        3.700000047683716,
+        0.0
+      ],
+      "yaw_blender_degrees": 12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_EastWing_RootDoorArch",
+      "asset": "SM_ER_RootDoorArch",
+      "location_blender_m": [
+        2.3699276447296143,
+        3.034682512283325,
+        0.0
+      ],
+      "yaw_blender_degrees": -78.00000217054775,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_EastWing_RetreatWindowFrame_65x80",
+      "asset": "SM_ER_RetreatWindowFrame_65x80",
+      "location_blender_m": [
+        6.082152843475342,
+        0.9611867070198059,
+        1.0499999523162842
+      ],
+      "yaw_blender_degrees": 12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_EastWing_RetreatWindowGlass_65x80",
+      "asset": "SM_ER_RetreatWindowGlass_65x80",
+      "location_blender_m": [
+        6.0717573165893555,
+        1.0100940465927124,
+        1.0499999523162842
+      ],
+      "yaw_blender_degrees": 12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_EastWing_Bench_210x56",
+      "asset": "SM_ER_Bench_210x56",
+      "location_blender_m": [
+        4.191301345825195,
+        -0.003013428533449769,
+        0.0
+      ],
+      "yaw_blender_degrees": 12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_EastWing_RetreatWindowFrame_65x80.001",
+      "asset": "SM_ER_RetreatWindowFrame_65x80",
+      "location_blender_m": [
+        4.0769500732421875,
+        0.5349677801132202,
+        0.949999988079071
+      ],
+      "yaw_blender_degrees": 12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_EastWing_RetreatWindowGlass_65x80.001",
+      "asset": "SM_ER_RetreatWindowGlass_65x80",
+      "location_blender_m": [
+        4.066554546356201,
+        0.5838751196861267,
+        0.949999988079071
+      ],
+      "yaw_blender_degrees": 12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_EastWing_RetreatWindowFrame_65x80.002",
+      "asset": "SM_ER_RetreatWindowFrame_65x80",
+      "location_blender_m": [
+        6.9230499267578125,
+        6.865032196044922,
+        0.949999988079071
+      ],
+      "yaw_blender_degrees": 192.00000534288677,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_EastWing_RetreatWindowGlass_65x80.002",
+      "asset": "SM_ER_RetreatWindowGlass_65x80",
+      "location_blender_m": [
+        6.933445453643799,
+        6.81612491607666,
+        0.949999988079071
+      ],
+      "yaw_blender_degrees": 192.00000534288677,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_EastWing_RetreatWindowFrame_65x80.003",
+      "asset": "SM_ER_RetreatWindowFrame_65x80",
+      "location_blender_m": [
+        8.087355613708496,
+        1.3874056339263916,
+        0.949999988079071
+      ],
+      "yaw_blender_degrees": 12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_EastWing_RetreatWindowGlass_65x80.003",
+      "asset": "SM_ER_RetreatWindowGlass_65x80",
+      "location_blender_m": [
+        8.076959609985352,
+        1.4363130331039429,
+        0.949999988079071
+      ],
+      "yaw_blender_degrees": 12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_EastWing_RetreatWindowFrame_65x80.004",
+      "asset": "SM_ER_RetreatWindowFrame_65x80",
+      "location_blender_m": [
+        2.912644624710083,
+        6.012594223022461,
+        0.949999988079071
+      ],
+      "yaw_blender_degrees": 192.00000534288677,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_EastWing_RetreatWindowGlass_65x80.004",
+      "asset": "SM_ER_RetreatWindowGlass_65x80",
+      "location_blender_m": [
+        2.9230401515960693,
+        5.963686943054199,
+        0.949999988079071
+      ],
+      "yaw_blender_degrees": 192.00000534288677,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_EastWing_RetreatWindowFrame_65x80.005",
+      "asset": "SM_ER_RetreatWindowFrame_65x80",
+      "location_blender_m": [
+        8.900357246398926,
+        3.0937254428863525,
+        0.949999988079071
+      ],
+      "yaw_blender_degrees": 102.00000283840859,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_EastWing_RetreatWindowGlass_65x80.005",
+      "asset": "SM_ER_RetreatWindowGlass_65x80",
+      "location_blender_m": [
+        8.900357246398926,
+        3.0937254428863525,
+        0.949999988079071
+      ],
+      "yaw_blender_degrees": 102.00000283840859,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_EastWing_RetreatWindowFrame_65x80.006",
+      "asset": "SM_ER_RetreatWindowFrame_65x80",
+      "location_blender_m": [
+        8.359786987304688,
+        5.636909484863281,
+        0.949999988079071
+      ],
+      "yaw_blender_degrees": 102.00000283840859,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_EastWing_RetreatWindowGlass_65x80.006",
+      "asset": "SM_ER_RetreatWindowGlass_65x80",
+      "location_blender_m": [
+        8.359786987304688,
+        5.636909484863281,
+        0.949999988079071
+      ],
+      "yaw_blender_degrees": 102.00000283840859,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_ConnectedFloor_v02",
+      "asset": "SM_ER_ConnectedFloor_v02",
+      "location_blender_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_OldCore_OldCoreLinkedShell_R260_H430_v02",
+      "asset": "SM_ER_OldCoreLinkedShell_R260_H430_v02",
+      "location_blender_m": [
+        0.0,
+        3.0,
+        0.0
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_OldCore_OldCoreCrown_640x620",
+      "asset": "SM_ER_OldCoreCrown_640x620",
+      "location_blender_m": [
+        0.0,
+        3.0,
+        0.0
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_OldCore_DoorLeaf_140x230",
+      "asset": "SM_ER_DoorLeaf_140x230",
+      "location_blender_m": [
+        -0.699999988079071,
+        0.6499999761581421,
+        0.0
+      ],
+      "yaw_blender_degrees": 100.0000005060238,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_OldCore_RootDoorArch",
+      "asset": "SM_ER_RootDoorArch",
+      "location_blender_m": [
+        0.0,
+        0.3499999940395355,
+        0.0
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_OldButtressRoots",
+      "asset": "SM_ER_OldButtressRoots",
+      "location_blender_m": [
+        0.0,
+        3.0,
+        0.0
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_LivingOldTrunk",
+      "asset": "SM_ER_LivingOldTrunk",
+      "location_blender_m": [
+        0.0,
+        3.0,
+        0.0
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_OldTreeCanopy",
+      "asset": "SM_ER_OldTreeCanopy",
+      "location_blender_m": [
+        0.0,
+        3.0,
+        0.0
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_YoungLivingTrunk",
+      "asset": "SM_ER_YoungLivingTrunk",
+      "location_blender_m": [
+        -5.5,
+        3.700000047683716,
+        0.0
+      ],
+      "yaw_blender_degrees": -12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_YoungTreeCrown",
+      "asset": "SM_ER_YoungTreeCrown",
+      "location_blender_m": [
+        -5.5,
+        3.700000047683716,
+        0.0
+      ],
+      "yaw_blender_degrees": -12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_YoungLivingTrunk.001",
+      "asset": "SM_ER_YoungLivingTrunk",
+      "location_blender_m": [
+        5.5,
+        3.700000047683716,
+        0.0
+      ],
+      "yaw_blender_degrees": 12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_YoungTreeCrown.001",
+      "asset": "SM_ER_YoungTreeCrown",
+      "location_blender_m": [
+        5.5,
+        3.700000047683716,
+        0.0
+      ],
+      "yaw_blender_degrees": 12.000000333930423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_LinkingRootArches",
+      "asset": "SM_ER_LinkingRootArches",
+      "location_blender_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_Ground_2600x2300",
+      "asset": "SM_ER_Ground_2600x2300",
+      "location_blender_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -8.0,
+        -3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.6397648153450985,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.001",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -8.0,
+        -2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.77377013090662,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.002",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -8.0,
+        -2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.2420145042551516,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.003",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -8.0,
+        -1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.2289015092904458,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.004",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -8.0,
+        -0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.488888490154089,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.005",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -8.0,
+        0.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.51535409355208,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.006",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -8.0,
+        0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.9947711467861375,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.007",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -8.0,
+        1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.743614213137146,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.008",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -8.0,
+        2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.8512106177655466,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.009",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -7.0,
+        -4.900000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.24519741458153732,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.010",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -7.0,
+        -4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.2812054248339041,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.011",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -7.0,
+        -3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.03010383531825972,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.012",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -7.0,
+        -2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.8466148532031132,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.013",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -7.0,
+        -2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.9831277097100426,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.014",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -7.0,
+        -1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.462606349114703,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.015",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -7.0,
+        -0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.5949022118857508,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.016",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -7.0,
+        0.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.88005214326025,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.017",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -7.0,
+        0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.399395197248423,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.018",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -7.0,
+        1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.5540168139821269,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.019",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -7.0,
+        2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.4123858891383034,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.020",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -7.0,
+        2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.7255474633943297,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.021",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -7.0,
+        3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.3176144530834377,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.022",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -6.0,
+        -5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.449859729765945,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.023",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -6.0,
+        -4.900000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.9496144183056563,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.024",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -6.0,
+        -4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.621468011472737,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.025",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -6.0,
+        -3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.7210077888346513,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.026",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -6.0,
+        -2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.7367691973963962,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.027",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -6.0,
+        -2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.9650589856156694,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.028",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -6.0,
+        -1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.9693685148168302,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.029",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -6.0,
+        -0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.1478034716237109,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.030",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -6.0,
+        0.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.014516790013441881,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.031",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -6.0,
+        0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.8983281441463506,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.032",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -6.0,
+        1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.4082497827090372,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.033",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -6.0,
+        2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.489219289573892,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.034",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -6.0,
+        2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.1471722049876467,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.035",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -6.0,
+        3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.61375907577732,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.036",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -6.0,
+        4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.676308667535827,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.037",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -5.0,
+        -5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.06799901549911976,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.038",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -5.0,
+        -4.900000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.836876070663733,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.039",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -5.0,
+        -4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.6762659788535146,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.040",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -5.0,
+        -3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.4737707356926454,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.041",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -5.0,
+        -2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.37364879917206,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.042",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -5.0,
+        -2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.285758023907675,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.043",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -5.0,
+        -1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.286080651370619,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.044",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -5.0,
+        -0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.8598195909666716,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.045",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -5.0,
+        0.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.268459075730737,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.046",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -5.0,
+        0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.1901456208112515,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.047",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -5.0,
+        1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.5857717430693246,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.048",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -5.0,
+        2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.414301116870257,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.049",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -5.0,
+        2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.14108758140059,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.050",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -5.0,
+        3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.212872442690601,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.051",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -5.0,
+        4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.6999983248983703,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.052",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -5.0,
+        4.900000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.060957715302338,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.053",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -4.0,
+        -5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.02172842423776402,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.054",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -4.0,
+        -4.900000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.8141110501600803,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.055",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -4.0,
+        -4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.0990407156802133,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.056",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -4.0,
+        -3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.17232116376735243,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.057",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -4.0,
+        -2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.05874492292675906,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.058",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -4.0,
+        -2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.5714750821730634,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.059",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -4.0,
+        -1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.4193238672311552,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.060",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -4.0,
+        -0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.044503388202847376,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.061",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -4.0,
+        0.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.2077686905550147,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.062",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -4.0,
+        0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.680269864835684,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.063",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -4.0,
+        1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.5366823197307968,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.064",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -4.0,
+        2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.9285029439113814,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.065",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -4.0,
+        2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.9406123511940186,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.066",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -4.0,
+        3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.3989462190322006,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.067",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -4.0,
+        4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.45958886173731883,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.068",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -4.0,
+        4.900000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.73844371432096,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.069",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -3.0,
+        -5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.005897212525338,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.070",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -3.0,
+        -4.900000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.3488062194755934,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.071",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -3.0,
+        -4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.948494168306435,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.072",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -3.0,
+        -3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.6224163560430445,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.073",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -3.0,
+        -2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.0029100719805153,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.074",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -3.0,
+        -2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.9790285367373438,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.075",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -3.0,
+        -1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.849073179949422,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.076",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -3.0,
+        -0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.789150444003386,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.077",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -3.0,
+        0.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.5988484604004314,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.078",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -3.0,
+        0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.199731478892614,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.079",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -3.0,
+        1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.9206943301427644,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.080",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -3.0,
+        2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.5857890319856611,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.081",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -3.0,
+        2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.9491044107664601,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.082",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -3.0,
+        3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.9790579841817728,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.083",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -3.0,
+        4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.38635621378667684,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.084",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -3.0,
+        4.900000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.6096844487969508,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.085",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -2.0,
+        -5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.5393941260210701,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.086",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -2.0,
+        -4.900000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.3236798099612746,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.087",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -2.0,
+        -4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.49223070930678003,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.088",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -2.0,
+        -3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.5310523306103689,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.089",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -2.0,
+        -2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.2675342331748014,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.090",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -2.0,
+        -2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.4293296674784006,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.091",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -2.0,
+        -1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.4884648049821365,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.092",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -2.0,
+        -0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.3608595823699616,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.093",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -2.0,
+        0.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.12566719645582333,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.094",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -2.0,
+        0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.8390166490238111,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.095",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -2.0,
+        1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.8461988519939772,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.096",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -2.0,
+        2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.029539771082565093,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.097",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -2.0,
+        2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.2490640142769118,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.098",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -2.0,
+        3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.8804292977684813,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.099",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -2.0,
+        4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.622156579918439,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.100",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -2.0,
+        4.900000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.898346804952129,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.101",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -1.0,
+        -5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.1576556915899703,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.102",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -1.0,
+        -4.900000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.682002286032001,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.103",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -1.0,
+        -4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.44202639098837976,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.104",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -1.0,
+        -3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.4625115879863357,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.105",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -1.0,
+        -2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.8913344039622279,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.106",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -1.0,
+        -2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.789772623801725,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.107",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -1.0,
+        -1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.982358985516932,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.108",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -1.0,
+        -0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.014070601084316,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.109",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -1.0,
+        0.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.7395083089506163,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.110",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -1.0,
+        0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.2510751770759967,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.111",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -1.0,
+        1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.8012712472694417,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.112",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -1.0,
+        2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.790976871529763,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.113",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -1.0,
+        2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.5562674602889852,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.114",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -1.0,
+        3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.9427592562564904,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.115",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -1.0,
+        4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.4800473593747698,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.116",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        -1.0,
+        4.900000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.933211833481943,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.117",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        0.0,
+        -5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.819212660115184,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.118",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        0.0,
+        -4.900000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.35085675914278514,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.119",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        0.0,
+        -4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.4998712208960576,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.120",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        0.0,
+        -3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.6324106303460656,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.121",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        0.0,
+        -2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.016751700947537446,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.122",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        0.0,
+        -2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.16087353993478629,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.123",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        0.0,
+        -1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.07288322559318,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.124",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        0.0,
+        -0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.2678678374807077,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.125",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        0.0,
+        0.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.4844189472478424,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.126",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        0.0,
+        0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.2838648497006985,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.127",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        0.0,
+        1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.2412887966558377,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.128",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        0.0,
+        2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.36309816568274045,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.129",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        0.0,
+        2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.3531453183356221,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.130",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        0.0,
+        3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.2929364537500194,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.131",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        0.0,
+        4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.17221125375061078,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.132",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        0.0,
+        4.900000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.6374824726916232,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.133",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        1.0,
+        -5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.8351520426140533,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.134",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        1.0,
+        -4.900000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.6468820859036635,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.135",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        1.0,
+        -4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.8149588473908083,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.136",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        1.0,
+        -3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.32267166336761016,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.137",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        1.0,
+        -2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.350901806890318,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.138",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        1.0,
+        -2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.350845999184561,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.139",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        1.0,
+        -1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.249926752546449,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.140",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        1.0,
+        -0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.6691100905301903,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.141",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        1.0,
+        0.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.864295537175265,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.142",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        1.0,
+        0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.8154112484479825,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.143",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        1.0,
+        1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.40547935608053737,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.144",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        1.0,
+        2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.4399858298006785,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.145",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        1.0,
+        2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.806713413934061,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.146",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        1.0,
+        3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.5337871732963575,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.147",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        1.0,
+        4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.015495604813282972,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.148",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        1.0,
+        4.900000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.231024630905262,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.149",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        2.0,
+        -5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.7959421066376118,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.150",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        2.0,
+        -4.900000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.6233937056782242,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.151",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        2.0,
+        -4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.15444505126533492,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.152",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        2.0,
+        -3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.4637063374825592,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.153",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        2.0,
+        -2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.8836303241044237,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.154",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        2.0,
+        -2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.9598887303646477,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.155",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        2.0,
+        -1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.6790128509705039,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.156",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        2.0,
+        -0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.4531074769699193,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.157",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        2.0,
+        0.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.4597399185654858,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.158",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        2.0,
+        0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.565479883629085,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.159",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        2.0,
+        1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.8903857925876557,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.160",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        2.0,
+        2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.6579910684235717,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.161",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        2.0,
+        2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.2214838171301061,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.162",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        2.0,
+        3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.28403154900512906,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.163",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        2.0,
+        4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.860820891878433,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.164",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        2.0,
+        4.900000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.7844774817795535,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.165",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        3.0,
+        -5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.648538185587613,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.166",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        3.0,
+        -4.900000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.1028952902496276,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.167",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        3.0,
+        -4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.09764498468409731,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.168",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        3.0,
+        -3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.7506729012256034,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.169",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        3.0,
+        -2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.7423126274670686,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.170",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        3.0,
+        -2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.699640388043546,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.171",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        3.0,
+        -1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.2250379700977456,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.172",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        3.0,
+        -0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.074299849515723,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.173",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        3.0,
+        0.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.8255535380105559,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.174",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        3.0,
+        0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.7801666719179234,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.175",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        3.0,
+        1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.7515013663348515,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.176",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        3.0,
+        2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.082332578866481,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.177",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        3.0,
+        2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.1280533393083843,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.178",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        3.0,
+        3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.2570282282925582,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.179",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        3.0,
+        4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.6782006454286542,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.180",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        3.0,
+        4.900000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.0558261088015426,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.181",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        4.0,
+        -5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.1060339833630268,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.182",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        4.0,
+        -4.900000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.616293929733041,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.183",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        4.0,
+        -4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.3681974544407436,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.184",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        4.0,
+        -3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.9255329933075562,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.185",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        4.0,
+        -2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.629622685865084,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.186",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        4.0,
+        -2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.8269011740966778,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.187",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        4.0,
+        -1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.4349910293390022,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.188",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        4.0,
+        -0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.06034640218392871,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.189",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        4.0,
+        0.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.17360255794845708,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.190",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        4.0,
+        0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.029157635187228,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.191",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        4.0,
+        1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.3869258331449186,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.192",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        4.0,
+        2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.5882355126226284,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.193",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        4.0,
+        2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.3987737567556577,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.194",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        4.0,
+        3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.3746995810871843,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.195",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        4.0,
+        4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.48158767375431344,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.196",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        4.0,
+        4.900000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.2977450059010476,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.197",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        5.0,
+        -5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.9759999804243111,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.198",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        5.0,
+        -4.900000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.35633800488578,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.199",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        5.0,
+        -4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.250122586876558,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.200",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        5.0,
+        -3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.8253460710145166,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.201",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        5.0,
+        -2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.025419172651170614,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.202",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        5.0,
+        -2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.3360253424592794,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.203",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        5.0,
+        -1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.330385199284069,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.204",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        5.0,
+        -0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.5291825663250779,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.205",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        5.0,
+        0.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.831836999628217,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.206",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        5.0,
+        0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.792673746651688,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.207",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        5.0,
+        1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.7409758391268169,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.208",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        5.0,
+        2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.4843192080674228,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.209",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        5.0,
+        2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.5006061143084357,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.210",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        5.0,
+        3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.8796383909533019,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.211",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        5.0,
+        4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.5795940047939735,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.212",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        5.0,
+        4.900000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.9783491386119723,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.213",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        6.0,
+        -5.599999904632568,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.7923573322867797,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.214",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        6.0,
+        -4.900000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.6845978568919449,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.215",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        6.0,
+        -4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.7606269336991782,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.216",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        6.0,
+        -3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.6723567249026208,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.217",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        6.0,
+        -2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.9281497105579783,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.218",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        6.0,
+        -2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.6814408153915181,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.219",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        6.0,
+        -1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.9584975062080807,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.220",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        6.0,
+        -0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.5227064642821144,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.221",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        6.0,
+        0.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.717497063854898,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.222",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        6.0,
+        0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.1791690799282177,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.223",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        6.0,
+        1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.6617150767323293,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.224",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        6.0,
+        2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.110235830363054,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.225",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        6.0,
+        2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.4777311627014615,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.226",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        6.0,
+        3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.2238541406423053,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.227",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        6.0,
+        4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.212272018627508,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.228",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        7.0,
+        -4.900000095367432,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.4325731535605106,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.229",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        7.0,
+        -4.199999809265137,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.5518890878412286,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.230",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        7.0,
+        -3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.443816925594821,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.231",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        7.0,
+        -2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.6425189901525672,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.232",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        7.0,
+        -2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.1900625913241534,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.233",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        7.0,
+        -1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.9162538689013433,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.234",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        7.0,
+        -0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.0804829927299495,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.235",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        7.0,
+        0.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.767733097453975,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.236",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        7.0,
+        0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.5187554132906738,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.237",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        7.0,
+        1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 2.1544107114039797,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.238",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        7.0,
+        2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.9218531299168728,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.239",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        7.0,
+        2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.8025017640298353,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.240",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        7.0,
+        3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.9706677371166468,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.241",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        8.0,
+        -3.5,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.8888260626040267,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.242",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        8.0,
+        -2.799999952316284,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 1.3482893740008606,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.243",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        8.0,
+        -2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.5984245695314342,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.244",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        8.0,
+        -1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.0842334069145212,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.245",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        8.0,
+        -0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.2204303671723373,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.246",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        8.0,
+        0.0,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -0.8550515853174738,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.247",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        8.0,
+        0.699999988079071,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -1.0392526625268734,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.248",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        8.0,
+        1.399999976158142,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": 0.12032438769928663,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_CourtStone_100x70.249",
+      "asset": "SM_ER_CourtStone_100x70",
+      "location_blender_m": [
+        8.0,
+        2.0999999046325684,
+        -0.029999999329447746
+      ],
+      "yaw_blender_degrees": -2.3160351852812835,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_HerbBed_250x140",
+      "asset": "SM_ER_HerbBed_250x140",
+      "location_blender_m": [
+        -3.0999999046325684,
+        -4.699999809265137,
+        0.0
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_HerbClusters",
+      "asset": "SM_ER_HerbClusters",
+      "location_blender_m": [
+        -3.0999999046325684,
+        -4.699999809265137,
+        0.0
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_HerbBed_250x140.001",
+      "asset": "SM_ER_HerbBed_250x140",
+      "location_blender_m": [
+        3.0999999046325684,
+        -4.699999809265137,
+        0.0
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_HerbClusters.001",
+      "asset": "SM_ER_HerbClusters",
+      "location_blender_m": [
+        3.0999999046325684,
+        -4.699999809265137,
+        0.0
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "ER_ScaleFigure_H180",
+      "asset": "SM_ER_ScaleFigure_H180",
+      "location_blender_m": [
+        0.699999988079071,
+        -2.200000047683716,
+        0.0
+      ],
+      "yaw_blender_degrees": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "Stone",
+      "roughness": 0.8199999928474426,
+      "base_color": [
+        0.6800000071525574,
+        0.6100000143051147,
+        0.46000000834465027,
+        1.0
+      ]
+    },
+    {
+      "name": "StoneLight",
+      "roughness": 0.75,
+      "base_color": [
+        0.8399999737739563,
+        0.7599999904632568,
+        0.5799999833106995,
+        1.0
+      ]
+    },
+    {
+      "name": "StoneFloor",
+      "roughness": 0.8799999952316284,
+      "base_color": [
+        0.41999998688697815,
+        0.4300000071525574,
+        0.38999998569488525,
+        1.0
+      ]
+    },
+    {
+      "name": "Slate",
+      "roughness": 0.7200000286102295,
+      "base_color": [
+        0.07500000298023224,
+        0.11999999731779099,
+        0.15000000596046448,
+        1.0
+      ]
+    },
+    {
+      "name": "Wood",
+      "roughness": 0.5799999833106995,
+      "base_color": [
+        0.15000000596046448,
+        0.07500000298023224,
+        0.03200000151991844,
+        1.0
+      ]
+    },
+    {
+      "name": "BarkOld",
+      "roughness": 0.9399999976158142,
+      "base_color": [
+        0.2199999988079071,
+        0.18000000715255737,
+        0.11500000208616257,
+        1.0
+      ]
+    },
+    {
+      "name": "BarkYoung",
+      "roughness": 0.8799999952316284,
+      "base_color": [
+        0.3400000035762787,
+        0.23000000417232513,
+        0.11500000208616257,
+        1.0
+      ]
+    },
+    {
+      "name": "Leaves",
+      "roughness": 0.8999999761581421,
+      "base_color": [
+        0.1599999964237213,
+        0.23999999463558197,
+        0.06499999761581421,
+        1.0
+      ]
+    },
+    {
+      "name": "Herbs",
+      "roughness": 0.8999999761581421,
+      "base_color": [
+        0.2199999988079071,
+        0.3100000023841858,
+        0.11999999731779099,
+        1.0
+      ]
+    },
+    {
+      "name": "Soil",
+      "roughness": 1.0,
+      "base_color": [
+        0.18000000715255737,
+        0.17000000178813934,
+        0.11999999731779099,
+        1.0
+      ]
+    },
+    {
+      "name": "Glass",
+      "roughness": 0.2199999988079071,
+      "base_color": [
+        0.11999999731779099,
+        0.20000000298023224,
+        0.2199999988079071,
+        1.0
+      ]
+    },
+    {
+      "name": "Figure",
+      "roughness": 0.6499999761581421,
+      "base_color": [
+        0.3499999940395355,
+        0.4000000059604645,
+        0.4300000071525574,
+        1.0
+      ]
+    }
+  ],
+  "uv_policy": "UV0 per-face metric planar projections; overlaps intentionally allowed for prototype tile surfaces; no production atlas or lightmap UVs",
+  "collision_policy": "Source-owned convex UCX on structural units; no enclosing whole-house hull. Decorative meshes have no collision.",
+  "prototype_assumptions": [
+    "Architectural roof footprint approx19.4m wide; ground study base26x23m",
+    "Two6.4x5.5m low wings moved rearward from y0.4m to y3.70m for direct interior connections; yaw retained at-/+12deg",
+    "Old core diameter5.2m, wall4.3m, canopyapprox12.3m; one external entrance",
+    "Two internal wing/core openings, at least1.2x2.2m ray-tested clear; shared render floor union atZ0",
+    "Former external wing doors replaced with65x80cm windows above solid sills"
+  ],
+  "interface": "0.2 connected-room study; changed facades/internal wall/core interfaces have new asset names. No R255 compatibility or Unreal reimport.",
+  "approved_change": "User selected one main entrance on the old core, window-only wing fronts, and internally connected rooms. Scene decision only, no culture/lore rule.",
+  "connectivity": {
+    "external_entrances": 1,
+    "wing_centers_blender_m": [
+      [
+        -5.5,
+        3.7,
+        0
+      ],
+      [
+        5.5,
+        3.7,
+        0
+      ]
+    ],
+    "wing_yaws_blender_degrees": [
+      -12,
+      12
+    ],
+    "core_center_blender_m": [
+      0,
+      3,
+      0
+    ],
+    "internal_link_apertures": "Wing inner wall centered at local y0, width1.6m, height2.4m; core angular apertures +/-90deg with36deg sweep, height2.45m",
+    "floor": "One Boolean-unioned render floor at Z0 with three source-owned convex UCX; overlapping proxy volumes intentional at shared level"
+  },
+  "lods": 1,
+  "nanite_intended": false,
+  "textures": [],
+  "not_validated": [
+    "Unreal import/reimport",
+    "PIE/player capsule/camera",
+    "performance",
+    "packaging",
+    "production materials/lightmaps"
+  ],
+  "verification": {
+    "file": "verification.json",
+    "sha256": "64697d0afc5e8041859ff26c35e46a867e92f596b5ef5160a0f91a6a81671803"
+  },
+  "preservation": {
+    "baseline_commit": "e66d5beed7bb85313501659d646f25778515134b",
+    "branch": "assets/creator",
+    "tracked_files": 1072,
+    "before_sha256": "D14BE76EA8A2B9C1A5F5D602C1834074A0900DF1595A2B3275FCC9E62AE27A5E",
+    "after_sha256": "D14BE76EA8A2B9C1A5F5D602C1834074A0900DF1595A2B3275FCC9E62AE27A5E",
+    "protected_study_a_sha256sums": "EE1C15A6BD705F7D1BAC203053849C0DB107A6251F421846AC25315D60A236E5",
+    "study_a_delivery_verified_unchanged": true,
+    "study_b_revision": 2,
+    "method": "SHA256 of UTF8 lines git-tracked-relative-path:UPPERCASE-file-SHA256 plus LF, git ls-files order",
+    "passed": true,
+    "scope": "Only B Creator updated; tracked files, frozen inner wall and all A delivery bytes preserved"
+  },
+  "collision_runtime_policy_intended": "UseSimpleAsComplex for source-owned structural UCX; separately verify in Unreal",
+  "reference_image": {
+    "original": "C:\\Users\\janwi\\Documents\\ChatGPT\\Fantasy Life RPG\\output\\stilfindung-elfische-wohnhaeuser\\2026-10-23-kultur-und-wurzelarchitektur\\23-gewachsener-familienhof.png",
+    "local_copy": "References/23-gewachsener-familienhof.png",
+    "sha256": "28dd234d36960c91154452c84d3eb225701985067dd9e93b28e40a06176f6afe",
+    "visually_inspected": true
+  },
+  "documentation_inputs": [
+    {
+      "path": "AGENTS.md",
+      "worktree_sha256": "0e0f2ad3146463766c4d03e4b127035737a459076eeabf51893ff61c092b5abf",
+      "main_repository_sha256": "df8afedd301791c7582e83c5de070b8c36c9959b0971a4134153c8ddbe3c1ee3",
+      "main_repository_read_only": true
+    },
+    {
+      "path": "docs/technical/ASSET_PIPELINE.md",
+      "worktree_sha256": "f2cd5a29de87e5881bd6e7f2251eaa207df5cad11168e6441a5bafd30636a6f9",
+      "main_repository_sha256": "b511ae933b2b941db28582a55fea13f8d83fe13e07b55030e4c6b804f9a18c76",
+      "main_repository_read_only": true
+    },
+    {
+      "path": "docs/technical/BLENDER_UNREAL_CALIBRATION_01.md",
+      "worktree_sha256": "8e083a40df35137410097d700b1587c59e4d955fff1a08beae42882ef87ef21a",
+      "main_repository_sha256": "ceaacc9c7cfb6835e221ad5236e97fcf2305095381b38497984e59e6db83307f",
+      "main_repository_read_only": true
+    },
+    {
+      "path": "docs/ART_DIRECTION_REFERENCES.md",
+      "worktree_sha256": "7cca7e59538e4d601a1af7012df5e9372c5ef8a78bc4bb70797beb15e0f3932c",
+      "main_repository_sha256": "7cca7e59538e4d601a1af7012df5e9372c5ef8a78bc4bb70797beb15e0f3932c",
+      "main_repository_read_only": true
+    },
+    {
+      "path": "docs/DECISIONS.md",
+      "worktree_sha256": "b2d48b279455f5c6cee0d72a792b62c507cc01eb39ec06972b6145aac903f839",
+      "main_repository_sha256": "baa525aa40898771b29d468764912fdd88565c4ab4112c3149a3e7c4bab14d23",
+      "main_repository_read_only": true
+    },
+    {
+      "path": "docs/worldbuilding/voelker/elfen/kultur.md",
+      "worktree_sha256": "4a68f056b715192834d95821dd1d5039cf27d2676e630aa1334b8fbf0b704600",
+      "main_repository_sha256": "4a68f056b715192834d95821dd1d5039cf27d2676e630aa1334b8fbf0b704600",
+      "main_repository_read_only": true
+    },
+    {
+      "path": "docs/worldbuilding/voelker/elfen/gesellschaft.md",
+      "worktree_sha256": "b74109c5412c0d4e315ff1017967ebd29a2123f16404988addf417443e05b73a",
+      "main_repository_sha256": "b74109c5412c0d4e315ff1017967ebd29a2123f16404988addf417443e05b73a",
+      "main_repository_read_only": true
+    },
+    {
+      "path": "docs/worldbuilding/voelker/elfen/geschichte.md",
+      "worktree_sha256": "cfdf0f3ddb7b7647f7db9096c17cc833d562422bdaea206a44cc9d258b469792",
+      "main_repository_sha256": "cfdf0f3ddb7b7647f7db9096c17cc833d562422bdaea206a44cc9d258b469792",
+      "main_repository_read_only": true
+    },
+    {
+      "path": "docs/worldbuilding/voelker/elfen/magie.md",
+      "worktree_sha256": "e6fcd0ee2962cc3f2a3c17aa62a3a3a9c51fb29b68977e3028f3bc039e8f4a49",
+      "main_repository_sha256": "e6fcd0ee2962cc3f2a3c17aa62a3a3a9c51fb29b68977e3028f3bc039e8f4a49",
+      "main_repository_read_only": true
+    }
+  ],
+  "generator": {
+    "file": "build_study.py",
+    "sha256": "85552f81b8f5b43d44bf17018492e0367289f533c13836cea2f81cfc3d75df5b"
+  },
+  "previews": [
+    {
+      "file": "Previews/01_eye_overview.png",
+      "sha256": "3acd05ef225a81a71fdb3f99a2250f3ccf4948f310604d95796b594c441e1c5a",
+      "renderer": "Blender Cycles; 24 samples; AgX; shared neutral daylight setup",
+      "visually_reviewed": true
+    },
+    {
+      "file": "Previews/02_house.png",
+      "sha256": "4f472b1cf6a7b60b030ecf7a8f18d566a67e7688888f2b7448ac4f21ae40e711",
+      "renderer": "Blender Cycles; 24 samples; AgX; shared neutral daylight setup",
+      "visually_reviewed": true
+    },
+    {
+      "file": "Previews/03_plan.png",
+      "sha256": "bf6e4f20fcfd205ee54c7a47ad5929f7e6af7b4e91ce8ca097e6a8e88da9541f",
+      "renderer": "Blender Cycles; 24 samples; AgX; shared neutral daylight setup",
+      "visually_reviewed": true
+    },
+    {
+      "file": "Previews/04_interior.png",
+      "sha256": "fbf74ddcc382f194c6be4011e55f2fb570bc6a3f264ec38c26b86fcd6e8c0a00",
+      "renderer": "Blender Cycles; 24 samples; AgX; shared neutral daylight setup",
+      "visually_reviewed": true
+    },
+    {
+      "file": "Previews/05_connected_plan.png",
+      "sha256": "5f8507b5b8ffd1d6f28db736d238f9c6b7f2d4a524b4b866c69a434d205e8c04",
+      "renderer": "Blender Cycles; 24 samples; AgX; shared neutral daylight setup",
+      "visually_reviewed": true
+    }
+  ],
+  "status_note": "Creator-side prototype ready for visual review; no production, gameplay, or engine acceptance"
+}
