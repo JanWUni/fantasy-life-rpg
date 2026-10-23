@@ -10,6 +10,8 @@
 class USpringArmComponent;
 class UCameraComponent;
 class UInputAction;
+class UInputMappingContext;
+class UEnhancedInputLocalPlayerSubsystem;
 class UInteractionComponent;
 class UInventoryComponent;
 struct FInputActionValue;
@@ -66,9 +68,25 @@ protected:
 public:
 
 	/** Constructor */
-	AFantasyLifeRPGCharacter();
+	AFantasyLifeRPGCharacter(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get());
 
 protected:
+
+
+	virtual void BeginPlay() override;
+	virtual void Tick(float DeltaSeconds) override;
+	virtual void EndPlay(const EEndPlayReason::Type Reason) override;
+	virtual void UnPossessed() override;
+	virtual void OnStartCrouch(float HalfHeightAdjust, float ScaledHalfHeightAdjust) override;
+	virtual void OnEndCrouch(float HalfHeightAdjust, float ScaledHalfHeightAdjust) override;
+
+	/** Multipliers preserve the run speed configured by the character Blueprint. */
+	UPROPERTY(EditDefaultsOnly, Category="Movement", meta=(ClampMin="0.1"))
+	float SprintMultiplier = 2.f;
+	UPROPERTY(EditDefaultsOnly, Category="Movement", meta=(ClampMin="0.1", ClampMax="1.0"))
+	float WalkMultiplier = .4f;
+	UPROPERTY(EditDefaultsOnly, Category="Movement", meta=(ClampMin="0.05"))
+	float StanceTransitionSeconds = .22f;
 
 	/** Initialize input action bindings */
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
@@ -100,7 +118,27 @@ public:
 	virtual void DoJumpEnd();
 
 public:
+	/** Re-evaluate immediately after an input/focus flush, without waiting for Tick. */
+	void RefreshMovementSpeed();
 
+	/** Smoothed presentation state; collision is always managed by CharacterMovement. */
+	float GetCrouchPresentationAlpha() const { return CrouchPresentationAlpha; }
+	float GetCrouchPresentationDrop() const { return CrouchPresentationDrop; }
+
+private:
+	bool CanUseGameplayMovement() const;
+	void ToggleCrouch();
+	void RemoveMovementMapping();
+	UPROPERTY(Transient) TObjectPtr<UInputMappingContext> MovementMapping;
+	UPROPERTY(Transient) TObjectPtr<UInputAction> CrouchAction;
+	TWeakObjectPtr<UEnhancedInputLocalPlayerSubsystem> MovementSubsystem;
+	float RunSpeed = 500.f;
+	float CrouchPresentationAlpha = 0.f;
+	float CrouchPresentationDrop = 0.f;
+	float CameraHeightCompensation = 0.f;
+	FVector StandingCameraOffset = FVector::ZeroVector;
+
+public:
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 

@@ -51,7 +51,11 @@ Ein Worktree trennt Dateien, aber keine bereits laufende Editorinstanz. Die vorh
 
 Vor jeder Editorintegration den Projektpfad der angesprochenen Instanz nachweisen und ihn mit dem Integrationsauftrag abgleichen. Den ausgeführten Quellstand, die zugehörige Editor-Binärdatei und geladene Map zusammen prüfen. Kein Import, Speichern, Kartenwechsel oder PIE-Start in einer gleichzeitig anderweitig bearbeiteten Instanz. Keine unbeaufsichtigten globalen Save-All-Aufrufe; nur die beauftragten Assets speichern.
 
-Für V1 wird ein gemeinsamer Integrationseditor verwendet. Ein eigener Gameplay-Editor müsste ausdrücklich mit der Gameplay-`.uproject` und getrenntem MCP-Port gestartet und diesem Chat eindeutig zugeordnet werden. Port/Editor nicht automatisch aus dem aktuellen Shell-Verzeichnis ableiten. Maschinenbezogene MCP-Konfiguration nicht committen.
+Für V1 bleibt der Haupteditor die gemeinsame Integrationsinstanz. Für eine ausdrücklich beauftragte eigenständige Worktree-Prüfung wird ein separater Gameplay-Editor mit der Gameplay-`.uproject` und eigenem MCP-Port gestartet. Port/Editor nicht automatisch aus dem aktuellen Shell-Verzeichnis ableiten. Maschinenbezogene MCP-Konfiguration nicht committen.
+
+**Geprüfter separater Start, 23. Oktober 2026:** Für `E:/Business/fantasy-rpg-gameplay/FantasyLifeRPG.uproject` wurden die Startzusätze `-ModelContextProtocolStartServer -ModelContextProtocolPort=8001` verwendet. Die Portangabe allein schaltet den Server bei einem frischen Worktree nicht ein. Keine lokale Konfiguration vom Hauptprojekt kopieren, um den Autostart zu erzwingen.
+
+Vor einem Test Prozesskommando, tatsächlichen Portbesitzer und geladenen Projekt-DLL-Pfad gemeinsam prüfen. In der abgenommenen Sitzung gehörten Port 8001 und die DLL unter `fantasy-rpg-gameplay/Binaries/Win64/` zur eigenen Gameplay-Instanz; die bestehende Hauptprojektinstanz blieb auf Port 8000. Bei späteren Starts diese Zuordnung erneut nachweisen, statt Prozessnummern oder den Port blind zu übernehmen. Der erste eigenständige Worktree-Build und beide Inventartests sind nun erfolgreich; genaue Ergebnisse und Belege stehen im [technischen Status](../TECHNICAL_STATUS.md).
 
 ## Prüfungen und Übergabe
 
@@ -63,3 +67,10 @@ Für V1 wird ein gemeinsamer Integrationseditor verwendet. Ein eigener Gameplay-
 Eine Übergabe nennt Ausgangscommit, Ergebniscommit, genaue Dateien und binäre Assets, durchgeführte Prüfungen mit Ergebnis, manuelle Restprüfungen und bekannte Grenzen. `git diff --stat <Ausgangscommit>..<Ergebniscommit>` macht den Umfang sichtbar. Für binäre Assets LFS-Zuordnung und verfügbare Inhalte prüfen; `.umap`/`.uasset` nicht als Text zusammenführen.
 
 Nach der Übernahme den Gameplay-Worktree nur bei sauberem eigenen Stand gezielt mit dem neuen Integrationsstand abgleichen. Keine fremden Branches zurücksetzen, bestehende Creator-/Refiner-Worktrees ungefragt aktualisieren oder bereits veröffentlichte Historie umschreiben. Ein unvollständiger Auftrag bleibt als solcher dokumentiert.
+
+
+## Aktueller Ausbau: Grundbewegung und Ducken
+
+Die bestätigten Bewegungsregeln werden ausschließlich im Gameplay-Worktree umgesetzt. Einstieg und Bedienung: [MOVEMENT_SYSTEM.md](../MOVEMENT_SYSTEM.md). Codeumfang: Charakterbasis, Trennung vom Toolbox-Bodensprint, native Mannequin-Duckpose und ein neuer PIE-Test. Keine bestehenden binären Assets, Karten oder Input-Konfigurationen werden dafür gespeichert. Die niedrige Testöffnung existiert nur transient im Spieltest.
+
+Nachänderungen an diesen gemeinsamen Eingabepfaden erfordern den Bewegungstest sowie Inventar-/Toolbox-/Interaktionsregressionen in der eigenen Gameplay-Editorinstanz. Vor der Hauptprojektintegration die geprüfte Änderung separat prüfen und sichern; ein erfolgreicher Worktree-Lauf ist noch keine Integration in `main`.

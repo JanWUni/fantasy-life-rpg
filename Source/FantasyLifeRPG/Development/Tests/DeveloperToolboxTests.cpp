@@ -91,15 +91,18 @@ public:
 	FCheckTools(FAutomationTestBase* InTest,bool bInDetailed) : Test(InTest),bDetailed(bInDetailed) {}
 	virtual bool Update() override
 	{
-		const double Now = FPlatformTime::Seconds();
-		if (Deadline == 0) Deadline = Now+45; // Includes cold Niagara compilation and the rendered UI capture.
+		const double WallNow = FPlatformTime::Seconds();
+		// Input assertions must wait for simulated world frames, including cold maps.
+		const double Now = GEditor && GEditor->PlayWorld ? GEditor->PlayWorld->GetTimeSeconds() : 0.;
+		if (Deadline == 0) Deadline = WallNow+45; // Includes cold Niagara compilation and the rendered UI capture.
+		if (WallNow > Deadline) { Test->AddError(TEXT("Toolbox test timed out")); return true; }
 		if (Now < Next) return false;
 		if (Step == 0)
 		{
 			UWorld* World = GEditor ? GEditor->PlayWorld.Get() : nullptr;
 			PC = World ? World->GetFirstPlayerController() : nullptr;
 			Player = PC.IsValid() ? Cast<ACharacter>(PC->GetPawn()) : nullptr;
-			if ((!Player.IsValid() || !Player->GetCharacterMovement()->IsMovingOnGround()) && Now < Deadline) return false;
+			if ((!Player.IsValid() || !Player->GetCharacterMovement()->IsMovingOnGround()) && WallNow < Deadline) return false;
 			if (!Test->TestTrue(TEXT("Toolbox map has a grounded player"),Player.IsValid() && Player->GetCharacterMovement()->IsMovingOnGround())) return true;
 			Tools = PC->FindComponentByClass<UDeveloperToolboxComponent>();
 			if (!Test->TestTrue(TEXT("Opt-in prototype controller provides usable toolbox"),Tools.IsValid() && Tools->CanUse())) return true;
@@ -116,7 +119,6 @@ public:
 		}
 		if (!PC.IsValid() || !Player.IsValid() || !Tools.IsValid() || !GEditor->PlayWorld)
 		{ Test->AddError(TEXT("Toolbox test lost PIE fixture")); return true; }
-		if (Now > Deadline) { Test->AddError(TEXT("Toolbox test timed out")); return true; }
 		if (Step == 1)
 		{
 			Key(EKeys::F6,IE_Released);

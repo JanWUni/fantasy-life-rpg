@@ -1,4 +1,5 @@
 #include "Development/DeveloperToolboxComponent.h"
+#include "FantasyLifeRPGCharacter.h"
 #include "Development/DeveloperScenario.h"
 #include "Development/DeveloperToolboxWidget.h"
 #include "Camera/CameraActor.h"
@@ -132,7 +133,11 @@ void UDeveloperToolboxComponent::FlushInput()
 {
 	ClearAxes();
 	RestoreGroundSprint();
-	if (PC.IsValid() && PC->PlayerInput) PC->PlayerInput->FlushPressedKeys();
+	if (PC.IsValid())
+	{
+		if (PC->PlayerInput) PC->PlayerInput->FlushPressedKeys();
+		if (auto* Pawn = Cast<AFantasyLifeRPGCharacter>(PC->GetPawn())) Pawn->RefreshMovementSpeed();
+	}
 }
 
 void UDeveloperToolboxComponent::TogglePanel()
@@ -276,6 +281,14 @@ void UDeveloperToolboxComponent::RestoreCharacter()
 
 void UDeveloperToolboxComponent::UpdateGroundSprint()
 {
+	// Gameplay characters own their ground speed, including crouch/slow walk/UI gates.
+	// Keep the toolbox fallback for the unrelated template character variants.
+	if (PC.IsValid() && Cast<AFantasyLifeRPGCharacter>(PC->GetPawn()))
+	{
+		RestoreGroundSprint();
+		return;
+	}
+
 	ACharacter* Pawn = PC.IsValid() ? Cast<ACharacter>(PC->GetPawn()) : nullptr;
 	const bool bWantsSprint = bBoost && !bPanelOpen && !bFlight && !bNoClip && !FreeCamera && Pawn
 		&& !PC->IsMoveInputIgnored() && (Pawn->GetCharacterMovement()->IsMovingOnGround() || Pawn->GetCharacterMovement()->IsFalling());
@@ -454,6 +467,9 @@ void UDeveloperToolboxComponent::Cleanup()
 		if (auto* Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(PC->GetLocalPlayer()))
 			if (InputContext) Subsystem->RemoveMappingContext(InputContext);
 	}
+	// Only flush a live tool input once; repeated disabled-tool cleanup must not
+	// swallow the independent gameplay movement keys on subsequent frames.
+	if (ToolInput) FlushInput();
 	if (ToolInput) ToolInput->DestroyComponent();
 	ToolInput = nullptr; InputContext = nullptr; Panel = nullptr;
 	ClearAxes();

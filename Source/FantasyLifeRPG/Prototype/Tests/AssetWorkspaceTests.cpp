@@ -92,8 +92,11 @@ public:
 	FCheckWorkspace(FAutomationTestBase* InTest, bool bInLab) : Test(InTest), bLab(bInLab) {}
 	virtual bool Update() override
 	{
-		const double Now = FPlatformTime::Seconds();
-		if (Deadline == 0) Deadline = Now + 20;
+		const double WallNow = FPlatformTime::Seconds();
+		// Synchronous asset loading/render startup must not consume the input wait.
+		const double Now = GEditor && GEditor->PlayWorld ? GEditor->PlayWorld->GetTimeSeconds() : 0.;
+		if (Deadline == 0) Deadline = WallNow + 20;
+		if (WallNow > Deadline) { Test->AddError(TEXT("Workspace interaction test timed out")); return true; }
 		if (Now < NextStep) return false;
 		if (Step == 0)
 		{
@@ -105,8 +108,9 @@ public:
 				PC = World->GetFirstPlayerController();
 				Player = PC.IsValid() ? Cast<ACharacter>(PC->GetPawn()) : nullptr;
 			}
-			if ((!Player.IsValid() || !Player->GetCharacterMovement()->IsMovingOnGround()) && Now < Deadline) return false;
+			if ((!Player.IsValid() || !Player->GetCharacterMovement()->IsMovingOnGround()) && WallNow < Deadline) return false;
 			if (!Test->TestTrue(TEXT("Saved workspace spawns a grounded third-person player"), Player.IsValid() && Player->GetCharacterMovement()->IsMovingOnGround())) return true;
+			if (World->GetTimeSeconds() < .35f) return false;
 			if (!CheckAssetsAndCollision()) return true;
 			StartPosition = Player->GetActorLocation();
 			Key(EKeys::W, IE_Pressed);
@@ -116,7 +120,6 @@ public:
 		{
 			Test->AddError(TEXT("Workspace PIE fixture disappeared")); return true;
 		}
-		if (Now > Deadline) { Test->AddError(TEXT("Workspace interaction test timed out")); return true; }
 		if (Step == 1)
 		{
 			Key(EKeys::W, IE_Released);

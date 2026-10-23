@@ -10,12 +10,21 @@
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
+#include "InputAction.h"
+#include "InputMappingContext.h"
+#include "GameFramework/PlayerController.h"
+#include "Development/DeveloperToolboxComponent.h"
+#include "Movement/CrouchPoseMeshComponent.h"
 #include "FantasyLifeRPG.h"
 #include "Interaction/InteractionComponent.h"
 #include "Inventory/InventoryComponent.h"
 
-AFantasyLifeRPGCharacter::AFantasyLifeRPGCharacter()
+AFantasyLifeRPGCharacter::AFantasyLifeRPGCharacter(const FObjectInitializer& ObjectInitializer)
+	: Super(ObjectInitializer.SetDefaultSubobjectClass<UCrouchPoseMeshComponent>(ACharacter::MeshComponentName))
 {
+	PrimaryActorTick.bCanEverTick = true;
+	GetCharacterMovement()->GetNavAgentPropertiesRef().bCanCrouch = true;
+	GetCharacterMovement()->SetCrouchedHalfHeight(65.f);
 	InteractionComponent = CreateDefaultSubobject<UInteractionComponent>(TEXT("InteractionComponent"));
 	InventoryComponent = CreateDefaultSubobject<UInventoryComponent>(TEXT("InventoryComponent"));
 	// Set size for collision capsule
@@ -56,6 +65,22 @@ AFantasyLifeRPGCharacter::AFantasyLifeRPGCharacter()
 
 void AFantasyLifeRPGCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
+	// Mapping is local to the possessed character; no Blueprint/input asset edits required.
+	RemoveMovementMapping();
+	if (const APlayerController* PC = Cast<APlayerController>(Controller))
+		if (ULocalPlayer* LocalPlayer = PC->GetLocalPlayer())
+			if (auto* Subsystem = LocalPlayer->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>())
+			{
+				MovementMapping = NewObject<UInputMappingContext>(this);
+				CrouchAction = NewObject<UInputAction>(this);
+				CrouchAction->ValueType = EInputActionValueType::Boolean;
+				MovementMapping->MapKey(CrouchAction, EKeys::LeftControl);
+				MovementMapping->MapKey(CrouchAction, EKeys::RightControl);
+				FModifyContextOptions Options;
+				Options.bIgnoreAllPressedKeysUntilRelease = false;
+				Subsystem->AddMappingContext(MovementMapping, 10, Options);
+				MovementSubsystem = Subsystem;
+			}
 	// Set up action bindings
 	if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(PlayerInputComponent)) {
 		if (InteractAction)
@@ -63,9 +88,12 @@ void AFantasyLifeRPGCharacter::SetupPlayerInputComponent(UInputComponent* Player
 			EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Started, this, &AFantasyLifeRPGCharacter::HandleInteract);
 		}
 
+		if (CrouchAction)
+			EnhancedInputComponent->BindAction(CrouchAction, ETriggerEvent::Started, this, &AFantasyLifeRPGCharacter::ToggleCrouch);
+
 		// Jumping
-		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Started, this, &ACharacter::Jump);
-		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Completed, this, &ACharacter::StopJumping);
+		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Started, this, &AFantasyLifeRPGCharacter::DoJumpStart);
+		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Completed, this, &AFantasyLifeRPGCharacter::DoJumpEnd);
 
 		// Moving
 		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &AFantasyLifeRPGCharacter::Move);
@@ -105,7 +133,7 @@ void AFantasyLifeRPGCharacter::Look(const FInputActionValue& Value)
 
 void AFantasyLifeRPGCharacter::DoMove(float Right, float Forward)
 {
-	if (GetController() != nullptr)
+	if (CanUseGameplayMovement())
 	{
 		// find out which way is forward
 		const FRotator Rotation = GetController()->GetControlRotation();
@@ -125,7 +153,7 @@ void AFantasyLifeRPGCharacter::DoMove(float Right, float Forward)
 
 void AFantasyLifeRPGCharacter::DoLook(float Yaw, float Pitch)
 {
-	if (GetController() != nullptr)
+	if (CanUseGameplayMovement())
 	{
 		// add yaw and pitch input to controller
 		AddControllerYawInput(Yaw);
@@ -135,12 +163,94 @@ void AFantasyLifeRPGCharacter::DoLook(float Yaw, float Pitch)
 
 void AFantasyLifeRPGCharacter::DoJumpStart()
 {
-	// signal the character to jump
-	Jump();
+	if (CanUseGameplayMovement() && GetCharacterMovement()->IsMovingOnGround()
+		&& !bIsCrouched && !GetCharacterMovement()->bWantsToCrouch)
+		Jump();
 }
 
 void AFantasyLifeRPGCharacter::DoJumpEnd()
 {
 	// signal the character to stop jumping
 	StopJumping();
+}
+
+void AFantasyLifeRPGCharacter::BeginPlay()
+{
+	Super::BeginPlay();
+	RunSpeed = GetCharacterMovement()->MaxWalkSpeed;
+	GetCharacterMovement()->MaxWalkSpeedCrouched = RunSpeed * WalkMultiplier;
+	StandingCameraOffset = CameraBoom->TargetOffset;
+	CrouchPresentationDrop = 2.f * FMath::Max(0.f, GetCapsuleComponent()->GetUnscaledCapsuleHalfHeight() - GetCharacterMovement()->GetCrouchedHalfHeight());
+}
+
+bool AFantasyLifeRPGCharacter::CanUseGameplayMovement() const
+{
+	const auto* PC = Cast<APlayerController>(Controller);
+	if (!PC || PC->IsMoveInputIgnored() || PC->IsLookInputIgnored()) return false;
+	if (const auto* Tools = PC->FindComponentByClass<UDeveloperToolboxComponent>())
+		if (Tools->IsPanelOpen() || Tools->IsFlying() || Tools->IsNoClip() || Tools->IsFreeCamera()) return false;
+	return true;
+}
+
+void AFantasyLifeRPGCharacter::Tick(float DeltaSeconds)
+{
+	Super::Tick(DeltaSeconds);
+	RefreshMovementSpeed();
+	CrouchPresentationAlpha = FMath::FInterpConstantTo(CrouchPresentationAlpha, bIsCrouched ? 1.f : 0.f, DeltaSeconds, 1.f / FMath::Max(.05f, StanceTransitionSeconds));
+	CameraHeightCompensation = FMath::FInterpConstantTo(CameraHeightCompensation, 0.f, DeltaSeconds,
+		FMath::Max(1.f, CrouchPresentationDrop * .5f) / FMath::Max(.05f, StanceTransitionSeconds));
+	CameraBoom->TargetOffset = StandingCameraOffset + FVector(0, 0, CameraHeightCompensation);
+}
+
+void AFantasyLifeRPGCharacter::RefreshMovementSpeed()
+{
+	auto* Movement = GetCharacterMovement();
+	const auto* PC = Cast<APlayerController>(Controller);
+	const bool bGroundControls = CanUseGameplayMovement();
+	const bool bWalk = bGroundControls && (PC->IsInputKeyDown(EKeys::LeftAlt) || PC->IsInputKeyDown(EKeys::RightAlt));
+	const bool bSprint = bGroundControls && !bIsCrouched && !Movement->bWantsToCrouch
+		&& (PC->IsInputKeyDown(EKeys::LeftShift) || PC->IsInputKeyDown(EKeys::RightShift));
+	Movement->MaxWalkSpeed = RunSpeed * (bWalk ? WalkMultiplier : bSprint ? SprintMultiplier : 1.f);
+	Movement->MaxWalkSpeedCrouched = RunSpeed * WalkMultiplier;
+}
+
+void AFantasyLifeRPGCharacter::ToggleCrouch()
+{
+	if (!CanUseGameplayMovement() || !GetCharacterMovement()->IsMovingOnGround()) return;
+	StopJumping();
+	if (GetCharacterMovement()->bWantsToCrouch) UnCrouch();
+	else Crouch();
+}
+
+void AFantasyLifeRPGCharacter::OnStartCrouch(float HalfHeightAdjust, float ScaledHalfHeightAdjust)
+{
+	Super::OnStartCrouch(HalfHeightAdjust, ScaledHalfHeightAdjust);
+	CameraHeightCompensation += ScaledHalfHeightAdjust;
+	CameraBoom->TargetOffset = StandingCameraOffset + FVector(0, 0, CameraHeightCompensation);
+}
+
+void AFantasyLifeRPGCharacter::OnEndCrouch(float HalfHeightAdjust, float ScaledHalfHeightAdjust)
+{
+	Super::OnEndCrouch(HalfHeightAdjust, ScaledHalfHeightAdjust);
+	CameraHeightCompensation -= ScaledHalfHeightAdjust;
+	CameraBoom->TargetOffset = StandingCameraOffset + FVector(0, 0, CameraHeightCompensation);
+}
+
+void AFantasyLifeRPGCharacter::RemoveMovementMapping()
+{
+	if (MovementSubsystem.IsValid() && MovementMapping) MovementSubsystem->RemoveMappingContext(MovementMapping);
+	MovementSubsystem.Reset();
+	MovementMapping = nullptr;
+}
+
+void AFantasyLifeRPGCharacter::UnPossessed()
+{
+	RemoveMovementMapping();
+	Super::UnPossessed();
+}
+
+void AFantasyLifeRPGCharacter::EndPlay(const EEndPlayReason::Type Reason)
+{
+	RemoveMovementMapping();
+	Super::EndPlay(Reason);
 }

@@ -29,3 +29,14 @@ Vom Nutzer für den ersten spielbaren Ausbau bestätigt; einstellbare Startregel
 - Inventar und abgelegte Gegenstände bestehen nur während der laufenden Sitzung. Dauerhaftes Speichern wird später gemeinsam für Inventar und Weltzustand ergänzt.
 
 Ausrüstung, Benutzen, Gewicht, Diebstahl-/Eigentumsregeln und Inventarfolgen beim Tod sind damit nicht festgelegt. Bedienung und technischer Prüfstand: [INVENTORY_SYSTEM.md](INVENTORY_SYSTEM.md).
+
+## Bewegung und Ducken – bestätigter Prototypumfang, 23. Oktober 2026
+
+- Third-Person-Kamera mit freier Mausrotation. WASD bewegt relativ zur Kamera; die Figur dreht sich in Bewegungsrichtung.
+- Standardmäßig laufen, mit gehaltenem Shift sprinten. Ein langsamer Gehmodus gehört zum Umfang. Sprint verbraucht im ersten Prototyp keine Ausdauer.
+- Leertaste springt vom Boden; kein Doppelsprung. Höhe und Luftsteuerung bleiben einstellbare Prototypwerte.
+- Strg schaltet Ducken um. Geduckt sind Körperhaltung und Kollisionskapsel niedriger; die Figur bewegt sich langsamer. Körper und Kamera wechseln weich zwischen den Haltungen.
+- Geduckt sind Springen und Sprinten gesperrt; zuvor aufstehen. Aufstehen benötigt ausreichend Kopffreiheit.
+- Hindernisbewegung ist für einen späteren Schritt auf niedrige Hindernisse und Hochziehen an Kanten begrenzt. Freies Klettern ist vertagt; dieser Bewegungsausbau implementiert noch kein Übersteigen/Hochziehen.
+
+Technische Erstbelegung für langsames Gehen: Alt halten. Zahlenwerte, Animationen und diese zusätzliche Belegung sind veränderbare Implementierungsdetails. Bedienung und Prüfumfang: [MOVEMENT_SYSTEM.md](MOVEMENT_SYSTEM.md). Lebenspunkte, Mana und Kampfregeln werden separat geklärt.

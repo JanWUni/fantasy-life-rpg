@@ -60,3 +60,9 @@ Status: **FEST** = vom Nutzer entschieden; **RICHTUNG** = angestrebtes, noch anp
 **Weiterführende Elfen-Details:** `docs/worldbuilding/voelker/elfen/`. Die Grundausarbeitung ist vorläufig ausreichend; kein spontaner Themenwechsel und keine stillschweigende Festlegung offener Rechts- oder Magieregeln.
 
 Änderungen an FEST nur durch ausdrückliche neue Entscheidung.
+
+## Ergänzung: bestätigte Bewegung, 23.10.2026
+
+- **MOVE-01 FEST – PROTOTYP:** Third-Person mit frei drehbarer Maus-Kamera, kamerarelativem WASD und Ausrichtung der Figur in Bewegungsrichtung. Standardlauf, Sprint bei gehaltenem Shift, langsamer Gehmodus. Zunächst keine Sprint-Ausdauer.
+- **MOVE-02 FEST – PROTOTYP:** Strg schaltet Ducken um; niedrigere Kollisionskapsel und Körperhaltung, langsame Bewegung, weiche Haltungs-/Kameraübergänge. Geduckt kein Sprint/Sprung. Aufstehen nur mit Kopffreiheit. Einfacher Bodensprung über Leertaste; konkrete Bewegungswerte bleiben einstellbar.
+- **MOVE-03 FEST – UMFANG:** Später nur niedrige Hindernisse überwinden und an Kanten hochziehen. Freies Klettern vertagt. Zunächst ausschließlich Grundbewegung und Ducken implementieren; kein vorgezogener Kampf-, Lebens-/Mana- oder Craftingausbau.
