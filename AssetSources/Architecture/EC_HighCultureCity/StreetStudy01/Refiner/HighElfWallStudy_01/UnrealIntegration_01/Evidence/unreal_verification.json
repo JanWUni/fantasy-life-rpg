@@ -1,0 +1,166 @@
+{
+  "status": "passed",
+  "existing_actors_preserved": 434,
+  "meshes": {
+    "SM_HE01_A_WallCore": {
+      "triangles": 180,
+      "bounds_error_cm": 2.5331974029541016e-05,
+      "hulls": 15,
+      "slots": [
+        "HEWS01_Ivory"
+      ]
+    },
+    "SM_HE01_A_WindowFrame": {
+      "triangles": 1144,
+      "bounds_error_cm": 1.8358230590820312e-05,
+      "hulls": 0,
+      "slots": [
+        "HEWS01_CarvedStone",
+        "HEWS01_Gold"
+      ]
+    },
+    "SM_HE01_A_ClearGlass": {
+      "triangles": 104,
+      "bounds_error_cm": 1.621246337890625e-05,
+      "hulls": 1,
+      "slots": [
+        "HEWS01_ClearGlass"
+      ]
+    },
+    "SM_HE01_A_StoneCarving": {
+      "triangles": 1688,
+      "bounds_error_cm": 2.777576446533203e-05,
+      "hulls": 0,
+      "slots": [
+        "HEWS01_RecessStone",
+        "HEWS01_CarvedStone"
+      ]
+    },
+    "SM_HE01_A_GoldInlay": {
+      "triangles": 776,
+      "bounds_error_cm": 2.5987625122070312e-05,
+      "hulls": 0,
+      "slots": [
+        "HEWS01_Gold"
+      ]
+    },
+    "SM_HE01_A_BlueInlay": {
+      "triangles": 20,
+      "bounds_error_cm": 1.35079026222229e-05,
+      "hulls": 0,
+      "slots": [
+        "HEWS01_Gold",
+        "HEWS01_Azure"
+      ]
+    },
+    "SM_HE01_B_StoneCarving": {
+      "triangles": 5296,
+      "bounds_error_cm": 2.777576446533203e-05,
+      "hulls": 0,
+      "slots": [
+        "HEWS01_RecessStone",
+        "HEWS01_CarvedStone"
+      ]
+    },
+    "SM_HE01_B_GoldInlay": {
+      "triangles": 3016,
+      "bounds_error_cm": 2.5987625122070312e-05,
+      "hulls": 0,
+      "slots": [
+        "HEWS01_Gold"
+      ]
+    },
+    "SM_HE01_B_BlueInlay": {
+      "triangles": 120,
+      "bounds_error_cm": 2.483278512954712e-05,
+      "hulls": 0,
+      "slots": [
+        "HEWS01_Gold",
+        "HEWS01_Azure"
+      ]
+    }
+  },
+  "wall_checks": [
+    {
+      "actor": "Lab_HE01_A_Schlicht",
+      "pane_blocks": true,
+      "core_aperture_free": true,
+      "wall_blocks": true
+    },
+    {
+      "actor": "Lab_HE01_B_Prachtvoll",
+      "pane_blocks": true,
+      "core_aperture_free": true,
+      "wall_blocks": true
+    },
+    {
+      "actor": "Lab_HE01_Snap_A",
+      "pane_blocks": true,
+      "core_aperture_free": true,
+      "wall_blocks": true
+    },
+    {
+      "actor": "Lab_HE01_Snap_B",
+      "pane_blocks": true,
+      "core_aperture_free": true,
+      "wall_blocks": true
+    }
+  ],
+  "seam_simple_collision": [
+    [
+      1899.8,
+      2349.9999737906514,
+      160.0
+    ],
+    [
+      1900.2,
+      2349.999999982516,
+      160.0
+    ]
+  ],
+  "scope": "Editor mesh/material/placement/simple-collision checks; no clean editor reload, no performance certification",
+  "capsule_checks": [
+    {
+      "x": 1750,
+      "direction": -1,
+      "blocked": true,
+      "radius_cm": 35,
+      "half_height_cm": 90
+    },
+    {
+      "x": 1750,
+      "direction": 1,
+      "blocked": true,
+      "radius_cm": 35,
+      "half_height_cm": 90
+    },
+    {
+      "x": 2350,
+      "direction": -1,
+      "blocked": true,
+      "radius_cm": 35,
+      "half_height_cm": 90
+    },
+    {
+      "x": 2350,
+      "direction": 1,
+      "blocked": true,
+      "radius_cm": 35,
+      "half_height_cm": 90
+    },
+    {
+      "x": 2050,
+      "direction": -1,
+      "blocked": false,
+      "radius_cm": 35,
+      "half_height_cm": 90
+    },
+    {
+      "x": 2050,
+      "direction": 1,
+      "blocked": false,
+      "radius_cm": 35,
+      "half_height_cm": 90
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "existing_files_checked": 2051,
+  "existing_files_changed": [
+    "Content/Prototype/Maps/Lvl_AssetLab.umap"
+  ],
+  "existing_actors_preserved": 441,
+  "new_package_hashes": {
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Ivory_BaseColor": "7497f567d59b10d4825a0418cb8645ad263a51332308e008a84f06e9cf643c49",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Ivory_Roughness": "246234bd80612ed9263f960c43ec93933dc79d74a63b56c0de84592d7205d6fe",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Ivory_Normal": "cebc6fca4c5508dff04681aab3e000fe05e3b37f0651db703bc9c401a934593e",
+    "/Game/Art/Materials/HighElfWallStudy02/M_HE02_Ivory": "8d5e2146f5b65bb387898d2892ddd50bc4e75ffe023e9ee4daa0c8808ac70414",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_CarvedStone_BaseColor": "fc6f96bc0021237e39c22f61e1671695566e5bd0a0592bd92cd2ea4727f77751",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_CarvedStone_Roughness": "097b14fec0151cb4c26ffd13ac602a3b7d5dbd44035232adb21ae150c48c648d",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_CarvedStone_Normal": "2666a4bd4ba6a5f4a81a6e34ee350d9180ba0195a68a79da101fd4be293a3ac2",
+    "/Game/Art/Materials/HighElfWallStudy02/M_HE02_CarvedStone": "4b51967b80c97197ff61f1a5f8df196d8b4ebc309e79eefed42cccb3984876b4",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_RecessStone_BaseColor": "476f2fa4d172aa05dae74da819eccba8aa266d770d11518d6c927ef9edba6c76",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_RecessStone_Roughness": "71580eee7482ea282ea5bffc408e85c0af56cb4ffd332e28a3fb88563882a884",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_RecessStone_Normal": "806c993ec8960f8c76760cb8942c74d992415ef8f3359db798b63ce602f41b68",
+    "/Game/Art/Materials/HighElfWallStudy02/M_HE02_RecessStone": "32ec053d40c6a09ef9417f416ab0d76b07a7862d1ea80fd89bc0e9608d57f76e",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Gold_BaseColor": "67bad18b9be02427e860fb4c0d399bcfa7a393fb4f30aebd503592ea160a7483",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Gold_Roughness": "96a1624b77e44e4b9856a2646b2a0888ab5cf17446ea39dba30a1c562beea560",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Gold_Normal": "7d27092ab33286808207a49e592e43ba87a288ecb80fe532976558498ae8cbf8",
+    "/Game/Art/Materials/HighElfWallStudy02/M_HE02_Gold": "20657ec73e9ac55d5ec96e0de58e446849631a2041d7becebf26d2ad3438fbe2",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Azure_BaseColor": "5b0ea57bcc0805c40c81ff2c050e8fe07dd33cb05dfe6b76740ec816088e32b6",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Azure_Roughness": "2ba3bf92af4826c973f4c4abb8e72d93f1e94927097d982994fd280169bc58e7",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Azure_Normal": "49a7126ba6d52a7461a2685f5c989976d9deea998a0f8c9342e391259b9eb37a",
+    "/Game/Art/Materials/HighElfWallStudy02/M_HE02_Azure": "e33bd97b314f00dc996b069f2a3cafc263a4e1027d4d17ef7f43e108d27d9bd4",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_ClearGlass_Roughness": "8753a33368e6ffc8300a04bd9cd275a10cd6031f2b06c31bb4e6529ce097467c",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_ClearGlass_Normal": "2b8433a6de63854033c7083684d4ee7b9ac3746a44298886f5e585d0c0fe8d8d",
+    "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass": "b93007e9c633c2e1be7c59e092206ffaac858b7f5403d06916a957116bb53e28",
+    "/Game/Art/Architecture/HighElfWallStudy02/Blueprints/BP_HE02_WindowWall_A": "8f57d8f89a9cd03a2c5da7622a11a70060dd96df4248ba56b150fae3a30cd36b"
+  },
+  "map_sha256": "046b931d90d11321fb70c19480b6939e772c5dba8ac93d1d7335b7418e0291d1"
+}

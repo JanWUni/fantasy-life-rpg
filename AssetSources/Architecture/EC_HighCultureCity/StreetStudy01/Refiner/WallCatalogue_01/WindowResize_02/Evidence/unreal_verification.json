@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "existing_actors_checked": 434,
+  "only_six_insert_translations_changed": true,
+  "existing_house_changes": 0,
+  "meshes": {
+    "SM_WC01_Wall_A_Window_300x24x320": {
+      "bounds_error_cm": 2.586841583251953e-05,
+      "triangles": 792,
+      "ucx_hulls": 15
+    },
+    "SM_WC01_Wall_B_Window_300x24x320": {
+      "bounds_error_cm": 2.586841583251953e-05,
+      "triangles": 1048,
+      "ucx_hulls": 15
+    },
+    "SM_WC01_Wall_C_Window_300x24x320": {
+      "bounds_error_cm": 2.586841583251953e-05,
+      "triangles": 1708,
+      "ucx_hulls": 15
+    },
+    "SM_WC01_WindowFrame_140x40x157": {
+      "bounds_error_cm": 4.172325134277344e-06,
+      "triangles": 656,
+      "ucx_hulls": 0
+    },
+    "SM_WC01_WindowGlass_Clear_112x2x145": {
+      "bounds_error_cm": 2.86102294921875e-06,
+      "triangles": 72,
+      "ucx_hulls": 1
+    }
+  },
+  "collision_checks": [
+    {
+      "style": "A",
+      "glass_blocks": true,
+      "real_opening_clear": true,
+      "new_side_sill_header_block": true,
+      "no_old_oversized_glass_collision": true
+    },
+    {
+      "style": "B",
+      "glass_blocks": true,
+      "real_opening_clear": true,
+      "new_side_sill_header_block": true,
+      "no_old_oversized_glass_collision": true
+    },
+    {
+      "style": "C",
+      "glass_blocks": true,
+      "real_opening_clear": true,
+      "new_side_sill_header_block": true,
+      "no_old_oversized_glass_collision": true
+    }
+  ],
+  "colors_and_material_slots_preserved": true
+}

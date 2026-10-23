@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "file": "Previews/04_daylight_opaque_control.png",
+  "sha256": "cd09f47cc42e54ada2ae9f2af482ff90646c4d345e9bba705db56c86797aa158",
+  "source_sha256": "cdad5f660ed74f3c7ec729ce32d7e54fa00ad6330d3713931ca073448f621c5d",
+  "cycles_samples": 48,
+  "sun_aimed_at_selected_window": true,
+  "sky_strength": 0.45,
+  "no_interior_fill_lights": true,
+  "temporary_control_only": true,
+  "temporary_setup_not_saved": true
+}

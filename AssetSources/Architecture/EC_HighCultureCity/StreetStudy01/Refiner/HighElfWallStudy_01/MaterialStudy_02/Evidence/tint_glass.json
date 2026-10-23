@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "transmittance": [
+    0.78,
+    0.89,
+    0.94
+  ],
+  "refraction": "PixelNormalOffset",
+  "amount": 1.06,
+  "SSR": true
+}

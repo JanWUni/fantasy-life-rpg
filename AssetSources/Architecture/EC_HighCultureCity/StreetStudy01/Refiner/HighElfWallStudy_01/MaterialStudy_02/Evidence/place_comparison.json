@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "placed": [
+    {
+      "label": "Lab_HE02_Vorher",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_HE01_WindowWall_A_C_2"
+      },
+      "location_cm": [
+        1600,
+        1500,
+        2
+      ],
+      "path": "/Game/Art/Architecture/HighElfWallStudy01/Blueprints/BP_HE01_WindowWall_A"
+    },
+    {
+      "label": "Lab_HE02_Materialstudie",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_HE02_WindowWall_A_C_0"
+      },
+      "location_cm": [
+        2200,
+        1500,
+        2
+      ],
+      "path": "/Game/Art/Architecture/HighElfWallStudy02/Blueprints/BP_HE02_WindowWall_A"
+    }
+  ],
+  "new_actors": 4
+}

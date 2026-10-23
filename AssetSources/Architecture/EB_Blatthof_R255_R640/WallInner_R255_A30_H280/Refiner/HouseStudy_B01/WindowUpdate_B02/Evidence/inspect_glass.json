@@ -1,0 +1,26 @@
+{
+  "components": [
+    {
+      "name": "Frame",
+      "mesh": "/Game/Art/Architecture/ElvenHouseB01/Windows/Meshes/SM_EH_WindowFrame_Arch_100x173.SM_EH_WindowFrame_Arch_100x173",
+      "material": "/Game/Art/Materials/ElvenHouseB01/M_EH_Timber.M_EH_Timber",
+      "overrides": [],
+      "world": "<Struct 'Vector' (0x000001F0E9D19FF0) {x: -2100.000000, y: -1894.500000, z: 126.000000}>",
+      "scale": "<Struct 'Vector' (0x000001F0E9D19FF0) {x: 1.000000, y: 1.000000, z: 1.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001F0E9D19FF0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>"
+    },
+    {
+      "name": "Glazing",
+      "mesh": "/Game/Art/Architecture/ElvenHouseB01/Windows/Meshes/SM_EH_WindowGlass_Arch_100x173.SM_EH_WindowGlass_Arch_100x173",
+      "material": "/Game/Art/Materials/ElvenHouseB01/M_EH_Glass_Clear.M_EH_Glass_Clear",
+      "overrides": [],
+      "world": "<Struct 'Vector' (0x000001F0E9D19FF0) {x: -2100.000000, y: -1894.500000, z: 126.000000}>",
+      "scale": "<Struct 'Vector' (0x000001F0E9D19FF0) {x: 1.000000, y: 1.000000, z: 1.000000}>",
+      "rotation": "<Struct 'Rotator' (0x000001F0E9D19FF0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>"
+    }
+  ],
+  "substrate": 1,
+  "blend": "<BlendMode.BLEND_TRANSLUCENT_COLORED_TRANSMITTANCE: 7>",
+  "model": "<MaterialShadingModel.MSM_DEFAULT_LIT: 1>",
+  "front": "<Object '/Game/Art/Materials/ElvenHouseB01/M_EH_Glass_Clear.M_EH_Glass_Clear:MaterialExpressionSubstrateSlabBSDF_0' (0x000001F12A19CD00) Class 'MaterialExpressionSubstrateSlabBSDF'>"
+}

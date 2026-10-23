@@ -1,0 +1,6 @@
+{
+  "prior": true,
+  "current": false,
+  "save_config_called": false,
+  "reason": "Engine MeshDescription access violation during automatic saving of Engine helper meshes; restore before final clean restart"
+}

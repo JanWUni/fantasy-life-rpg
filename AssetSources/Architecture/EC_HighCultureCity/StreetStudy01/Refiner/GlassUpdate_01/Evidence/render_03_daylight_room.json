@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "file": "Previews/03_daylight_room.png",
+  "sha256": "739a5fa2a240bf75ca4f9ab470cac4c880820aff980d97c12b91afc9a5295207",
+  "source_sha256": "db96f7a9add624b7441e9af944af11e450860921c9bda7d0f87c10f4d0141dde",
+  "cycles_samples": 48,
+  "sun_aimed_at_selected_window": true,
+  "sky_strength": 0.45,
+  "no_interior_fill_lights": true,
+  "camera": {
+    "position": [
+      -7.614999771118164,
+      -1.0500003099441528,
+      1.75
+    ],
+    "target": [
+      -5.214999675750732,
+      -2.200000047683716,
+      0.699999988079071
+    ],
+    "lens_mm": 20
+  },
+  "temporary_control_only": false,
+  "temporary_setup_not_saved": true
+}

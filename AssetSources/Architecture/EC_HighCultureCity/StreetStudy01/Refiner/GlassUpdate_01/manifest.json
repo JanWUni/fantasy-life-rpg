@@ -1,0 +1,132 @@
+{
+  "kit_id": "EC.HighCultureCity",
+  "module_id": "StreetStudy01",
+  "interface_version": "0.1",
+  "status": "review_ready",
+  "accepted": false,
+  "scope": "Blender glass material only; no FBX or Unreal integration",
+  "parent_refiner_commit": "17828dce95c0d68fd5300bc9d8cba1db1178b83f",
+  "parent_manifest": "../manifest.json",
+  "parent_source": "../StreetStudy01_Refined.blend",
+  "parent_source_sha256": "a06d690392e6c65dd3189d69dff14cb4135e8bf353c481a70bd0b3100befc46a",
+  "source_blend": "StreetStudy01_ClearGlass.blend",
+  "source_blend_sha256": "db96f7a9add624b7441e9af944af11e450860921c9bda7d0f87c10f4d0141dde",
+  "parent_refiner_revision": 1,
+  "refiner_revision": 2,
+  "material_slot": "Glass",
+  "geometry_unchanged": true,
+  "transmission_weight": 1,
+  "roughness": 0.025,
+  "ior": 1.45,
+  "base_color_linear": [
+    0.98,
+    0.995,
+    1,
+    1
+  ],
+  "shadow_policy": "Is Shadow Ray -> white Transparent BSDF; camera/refraction rays -> Principled transmission. Direct-light approximation, no caustics.",
+  "parent_fbx_exports_unchanged": true,
+  "new_fbx_exports_performed": false,
+  "unreal_import_performed": false,
+  "views": {
+    "01_window_outside": [
+      [
+        -2.5149998664855957,
+        -1.850000023841858,
+        1.7300000190734863
+      ],
+      [
+        -5.014999866485596,
+        -2.200000047683716,
+        1.649999976158142
+      ],
+      38
+    ],
+    "02_window_inside": [
+      [
+        -6.214999675750732,
+        -1.9200000762939453,
+        1.7300000190734863
+      ],
+      [
+        -2.614999771118164,
+        -2.200000047683716,
+        1.649999976158142
+      ],
+      30
+    ],
+    "03_daylight_room": [
+      [
+        -7.614999771118164,
+        -1.0500003099441528,
+        1.75
+      ],
+      [
+        -4.864999771118164,
+        -2.200000047683716,
+        1.2300000190734863
+      ],
+      24
+    ],
+    "04_daylight_opaque_control": [
+      [
+        -7.614999771118164,
+        -1.0500003099441528,
+        1.75
+      ],
+      [
+        -4.864999771118164,
+        -2.200000047683716,
+        1.2300000190734863
+      ],
+      24
+    ]
+  },
+  "verification": "Evidence/source_verification.json",
+  "daylight_verification": {
+    "status": "passed",
+    "clear_floor_luminance": 0.36720340973734855,
+    "opaque_floor_luminance": 0.004934369693895411,
+    "ratio": 74.41749048346271,
+    "scope": "Actual complete house, fixed sun/sky/camera, selected pane alone switched opaque for control; 81 projected floor samples from display-linear PNG after AgX, no interior fill",
+    "limitation": "Architectural transparent-shadow approximation, not refractive caustic simulation or calibrated illuminance measurement"
+  },
+  "preservation": {
+    "status": "passed",
+    "files_checked": 1627,
+    "files_byte_identical": 1626,
+    "externally_saved_parent_sources": [
+      {
+        "file": "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Refiner/StreetStudy01_Refined.blend",
+        "input_sha256": "a06d690392e6c65dd3189d69dff14cb4135e8bf353c481a70bd0b3100befc46a",
+        "externally_saved_sha256": "357d825d238932aca9ab99219ee5805a8a897beabb6a59f35017c560bfc9c4c1",
+        "preserved_without_overwrite": true,
+        "read_only_audit": "Evidence/external_parent_save.json"
+      }
+    ],
+    "unexpected_changes_outside_glass_updates": [],
+    "no_unreal_operations": true
+  },
+  "previews": [
+    {
+      "file": "Previews/01_window_outside.png",
+      "sha256": "8be1687f41d3f1ca06c6cc7b52e0650c3f711eecbef830c6b42882dd8b4314b9",
+      "view": "01_window_outside"
+    },
+    {
+      "file": "Previews/02_window_inside.png",
+      "sha256": "59c00ec52cac152aeb6dd31481b45a96320b67dbe082a00671b3524b9bc0c03d",
+      "view": "02_window_inside"
+    },
+    {
+      "file": "Previews/03_daylight_room.png",
+      "sha256": "739a5fa2a240bf75ca4f9ab470cac4c880820aff980d97c12b91afc9a5295207",
+      "view": "03_daylight_room"
+    },
+    {
+      "file": "Previews/04_daylight_opaque_control.png",
+      "sha256": "0c86905d925dd170cab6de8933c554f2bc2cac2be80d1f95bc0de395d6da0ec5",
+      "view": "04_daylight_opaque_control"
+    }
+  ]
+}

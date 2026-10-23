@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "world": "/Game/Prototype/Maps/UEDPIE_0_Lvl_AssetLab.Lvl_AssetLab",
+  "player_class": "BP_PrototypeCharacter_C",
+  "player_position_cm": [
+    4300.0,
+    3400.0,
+    111.1500015258789
+  ],
+  "capsule_radius_cm": 35.0,
+  "capsule_half_height_cm": 90.0,
+  "game_world_time_seconds": 8.000183075666428,
+  "studies_present": {
+    "A": 470,
+    "B": 318
+  },
+  "scope": "Actual existing player and both assemblies present in PIE; no physical keyboard walk claimed"
+}

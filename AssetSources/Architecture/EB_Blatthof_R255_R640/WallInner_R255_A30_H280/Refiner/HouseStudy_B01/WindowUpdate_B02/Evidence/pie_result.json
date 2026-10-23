@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "actual_e_open_close_open": true,
+  "walked_inside": true,
+  "before": {
+    "location": {
+      "x": -1900,
+      "y": -1800,
+      "z": 123.1500015258789
+    },
+    "rotation": {
+      "pitch": 0,
+      "yaw": -90.00000000000001,
+      "roll": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "after": {
+    "location": {
+      "x": -1899.99999230782,
+      "y": -2432.1665683305264,
+      "z": 123.06306886672974
+    },
+    "rotation": {
+      "pitch": 0,
+      "yaw": -90.00000000000001,
+      "roll": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "open_door_pose": {
+    "location": {
+      "x": -1965.999984741211,
+      "y": -1899.5000000111759,
+      "z": 31
+    },
+    "rotation": {
+      "pitch": 0,
+      "yaw": -90.00000000000001,
+      "roll": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "movement_inputs": 4,
+  "limit": "One front approach and entry route; full camera/walk review remains manual"
+}

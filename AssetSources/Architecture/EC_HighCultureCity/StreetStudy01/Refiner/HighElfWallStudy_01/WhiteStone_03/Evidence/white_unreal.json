@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "new_materials": [
+    "/Game/Art/Materials/HighElfWallStudy03/M_HE03_Ivory",
+    "/Game/Art/Materials/HighElfWallStudy03/M_HE03_CarvedStone",
+    "/Game/Art/Materials/HighElfWallStudy03/M_HE03_RecessStone"
+  ],
+  "updated_actor": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_HE01_WindowWall_A_C_2",
+  "updated_label": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_64",
+  "new_textures": 0,
+  "new_meshes": 0
+}

@@ -1,0 +1,499 @@
+{
+  "status": "passed",
+  "blender": "5.2.2 LTS",
+  "source_reopened": true,
+  "all_textures_resolved": true,
+  "assets": {
+    "SM_EH03_Table_180x100x77": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 1,
+      "triangles": 484,
+      "vertices": 264,
+      "slots": [
+        "Timber"
+      ],
+      "bounds_m": [
+        [
+          -0.8999999761581421,
+          -0.49799999594688416,
+          0.0
+        ],
+        [
+          0.8999999761581421,
+          0.49799999594688416,
+          0.7700000405311584
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "volume_m3": 0.1665241685563587
+    },
+    "SM_EH03_Chair_47x49x94": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 2,
+      "triangles": 440,
+      "vertices": 240,
+      "slots": [
+        "Timber"
+      ],
+      "bounds_m": [
+        [
+          -0.23499999940395355,
+          -0.24500000476837158,
+          0.0
+        ],
+        [
+          0.23499999940395355,
+          0.24500000476837158,
+          0.9399999976158142
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "volume_m3": 0.023997443490472583
+    },
+    "SM_EH03_Bed_160x215x101": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 2,
+      "triangles": 880,
+      "vertices": 480,
+      "slots": [
+        "Timber",
+        "Linen",
+        "Blanket"
+      ],
+      "bounds_m": [
+        [
+          -0.800000011920929,
+          -1.0750000476837158,
+          0.0
+        ],
+        [
+          0.800000011920929,
+          1.0750000476837158,
+          1.0049999952316284
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "volume_m3": 0.9368771259282197
+    },
+    "SM_EH03_Wardrobe_120x55x210": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 1,
+      "triangles": 364,
+      "vertices": 200,
+      "slots": [
+        "Timber",
+        "Bronze"
+      ],
+      "bounds_m": [
+        [
+          -0.6000000238418579,
+          -0.31700000166893005,
+          0.0
+        ],
+        [
+          0.6000000238418579,
+          0.2750000059604645,
+          2.1000001430511475
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "volume_m3": 0.4219404921714702
+    },
+    "SM_EH03_Sideboard_140x45x90": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 1,
+      "triangles": 364,
+      "vertices": 200,
+      "slots": [
+        "Timber",
+        "Bronze"
+      ],
+      "bounds_m": [
+        [
+          -0.7000000476837158,
+          -0.2669999897480011,
+          0.0
+        ],
+        [
+          0.7000000476837158,
+          0.22499999403953552,
+          0.9000000357627869
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "volume_m3": 0.22318441842916462
+    },
+    "SM_EH03_Bookcase_90x35x190": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 1,
+      "triangles": 1408,
+      "vertices": 768,
+      "slots": [
+        "Timber",
+        "Book"
+      ],
+      "bounds_m": [
+        [
+          -0.44999998807907104,
+          -0.17499999701976776,
+          0.0
+        ],
+        [
+          0.44999998807907104,
+          0.17499999701976776,
+          1.899999976158142
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "volume_m3": 0.28449623336402635
+    },
+    "SM_EH03_Bench_120x45x46": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 1,
+      "triangles": 308,
+      "vertices": 168,
+      "slots": [
+        "Timber"
+      ],
+      "bounds_m": [
+        [
+          -0.6000000238418579,
+          -0.2224999964237213,
+          0.0
+        ],
+        [
+          0.6000000238418579,
+          0.2224999964237213,
+          0.45500001311302185
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "volume_m3": 0.03388954300129174
+    },
+    "SM_EH03_SideTable_55x45x49": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 1,
+      "triangles": 264,
+      "vertices": 144,
+      "slots": [
+        "Timber"
+      ],
+      "bounds_m": [
+        [
+          -0.2750000059604645,
+          -0.22499999403953552,
+          0.0
+        ],
+        [
+          0.2750000059604645,
+          0.22499999403953552,
+          0.4925000071525574
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "volume_m3": 0.026839968006190363
+    },
+    "SM_EH03_Workbench_140x65x91": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 1,
+      "triangles": 264,
+      "vertices": 144,
+      "slots": [
+        "Timber"
+      ],
+      "bounds_m": [
+        [
+          -0.699999988079071,
+          -0.32499998807907104,
+          0.0
+        ],
+        [
+          0.699999988079071,
+          0.32499998807907104,
+          0.9100000262260437
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "volume_m3": 0.1171660609602806
+    },
+    "SM_EH03_Chest_94x49x52": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 1,
+      "triangles": 220,
+      "vertices": 120,
+      "slots": [
+        "Timber",
+        "Iron"
+      ],
+      "bounds_m": [
+        [
+          -0.4699999988079071,
+          -0.26499998569488525,
+          0.0
+        ],
+        [
+          0.4699999988079071,
+          0.2475000023841858,
+          0.5209999680519104
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "volume_m3": 0.21718977179695498
+    },
+    "SM_EH03_Rug_240x180": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 0,
+      "triangles": 44,
+      "vertices": 24,
+      "slots": [
+        "Blanket"
+      ],
+      "bounds_m": [
+        [
+          -1.2000000476837158,
+          -0.8999999761581421,
+          0.0
+        ],
+        [
+          1.2000000476837158,
+          0.8999999761581421,
+          0.01600000075995922
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "volume_m3": 0.06908631929411378
+    },
+    "SM_EH03_Lantern_24": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 1,
+      "triangles": 272,
+      "vertices": 152,
+      "slots": [
+        "Bronze",
+        "Flame"
+      ],
+      "bounds_m": [
+        [
+          -0.125,
+          -0.125,
+          0.0
+        ],
+        [
+          0.125,
+          0.125,
+          0.44999998807907104
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "volume_m3": 0.007335051322842398
+    },
+    "SM_EH03_Pendant_24": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 1,
+      "triangles": 344,
+      "vertices": 192,
+      "slots": [
+        "Bronze",
+        "Flame",
+        "Iron"
+      ],
+      "bounds_m": [
+        [
+          -0.125,
+          -0.125,
+          0.0
+        ],
+        [
+          0.125,
+          0.125,
+          2.667515277862549
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "volume_m3": 0.008477510939519354
+    },
+    "SM_EH03_WallLantern_24": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 1,
+      "triangles": 360,
+      "vertices": 200,
+      "slots": [
+        "Bronze",
+        "Flame",
+        "Iron"
+      ],
+      "bounds_m": [
+        [
+          -0.125,
+          -0.125,
+          0.0
+        ],
+        [
+          0.125,
+          0.20000000298023224,
+          0.5699999928474426
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "volume_m3": 0.008781857638648954
+    },
+    "SM_EH03_InteriorWall_200x12x300": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 1,
+      "triangles": 364,
+      "vertices": 200,
+      "slots": [
+        "Plaster",
+        "Timber"
+      ],
+      "bounds_m": [
+        [
+          0.0,
+          -0.029500000178813934,
+          0.0
+        ],
+        [
+          2.0,
+          0.14949999749660492,
+          3.0
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "volume_m3": 0.7782720110120044
+    },
+    "SM_EH03_InteriorDoorway_200x12x300": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 3,
+      "triangles": 564,
+      "vertices": 312,
+      "slots": [
+        "Plaster",
+        "Timber"
+      ],
+      "bounds_m": [
+        [
+          0.0,
+          -0.029500000178813934,
+          0.0
+        ],
+        [
+          2.0,
+          0.14949999749660492,
+          3.0
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "volume_m3": 0.43164639958132656
+    },
+    "SM_EH03_InteriorWall_152x12x300": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 1,
+      "triangles": 364,
+      "vertices": 200,
+      "slots": [
+        "Plaster",
+        "Timber"
+      ],
+      "bounds_m": [
+        [
+          0.0,
+          -0.029500000178813934,
+          0.0
+        ],
+        [
+          1.5199999809265137,
+          0.14949999749660492,
+          3.0
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "volume_m3": 0.5985177705399667
+    },
+    "SM_EH03_InteriorWall_56x12x300": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 1,
+      "triangles": 364,
+      "vertices": 200,
+      "slots": [
+        "Plaster",
+        "Timber"
+      ],
+      "bounds_m": [
+        [
+          0.0,
+          -0.029500000178813934,
+          0.0
+        ],
+        [
+          0.5600000023841858,
+          0.14949999749660492,
+          3.0
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "volume_m3": 0.23900932950131867
+    },
+    "SM_EH03_Ceiling_238x228x16": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 1,
+      "triangles": 100,
+      "vertices": 56,
+      "slots": [
+        "Plaster",
+        "Timber"
+      ],
+      "bounds_m": [
+        [
+          0.0,
+          0.0,
+          -0.05000000074505806
+        ],
+        [
+          2.380000114440918,
+          2.2799999713897705,
+          0.1599999964237213
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "volume_m3": 0.8864255292105254
+    }
+  }
+}

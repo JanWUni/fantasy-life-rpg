@@ -1,0 +1,132 @@
+{
+  "kit_id": "ER.RootRetreat",
+  "module_id": "CourtyardStudy01",
+  "interface_version": "0.2",
+  "status": "review_ready",
+  "accepted": false,
+  "scope": "Blender glass material only; no FBX or Unreal integration",
+  "parent_refiner_commit": "17828dce95c0d68fd5300bc9d8cba1db1178b83f",
+  "parent_manifest": "../manifest.json",
+  "parent_source": "../CourtyardStudy01_Refined.blend",
+  "parent_source_sha256": "e7316e954df13af81b423d5e81680d08c84dd86ec08a299f31cc09a45433f3c1",
+  "source_blend": "CourtyardStudy01_ClearGlass.blend",
+  "source_blend_sha256": "cdad5f660ed74f3c7ec729ce32d7e54fa00ad6330d3713931ca073448f621c5d",
+  "parent_refiner_revision": 2,
+  "refiner_revision": 3,
+  "material_slot": "Glass",
+  "geometry_unchanged": true,
+  "transmission_weight": 1,
+  "roughness": 0.025,
+  "ior": 1.45,
+  "base_color_linear": [
+    0.98,
+    0.995,
+    1,
+    1
+  ],
+  "shadow_policy": "Is Shadow Ray -> white Transparent BSDF; camera/refraction rays -> Principled transmission. Direct-light approximation, no caustics.",
+  "parent_fbx_exports_unchanged": true,
+  "new_fbx_exports_performed": false,
+  "unreal_import_performed": false,
+  "views": {
+    "01_window_outside": [
+      [
+        -6.1421098709106445,
+        -1.0042978525161743,
+        1.5299999713897705
+      ],
+      [
+        -5.964682579040527,
+        1.5138400793075562,
+        1.4499999284744263
+      ],
+      38
+    ],
+    "02_window_inside": [
+      [
+        -5.441307067871094,
+        2.629401922225952,
+        1.5299999713897705
+      ],
+      [
+        -6.46367073059082,
+        -0.8337142467498779,
+        1.4499999284744263
+      ],
+      30
+    ],
+    "03_daylight_room": [
+      [
+        -4.2992424964904785,
+        3.817925453186035,
+        1.5499999523162842
+      ],
+      [
+        -5.995869159698486,
+        1.3671178817749023,
+        1.0299999713897705
+      ],
+      24
+    ],
+    "04_daylight_opaque_control": [
+      [
+        -4.2992424964904785,
+        3.817925453186035,
+        1.5499999523162842
+      ],
+      [
+        -5.995869159698486,
+        1.3671178817749023,
+        1.0299999713897705
+      ],
+      24
+    ]
+  },
+  "verification": "Evidence/source_verification.json",
+  "daylight_verification": {
+    "status": "passed",
+    "clear_floor_luminance": 0.20457969162960843,
+    "opaque_floor_luminance": 0.0004079012586907656,
+    "ratio": 501.54219255474896,
+    "scope": "Actual complete house, fixed sun/sky/camera, selected pane alone switched opaque for control; 81 projected floor samples from display-linear PNG after AgX, no interior fill",
+    "limitation": "Architectural transparent-shadow approximation, not refractive caustic simulation or calibrated illuminance measurement"
+  },
+  "preservation": {
+    "status": "passed",
+    "files_checked": 1627,
+    "files_byte_identical": 1626,
+    "externally_saved_parent_sources": [
+      {
+        "file": "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Refiner/StreetStudy01_Refined.blend",
+        "input_sha256": "a06d690392e6c65dd3189d69dff14cb4135e8bf353c481a70bd0b3100befc46a",
+        "externally_saved_sha256": "357d825d238932aca9ab99219ee5805a8a897beabb6a59f35017c560bfc9c4c1",
+        "preserved_without_overwrite": true,
+        "read_only_audit": "../../../../EC_HighCultureCity/StreetStudy01/Refiner/GlassUpdate_01/Evidence/external_parent_save.json"
+      }
+    ],
+    "unexpected_changes_outside_glass_updates": [],
+    "no_unreal_operations": true
+  },
+  "previews": [
+    {
+      "file": "Previews/01_window_outside.png",
+      "sha256": "73a83d155b520880d0d3919249e0bf540a34c0eca7ba3598ee556551fad5eca0",
+      "view": "01_window_outside"
+    },
+    {
+      "file": "Previews/02_window_inside.png",
+      "sha256": "961dfb856fc03d066ed608ad15831c3630595b7f04924e52863dd6aa45991595",
+      "view": "02_window_inside"
+    },
+    {
+      "file": "Previews/03_daylight_room.png",
+      "sha256": "0014c3bb65fd7e773677d842ac1743cdd1deadcfc454398fd9602319ff9a6bf7",
+      "view": "03_daylight_room"
+    },
+    {
+      "file": "Previews/04_daylight_opaque_control.png",
+      "sha256": "cd09f47cc42e54ada2ae9f2af482ff90646c4d345e9bba705db56c86797aa158",
+      "view": "04_daylight_opaque_control"
+    }
+  ]
+}

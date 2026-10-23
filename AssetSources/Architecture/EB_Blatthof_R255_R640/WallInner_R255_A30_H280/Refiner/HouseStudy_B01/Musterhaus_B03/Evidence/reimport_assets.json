@@ -1,0 +1,525 @@
+{
+  "status": "passed",
+  "assets": {
+    "SM_EH03_Table_180x100x77": {
+      "before": {
+        "triangles": 484,
+        "hulls": 1,
+        "slots": [
+          "B03_Timber"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      },
+      "after": {
+        "triangles": 484,
+        "hulls": 1,
+        "slots": [
+          "B03_Timber"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      }
+    },
+    "SM_EH03_Chair_47x49x94": {
+      "before": {
+        "triangles": 440,
+        "hulls": 2,
+        "slots": [
+          "B03_Timber"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      },
+      "after": {
+        "triangles": 440,
+        "hulls": 2,
+        "slots": [
+          "B03_Timber"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      }
+    },
+    "SM_EH03_Bed_160x215x101": {
+      "before": {
+        "triangles": 880,
+        "hulls": 2,
+        "slots": [
+          "B03_Timber",
+          "B03_Linen",
+          "B03_Blanket"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Linen.M_EH03_Linen",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Blanket.M_EH03_Blanket"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      },
+      "after": {
+        "triangles": 880,
+        "hulls": 2,
+        "slots": [
+          "B03_Timber",
+          "B03_Linen",
+          "B03_Blanket"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Linen.M_EH03_Linen",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Blanket.M_EH03_Blanket"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      }
+    },
+    "SM_EH03_Wardrobe_120x55x210": {
+      "before": {
+        "triangles": 364,
+        "hulls": 1,
+        "slots": [
+          "B03_Timber",
+          "B03_Bronze"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Bronze.M_EH03_Bronze"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      },
+      "after": {
+        "triangles": 364,
+        "hulls": 1,
+        "slots": [
+          "B03_Timber",
+          "B03_Bronze"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Bronze.M_EH03_Bronze"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      }
+    },
+    "SM_EH03_Sideboard_140x45x90": {
+      "before": {
+        "triangles": 364,
+        "hulls": 1,
+        "slots": [
+          "B03_Timber",
+          "B03_Bronze"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Bronze.M_EH03_Bronze"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      },
+      "after": {
+        "triangles": 364,
+        "hulls": 1,
+        "slots": [
+          "B03_Timber",
+          "B03_Bronze"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Bronze.M_EH03_Bronze"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      }
+    },
+    "SM_EH03_Bookcase_90x35x190": {
+      "before": {
+        "triangles": 1408,
+        "hulls": 1,
+        "slots": [
+          "B03_Timber",
+          "B03_Book"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Book.M_EH03_Book"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      },
+      "after": {
+        "triangles": 1408,
+        "hulls": 1,
+        "slots": [
+          "B03_Timber",
+          "B03_Book"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Book.M_EH03_Book"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      }
+    },
+    "SM_EH03_Bench_120x45x46": {
+      "before": {
+        "triangles": 308,
+        "hulls": 1,
+        "slots": [
+          "B03_Timber"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      },
+      "after": {
+        "triangles": 308,
+        "hulls": 1,
+        "slots": [
+          "B03_Timber"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      }
+    },
+    "SM_EH03_SideTable_55x45x49": {
+      "before": {
+        "triangles": 264,
+        "hulls": 1,
+        "slots": [
+          "B03_Timber"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      },
+      "after": {
+        "triangles": 264,
+        "hulls": 1,
+        "slots": [
+          "B03_Timber"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      }
+    },
+    "SM_EH03_Workbench_140x65x91": {
+      "before": {
+        "triangles": 264,
+        "hulls": 1,
+        "slots": [
+          "B03_Timber"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      },
+      "after": {
+        "triangles": 264,
+        "hulls": 1,
+        "slots": [
+          "B03_Timber"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      }
+    },
+    "SM_EH03_Chest_94x49x52": {
+      "before": {
+        "triangles": 220,
+        "hulls": 1,
+        "slots": [
+          "B03_Timber",
+          "B03_Iron"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Iron.M_EH03_Iron"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      },
+      "after": {
+        "triangles": 220,
+        "hulls": 1,
+        "slots": [
+          "B03_Timber",
+          "B03_Iron"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Iron.M_EH03_Iron"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      }
+    },
+    "SM_EH03_Rug_240x180": {
+      "before": {
+        "triangles": 44,
+        "hulls": 0,
+        "slots": [
+          "B03_Blanket"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Blanket.M_EH03_Blanket"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      },
+      "after": {
+        "triangles": 44,
+        "hulls": 0,
+        "slots": [
+          "B03_Blanket"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Blanket.M_EH03_Blanket"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      }
+    },
+    "SM_EH03_Lantern_24": {
+      "before": {
+        "triangles": 272,
+        "hulls": 1,
+        "slots": [
+          "B03_Bronze",
+          "B03_Flame"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Bronze.M_EH03_Bronze",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Flame.M_EH03_Flame"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      },
+      "after": {
+        "triangles": 272,
+        "hulls": 1,
+        "slots": [
+          "B03_Bronze",
+          "B03_Flame"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Bronze.M_EH03_Bronze",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Flame.M_EH03_Flame"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      }
+    },
+    "SM_EH03_Pendant_24": {
+      "before": {
+        "triangles": 344,
+        "hulls": 1,
+        "slots": [
+          "B03_Bronze",
+          "B03_Flame",
+          "B03_Iron"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Bronze.M_EH03_Bronze",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Flame.M_EH03_Flame",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Iron.M_EH03_Iron"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      },
+      "after": {
+        "triangles": 344,
+        "hulls": 1,
+        "slots": [
+          "B03_Bronze",
+          "B03_Flame",
+          "B03_Iron"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Bronze.M_EH03_Bronze",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Flame.M_EH03_Flame",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Iron.M_EH03_Iron"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      }
+    },
+    "SM_EH03_WallLantern_24": {
+      "before": {
+        "triangles": 360,
+        "hulls": 1,
+        "slots": [
+          "B03_Bronze",
+          "B03_Flame",
+          "B03_Iron"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Bronze.M_EH03_Bronze",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Flame.M_EH03_Flame",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Iron.M_EH03_Iron"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      },
+      "after": {
+        "triangles": 360,
+        "hulls": 1,
+        "slots": [
+          "B03_Bronze",
+          "B03_Flame",
+          "B03_Iron"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Bronze.M_EH03_Bronze",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Flame.M_EH03_Flame",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Iron.M_EH03_Iron"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      }
+    },
+    "SM_EH03_InteriorWall_200x12x300": {
+      "before": {
+        "triangles": 364,
+        "hulls": 1,
+        "slots": [
+          "B03_Plaster",
+          "B03_Timber"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Plaster.M_EH03_Plaster",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      },
+      "after": {
+        "triangles": 364,
+        "hulls": 1,
+        "slots": [
+          "B03_Plaster",
+          "B03_Timber"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Plaster.M_EH03_Plaster",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      }
+    },
+    "SM_EH03_InteriorDoorway_200x12x300": {
+      "before": {
+        "triangles": 564,
+        "hulls": 3,
+        "slots": [
+          "B03_Plaster",
+          "B03_Timber"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Plaster.M_EH03_Plaster",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      },
+      "after": {
+        "triangles": 564,
+        "hulls": 3,
+        "slots": [
+          "B03_Plaster",
+          "B03_Timber"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Plaster.M_EH03_Plaster",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      }
+    },
+    "SM_EH03_InteriorWall_152x12x300": {
+      "before": {
+        "triangles": 364,
+        "hulls": 1,
+        "slots": [
+          "B03_Plaster",
+          "B03_Timber"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Plaster.M_EH03_Plaster",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      },
+      "after": {
+        "triangles": 364,
+        "hulls": 1,
+        "slots": [
+          "B03_Plaster",
+          "B03_Timber"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Plaster.M_EH03_Plaster",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      }
+    },
+    "SM_EH03_InteriorWall_56x12x300": {
+      "before": {
+        "triangles": 364,
+        "hulls": 1,
+        "slots": [
+          "B03_Plaster",
+          "B03_Timber"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Plaster.M_EH03_Plaster",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      },
+      "after": {
+        "triangles": 364,
+        "hulls": 1,
+        "slots": [
+          "B03_Plaster",
+          "B03_Timber"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Plaster.M_EH03_Plaster",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      }
+    },
+    "SM_EH03_Ceiling_238x228x16": {
+      "before": {
+        "triangles": 100,
+        "hulls": 1,
+        "slots": [
+          "B03_Plaster",
+          "B03_Timber"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Plaster.M_EH03_Plaster",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      },
+      "after": {
+        "triangles": 100,
+        "hulls": 1,
+        "slots": [
+          "B03_Plaster",
+          "B03_Timber"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Plaster.M_EH03_Plaster",
+          "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      }
+    }
+  }
+}

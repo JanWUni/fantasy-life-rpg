@@ -1,0 +1,24 @@
+{
+  "values": {
+    "blocking_hit": "True",
+    "initial_overlap": "False",
+    "time": "0.45833298563957214",
+    "distance": "137.49989318847656",
+    "location": "<Struct 'Vector' (0x0000018E99EA06A0) {x: 1760.000000, y: 3087.499896, z: 172.000000}>",
+    "impact_point": "<Struct 'Vector' (0x0000018E99EA0BA0) {x: 1760.000000, y: 3087.499895, z: 172.000000}>",
+    "normal": "<Struct 'Vector' (0x0000018E99EA3DF0) {x: 0.000001, y: -1.000000, z: 0.000002}>",
+    "impact_normal": "<Struct 'Vector' (0x0000018E99EA06F0) {x: 0.000001, y: -1.000000, z: 0.000002}>",
+    "phys_mat": "<Object '/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial' (0x0000018F22463A80) Class 'PhysicalMaterial'>",
+    "hit_actor": "<Object '/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_HE01_WindowWall_A_C_0' (0x0000019037FE2D00) Class 'BP_HE01_WindowWall_A_C'>",
+    "hit_component": "<Object '/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_HE01_WindowWall_A_C_0.ClearGlass' (0x0000018FF5788200) Class 'StaticMeshComponent'>",
+    "hit_bone_name": "None",
+    "bone_name": "None",
+    "hit_item": "-1",
+    "element_index": "0",
+    "face_index": "-1",
+    "trace_start": "<Struct 'Vector' (0x0000018E99EA2400) {x: 1760.000000, y: 2950.000000, z: 172.000000}>",
+    "trace_end": "<Struct 'Vector' (0x0000018E99EA0380) {x: 1760.000000, y: 3250.000000, z: 172.000000}>"
+  },
+  "methods": [],
+  "break_doc": "None"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "open_close_open": [
+    true,
+    false,
+    true
+  ],
+  "method": "Existing UInteractionComponent.TryInteract, including range, visibility and authority checks",
+  "actual_e_input": "Synthetic Slate E did not reach gameplay reliably; physical keyboard check remains manual"
+}

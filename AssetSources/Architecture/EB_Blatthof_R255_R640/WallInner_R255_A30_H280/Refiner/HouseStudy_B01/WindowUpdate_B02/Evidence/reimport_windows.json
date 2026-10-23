@@ -1,0 +1,90 @@
+{
+  "status": "passed",
+  "assets": {
+    "SM_EH_Wall_WindowOpening_200x24x320": {
+      "before": {
+        "triangles": 744,
+        "hulls": 7,
+        "slots": [
+          "Plaster",
+          "Timber",
+          "Stone"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB01/M_EH_Plaster.M_EH_Plaster",
+          "/Game/Art/Materials/ElvenHouseB01/M_EH_Timber.M_EH_Timber",
+          "/Game/Art/Materials/ElvenHouseB01/M_EH_Stone.M_EH_Stone"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      },
+      "after": {
+        "triangles": 744,
+        "hulls": 7,
+        "slots": [
+          "Plaster",
+          "Timber",
+          "Stone"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB01/M_EH_Plaster.M_EH_Plaster",
+          "/Game/Art/Materials/ElvenHouseB01/M_EH_Timber.M_EH_Timber",
+          "/Game/Art/Materials/ElvenHouseB01/M_EH_Stone.M_EH_Stone"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      }
+    },
+    "SM_EH_WindowFrame_Arch_100x173": {
+      "before": {
+        "triangles": 456,
+        "hulls": 0,
+        "slots": [
+          "Timber",
+          "Stone"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB01/M_EH_Timber.M_EH_Timber",
+          "/Game/Art/Materials/ElvenHouseB01/M_EH_Stone.M_EH_Stone"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      },
+      "after": {
+        "triangles": 456,
+        "hulls": 0,
+        "slots": [
+          "Timber",
+          "Stone"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB01/M_EH_Timber.M_EH_Timber",
+          "/Game/Art/Materials/ElvenHouseB01/M_EH_Stone.M_EH_Stone"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      }
+    },
+    "SM_EH_WindowGlass_Arch_100x173": {
+      "before": {
+        "triangles": 72,
+        "hulls": 1,
+        "slots": [
+          "Glass"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB01/M_EH_Glass_Clear.M_EH_Glass_Clear"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      },
+      "after": {
+        "triangles": 72,
+        "hulls": 1,
+        "slots": [
+          "Glass"
+        ],
+        "materials": [
+          "/Game/Art/Materials/ElvenHouseB01/M_EH_Glass_Clear.M_EH_Glass_Clear"
+        ],
+        "importer": "FbxStaticMeshImportData"
+      }
+    }
+  },
+  "scope": "same-source repeatability"
+}

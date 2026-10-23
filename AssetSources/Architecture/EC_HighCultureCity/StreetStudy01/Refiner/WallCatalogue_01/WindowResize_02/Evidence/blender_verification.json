@@ -1,0 +1,138 @@
+{
+  "status": "passed",
+  "source_reopened": true,
+  "textures_resolved": true,
+  "unchanged_other_modules": {
+    "SM_WC01_Wall_A_Solid_300x24x320": true,
+    "SM_WC01_Wall_B_Solid_300x24x320": true,
+    "SM_WC01_Wall_C_Solid_300x24x320": true,
+    "SM_WC01_Table_180x100x78": true,
+    "SM_WC01_Chair_48x49x101": true,
+    "SM_WC01_WallLamp_28x54x48": true
+  },
+  "assets": {
+    "SM_WC01_Wall_A_Window_300x24x320": {
+      "bounds_error_m": 0.0,
+      "triangles": 792,
+      "vertices": 456,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "bounds_m": [
+        [
+          0.0,
+          -0.09000000357627869,
+          0.0
+        ],
+        [
+          3.0,
+          0.29249998927116394,
+          3.200000047683716
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0
+    },
+    "SM_WC01_Wall_B_Window_300x24x320": {
+      "bounds_error_m": 0.0,
+      "triangles": 1048,
+      "vertices": 616,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "bounds_m": [
+        [
+          0.0,
+          -0.10999999940395355,
+          0.0
+        ],
+        [
+          3.0,
+          0.29249998927116394,
+          3.200000047683716
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0
+    },
+    "SM_WC01_Wall_C_Window_300x24x320": {
+      "bounds_error_m": 0.0,
+      "triangles": 1708,
+      "vertices": 976,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "bounds_m": [
+        [
+          0.0,
+          -0.11499999463558197,
+          0.0
+        ],
+        [
+          3.0,
+          0.29249998927116394,
+          3.200000047683716
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0
+    },
+    "SM_WC01_WindowFrame_140x40x157": {
+      "bounds_error_m": 0.0,
+      "triangles": 656,
+      "vertices": 384,
+      "slots": [
+        "Timber",
+        "Stone",
+        "Bronze"
+      ],
+      "bounds_m": [
+        [
+          -0.3791666626930237,
+          -0.1599999964237213,
+          -0.03700657933950424
+        ],
+        [
+          0.3791666626930237,
+          0.2944999933242798,
+          0.9221662282943726
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0
+    },
+    "SM_WC01_WindowGlass_Clear_112x2x145": {
+      "bounds_error_m": 0.0,
+      "triangles": 72,
+      "vertices": 38,
+      "slots": [
+        "Glass"
+      ],
+      "bounds_m": [
+        [
+          -0.30170831084251404,
+          0.125,
+          0.02368420921266079
+        ],
+        [
+          0.30170831084251404,
+          0.14499999582767487,
+          0.8792763352394104
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "status": "passed",
+  "bakes": {
+    "Ivory": {
+      "BaseColor": {
+        "sha256": "fa9ebd320d715b282613a611391a2ec38864dcd233a52577cf02efe04b536bad",
+        "width": 1024,
+        "height": 1024
+      },
+      "Roughness": {
+        "sha256": "3848fc22b53b8e1909349c199f0de4c0a4848771d6b819e6a3f727b4ba1e3837",
+        "width": 1024,
+        "height": 1024
+      },
+      "Normal": {
+        "sha256": "0e07cebbd6fe8f25f06ab8856402d2ca3a157540996ee240d6ff8be2f9e16110",
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    "CarvedStone": {
+      "BaseColor": {
+        "sha256": "21bea9f282966f66d5edfa5dc2e3a49a03e2ae371e33a9cf26dd660a029abdbb",
+        "width": 1024,
+        "height": 1024
+      },
+      "Roughness": {
+        "sha256": "950918c8b5b6188d44f74fcefb06b073d2d6ecae738d6a79d35d21bf58814c92",
+        "width": 1024,
+        "height": 1024
+      },
+      "Normal": {
+        "sha256": "0e07cebbd6fe8f25f06ab8856402d2ca3a157540996ee240d6ff8be2f9e16110",
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    "RecessStone": {
+      "BaseColor": {
+        "sha256": "b65ae9f3161c6c71dffa0ad9c032c3ce9d2012198ca8a5f804200d7e35100392",
+        "width": 1024,
+        "height": 1024
+      },
+      "Roughness": {
+        "sha256": "b1ba1e51d694bf3d3530c6e137f6dc1128a57906d500fce878d2eccceefb2d42",
+        "width": 1024,
+        "height": 1024
+      },
+      "Normal": {
+        "sha256": "0e07cebbd6fe8f25f06ab8856402d2ca3a157540996ee240d6ff8be2f9e16110",
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    "Gold": {
+      "BaseColor": {
+        "sha256": "66d5462b838632a74445666f884b39ce39a2b31d9d75a1875183c82c17953766",
+        "width": 1024,
+        "height": 1024
+      },
+      "Roughness": {
+        "sha256": "4b6b8545ed4de4f663f99b76c66d7e2cc5a5d48dc6ded0a73df493d0df2f70e4",
+        "width": 1024,
+        "height": 1024
+      },
+      "Normal": {
+        "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    "Azure": {
+      "BaseColor": {
+        "sha256": "365774656273ebfdb2f74170c157745d9d2d2b6331ca3805cdd6481893ddf42c",
+        "width": 1024,
+        "height": 1024
+      },
+      "Roughness": {
+        "sha256": "1f38b830407bd87d18a5c360f68c41cece8b467d46a7eb297cb1a7aaf0992b20",
+        "width": 1024,
+        "height": 1024
+      },
+      "Normal": {
+        "sha256": "9d635534e475c7dc60f869767dbd9b0f37a94ddd7aa9a7b98642a6bd4febe8bc",
+        "width": 1024,
+        "height": 1024
+      }
+    }
+  },
+  "method": "Cycles EMIT for BaseColor/Roughness; NORMAL for procedural micro-bump; XY-plane 1m tile"
+}

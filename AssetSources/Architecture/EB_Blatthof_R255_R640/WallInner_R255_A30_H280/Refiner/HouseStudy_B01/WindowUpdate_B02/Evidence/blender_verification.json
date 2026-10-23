@@ -1,0 +1,144 @@
+{
+  "status": "passed",
+  "source_reopened": true,
+  "source": {
+    "SM_EH_Wall_WindowOpening_200x24x320": {
+      "vertices": 428,
+      "triangles": 744,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "bounds_m": [
+        [
+          0.0,
+          -0.1550000011920929,
+          0.0
+        ],
+        [
+          2.0147593021392822,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ],
+      "signed_volume_m3": 1.5068871780772886,
+      "uv_channels": 1
+    },
+    "SM_EH_WindowFrame_Arch_100x173": {
+      "vertices": 236,
+      "triangles": 456,
+      "slots": [
+        "Timber",
+        "Stone"
+      ],
+      "bounds_m": [
+        [
+          -0.5899999737739563,
+          -0.23499998450279236,
+          -0.0899999737739563
+        ],
+        [
+          0.5899999141693115,
+          0.14499999582767487,
+          1.7880001068115234
+        ]
+      ],
+      "signed_volume_m3": 0.08927525637857099,
+      "uv_channels": 1
+    },
+    "SM_EH_WindowGlass_Arch_100x173": {
+      "vertices": 38,
+      "triangles": 72,
+      "slots": [
+        "Glass"
+      ],
+      "bounds_m": [
+        [
+          -0.5,
+          0.12999999523162842,
+          0.0
+        ],
+        [
+          0.5,
+          0.15000000596046448,
+          1.7300000190734863
+        ]
+      ],
+      "signed_volume_m3": 0.029034719843407778,
+      "uv_channels": 1
+    }
+  },
+  "roundtrip": {
+    "SM_EH_Wall_WindowOpening_200x24x320": {
+      "bounds_roundtrip_error_m": 0.0,
+      "vertices": 428,
+      "triangles": 744,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "bounds_m": [
+        [
+          0.0,
+          -0.1550000011920929,
+          0.0
+        ],
+        [
+          2.0147593021392822,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ],
+      "signed_volume_m3": 1.5068871781368365,
+      "uv_channels": 1
+    },
+    "SM_EH_WindowFrame_Arch_100x173": {
+      "bounds_roundtrip_error_m": 0.0,
+      "vertices": 236,
+      "triangles": 456,
+      "slots": [
+        "Timber",
+        "Stone"
+      ],
+      "bounds_m": [
+        [
+          -0.5899999737739563,
+          -0.23499998450279236,
+          -0.0899999737739563
+        ],
+        [
+          0.5899999141693115,
+          0.14499999582767487,
+          1.7880001068115234
+        ]
+      ],
+      "signed_volume_m3": 0.08927525633470919,
+      "uv_channels": 1
+    },
+    "SM_EH_WindowGlass_Arch_100x173": {
+      "bounds_roundtrip_error_m": 0.0,
+      "vertices": 38,
+      "triangles": 72,
+      "slots": [
+        "Glass"
+      ],
+      "bounds_m": [
+        [
+          -0.5,
+          0.12999999523162842,
+          0.0
+        ],
+        [
+          0.5,
+          0.15000000596046448,
+          1.7300000190734863
+        ]
+      ],
+      "signed_volume_m3": 0.029034719843407775,
+      "uv_channels": 1
+    }
+  },
+  "blender": "5.2.2 LTS"
+}

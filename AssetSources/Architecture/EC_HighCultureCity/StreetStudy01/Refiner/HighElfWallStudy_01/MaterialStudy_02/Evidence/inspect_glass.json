@@ -1,0 +1,254 @@
+{
+  "values": "{\"blendMode\":\"BLEND_TranslucentColoredTransmittance\",\"translucencyLightingMode\":\"TLM_SurfacePerPixelLighting\",\"bScreenSpaceReflections\":true,\"refractionMethod\":\"RM_PixelNormalOffset\"}",
+  "nodes": [
+    {
+      "ref": {
+        "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass.M_HE02_ClearGlass:MaterialExpressionTextureCoordinate_0"
+      },
+      "values": "{}",
+      "inputs": []
+    },
+    {
+      "ref": {
+        "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass.M_HE02_ClearGlass:MaterialExpressionConstant_0"
+      },
+      "values": "{\"r\":1}",
+      "inputs": []
+    },
+    {
+      "ref": {
+        "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass.M_HE02_ClearGlass:MaterialExpressionMultiply_0"
+      },
+      "values": "{}",
+      "inputs": [
+        {
+          "output_name": "",
+          "expression": {
+            "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass.M_HE02_ClearGlass:MaterialExpressionTextureCoordinate_0"
+          },
+          "input_name": "A"
+        },
+        {
+          "output_name": "",
+          "expression": {
+            "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass.M_HE02_ClearGlass:MaterialExpressionConstant_0"
+          },
+          "input_name": "B"
+        }
+      ]
+    },
+    {
+      "ref": {
+        "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass.M_HE02_ClearGlass:MaterialExpressionTextureSample_0"
+      },
+      "values": "{\"texture\":{\"refPath\":\"/Game/Art/Textures/HighElfWallStudy02/T_HE02_ClearGlass_Roughness.T_HE02_ClearGlass_Roughness\"},\"samplerType\":\"SAMPLERTYPE_Masks\"}",
+      "inputs": [
+        {
+          "output_name": "",
+          "expression": {
+            "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass.M_HE02_ClearGlass:MaterialExpressionMultiply_0"
+          },
+          "input_name": "UVs"
+        },
+        {
+          "output_name": "",
+          "expression": "None",
+          "input_name": "Tex"
+        },
+        {
+          "output_name": "",
+          "expression": "None",
+          "input_name": "Apply View MipBias"
+        }
+      ]
+    },
+    {
+      "ref": {
+        "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass.M_HE02_ClearGlass:MaterialExpressionTextureSample_1"
+      },
+      "values": "{\"texture\":{\"refPath\":\"/Game/Art/Textures/HighElfWallStudy02/T_HE02_ClearGlass_Normal.T_HE02_ClearGlass_Normal\"},\"samplerType\":\"SAMPLERTYPE_Normal\"}",
+      "inputs": [
+        {
+          "output_name": "",
+          "expression": {
+            "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass.M_HE02_ClearGlass:MaterialExpressionMultiply_0"
+          },
+          "input_name": "UVs"
+        },
+        {
+          "output_name": "",
+          "expression": "None",
+          "input_name": "Tex"
+        },
+        {
+          "output_name": "",
+          "expression": "None",
+          "input_name": "Apply View MipBias"
+        }
+      ]
+    },
+    {
+      "ref": {
+        "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass.M_HE02_ClearGlass:MaterialExpressionSubstrateSlabBSDF_0"
+      },
+      "values": "{\"subSurfaceType\":\"MSS_SimpleVolume\"}",
+      "inputs": [
+        {
+          "output_name": "",
+          "expression": {
+            "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass.M_HE02_ClearGlass:MaterialExpressionConstant3Vector_0"
+          },
+          "input_name": "Diffuse Albedo"
+        },
+        {
+          "output_name": "",
+          "expression": {
+            "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass.M_HE02_ClearGlass:MaterialExpressionConstant3Vector_1"
+          },
+          "input_name": "F0"
+        },
+        {
+          "output_name": "",
+          "expression": "None",
+          "input_name": "F90"
+        },
+        {
+          "output_name": "R",
+          "expression": {
+            "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass.M_HE02_ClearGlass:MaterialExpressionTextureSample_0"
+          },
+          "input_name": "Roughness"
+        },
+        {
+          "output_name": "",
+          "expression": "None",
+          "input_name": "Anisotropy"
+        },
+        {
+          "output_name": "RGB",
+          "expression": {
+            "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass.M_HE02_ClearGlass:MaterialExpressionTextureSample_1"
+          },
+          "input_name": "Normal"
+        },
+        {
+          "output_name": "",
+          "expression": "None",
+          "input_name": "Tangent"
+        },
+        {
+          "output_name": "MFP",
+          "expression": {
+            "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass.M_HE02_ClearGlass:MaterialExpressionSubstrateTransmittanceToMFP_0"
+          },
+          "input_name": "SSS MFP"
+        },
+        {
+          "output_name": "",
+          "expression": "None",
+          "input_name": "SSS MFP Scale"
+        },
+        {
+          "output_name": "",
+          "expression": "None",
+          "input_name": "SSS Phase Anisotropy"
+        },
+        {
+          "output_name": "",
+          "expression": "None",
+          "input_name": "Emissive Color"
+        },
+        {
+          "output_name": "",
+          "expression": "None",
+          "input_name": "Second Roughness"
+        },
+        {
+          "output_name": "",
+          "expression": "None",
+          "input_name": "Second Roughness Weight"
+        },
+        {
+          "output_name": "",
+          "expression": "None",
+          "input_name": "Fuzz Roughness"
+        },
+        {
+          "output_name": "",
+          "expression": "None",
+          "input_name": "Fuzz Amount"
+        },
+        {
+          "output_name": "",
+          "expression": "None",
+          "input_name": "Fuzz Color"
+        },
+        {
+          "output_name": "",
+          "expression": "None",
+          "input_name": "Glint Density (Disabled)"
+        },
+        {
+          "output_name": "",
+          "expression": "None",
+          "input_name": "Glint UVs (Disabled)"
+        }
+      ]
+    },
+    {
+      "ref": {
+        "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass.M_HE02_ClearGlass:MaterialExpressionConstant3Vector_0"
+      },
+      "values": "{\"constant\":{\"r\":0,\"g\":0,\"b\":0,\"a\":1}}",
+      "inputs": []
+    },
+    {
+      "ref": {
+        "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass.M_HE02_ClearGlass:MaterialExpressionConstant3Vector_1"
+      },
+      "values": "{\"constant\":{\"r\":0.045000001788139343,\"g\":0.045000001788139343,\"b\":0.045000001788139343,\"a\":1}}",
+      "inputs": []
+    },
+    {
+      "ref": {
+        "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass.M_HE02_ClearGlass:MaterialExpressionConstant3Vector_2"
+      },
+      "values": "{\"constant\":{\"r\":0.77999997138977051,\"g\":0.88999998569488525,\"b\":0.93999999761581421,\"a\":1}}",
+      "inputs": []
+    },
+    {
+      "ref": {
+        "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass.M_HE02_ClearGlass:MaterialExpressionSubstrateTransmittanceToMFP_0"
+      },
+      "values": "{}",
+      "inputs": [
+        {
+          "output_name": "",
+          "expression": {
+            "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass.M_HE02_ClearGlass:MaterialExpressionConstant3Vector_2"
+          },
+          "input_name": "TransmittanceColor"
+        },
+        {
+          "output_name": "",
+          "expression": "None",
+          "input_name": "Thickness"
+        }
+      ]
+    },
+    {
+      "ref": {
+        "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass.M_HE02_ClearGlass:MaterialExpressionConstant_1"
+      },
+      "values": "{\"r\":1.059999942779541}",
+      "inputs": []
+    }
+  ],
+  "front": {
+    "output_name": "",
+    "expression": {
+      "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass.M_HE02_ClearGlass:MaterialExpressionSubstrateSlabBSDF_0"
+    },
+    "input_name": ""
+  }
+}

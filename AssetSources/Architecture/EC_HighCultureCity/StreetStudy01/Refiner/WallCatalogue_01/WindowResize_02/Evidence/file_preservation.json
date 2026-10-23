@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "existing_files_checked": 1911,
+  "changed": [
+    "Content/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_A_Window_300x24x320.uasset",
+    "Content/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_B_Window_300x24x320.uasset",
+    "Content/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_C_Window_300x24x320.uasset",
+    "Content/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_WindowFrame_140x40x157.uasset",
+    "Content/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_WindowGlass_Clear_112x2x145.uasset",
+    "Content/Prototype/Maps/Lvl_AssetLab.umap"
+  ],
+  "missing": [],
+  "allowed_changes": [
+    "Content/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_A_Window_300x24x320.uasset",
+    "Content/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_B_Window_300x24x320.uasset",
+    "Content/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_C_Window_300x24x320.uasset",
+    "Content/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_WindowFrame_140x40x157.uasset",
+    "Content/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_WindowGlass_Clear_112x2x145.uasset",
+    "Content/Prototype/Maps/Lvl_AssetLab.umap"
+  ],
+  "original_house_assets_and_all_materials_unchanged": true,
+  "previous_catalogue_sources_unchanged": true
+}

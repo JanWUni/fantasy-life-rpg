@@ -1,0 +1,90 @@
+{
+  "status": "passed",
+  "saved": [
+    "/Game/Art/Textures/HighElfWallStudy01/T_HE01_Ivory_BaseColor",
+    "/Game/Art/Textures/HighElfWallStudy01/T_HE01_Ivory_Roughness",
+    "/Game/Art/Textures/HighElfWallStudy01/T_HE01_Ivory_Normal",
+    "/Game/Art/Materials/HighElfWallStudy01/M_HE01_Ivory",
+    "/Game/Art/Textures/HighElfWallStudy01/T_HE01_CarvedStone_BaseColor",
+    "/Game/Art/Textures/HighElfWallStudy01/T_HE01_CarvedStone_Roughness",
+    "/Game/Art/Textures/HighElfWallStudy01/T_HE01_CarvedStone_Normal",
+    "/Game/Art/Materials/HighElfWallStudy01/M_HE01_CarvedStone",
+    "/Game/Art/Textures/HighElfWallStudy01/T_HE01_RecessStone_BaseColor",
+    "/Game/Art/Textures/HighElfWallStudy01/T_HE01_RecessStone_Roughness",
+    "/Game/Art/Textures/HighElfWallStudy01/T_HE01_RecessStone_Normal",
+    "/Game/Art/Materials/HighElfWallStudy01/M_HE01_RecessStone",
+    "/Game/Art/Textures/HighElfWallStudy01/T_HE01_Gold_BaseColor",
+    "/Game/Art/Textures/HighElfWallStudy01/T_HE01_Gold_Roughness",
+    "/Game/Art/Textures/HighElfWallStudy01/T_HE01_Gold_Normal",
+    "/Game/Art/Materials/HighElfWallStudy01/M_HE01_Gold",
+    "/Game/Art/Textures/HighElfWallStudy01/T_HE01_Azure_BaseColor",
+    "/Game/Art/Textures/HighElfWallStudy01/T_HE01_Azure_Roughness",
+    "/Game/Art/Textures/HighElfWallStudy01/T_HE01_Azure_Normal",
+    "/Game/Art/Materials/HighElfWallStudy01/M_HE01_Azure",
+    "/Game/Art/Materials/HighElfWallStudy01/M_HE01_ClearGlass",
+    "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_A_WallCore",
+    "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_A_WindowFrame",
+    "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_A_ClearGlass",
+    "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_A_StoneCarving",
+    "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_A_GoldInlay",
+    "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_A_BlueInlay",
+    "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_B_StoneCarving",
+    "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_B_GoldInlay",
+    "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_B_BlueInlay",
+    "/Game/Art/Architecture/HighElfWallStudy01/Blueprints/BP_HE01_WindowWall_A",
+    "/Game/Art/Architecture/HighElfWallStudy01/Blueprints/BP_HE01_WindowWall_B"
+  ],
+  "materials": {
+    "Ivory": {
+      "refPath": "/Game/Art/Materials/HighElfWallStudy01/M_HE01_Ivory.M_HE01_Ivory"
+    },
+    "CarvedStone": {
+      "refPath": "/Game/Art/Materials/HighElfWallStudy01/M_HE01_CarvedStone.M_HE01_CarvedStone"
+    },
+    "RecessStone": {
+      "refPath": "/Game/Art/Materials/HighElfWallStudy01/M_HE01_RecessStone.M_HE01_RecessStone"
+    },
+    "Gold": {
+      "refPath": "/Game/Art/Materials/HighElfWallStudy01/M_HE01_Gold.M_HE01_Gold"
+    },
+    "Azure": {
+      "refPath": "/Game/Art/Materials/HighElfWallStudy01/M_HE01_Azure.M_HE01_Azure"
+    },
+    "ClearGlass": {
+      "refPath": "/Game/Art/Materials/HighElfWallStudy01/M_HE01_ClearGlass.M_HE01_ClearGlass"
+    }
+  },
+  "meshes": {
+    "SM_HE01_A_WallCore": {
+      "refPath": "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_A_WallCore.SM_HE01_A_WallCore"
+    },
+    "SM_HE01_A_WindowFrame": {
+      "refPath": "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_A_WindowFrame.SM_HE01_A_WindowFrame"
+    },
+    "SM_HE01_A_ClearGlass": {
+      "refPath": "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_A_ClearGlass.SM_HE01_A_ClearGlass"
+    },
+    "SM_HE01_A_StoneCarving": {
+      "refPath": "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_A_StoneCarving.SM_HE01_A_StoneCarving"
+    },
+    "SM_HE01_A_GoldInlay": {
+      "refPath": "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_A_GoldInlay.SM_HE01_A_GoldInlay"
+    },
+    "SM_HE01_A_BlueInlay": {
+      "refPath": "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_A_BlueInlay.SM_HE01_A_BlueInlay"
+    },
+    "SM_HE01_B_StoneCarving": {
+      "refPath": "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_B_StoneCarving.SM_HE01_B_StoneCarving"
+    },
+    "SM_HE01_B_GoldInlay": {
+      "refPath": "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_B_GoldInlay.SM_HE01_B_GoldInlay"
+    },
+    "SM_HE01_B_BlueInlay": {
+      "refPath": "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_B_BlueInlay.SM_HE01_B_BlueInlay"
+    }
+  },
+  "blueprints": {
+    "A": "/Game/Art/Architecture/HighElfWallStudy01/Blueprints/BP_HE01_WindowWall_A",
+    "B": "/Game/Art/Architecture/HighElfWallStudy01/Blueprints/BP_HE01_WindowWall_B"
+  }
+}

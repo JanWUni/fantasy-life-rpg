@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "pie_running": true,
+  "spawn_override_cm": [
+    4300,
+    3400,
+    140
+  ],
+  "facing_yaw": -90,
+  "existing_player_and_game_mode": true
+}

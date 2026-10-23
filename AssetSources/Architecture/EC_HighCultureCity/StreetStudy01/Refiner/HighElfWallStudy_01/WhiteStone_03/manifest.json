@@ -1,0 +1,88 @@
+{
+  "source": "HighElf_WhiteStoneComparison_03.blend",
+  "input_source": "E:\\Business\\fantasy-rpg-refiner\\AssetSources\\Architecture\\EC_HighCultureCity\\StreetStudy01\\Refiner\\HighElfWallStudy_01\\MaterialStudy_02\\HighElf_MaterialComparison_02.blend",
+  "input_sha256": "025a06d7e0c925631e4ba95915b6814bb7467f767e5b7619f4ee964698615e4c",
+  "colors": {
+    "Ivory": {
+      "old": [
+        0.55,
+        0.515,
+        0.44
+      ],
+      "white": [
+        0.82,
+        0.83,
+        0.82
+      ],
+      "measured_linear_mean": [
+        0.549449622631073,
+        0.5108173489570618,
+        0.4482528567314148
+      ],
+      "ratio": [
+        1.432706356048584,
+        1.5598530769348145,
+        1.756151556968689
+      ]
+    },
+    "CarvedStone": {
+      "old": [
+        0.64,
+        0.605,
+        0.535
+      ],
+      "white": [
+        0.86,
+        0.87,
+        0.86
+      ],
+      "measured_linear_mean": [
+        0.6391063332557678,
+        0.6011034846305847,
+        0.5223385095596313
+      ],
+      "ratio": [
+        1.2918038368225098,
+        1.3894445896148682,
+        1.5805842876434326
+      ]
+    },
+    "RecessStone": {
+      "old": [
+        0.39,
+        0.405,
+        0.38
+      ],
+      "white": [
+        0.6,
+        0.64,
+        0.64
+      ],
+      "measured_linear_mean": [
+        0.38526013493537903,
+        0.3980832099914551,
+        0.37865251302719116
+      ],
+      "ratio": [
+        1.495093584060669,
+        1.54339599609375,
+        1.6225959062576294
+      ]
+    }
+  },
+  "source_sha256": "3081c02e1c51eae96ae3f523727b3221fd233b9d3b0dbc407696494ef0e33763",
+  "status": "review_ready",
+  "accepted": false,
+  "scope": "Detailed white stone on former left BEFORE comparison actor only; warm comparison on right and all houses preserved.",
+  "unreal_materials": {
+    "/Game/Art/Materials/HighElfWallStudy03/M_HE03_Ivory": "0523390641efefbedf0035fc2551a30d79c78d8910279d5ba27a271f751a6c29",
+    "/Game/Art/Materials/HighElfWallStudy03/M_HE03_CarvedStone": "0832e6d95a40b6406d530b457d19a1968ed583add8515819818e8fee86ea8bec",
+    "/Game/Art/Materials/HighElfWallStudy03/M_HE03_RecessStone": "de3e34d01a14c26f68b2bca0711c6325eadf391023666f6ab126ada3057a04bc"
+  },
+  "texture_mesh_imports": 0,
+  "geometry_uv_collision": "unchanged",
+  "pending": [
+    "User visual review",
+    "Inherited production/performance and clean editor reload checks"
+  ]
+}

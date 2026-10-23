@@ -1,0 +1,767 @@
+{
+  "status": "review_ready",
+  "source_revision": "21a7ef17dd5cfd6f058b4c0f7440d2727b98c18d",
+  "parent_blend_sha256": "3f035ddc7293918d456d0c8b3f26ec3658f35e5f1797c43a81b9c5035f4a9e0c",
+  "source": "EH_HouseB02_Windows.blend",
+  "kit_id": "EH.HouseB.Prototype01",
+  "interface_version": "draft_1_window_2",
+  "assets": {
+    "SM_EH_Wall_WindowOpening_200x24x320": {
+      "vertices": 428,
+      "triangles": 744,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "bounds_m": [
+        [
+          0.0,
+          -0.1550000011920929,
+          0.0
+        ],
+        [
+          2.0147593021392822,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ],
+      "signed_volume_m3": 1.5068871780772886,
+      "uv_channels": 1,
+      "ucx_hulls": 7
+    },
+    "SM_EH_WindowFrame_Arch_100x173": {
+      "vertices": 236,
+      "triangles": 456,
+      "slots": [
+        "Timber",
+        "Stone"
+      ],
+      "bounds_m": [
+        [
+          -0.5899999737739563,
+          -0.23499998450279236,
+          -0.0899999737739563
+        ],
+        [
+          0.5899999141693115,
+          0.14499999582767487,
+          1.7880001068115234
+        ]
+      ],
+      "signed_volume_m3": 0.08927525637857099,
+      "uv_channels": 1,
+      "ucx_hulls": 0
+    },
+    "SM_EH_WindowGlass_Arch_100x173": {
+      "vertices": 38,
+      "triangles": 72,
+      "slots": [
+        "Glass"
+      ],
+      "bounds_m": [
+        [
+          -0.5,
+          0.12999999523162842,
+          0.0
+        ],
+        [
+          0.5,
+          0.15000000596046448,
+          1.7300000190734863
+        ]
+      ],
+      "signed_volume_m3": 0.029034719843407778,
+      "uv_channels": 1,
+      "ucx_hulls": 1
+    }
+  },
+  "window_mount_blender_m": [
+    1.0,
+    -0.054999999701976776,
+    0.949999988079071
+  ],
+  "window_mount_ue_cm": [
+    100,
+    5.499999970197678,
+    95
+  ],
+  "opening_nominal_cm": [
+    100,
+    173
+  ],
+  "wall_contract_cm": [
+    200,
+    24,
+    320
+  ],
+  "wall_joins_blender_m": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0
+    ]
+  ],
+  "glass_thickness_cm": 2,
+  "slot_contract": {
+    "wall": [
+      "Plaster",
+      "Timber",
+      "Stone"
+    ],
+    "frame": [
+      "Timber",
+      "Stone"
+    ],
+    "glass": [
+      "Glass"
+    ]
+  },
+  "replacement_counts": {
+    "House_10x12": 10,
+    "House_10x16_Variation": 12
+  },
+  "export_profile": {
+    "profile_id": "Blender522_UE58_LegacyFBX_Calibration01",
+    "status": "calibrated_for_static_mesh_fixture",
+    "blender": "5.2.2 LTS",
+    "blender_build": "d13f752e3b9c",
+    "source_units": "meters",
+    "blender_to_unreal_cm": "(100*x, -100*y, 100*z)",
+    "export_settings": {
+      "use_selection": true,
+      "object_types": [
+        "MESH"
+      ],
+      "global_scale": 1.0,
+      "apply_unit_scale": true,
+      "apply_scale_options": "FBX_SCALE_NONE",
+      "axis_forward": "-Y",
+      "axis_up": "Z",
+      "use_space_transform": true,
+      "bake_space_transform": false,
+      "use_mesh_modifiers": true,
+      "mesh_smooth_type": "FACE",
+      "use_triangles": true,
+      "use_tspace": true,
+      "bake_anim": false,
+      "add_leaf_bones": false,
+      "path_mode": "RELATIVE",
+      "embed_textures": false
+    },
+    "unreal_importer": "FbxFactory / FbxStaticMeshImportData (legacy)",
+    "unreal_import_options_observed": {
+      "importUniformScale": 1,
+      "importTranslation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "importRotation": {
+        "pitch": 0,
+        "yaw": 0,
+        "roll": 0
+      },
+      "bConvertScene": true,
+      "bConvertSceneUnit": false,
+      "bForceFrontXAxis": false,
+      "coordinateSystemPolicy": "MatchUpForwardAxes",
+      "bUsingLUFCoordinateSysem": false,
+      "bTransformVertexToAbsolute": true,
+      "bBakePivotInVertex": false,
+      "normalImportMethod": "FBXNIM_ImportNormals",
+      "normalGenerationMethod": "MikkTSpace",
+      "bCombineMeshes": false,
+      "bOneConvexHullPerUCX": true,
+      "bAutoGenerateCollision": true,
+      "bGenerateLightmapUVs": true,
+      "bBuildNanite": false
+    },
+    "unreal_uv_channels_observed": 2,
+    "source_uv_channels": 1,
+    "session_requirement": "Keep Interchange.FeatureFlags.Import.FBX=0 for legacy UI reimport; restore previous value afterwards. Never mix importer backends without separate validation.",
+    "caveat": "This profile validates a single render mesh per FBX and source-owned UCX collision. It does not validate skeletal meshes, Nanite, production lightmap quality, or Interchange."
+  },
+  "preserved_all_original_render_triangles": 1272,
+  "partitioned_components": [
+    {
+      "material": "Plaster",
+      "target": 0,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.5,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ]
+    },
+    {
+      "material": "Plaster",
+      "target": 0,
+      "bounds": [
+        [
+          1.5,
+          0.0,
+          0.0
+        ],
+        [
+          2.0,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ]
+    },
+    {
+      "material": "Plaster",
+      "target": 0,
+      "bounds": [
+        [
+          0.5,
+          0.0,
+          0.0
+        ],
+        [
+          1.5,
+          0.23999999463558197,
+          0.949999988079071
+        ]
+      ]
+    },
+    {
+      "material": "Plaster",
+      "target": 0,
+      "bounds": [
+        [
+          0.5,
+          0.0,
+          2.0199999809265137
+        ],
+        [
+          0.5625,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ]
+    },
+    {
+      "material": "Plaster",
+      "target": 0,
+      "bounds": [
+        [
+          0.5625,
+          0.0,
+          2.1676790714263916
+        ],
+        [
+          0.625,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ]
+    },
+    {
+      "material": "Plaster",
+      "target": 0,
+      "bounds": [
+        [
+          0.625,
+          0.0,
+          2.263254404067993
+        ],
+        [
+          0.6875,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ]
+    },
+    {
+      "material": "Plaster",
+      "target": 0,
+      "bounds": [
+        [
+          0.6875,
+          0.0,
+          2.345721483230591
+        ],
+        [
+          0.75,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ]
+    },
+    {
+      "material": "Plaster",
+      "target": 0,
+      "bounds": [
+        [
+          0.75,
+          0.0,
+          2.420684337615967
+        ],
+        [
+          0.8125,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ]
+    },
+    {
+      "material": "Plaster",
+      "target": 0,
+      "bounds": [
+        [
+          0.8125,
+          0.0,
+          2.4905195236206055
+        ],
+        [
+          0.875,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ]
+    },
+    {
+      "material": "Plaster",
+      "target": 0,
+      "bounds": [
+        [
+          0.875,
+          0.0,
+          2.5565226078033447
+        ],
+        [
+          0.9375,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ]
+    },
+    {
+      "material": "Plaster",
+      "target": 0,
+      "bounds": [
+        [
+          0.9375,
+          0.0,
+          2.6195006370544434
+        ],
+        [
+          1.0,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ]
+    },
+    {
+      "material": "Plaster",
+      "target": 0,
+      "bounds": [
+        [
+          1.0,
+          0.0,
+          2.6195006370544434
+        ],
+        [
+          1.0625,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ]
+    },
+    {
+      "material": "Plaster",
+      "target": 0,
+      "bounds": [
+        [
+          1.0625,
+          0.0,
+          2.5565226078033447
+        ],
+        [
+          1.125,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ]
+    },
+    {
+      "material": "Plaster",
+      "target": 0,
+      "bounds": [
+        [
+          1.125,
+          0.0,
+          2.4905195236206055
+        ],
+        [
+          1.1875,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ]
+    },
+    {
+      "material": "Plaster",
+      "target": 0,
+      "bounds": [
+        [
+          1.1875,
+          0.0,
+          2.420684337615967
+        ],
+        [
+          1.25,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ]
+    },
+    {
+      "material": "Plaster",
+      "target": 0,
+      "bounds": [
+        [
+          1.25,
+          0.0,
+          2.345721483230591
+        ],
+        [
+          1.3125,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ]
+    },
+    {
+      "material": "Plaster",
+      "target": 0,
+      "bounds": [
+        [
+          1.3125,
+          0.0,
+          2.263254404067993
+        ],
+        [
+          1.375,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ]
+    },
+    {
+      "material": "Plaster",
+      "target": 0,
+      "bounds": [
+        [
+          1.375,
+          0.0,
+          2.1676790714263916
+        ],
+        [
+          1.4375,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ]
+    },
+    {
+      "material": "Plaster",
+      "target": 0,
+      "bounds": [
+        [
+          1.4375,
+          0.0,
+          2.0199999809265137
+        ],
+        [
+          1.5,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ]
+    },
+    {
+      "material": "Timber",
+      "target": 1,
+      "bounds": [
+        [
+          0.44207626581192017,
+          -0.11299999803304672,
+          0.9103972911834717
+        ],
+        [
+          1.5579237937927246,
+          0.00299999862909317,
+          2.7380001544952393
+        ]
+      ]
+    },
+    {
+      "material": "Glass",
+      "target": 2,
+      "bounds": [
+        [
+          0.5,
+          0.07500000298023224,
+          0.949999988079071
+        ],
+        [
+          1.5,
+          0.0949999988079071,
+          2.680000066757202
+        ]
+      ]
+    },
+    {
+      "material": "Timber",
+      "target": 1,
+      "bounds": [
+        [
+          0.9825000166893005,
+          -0.10000000149011612,
+          0.9249999523162842
+        ],
+        [
+          1.0175000429153442,
+          -0.03999999910593033,
+          2.375
+        ]
+      ]
+    },
+    {
+      "material": "Timber",
+      "target": 1,
+      "bounds": [
+        [
+          0.5428208708763123,
+          -0.09405256062746048,
+          1.8862566947937012
+        ],
+        [
+          1.0188648700714111,
+          -0.055947445333004,
+          2.561318874359131
+        ]
+      ]
+    },
+    {
+      "material": "Timber",
+      "target": 1,
+      "bounds": [
+        [
+          0.9811351299285889,
+          -0.09405256062746048,
+          1.8862566947937012
+        ],
+        [
+          1.4571791887283325,
+          -0.055947445333004,
+          2.561318874359131
+        ]
+      ]
+    },
+    {
+      "material": "Stone",
+      "target": 1,
+      "bounds": [
+        [
+          0.4100000262260437,
+          -0.28999999165534973,
+          0.8600000143051147
+        ],
+        [
+          1.5899999141693115,
+          0.08999999612569809,
+          0.9600000381469727
+        ]
+      ]
+    },
+    {
+      "material": "Timber",
+      "target": 0,
+      "bounds": [
+        [
+          0.0,
+          -0.11499999463558197,
+          0.0
+        ],
+        [
+          0.15000000596046448,
+          0.044999998062849045,
+          3.200000047683716
+        ]
+      ]
+    },
+    {
+      "material": "Timber",
+      "target": 0,
+      "bounds": [
+        [
+          0.0,
+          -0.12000000476837158,
+          3.004999876022339
+        ],
+        [
+          2.0,
+          0.05000000074505806,
+          3.194999933242798
+        ]
+      ]
+    },
+    {
+      "material": "Timber",
+      "target": 0,
+      "bounds": [
+        [
+          0.0,
+          -0.12000000476837158,
+          0.2199999988079071
+        ],
+        [
+          2.0,
+          0.05000000074505806,
+          0.3400000035762787
+        ]
+      ]
+    },
+    {
+      "material": "Stone",
+      "target": 0,
+      "bounds": [
+        [
+          0.0020000040531158447,
+          -0.1550000011920929,
+          0.0
+        ],
+        [
+          0.49799999594688416,
+          0.1550000011920929,
+          0.20999999344348907
+        ]
+      ]
+    },
+    {
+      "material": "Stone",
+      "target": 0,
+      "bounds": [
+        [
+          0.5019999742507935,
+          -0.1550000011920929,
+          0.0
+        ],
+        [
+          0.9980000257492065,
+          0.1550000011920929,
+          0.20999999344348907
+        ]
+      ]
+    },
+    {
+      "material": "Stone",
+      "target": 0,
+      "bounds": [
+        [
+          1.0019999742507935,
+          -0.1550000011920929,
+          0.0
+        ],
+        [
+          1.4980000257492065,
+          0.1550000011920929,
+          0.20999999344348907
+        ]
+      ]
+    },
+    {
+      "material": "Stone",
+      "target": 0,
+      "bounds": [
+        [
+          1.5019999742507935,
+          -0.1550000011920929,
+          0.0
+        ],
+        [
+          1.9980000257492065,
+          0.1550000011920929,
+          0.20999999344348907
+        ]
+      ]
+    },
+    {
+      "material": "Timber",
+      "target": 0,
+      "bounds": [
+        [
+          0.06524069607257843,
+          -0.11397114396095276,
+          2.375352144241333
+        ],
+        [
+          0.6743104457855225,
+          -0.03602885827422142,
+          3.067868232727051
+        ]
+      ]
+    },
+    {
+      "material": "Timber",
+      "target": 0,
+      "bounds": [
+        [
+          1.4056894779205322,
+          -0.11397114396095276,
+          2.375351905822754
+        ],
+        [
+          2.0147593021392822,
+          -0.03602885827422142,
+          3.067868232727051
+        ]
+      ]
+    }
+  ],
+  "accepted": false,
+  "source_blend_sha256": "ec899c5c3a882b41bafadf2db4a4e2e18d98f16ae565ce822af7e87acc7fef66",
+  "lab": {
+    "path": "/Game/Prototype/Maps/Lvl_AssetLab",
+    "houses_cm": [
+      [
+        -2400,
+        -1900,
+        31
+      ],
+      [
+        0,
+        -1900,
+        31
+      ]
+    ],
+    "windows": 22,
+    "new_actors": 198
+  },
+  "unreal_new_assets_sha256": {
+    "Content/Art/Architecture/ElvenHouseB01/Windows/BP_EH_Window_Arch_100x173.uasset": "9384ffb07c311c2225c3315bde32b0ae2ddc7e7eb4845cdaf213921210c7bd06",
+    "Content/Art/Architecture/ElvenHouseB01/Windows/Meshes/SM_EH_Wall_WindowOpening_200x24x320.uasset": "0df85a5fbec7afe45c3ce16199110b2d2958f0c7fac5dac343851ef2f7f2e763",
+    "Content/Art/Architecture/ElvenHouseB01/Windows/Meshes/SM_EH_WindowFrame_Arch_100x173.uasset": "ac45c341b24772c22a1dbc40b11ccc5bf3146f6faae01e19b71f07fc8af0a079",
+    "Content/Art/Architecture/ElvenHouseB01/Windows/Meshes/SM_EH_WindowGlass_Arch_100x173.uasset": "c188cb84a09b69654f2872eb95bf6a25b4ac6dc6a62f3ecd8214ef620daf6679",
+    "Content/Art/Materials/ElvenHouseB01/M_EH_Glass_Clear.uasset": "52990ded080941d1426f7006730644498c57189b0238294240ed48d4d050c651"
+  },
+  "lab_sha256": "b95b2174012e8cd45c3860d9767080fa1914e28a1b2f1b2e9d955bbc503c11ad",
+  "glass_material": "Substrate Slab BSDF, Simple Volume, TransmittanceToMFP; Surface ForwardShading; no opaque glass shadow",
+  "clear_glazing_physical_collision": true,
+  "commit_status": "working tree; not committed or pushed"
+}

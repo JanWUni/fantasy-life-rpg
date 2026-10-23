@@ -1,0 +1,147 @@
+{
+  "status": "passed",
+  "assets": {
+    "SM_WC01_Wall_A_Window_300x24x320": {
+      "before": {
+        "slots": [
+          "WC01_Plaster",
+          "WC01_Timber",
+          "WC01_Stone"
+        ],
+        "materials": [
+          "/Game/Art/Materials/WallCatalogue01/M_WC01_Plaster.M_WC01_Plaster",
+          "/Game/Art/Materials/WallCatalogue01/M_WC01_Timber.M_WC01_Timber",
+          "/Game/Art/Materials/WallCatalogue01/M_WC01_Stone.M_WC01_Stone"
+        ],
+        "hulls": 15
+      },
+      "after": {
+        "slots": [
+          "WC01_Plaster",
+          "WC01_Timber",
+          "WC01_Stone"
+        ],
+        "materials": [
+          "/Game/Art/Materials/WallCatalogue01/M_WC01_Plaster.M_WC01_Plaster",
+          "/Game/Art/Materials/WallCatalogue01/M_WC01_Timber.M_WC01_Timber",
+          "/Game/Art/Materials/WallCatalogue01/M_WC01_Stone.M_WC01_Stone"
+        ],
+        "hulls": 15
+      },
+      "triangles": 792,
+      "importer": "FbxStaticMeshImportData"
+    },
+    "SM_WC01_Wall_B_Window_300x24x320": {
+      "before": {
+        "slots": [
+          "WC01_Plaster",
+          "WC01_Timber",
+          "WC01_Stone"
+        ],
+        "materials": [
+          "/Game/Art/Materials/WallCatalogue01/M_WC01_Plaster.M_WC01_Plaster",
+          "/Game/Art/Materials/WallCatalogue01/M_WC01_Timber.M_WC01_Timber",
+          "/Game/Art/Materials/WallCatalogue01/M_WC01_Stone.M_WC01_Stone"
+        ],
+        "hulls": 15
+      },
+      "after": {
+        "slots": [
+          "WC01_Plaster",
+          "WC01_Timber",
+          "WC01_Stone"
+        ],
+        "materials": [
+          "/Game/Art/Materials/WallCatalogue01/M_WC01_Plaster.M_WC01_Plaster",
+          "/Game/Art/Materials/WallCatalogue01/M_WC01_Timber.M_WC01_Timber",
+          "/Game/Art/Materials/WallCatalogue01/M_WC01_Stone.M_WC01_Stone"
+        ],
+        "hulls": 15
+      },
+      "triangles": 1048,
+      "importer": "FbxStaticMeshImportData"
+    },
+    "SM_WC01_Wall_C_Window_300x24x320": {
+      "before": {
+        "slots": [
+          "WC01_Plaster",
+          "WC01_Timber",
+          "WC01_Stone"
+        ],
+        "materials": [
+          "/Game/Art/Materials/WallCatalogue01/M_WC01_Plaster.M_WC01_Plaster",
+          "/Game/Art/Materials/WallCatalogue01/M_WC01_Timber.M_WC01_Timber",
+          "/Game/Art/Materials/WallCatalogue01/M_WC01_Stone.M_WC01_Stone"
+        ],
+        "hulls": 15
+      },
+      "after": {
+        "slots": [
+          "WC01_Plaster",
+          "WC01_Timber",
+          "WC01_Stone"
+        ],
+        "materials": [
+          "/Game/Art/Materials/WallCatalogue01/M_WC01_Plaster.M_WC01_Plaster",
+          "/Game/Art/Materials/WallCatalogue01/M_WC01_Timber.M_WC01_Timber",
+          "/Game/Art/Materials/WallCatalogue01/M_WC01_Stone.M_WC01_Stone"
+        ],
+        "hulls": 15
+      },
+      "triangles": 1708,
+      "importer": "FbxStaticMeshImportData"
+    },
+    "SM_WC01_WindowFrame_140x40x157": {
+      "before": {
+        "slots": [
+          "WC01_Timber",
+          "WC01_Stone",
+          "WC01_Bronze"
+        ],
+        "materials": [
+          "/Game/Art/Materials/WallCatalogue01/M_WC01_Timber.M_WC01_Timber",
+          "/Game/Art/Materials/WallCatalogue01/M_WC01_Stone.M_WC01_Stone",
+          "/Game/Art/Materials/WallCatalogue01/M_WC01_Bronze.M_WC01_Bronze"
+        ],
+        "hulls": 0
+      },
+      "after": {
+        "slots": [
+          "WC01_Timber",
+          "WC01_Stone",
+          "WC01_Bronze"
+        ],
+        "materials": [
+          "/Game/Art/Materials/WallCatalogue01/M_WC01_Timber.M_WC01_Timber",
+          "/Game/Art/Materials/WallCatalogue01/M_WC01_Stone.M_WC01_Stone",
+          "/Game/Art/Materials/WallCatalogue01/M_WC01_Bronze.M_WC01_Bronze"
+        ],
+        "hulls": 0
+      },
+      "triangles": 656,
+      "importer": "FbxStaticMeshImportData"
+    },
+    "SM_WC01_WindowGlass_Clear_112x2x145": {
+      "before": {
+        "slots": [
+          "WC01_Glass"
+        ],
+        "materials": [
+          "/Game/Art/Materials/WallCatalogue01/M_WC01_Glass.M_WC01_Glass"
+        ],
+        "hulls": 1
+      },
+      "after": {
+        "slots": [
+          "WC01_Glass"
+        ],
+        "materials": [
+          "/Game/Art/Materials/WallCatalogue01/M_WC01_Glass.M_WC01_Glass"
+        ],
+        "hulls": 1
+      },
+      "triangles": 72,
+      "importer": "FbxStaticMeshImportData"
+    }
+  }
+}

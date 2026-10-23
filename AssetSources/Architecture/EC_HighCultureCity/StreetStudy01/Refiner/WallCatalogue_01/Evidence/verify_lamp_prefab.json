@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "fresh_blueprint_instance": {
+    "intensity": 32,
+    "temperature": 3000,
+    "attenuationRadius": 240,
+    "intensityUnits": "Lumens",
+    "bUseTemperature": true,
+    "bUseInverseSquaredFalloff": true,
+    "castShadows": true
+  },
+  "temporary_actor_removed": true
+}

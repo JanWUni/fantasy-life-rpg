@@ -1,0 +1,81 @@
+{
+  "status": "passed",
+  "saved": [
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Ivory_BaseColor",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Ivory_Roughness",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Ivory_Normal",
+    "/Game/Art/Materials/HighElfWallStudy02/M_HE02_Ivory",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_CarvedStone_BaseColor",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_CarvedStone_Roughness",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_CarvedStone_Normal",
+    "/Game/Art/Materials/HighElfWallStudy02/M_HE02_CarvedStone",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_RecessStone_BaseColor",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_RecessStone_Roughness",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_RecessStone_Normal",
+    "/Game/Art/Materials/HighElfWallStudy02/M_HE02_RecessStone",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Gold_BaseColor",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Gold_Roughness",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Gold_Normal",
+    "/Game/Art/Materials/HighElfWallStudy02/M_HE02_Gold",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Azure_BaseColor",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Azure_Roughness",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Azure_Normal",
+    "/Game/Art/Materials/HighElfWallStudy02/M_HE02_Azure",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_ClearGlass_Roughness",
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_ClearGlass_Normal",
+    "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass",
+    "/Game/Art/Architecture/HighElfWallStudy02/Blueprints/BP_HE02_WindowWall_A"
+  ],
+  "materials": {
+    "Ivory": {
+      "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_Ivory.M_HE02_Ivory"
+    },
+    "CarvedStone": {
+      "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_CarvedStone.M_HE02_CarvedStone"
+    },
+    "RecessStone": {
+      "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_RecessStone.M_HE02_RecessStone"
+    },
+    "Gold": {
+      "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_Gold.M_HE02_Gold"
+    },
+    "Azure": {
+      "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_Azure.M_HE02_Azure"
+    },
+    "ClearGlass": {
+      "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass.M_HE02_ClearGlass"
+    }
+  },
+  "blueprint": "/Game/Art/Architecture/HighElfWallStudy02/Blueprints/BP_HE02_WindowWall_A",
+  "glass": {
+    "pins": [
+      "Diffuse Albedo",
+      "F0",
+      "F90",
+      "Roughness",
+      "Anisotropy",
+      "Normal",
+      "Tangent",
+      "SSS MFP",
+      "SSS MFP Scale",
+      "SSS Phase Anisotropy",
+      "Emissive Color",
+      "Second Roughness",
+      "Second Roughness Weight",
+      "Fuzz Roughness",
+      "Fuzz Amount",
+      "Fuzz Color",
+      "Glint Density (Disabled)",
+      "Glint UVs (Disabled)"
+    ],
+    "F0": 0.045,
+    "transmittance": [
+      0.91,
+      0.96,
+      0.975
+    ],
+    "roughness_texture": true,
+    "normal_texture": true,
+    "shader": "Substrate SimpleVolume"
+  }
+}

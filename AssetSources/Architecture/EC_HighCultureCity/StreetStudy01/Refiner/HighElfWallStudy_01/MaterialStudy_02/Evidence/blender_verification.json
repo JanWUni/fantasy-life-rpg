@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "source_reopened": true,
+  "all_textures_resolved": true,
+  "assets": {
+    "HE02_A_WallCore": {
+      "geometry_and_uv_unchanged": true,
+      "triangles": 180
+    },
+    "HE02_A_StoneCarving": {
+      "geometry_and_uv_unchanged": true,
+      "triangles": 1688
+    },
+    "HE02_A_GoldInlay": {
+      "geometry_and_uv_unchanged": true,
+      "triangles": 776
+    },
+    "HE02_A_BlueInlay": {
+      "geometry_and_uv_unchanged": true,
+      "triangles": 20
+    },
+    "HE02_A_WindowFrame": {
+      "geometry_and_uv_unchanged": true,
+      "triangles": 1144
+    },
+    "HE02_A_ClearGlass": {
+      "geometry_and_uv_unchanged": true,
+      "triangles": 104
+    }
+  }
+}

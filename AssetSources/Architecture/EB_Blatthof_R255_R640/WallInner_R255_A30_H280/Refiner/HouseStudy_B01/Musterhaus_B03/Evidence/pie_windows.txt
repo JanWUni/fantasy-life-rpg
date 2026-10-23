@@ -1,0 +1,4 @@
+window "FantasyLifeRPG-Vorschau [Netzmodus: Standalone 0]  (64-Bit/PC D3D SM6)" [focused] [pos=640,336 size=1286,760] [ref=w138]
+  image [pos=640,336 size=1286,760] [ref=i332]
+  image [pos=640,336 size=1286,760] [ref=i333]
+  image [pos=642,338 size=1282,756] [ref=i334]

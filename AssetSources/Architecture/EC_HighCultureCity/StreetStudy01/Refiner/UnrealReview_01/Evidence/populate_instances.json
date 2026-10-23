@@ -1,0 +1,531 @@
+{
+  "status": "passed",
+  "assemblies": {
+    "A": {
+      "instances": 470,
+      "unique_components": 21,
+      "nonexported_blender_reference_figures": [
+        {
+          "object": "EC_ScaleFigure_H180",
+          "asset": "SM_EC_ScaleFigure_H180",
+          "location_blender_m": [
+            -0.800000011920929,
+            1.7999999523162842,
+            0.0
+          ],
+          "yaw_blender_degrees": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "B": {
+      "instances": 318,
+      "unique_components": 27,
+      "nonexported_blender_reference_figures": [
+        {
+          "object": "ER_ScaleFigure_H180",
+          "asset": "SM_ER_ScaleFigure_H180",
+          "location_blender_m": [
+            0.699999988079071,
+            -2.200000047683716,
+            0.0
+          ],
+          "yaw_blender_degrees": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": {
+    "SM_EC_Facade_700x390": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 3.1113624572753906e-05,
+      "original_ucx": 23,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 23,
+      "instances": 3,
+      "template": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_Facade_700x390_GEN_VARIABLE"
+    },
+    "SM_EC_SideWall_800x390": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 3.496911085676402e-05,
+      "original_ucx": 13,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 13,
+      "instances": 6,
+      "template": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_SideWall_800x390_GEN_VARIABLE"
+    },
+    "SM_EC_RearWall_700x390": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 3.1113624572753906e-05,
+      "original_ucx": 13,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 13,
+      "instances": 3,
+      "template": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_RearWall_700x390_GEN_VARIABLE"
+    },
+    "SM_EC_Floor_700x800": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 3.0517578125e-05,
+      "original_ucx": 1,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 1,
+      "instances": 3,
+      "template": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_Floor_700x800_GEN_VARIABLE"
+    },
+    "SM_EC_HipRoof_790x890": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 4.9591064453125e-05,
+      "original_ucx": 1,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 1,
+      "instances": 2,
+      "template": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_HipRoof_790x890_GEN_VARIABLE"
+    },
+    "SM_EC_HipRoof_LowVariant_790x890": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 4.9591064453125e-05,
+      "original_ucx": 1,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 1,
+      "instances": 1,
+      "template": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_HipRoof_LowVariant_790x890_GEN_VARIABLE"
+    },
+    "SM_EC_PorchPosts_220x270": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 9.387731552124023e-06,
+      "original_ucx": 2,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 2,
+      "instances": 1,
+      "template": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_PorchPosts_220x270_GEN_VARIABLE"
+    },
+    "SM_EC_PorchRoof_240x150": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 7.62939453125e-06,
+      "original_ucx": 1,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 1,
+      "instances": 1,
+      "template": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_PorchRoof_240x150_GEN_VARIABLE"
+    },
+    "SM_EC_StoneDressings": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 4.100799560546875e-05,
+      "original_ucx": 0,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 0,
+      "instances": 3,
+      "template": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_StoneDressings_GEN_VARIABLE"
+    },
+    "SM_EC_EntryWoodArch": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 6.4373016357421875e-06,
+      "original_ucx": 0,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 0,
+      "instances": 3,
+      "template": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_EntryWoodArch_GEN_VARIABLE"
+    },
+    "SM_EC_TreeRelief": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 2.86102294921875e-06,
+      "original_ucx": 0,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 0,
+      "instances": 3,
+      "template": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_TreeRelief_GEN_VARIABLE"
+    },
+    "SM_EC_DoorLeaf_140x235": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 1.2055039405822754e-05,
+      "original_ucx": 1,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 1,
+      "instances": 3,
+      "template": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_DoorLeaf_140x235_GEN_VARIABLE"
+    },
+    "SM_EC_CityWindowFrame_65x80": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 3.7550926208496094e-06,
+      "original_ucx": 0,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 0,
+      "instances": 24,
+      "template": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_CityWindowFrame_65x80_GEN_VARIABLE"
+    },
+    "SM_EC_CityWindowGlass_65x80": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 3.0100345611572266e-06,
+      "original_ucx": 0,
+      "added_simple_box": true,
+      "simple_collision_count": 1,
+      "convex_collision_count": 0,
+      "instances": 24,
+      "template": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_CityWindowGlass_65x80_GEN_VARIABLE"
+    },
+    "SM_EC_CityShutter_32x84": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 2.682209014892578e-06,
+      "original_ucx": 0,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 0,
+      "instances": 12,
+      "template": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_CityShutter_32x84_GEN_VARIABLE"
+    },
+    "SM_EC_Paving_120x80": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 5.9604644775390625e-06,
+      "original_ucx": 0,
+      "added_simple_box": true,
+      "simple_collision_count": 1,
+      "convex_collision_count": 0,
+      "instances": 315,
+      "template": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_Paving_120x80_GEN_VARIABLE"
+    },
+    "SM_EC_GroundBase_3200x3000": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 0.0001220703125,
+      "original_ucx": 1,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 1,
+      "instances": 1,
+      "template": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_GroundBase_3200x3000_GEN_VARIABLE"
+    },
+    "SM_EC_Curb_100x20": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 4.6193599700927734e-06,
+      "original_ucx": 0,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 0,
+      "instances": 56,
+      "template": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_Curb_100x20_GEN_VARIABLE"
+    },
+    "SM_EC_PlanterRim": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 7.62939453125e-06,
+      "original_ucx": 0,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 0,
+      "instances": 2,
+      "template": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_PlanterRim_GEN_VARIABLE"
+    },
+    "SM_EC_StreetTreeTrunk": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 2.09808349609375e-05,
+      "original_ucx": 0,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 0,
+      "instances": 2,
+      "template": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_StreetTreeTrunk_GEN_VARIABLE"
+    },
+    "SM_EC_StreetTreeCrown": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 7.62939453125e-06,
+      "original_ucx": 0,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 0,
+      "instances": 2,
+      "template": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_StreetTreeCrown_GEN_VARIABLE"
+    },
+    "SM_ER_WingWindowFacade_640x280_v02": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 2.7975289413006976e-05,
+      "original_ucx": 29,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 29,
+      "instances": 2,
+      "template": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_WingWindowFacade_640x280_v02_GEN_VARIABLE"
+    },
+    "SM_ER_WingRear_640x280": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 2.7975289413006976e-05,
+      "original_ucx": 13,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 13,
+      "instances": 2,
+      "template": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_WingRear_640x280_GEN_VARIABLE"
+    },
+    "SM_ER_WingSide_550x311": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 2.4041264623519965e-05,
+      "original_ucx": 13,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 13,
+      "instances": 2,
+      "template": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_WingSide_550x311_GEN_VARIABLE"
+    },
+    "SM_ER_WingInternalLink_550x311_v02": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 2.4041264623519965e-05,
+      "original_ucx": 5,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 5,
+      "instances": 2,
+      "template": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_WingInternalLink_550x311_v02_GEN_VARIABLE"
+    },
+    "SM_ER_WingRootVault_720x620": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 4.00543212890625e-05,
+      "original_ucx": 12,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 12,
+      "instances": 2,
+      "template": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_WingRootVault_720x620_GEN_VARIABLE"
+    },
+    "SM_ER_WingCrownFill": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 2.8908252716064453e-05,
+      "original_ucx": 12,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 12,
+      "instances": 4,
+      "template": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_WingCrownFill_GEN_VARIABLE"
+    },
+    "SM_ER_DoorLeaf_140x230": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 1.2367963790893555e-05,
+      "original_ucx": 1,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 1,
+      "instances": 1,
+      "template": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_DoorLeaf_140x230_GEN_VARIABLE"
+    },
+    "SM_ER_RootDoorArch": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 7.62939453125e-06,
+      "original_ucx": 0,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 0,
+      "instances": 3,
+      "template": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_RootDoorArch_GEN_VARIABLE"
+    },
+    "SM_ER_RetreatWindowFrame_65x80": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 3.7550926208496094e-06,
+      "original_ucx": 0,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 0,
+      "instances": 14,
+      "template": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_RetreatWindowFrame_65x80_GEN_VARIABLE"
+    },
+    "SM_ER_RetreatWindowGlass_65x80": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 3.0100345611572266e-06,
+      "original_ucx": 0,
+      "added_simple_box": true,
+      "simple_collision_count": 1,
+      "convex_collision_count": 0,
+      "instances": 14,
+      "template": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_RetreatWindowGlass_65x80_GEN_VARIABLE"
+    },
+    "SM_ER_RetreatShutter_32x84": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 2.682209014892578e-06,
+      "original_ucx": 0,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 0,
+      "instances": 0,
+      "template": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_RetreatShutter_32x84_GEN_VARIABLE"
+    },
+    "SM_ER_WingRootRibs": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 3.337860107421875e-05,
+      "original_ucx": 0,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 0,
+      "instances": 2,
+      "template": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_WingRootRibs_GEN_VARIABLE"
+    },
+    "SM_ER_WingClosedStoneSill_v02": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 3.910064697265625e-05,
+      "original_ucx": 0,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 0,
+      "instances": 2,
+      "template": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_WingClosedStoneSill_v02_GEN_VARIABLE"
+    },
+    "SM_ER_OldCoreLinkedShell_R260_H430_v02": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 1.1444091796875e-05,
+      "original_ucx": 68,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 68,
+      "instances": 1,
+      "template": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_OldCoreLinkedShell_R260_H430_v02_GEN_VARIABLE"
+    },
+    "SM_ER_OldCoreCrown_640x620": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 9.5367431640625e-06,
+      "original_ucx": 1,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 1,
+      "instances": 1,
+      "template": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_OldCoreCrown_640x620_GEN_VARIABLE"
+    },
+    "SM_ER_LivingOldTrunk": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 3.814697265625e-05,
+      "original_ucx": 0,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 0,
+      "instances": 1,
+      "template": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_LivingOldTrunk_GEN_VARIABLE"
+    },
+    "SM_ER_OldButtressRoots": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 3.0517578125e-05,
+      "original_ucx": 0,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 0,
+      "instances": 1,
+      "template": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_OldButtressRoots_GEN_VARIABLE"
+    },
+    "SM_ER_OldTreeCanopy": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 1.9073486328125e-05,
+      "original_ucx": 0,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 0,
+      "instances": 1,
+      "template": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_OldTreeCanopy_GEN_VARIABLE"
+    },
+    "SM_ER_YoungLivingTrunk": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 1.5497207641601562e-05,
+      "original_ucx": 0,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 0,
+      "instances": 2,
+      "template": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_YoungLivingTrunk_GEN_VARIABLE"
+    },
+    "SM_ER_YoungTreeCrown": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 2.384185791015625e-05,
+      "original_ucx": 0,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 0,
+      "instances": 2,
+      "template": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_YoungTreeCrown_GEN_VARIABLE"
+    },
+    "SM_ER_LinkingRootArches": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 4.5299530029296875e-05,
+      "original_ucx": 0,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 0,
+      "instances": 1,
+      "template": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_LinkingRootArches_GEN_VARIABLE"
+    },
+    "SM_ER_Ground_2600x2300": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 0.0001220703125,
+      "original_ucx": 1,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 1,
+      "instances": 1,
+      "template": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_Ground_2600x2300_GEN_VARIABLE"
+    },
+    "SM_ER_CourtStone_100x70": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 2.9802322387695312e-06,
+      "original_ucx": 0,
+      "added_simple_box": true,
+      "simple_collision_count": 1,
+      "convex_collision_count": 0,
+      "instances": 250,
+      "template": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_CourtStone_100x70_GEN_VARIABLE"
+    },
+    "SM_ER_Bench_210x56": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 9.417533874511719e-06,
+      "original_ucx": 0,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 0,
+      "instances": 2,
+      "template": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_Bench_210x56_GEN_VARIABLE"
+    },
+    "SM_ER_HerbBed_250x140": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 8.821487426757812e-06,
+      "original_ucx": 0,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 0,
+      "instances": 2,
+      "template": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_HerbBed_250x140_GEN_VARIABLE"
+    },
+    "SM_ER_HerbClusters": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 8.58306884765625e-06,
+      "original_ucx": 0,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 0,
+      "instances": 2,
+      "template": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_HerbClusters_GEN_VARIABLE"
+    },
+    "SM_ER_ConnectedFloor_v02": {
+      "importer": "FbxStaticMeshImportData",
+      "bounds_error_cm": 5.340576171875e-05,
+      "original_ucx": 3,
+      "added_simple_box": false,
+      "simple_collision_count": 0,
+      "convex_collision_count": 3,
+      "instances": 1,
+      "template": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_ConnectedFloor_v02_GEN_VARIABLE"
+    }
+  },
+  "source_mapping": "UE_cm=(100*Bx,-100*By,100*Bz), yaw=-BlenderYaw; source placements unrounded",
+  "collision_addition": "One simple box only on new glass and paving meshes; original imported UCX preserved"
+}

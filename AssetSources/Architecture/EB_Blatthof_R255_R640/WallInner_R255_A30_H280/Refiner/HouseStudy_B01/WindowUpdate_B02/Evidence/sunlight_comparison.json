@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "test": "Opaque control plug blocks only the selected clear window; same Lab sun and fixed EV1",
+  "roi_pixels": [
+    531,
+    338,
+    651,
+    428
+  ],
+  "clear_mean_srgb_luma": 0.089373544734931,
+  "blocked_mean_srgb_luma": 0.042851111328976024,
+  "ratio": 2.08567623949805,
+  "interpretation": "Screenshot brightness comparison, not a photometric/energy-conservation measurement"
+}

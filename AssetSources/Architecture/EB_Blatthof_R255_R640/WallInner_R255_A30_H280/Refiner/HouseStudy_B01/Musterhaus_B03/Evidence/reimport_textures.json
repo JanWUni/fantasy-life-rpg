@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "textures": {
+    "T_EH03_Plaster_BaseColor": {
+      "srgb": true,
+      "source": "E:\\Business\\fantasy-rpg-refiner\\AssetSources\\Architecture\\EB_Blatthof_R255_R640\\WallInner_R255_A30_H280\\Refiner\\HouseStudy_B01\\Musterhaus_B03\\Textures\\T_EH03_Plaster_BaseColor.png"
+    },
+    "T_EH03_Timber_BaseColor": {
+      "srgb": true,
+      "source": "E:\\Business\\fantasy-rpg-refiner\\AssetSources\\Architecture\\EB_Blatthof_R255_R640\\WallInner_R255_A30_H280\\Refiner\\HouseStudy_B01\\Musterhaus_B03\\Textures\\T_EH03_Timber_BaseColor.png"
+    },
+    "T_EH03_Stone_BaseColor": {
+      "srgb": true,
+      "source": "E:\\Business\\fantasy-rpg-refiner\\AssetSources\\Architecture\\EB_Blatthof_R255_R640\\WallInner_R255_A30_H280\\Refiner\\HouseStudy_B01\\Musterhaus_B03\\Textures\\T_EH03_Stone_BaseColor.png"
+    },
+    "T_EH03_Jade_BaseColor": {
+      "srgb": true,
+      "source": "E:\\Business\\fantasy-rpg-refiner\\AssetSources\\Architecture\\EB_Blatthof_R255_R640\\WallInner_R255_A30_H280\\Refiner\\HouseStudy_B01\\Musterhaus_B03\\Textures\\T_EH03_Jade_BaseColor.png"
+    },
+    "T_EH03_Floor_BaseColor": {
+      "srgb": true,
+      "source": "E:\\Business\\fantasy-rpg-refiner\\AssetSources\\Architecture\\EB_Blatthof_R255_R640\\WallInner_R255_A30_H280\\Refiner\\HouseStudy_B01\\Musterhaus_B03\\Textures\\T_EH03_Floor_BaseColor.png"
+    }
+  }
+}

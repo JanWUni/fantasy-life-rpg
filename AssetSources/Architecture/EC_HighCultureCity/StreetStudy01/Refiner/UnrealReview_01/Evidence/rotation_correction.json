@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "instance_counts": {
+    "A": 470,
+    "B": 318
+  },
+  "correction": "Explicit Rotator(pitch=0,yaw=-BlenderYaw,roll=0) for saved templates and live actors; source transforms unchanged"
+}

@@ -1,0 +1,685 @@
+{
+  "status": "review_ready",
+  "accepted": false,
+  "kit_id": "EC.WallCatalogue01",
+  "interface_version": "draft_1",
+  "source": "WallCatalogue01.blend",
+  "source_sha256": "59c730f438c61c34da95eb2e6eed0c15098e30f4c62ff191bda60c8b4186dc89",
+  "assets": {
+    "SM_WC01_Wall_A_Solid_300x24x320": {
+      "triangles": 624,
+      "vertices": 344,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "bounds_m": [
+        [
+          0.0,
+          -0.09000000357627869,
+          0.0
+        ],
+        [
+          3.0,
+          0.29249998927116394,
+          3.200000047683716
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "ucx_hulls": 1,
+      "description": "Restrained lime-plaster, clean timber joints; closed panel",
+      "kind": "Wall",
+      "fbx_sha256": "138326693cb191f22762173975dccaed5a6104020b5b4f171a346afba92fec66"
+    },
+    "SM_WC01_Wall_A_Window_300x24x320": {
+      "triangles": 792,
+      "vertices": 456,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "bounds_m": [
+        [
+          0.0,
+          -0.09000000357627869,
+          0.0
+        ],
+        [
+          3.0,
+          0.29249998927116394,
+          3.200000047683716
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "ucx_hulls": 15,
+      "description": "Restrained lime-plaster, clean timber joints; common real window opening",
+      "kind": "Wall",
+      "fbx_sha256": "11f3591b9a16438a2516134490755b321e5d90321f86c18b21b5d25237f0d195"
+    },
+    "SM_WC01_Wall_B_Solid_300x24x320": {
+      "triangles": 1012,
+      "vertices": 576,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "bounds_m": [
+        [
+          0.0,
+          -0.10999999940395355,
+          0.0
+        ],
+        [
+          3.0,
+          0.29249998927116394,
+          3.200000047683716
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "ucx_hulls": 1,
+      "description": "Exposed timber framing and shaped knee braces; closed panel",
+      "kind": "Wall",
+      "fbx_sha256": "efc1fe69860fd90716ceceff213a929b56776b90e48eca06a31cb105a2c4e453"
+    },
+    "SM_WC01_Wall_B_Window_300x24x320": {
+      "triangles": 1048,
+      "vertices": 616,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "bounds_m": [
+        [
+          0.0,
+          -0.10999999940395355,
+          0.0
+        ],
+        [
+          3.0,
+          0.29249998927116394,
+          3.200000047683716
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "ucx_hulls": 15,
+      "description": "Exposed timber framing and shaped knee braces; common real window opening",
+      "kind": "Wall",
+      "fbx_sha256": "21112f9cb815db1662c31c52cea4484e8e9845cb107ced6f82acad68fa72f9d6"
+    },
+    "SM_WC01_Wall_C_Solid_300x24x320": {
+      "triangles": 1672,
+      "vertices": 936,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "bounds_m": [
+        [
+          0.0,
+          -0.11499999463558197,
+          0.0
+        ],
+        [
+          3.0,
+          0.29249998927116394,
+          3.200000047683716
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "ucx_hulls": 1,
+      "description": "Crafted staggered stone plinth and timber framing; closed panel",
+      "kind": "Wall",
+      "fbx_sha256": "204853597beb0a73de4b84f2a1e22cbff5f7cc5eff89652cdb6493b0f56758dd"
+    },
+    "SM_WC01_Wall_C_Window_300x24x320": {
+      "triangles": 1708,
+      "vertices": 976,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "bounds_m": [
+        [
+          0.0,
+          -0.11499999463558197,
+          0.0
+        ],
+        [
+          3.0,
+          0.29249998927116394,
+          3.200000047683716
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "ucx_hulls": 15,
+      "description": "Crafted staggered stone plinth and timber framing; common real window opening",
+      "kind": "Wall",
+      "fbx_sha256": "bad6edadb98030ee318de23f74fa6b08ebb8cb56ae0f0904cab3caf7201460ca"
+    },
+    "SM_WC01_WindowFrame_140x40x157": {
+      "triangles": 656,
+      "vertices": 384,
+      "slots": [
+        "Timber",
+        "Stone",
+        "Bronze"
+      ],
+      "bounds_m": [
+        [
+          -0.699999988079071,
+          -0.1599999964237213,
+          -0.0625
+        ],
+        [
+          0.699999988079071,
+          0.2944999933242798,
+          1.5574363470077515
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "ucx_hulls": 0,
+      "description": "Independent sill, rebated jamb, curved head, glazing bars and two catches",
+      "kind": "Window",
+      "fbx_sha256": "58a1760ff44aad749624bd72148806f1f998e03b11b8aa938a403f22a2ac7c70"
+    },
+    "SM_WC01_WindowGlass_Clear_112x2x145": {
+      "triangles": 72,
+      "vertices": 38,
+      "slots": [
+        "Glass"
+      ],
+      "bounds_m": [
+        [
+          -0.5569999814033508,
+          0.125,
+          0.03999999910593033
+        ],
+        [
+          0.5569999814033508,
+          0.14499999582767487,
+          1.4850000143051147
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "ucx_hulls": 1,
+      "description": "Separate closed 2cm clear pane, no extra reflection plane",
+      "kind": "Glass",
+      "fbx_sha256": "e9a9584b460cd4b433b087846d0ab780c888235a03b6217c5dd1091ccc81ae4d"
+    },
+    "SM_WC01_Table_180x100x78": {
+      "triangles": 1120,
+      "vertices": 624,
+      "slots": [
+        "Timber"
+      ],
+      "bounds_m": [
+        [
+          -0.9443690180778503,
+          -0.49799999594688416,
+          0.0
+        ],
+        [
+          0.9443690180778503,
+          0.49799999594688416,
+          0.7900000214576721
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "ucx_hulls": 5,
+      "description": "Five real boards, pegged top, aprons, stretcher and braced legs",
+      "kind": "Furniture",
+      "fbx_sha256": "352a6e2da783705720ce868226a05820cf5c24e38651443050604eb3329b7e9b"
+    },
+    "SM_WC01_Chair_48x49x101": {
+      "triangles": 752,
+      "vertices": 416,
+      "slots": [
+        "Timber"
+      ],
+      "bounds_m": [
+        [
+          -0.23999999463558197,
+          -0.23800000548362732,
+          0.0
+        ],
+        [
+          0.23999999463558197,
+          0.2775000035762787,
+          0.9800000190734863
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "ucx_hulls": 6,
+      "description": "Board seat, angled back, slats and pegged joins; no sitting gameplay",
+      "kind": "Furniture",
+      "fbx_sha256": "a0d7300007f696ba895d504a63485138a208d75124e24c5bcbb6a6fab31743f0"
+    },
+    "SM_WC01_WallLamp_28x54x48": {
+      "triangles": 616,
+      "vertices": 338,
+      "slots": [
+        "Iron",
+        "Bronze",
+        "Glow"
+      ],
+      "bounds_m": [
+        [
+          -0.14000000059604645,
+          -0.5400000214576721,
+          -0.45899999141693115
+        ],
+        [
+          0.14000000059604645,
+          0.0,
+          0.2039896547794342
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0,
+      "ucx_hulls": 0,
+      "description": "Wall mount, curled support, vented hood, open cage and visible luminous core; no fuel canon",
+      "kind": "Lamp",
+      "fbx_sha256": "693ad9eeeaf17d88b0267e87f55a835dbb29d00463e84daddc8dbc999f4ca891"
+    }
+  },
+  "placements": [
+    {
+      "module": "SM_WC01_Wall_A_Solid_300x24x320",
+      "location_m": [
+        0.0,
+        0,
+        0
+      ],
+      "yaw_blender": 0
+    },
+    {
+      "module": "SM_WC01_Wall_A_Window_300x24x320",
+      "location_m": [
+        0.0,
+        4.2,
+        0
+      ],
+      "yaw_blender": 0
+    },
+    {
+      "module": "SM_WC01_WindowFrame_140x40x157",
+      "location_m": [
+        1.5,
+        4.2,
+        1.0
+      ],
+      "yaw_blender": 0
+    },
+    {
+      "module": "SM_WC01_WindowGlass_Clear_112x2x145",
+      "location_m": [
+        1.5,
+        4.2,
+        1.0
+      ],
+      "yaw_blender": 0
+    },
+    {
+      "module": "SM_WC01_Wall_B_Solid_300x24x320",
+      "location_m": [
+        4.2,
+        0,
+        0
+      ],
+      "yaw_blender": 0
+    },
+    {
+      "module": "SM_WC01_Wall_B_Window_300x24x320",
+      "location_m": [
+        4.2,
+        4.2,
+        0
+      ],
+      "yaw_blender": 0
+    },
+    {
+      "module": "SM_WC01_WindowFrame_140x40x157",
+      "location_m": [
+        5.7,
+        4.2,
+        1.0
+      ],
+      "yaw_blender": 0
+    },
+    {
+      "module": "SM_WC01_WindowGlass_Clear_112x2x145",
+      "location_m": [
+        5.7,
+        4.2,
+        1.0
+      ],
+      "yaw_blender": 0
+    },
+    {
+      "module": "SM_WC01_Wall_C_Solid_300x24x320",
+      "location_m": [
+        8.4,
+        0,
+        0
+      ],
+      "yaw_blender": 0
+    },
+    {
+      "module": "SM_WC01_Wall_C_Window_300x24x320",
+      "location_m": [
+        8.4,
+        4.2,
+        0
+      ],
+      "yaw_blender": 0
+    },
+    {
+      "module": "SM_WC01_WindowFrame_140x40x157",
+      "location_m": [
+        9.9,
+        4.2,
+        1.0
+      ],
+      "yaw_blender": 0
+    },
+    {
+      "module": "SM_WC01_WindowGlass_Clear_112x2x145",
+      "location_m": [
+        9.9,
+        4.2,
+        1.0
+      ],
+      "yaw_blender": 0
+    },
+    {
+      "module": "SM_WC01_Table_180x100x78",
+      "location_m": [
+        5.7,
+        2.0,
+        0
+      ],
+      "yaw_blender": 0
+    },
+    {
+      "module": "SM_WC01_Chair_48x49x101",
+      "location_m": [
+        5.7,
+        1.0,
+        0
+      ],
+      "yaw_blender": 180
+    },
+    {
+      "module": "SM_WC01_WallLamp_28x54x48",
+      "location_m": [
+        4.7,
+        0,
+        1.95
+      ],
+      "yaw_blender": 0
+    },
+    {
+      "module": "SM_WC01_Wall_A_Solid_300x24x320",
+      "location_m": [
+        0,
+        8.2,
+        0
+      ],
+      "yaw_blender": 0
+    },
+    {
+      "module": "SM_WC01_Wall_B_Solid_300x24x320",
+      "location_m": [
+        3,
+        8.2,
+        0
+      ],
+      "yaw_blender": 0
+    },
+    {
+      "module": "SM_WC01_Table_180x100x78",
+      "location_m": [
+        10,
+        7,
+        0
+      ],
+      "yaw_blender": 0
+    },
+    {
+      "module": "SM_WC01_Chair_48x49x101",
+      "location_m": [
+        11.5,
+        7,
+        0
+      ],
+      "yaw_blender": 0
+    },
+    {
+      "module": "SM_WC01_WindowFrame_140x40x157",
+      "location_m": [
+        7,
+        8.2,
+        1
+      ],
+      "yaw_blender": 0
+    },
+    {
+      "module": "SM_WC01_WindowGlass_Clear_112x2x145",
+      "location_m": [
+        8.6,
+        8.2,
+        1
+      ],
+      "yaw_blender": 0
+    }
+  ],
+  "material_families": [
+    "Timber",
+    "Plaster",
+    "Stone",
+    "Iron",
+    "Bronze",
+    "Glass",
+    "Glow"
+  ],
+  "export_profile": {
+    "profile_id": "Blender522_UE58_LegacyFBX_Calibration01",
+    "status": "calibrated_for_static_mesh_fixture",
+    "blender": "5.2.2 LTS",
+    "blender_build": "d13f752e3b9c",
+    "source_units": "meters",
+    "blender_to_unreal_cm": "(100*x, -100*y, 100*z)",
+    "export_settings": {
+      "use_selection": true,
+      "object_types": [
+        "MESH"
+      ],
+      "global_scale": 1.0,
+      "apply_unit_scale": true,
+      "apply_scale_options": "FBX_SCALE_NONE",
+      "axis_forward": "-Y",
+      "axis_up": "Z",
+      "use_space_transform": true,
+      "bake_space_transform": false,
+      "use_mesh_modifiers": true,
+      "mesh_smooth_type": "FACE",
+      "use_triangles": true,
+      "use_tspace": true,
+      "bake_anim": false,
+      "add_leaf_bones": false,
+      "path_mode": "RELATIVE",
+      "embed_textures": false
+    },
+    "unreal_importer": "FbxFactory / FbxStaticMeshImportData (legacy)",
+    "unreal_import_options_observed": {
+      "importUniformScale": 1,
+      "importTranslation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "importRotation": {
+        "pitch": 0,
+        "yaw": 0,
+        "roll": 0
+      },
+      "bConvertScene": true,
+      "bConvertSceneUnit": false,
+      "bForceFrontXAxis": false,
+      "coordinateSystemPolicy": "MatchUpForwardAxes",
+      "bUsingLUFCoordinateSysem": false,
+      "bTransformVertexToAbsolute": true,
+      "bBakePivotInVertex": false,
+      "normalImportMethod": "FBXNIM_ImportNormals",
+      "normalGenerationMethod": "MikkTSpace",
+      "bCombineMeshes": false,
+      "bOneConvexHullPerUCX": true,
+      "bAutoGenerateCollision": true,
+      "bGenerateLightmapUVs": true,
+      "bBuildNanite": false
+    },
+    "unreal_uv_channels_observed": 2,
+    "source_uv_channels": 1,
+    "session_requirement": "Keep Interchange.FeatureFlags.Import.FBX=0 for legacy UI reimport; restore previous value afterwards. Never mix importer backends without separate validation.",
+    "caveat": "This profile validates a single render mesh per FBX and source-owned UCX collision. It does not validate skeletal meshes, Nanite, production lightmap quality, or Interchange."
+  },
+  "coordinates": "UE_cm=(100*B.x,-100*B.y,100*B.z)",
+  "wall_contract": {
+    "width_cm": 300,
+    "core_depth_cm": 24,
+    "height_cm": 320,
+    "pivot": "lower start corner [0,0,0]",
+    "start": {
+      "position_cm": [
+        0,
+        0,
+        0
+      ],
+      "outward_direction": [
+        -1,
+        0,
+        0
+      ]
+    },
+    "end": {
+      "position_cm": [
+        300,
+        0,
+        0
+      ],
+      "outward_direction": [
+        1,
+        0,
+        0
+      ]
+    },
+    "seam_ownership": "start owns timber upright; no end upright; closing post/corner module not yet supplied",
+    "window_insert_cm": [
+      150,
+      0,
+      100
+    ],
+    "opening": "X90..210, sill Z100; head Z224+28*(1-((X-150)/60)^2) cm",
+    "boundary": "new provisional straight kit; not a drop-in replacement for study A/B or R255"
+  },
+  "texture_uv": "Intentional tile overlaps, 1 texture repeat per metre on planar components; beam grain aligned with longest/beam axis",
+  "scope": "Independent comparison panels and props; no house source opened or modified; no culture canon",
+  "base_commit": "17828dce95c0d68fd5300bc9d8cba1db1178b83f",
+  "map": "/Game/Prototype/Maps/Lvl_AssetLab",
+  "outliner_folder": "Lab/Architecture/WallCatalogue01",
+  "inherited_mesh_helper": {
+    "path": "AssetSources/Architecture/EB_Blatthof_R255_R640/WallInner_R255_A30_H280/Refiner/HouseStudy_B01/build_house.py",
+    "sha256": "40204c807d795eb3ef77b5a4a7cf7b5641942233367f339c5f0825b1d97f84d9",
+    "use": "Read-only Mesh helper import, no original build invoked"
+  },
+  "imported_assets_sha256": {
+    "Content/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_A_Solid_300x24x320.uasset": "64f68b70955881bb611a87de528c33952879eab7bf1e755617f00f44806369bd",
+    "Content/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_A_Window_300x24x320.uasset": "1935644a19cdf71d7da663b3adf2e4666942d36618c953ab9023d8f3870220be",
+    "Content/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_B_Solid_300x24x320.uasset": "895ecbe4741b1beb8e7c3e59148fdedb729ec6c846339c9632604408e171241d",
+    "Content/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_B_Window_300x24x320.uasset": "5e2fec83cf2390e7ca997debae499a1e544aeb203b212e4c344e4717ffb69230",
+    "Content/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_C_Solid_300x24x320.uasset": "690d4cc1c2094f9a3dd836c95e1c215ccef4cf2d1dc5ca958f81f3a910006664",
+    "Content/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_C_Window_300x24x320.uasset": "f04e6b56651ef3cba461d0ff2d8da19885a50d64167d81617226ee23145458b4",
+    "Content/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_WindowFrame_140x40x157.uasset": "b9e13bea1564c63a94b4561b74130ce3e58e5f98a95f3ad69fa78a57a90d5bf2",
+    "Content/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_WindowGlass_Clear_112x2x145.uasset": "e11815646f201b423afe19319b82ce3fdba738cf0ec92eb0595554c8ed600601",
+    "Content/Art/Furniture/WallCatalogue01/Blueprints/BP_WC01_WallLamp.uasset": "b32ecad428625b8d9f1b37062f6003b8bea9ce6ee2f814f4d6da5db49db45da7",
+    "Content/Art/Furniture/WallCatalogue01/Meshes/SM_WC01_Chair_48x49x101.uasset": "6a0997b4c1ddf8ba847b585895eb3817b340b3646c230e4d0bac32756ac6b9d8",
+    "Content/Art/Furniture/WallCatalogue01/Meshes/SM_WC01_Table_180x100x78.uasset": "9618e0e35778998a74ce55634265ead38dd3e21849ba28c4c6605b0f648c5bcc",
+    "Content/Art/Furniture/WallCatalogue01/Meshes/SM_WC01_WallLamp_28x54x48.uasset": "94230d844ef0d624fe26fdbdf7d8e921d0e70f278d7010f793e7ab0cbb67e81c",
+    "Content/Art/Materials/WallCatalogue01/M_WC01_Bronze.uasset": "88ecc2187d8437eb0c2f58ecd5a3c46ce55320cb8676842adb9de0b2bf067748",
+    "Content/Art/Materials/WallCatalogue01/M_WC01_Glass.uasset": "816b99885c0bd516f6300a3892d6c2b146f08f6e306d4342a586884ff2bd0e8b",
+    "Content/Art/Materials/WallCatalogue01/M_WC01_Glow.uasset": "e4b8d2c8390179eef09ce470d3100ed89aff991064f40917601cfcae7d6014f5",
+    "Content/Art/Materials/WallCatalogue01/M_WC01_Iron.uasset": "ad8e012256eff365f2ea2e9569017c384d079db2387efe882d440d4686c0212d",
+    "Content/Art/Materials/WallCatalogue01/M_WC01_Plaster.uasset": "80766ced8ba87d642318910a28a9db54947bd896e6fd36c8180da029622dc1be",
+    "Content/Art/Materials/WallCatalogue01/M_WC01_Stone.uasset": "0309fbed04c26d2c03b2326ba7946dfd410e01f0e4384ae21d39f61b287e935e",
+    "Content/Art/Materials/WallCatalogue01/M_WC01_Timber.uasset": "f243aec5e5f3701687a35c152bf764ad5661a55bcda24b8426744a9ada7c974c",
+    "Content/Art/Textures/WallCatalogue01/T_WC01_Bronze_BaseColor.uasset": "b6e3d2538101f223bf0d8b6fe684fedfa4c6bf445f0ab2d13d9f60fda322e2fa",
+    "Content/Art/Textures/WallCatalogue01/T_WC01_Bronze_Normal.uasset": "14894252fbb6e0dbd32244ee970e39d962f3a85ffd76a0e81ab724059bdb32da",
+    "Content/Art/Textures/WallCatalogue01/T_WC01_Bronze_Roughness.uasset": "a708cb3e07da7ac6b7f45174d87d9f10ca6e750519ccbce9c57adc1eff584e78",
+    "Content/Art/Textures/WallCatalogue01/T_WC01_Iron_BaseColor.uasset": "f1c46b5137234395f4844c3adba9bf147a22a3954e4be94951a015f9e02ff4e9",
+    "Content/Art/Textures/WallCatalogue01/T_WC01_Iron_Normal.uasset": "109793c50fa6070990168560d26d9ff1549d64a85b4660c7bd0dc79210ca72a0",
+    "Content/Art/Textures/WallCatalogue01/T_WC01_Iron_Roughness.uasset": "748a3c61025d7cb9d51a246e25dc6b9bd945d466cf0af993cdd7eb98fdee71e5",
+    "Content/Art/Textures/WallCatalogue01/T_WC01_Plaster_BaseColor.uasset": "d4c51fc7ead57135083f1049f1671f511223bfa27e95d45c5a972845a4a1b093",
+    "Content/Art/Textures/WallCatalogue01/T_WC01_Plaster_Normal.uasset": "7b42cff36ce52bedb40f28b226e960963bd592e8b52a1cfbde79f901ee45fa8c",
+    "Content/Art/Textures/WallCatalogue01/T_WC01_Plaster_Roughness.uasset": "2edfedbf150e0b533cd24c9e66272d52b03acabc98ba63f588d9815ab4f64ccc",
+    "Content/Art/Textures/WallCatalogue01/T_WC01_Stone_BaseColor.uasset": "954d6a538e15833a81225d452f30af6bde1589b1a1c0d92c1cf7038bd2f3408d",
+    "Content/Art/Textures/WallCatalogue01/T_WC01_Stone_Normal.uasset": "7957a1f64f17174dcdba31fafab951df5e6942da5e56177595c1d244b2de4a67",
+    "Content/Art/Textures/WallCatalogue01/T_WC01_Stone_Roughness.uasset": "0d52c27e97d7a02695f0cd67d746d813c71d1baf7185cc552ee5eb3eafc2a30a",
+    "Content/Art/Textures/WallCatalogue01/T_WC01_Timber_BaseColor.uasset": "9481387cc00c97ed94f336d986fdc6cff07058a4080feb37d948865137adb1a1",
+    "Content/Art/Textures/WallCatalogue01/T_WC01_Timber_Normal.uasset": "0abc109bb986f5c74439cb040848982809eaf0026eea3a74d0a229912979574f",
+    "Content/Art/Textures/WallCatalogue01/T_WC01_Timber_Roughness.uasset": "1136a548e4f32100210537c3241eb6f2d9de7faca51826f6392a761becafc39b"
+  },
+  "lab_map_sha256": "259e1597c4f388a4ac4295309eedd00360d339b2428f97eba5736a7900c381ed",
+  "lamp": {
+    "blueprint": "/Game/Art/Furniture/WallCatalogue01/Blueprints/BP_WC01_WallLamp",
+    "lumens": 32,
+    "temperature_kelvin": 3000,
+    "radius_cm": 240,
+    "inverse_square": true,
+    "fixture_self_shadow": false,
+    "wall_and_furniture_shadows": true,
+    "no_switch_or_fuel_gameplay": true
+  },
+  "actual_evidence": [
+    "Evidence/blender_verification.json",
+    "Evidence/unreal_verification.json",
+    "Evidence/file_preservation.json",
+    "Evidence/session_restored.json"
+  ],
+  "limitations": [
+    "Visual selection not yet accepted",
+    "Provisional kit, not a replacement for either house",
+    "End closing posts/corners, entrance, roof and house generator not supplied",
+    "One LOD, Nanite off; no production performance or lightmap acceptance",
+    "No clean editor reload while pre-existing dirty packages remain unresolved",
+    "Blender night rendering is a separate lighting illustration, not a calibrated Unreal photometric comparison"
+  ],
+  "commit_created": false,
+  "pushed": false
+}

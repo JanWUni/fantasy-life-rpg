@@ -1,0 +1,9 @@
+# Weiße Steindetails – Variante 03
+
+Status: **review_ready**. Nutzerauftrag: die helle Farbe der bisherigen linken Wand mit den Oberflächendetails der neuen Materialstudie verbinden.
+
+Links im Refiner-Lab steht nun „WEISS / MIT DETAILS“. Die warme Variante rechts bleibt unverändert. Drei eigene Steinmaterialien korrigieren ausschließlich die Grundfarbe der detaillierten Texturen auf eine visuell neutralweiße Abstimmung: Zielwerte Ivory (0.82, 0.83, 0.82), CarvedStone (0.86, 0.87, 0.86), RecessStone (0.60, 0.64, 0.64), jeweils linear mit 0.96 Helligkeitsfaktor. Faktoren anhand der gemessenen Texturmittelwerte kalibriert; Farbdetails bleiben erhalten. Fugen, mineralische Variation, Normalen und Rauheit der Materialstudie 02 bleiben erhalten. Gold, Azur und Glas verwenden deren bestehende Materialreferenzen. Keine zusätzlichen Texturen, Meshes oder Importe.
+
+Eigene Blender-Kopie mit weißer Variante links und warmer rechts. Bestehende Quelldateien unverändert, Texturpfade relativ auf MaterialStudy_02. Geometrie und UVs nach erneutem Öffnen für alle sechs Komponenten verglichen; Texturpfade geprüft. Unreal-Meshes und Kollisionskörper unverändert. Alle vorhandenen Actors auf Transform, Meshreferenzen und Overrides geprüft: ausschließlich Material-Overrides der linken Vergleichswand sowie deren Beschriftung geändert. Alle vorher vorhandenen Dateien bytegleich außer der ausdrücklich bearbeiteten Lab-Karte. Belege und Hashes in Evidence/, manifest.json und SHA256SUMS.
+
+Ansichten in Previews/ zeigen den tatsächlichen Blender-/Unreal-Vergleich. Häuser und bestehende gemeinsame Materialien bleiben unverändert. Kein Commit oder Push. Künstlerische Abnahme und die bisherigen Produktions-/Performanceprüfungen sowie ein späterer sauberer Editor-Neustart bleiben offen; kein Verwerfen vorhandener ungespeicherter Editorzustände.

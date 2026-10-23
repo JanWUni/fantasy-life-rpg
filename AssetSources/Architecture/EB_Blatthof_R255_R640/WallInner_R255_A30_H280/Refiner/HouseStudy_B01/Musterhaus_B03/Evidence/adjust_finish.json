@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "floor_instances_corrected": 31,
+  "lamp_default_lumens": {
+    "Lantern": 24,
+    "Pendant": 90,
+    "WallLantern": 40
+  },
+  "temperature_K": 3000,
+  "reason": "Actual first render exposed excessive lamp dominance and the old Stone slot on the floor; corrected before review"
+}

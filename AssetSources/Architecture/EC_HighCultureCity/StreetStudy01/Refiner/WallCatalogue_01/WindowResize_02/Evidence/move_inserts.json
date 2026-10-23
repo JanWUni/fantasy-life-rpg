@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "installed_inserts": [
+    {
+      "label": "Lab_WC01_A_WindowFrame_140x40x157",
+      "position_cm": [
+        -2050,
+        3000,
+        137
+      ]
+    },
+    {
+      "label": "Lab_WC01_A_WindowGlass_Clear_112x2x145",
+      "position_cm": [
+        -2050,
+        3000,
+        137
+      ]
+    },
+    {
+      "label": "Lab_WC01_B_WindowFrame_140x40x157",
+      "position_cm": [
+        -1050,
+        3000,
+        137
+      ]
+    },
+    {
+      "label": "Lab_WC01_B_WindowGlass_Clear_112x2x145",
+      "position_cm": [
+        -1050,
+        3000,
+        137
+      ]
+    },
+    {
+      "label": "Lab_WC01_C_WindowFrame_140x40x157",
+      "position_cm": [
+        -50,
+        3000,
+        137
+      ]
+    },
+    {
+      "label": "Lab_WC01_C_WindowGlass_Clear_112x2x145",
+      "position_cm": [
+        -50,
+        3000,
+        137
+      ]
+    }
+  ],
+  "house_changes": 0
+}

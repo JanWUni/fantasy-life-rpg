@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "material": "/Game/Art/Materials/ElvenHouseB01/M_EH_Glass_Clear",
+  "shader": "Substrate Slab BSDF SimpleVolume + TransmittanceToMFP",
+  "normal_incidence_transmittance_rgb": [
+    0.97,
+    0.985,
+    1
+  ],
+  "roughness": 0.06,
+  "refraction": "Unconnected; no screen-space distortion",
+  "inputs": [
+    "Diffuse Albedo",
+    "F0",
+    "F90",
+    "Roughness",
+    "Anisotropy",
+    "Normal",
+    "Tangent",
+    "SSS MFP",
+    "SSS MFP Scale",
+    "SSS Phase Anisotropy",
+    "Emissive Color",
+    "Second Roughness",
+    "Second Roughness Weight",
+    "Fuzz Roughness",
+    "Fuzz Amount",
+    "Fuzz Color",
+    "Glint Density (Disabled)",
+    "Glint UVs (Disabled)"
+  ],
+  "mfp_inputs": [
+    "TransmittanceColor",
+    "Thickness"
+  ],
+  "mfp_outputs": [
+    "MFP",
+    "Thickness"
+  ]
+}

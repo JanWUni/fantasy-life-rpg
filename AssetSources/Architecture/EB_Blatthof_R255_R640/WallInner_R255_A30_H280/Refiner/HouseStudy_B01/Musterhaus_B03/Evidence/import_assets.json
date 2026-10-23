@@ -1,0 +1,173 @@
+{
+  "materials": {
+    "Plaster": {
+      "refPath": "/Game/Art/Materials/ElvenHouseB03/M_EH03_Plaster.M_EH03_Plaster"
+    },
+    "Timber": {
+      "refPath": "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber.M_EH03_Timber"
+    },
+    "Stone": {
+      "refPath": "/Game/Art/Materials/ElvenHouseB03/M_EH03_Stone.M_EH03_Stone"
+    },
+    "Jade": {
+      "refPath": "/Game/Art/Materials/ElvenHouseB03/M_EH03_Jade.M_EH03_Jade"
+    },
+    "Floor": {
+      "refPath": "/Game/Art/Materials/ElvenHouseB03/M_EH03_Floor.M_EH03_Floor"
+    },
+    "Linen": {
+      "refPath": "/Game/Art/Materials/ElvenHouseB03/M_EH03_Linen.M_EH03_Linen"
+    },
+    "Blanket": {
+      "refPath": "/Game/Art/Materials/ElvenHouseB03/M_EH03_Blanket.M_EH03_Blanket"
+    },
+    "Iron": {
+      "refPath": "/Game/Art/Materials/ElvenHouseB03/M_EH03_Iron.M_EH03_Iron"
+    },
+    "Bronze": {
+      "refPath": "/Game/Art/Materials/ElvenHouseB03/M_EH03_Bronze.M_EH03_Bronze"
+    },
+    "Book": {
+      "refPath": "/Game/Art/Materials/ElvenHouseB03/M_EH03_Book.M_EH03_Book"
+    },
+    "Flame": {
+      "refPath": "/Game/Art/Materials/ElvenHouseB03/M_EH03_Flame.M_EH03_Flame"
+    }
+  },
+  "meshes": {
+    "SM_EH03_Table_180x100x77": {
+      "refPath": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Table_180x100x77.SM_EH03_Table_180x100x77"
+    },
+    "SM_EH03_Chair_47x49x94": {
+      "refPath": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Chair_47x49x94.SM_EH03_Chair_47x49x94"
+    },
+    "SM_EH03_Bed_160x215x101": {
+      "refPath": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Bed_160x215x101.SM_EH03_Bed_160x215x101"
+    },
+    "SM_EH03_Wardrobe_120x55x210": {
+      "refPath": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Wardrobe_120x55x210.SM_EH03_Wardrobe_120x55x210"
+    },
+    "SM_EH03_Sideboard_140x45x90": {
+      "refPath": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Sideboard_140x45x90.SM_EH03_Sideboard_140x45x90"
+    },
+    "SM_EH03_Bookcase_90x35x190": {
+      "refPath": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Bookcase_90x35x190.SM_EH03_Bookcase_90x35x190"
+    },
+    "SM_EH03_Bench_120x45x46": {
+      "refPath": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Bench_120x45x46.SM_EH03_Bench_120x45x46"
+    },
+    "SM_EH03_SideTable_55x45x49": {
+      "refPath": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_SideTable_55x45x49.SM_EH03_SideTable_55x45x49"
+    },
+    "SM_EH03_Workbench_140x65x91": {
+      "refPath": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Workbench_140x65x91.SM_EH03_Workbench_140x65x91"
+    },
+    "SM_EH03_Chest_94x49x52": {
+      "refPath": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Chest_94x49x52.SM_EH03_Chest_94x49x52"
+    },
+    "SM_EH03_Rug_240x180": {
+      "refPath": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Rug_240x180.SM_EH03_Rug_240x180"
+    },
+    "SM_EH03_Lantern_24": {
+      "refPath": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Lantern_24.SM_EH03_Lantern_24"
+    },
+    "SM_EH03_Pendant_24": {
+      "refPath": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Pendant_24.SM_EH03_Pendant_24"
+    },
+    "SM_EH03_WallLantern_24": {
+      "refPath": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_WallLantern_24.SM_EH03_WallLantern_24"
+    },
+    "SM_EH03_InteriorWall_200x12x300": {
+      "refPath": "/Game/Art/Architecture/ElvenHouseB03/Meshes/SM_EH03_InteriorWall_200x12x300.SM_EH03_InteriorWall_200x12x300"
+    },
+    "SM_EH03_InteriorDoorway_200x12x300": {
+      "refPath": "/Game/Art/Architecture/ElvenHouseB03/Meshes/SM_EH03_InteriorDoorway_200x12x300.SM_EH03_InteriorDoorway_200x12x300"
+    },
+    "SM_EH03_InteriorWall_152x12x300": {
+      "refPath": "/Game/Art/Architecture/ElvenHouseB03/Meshes/SM_EH03_InteriorWall_152x12x300.SM_EH03_InteriorWall_152x12x300"
+    },
+    "SM_EH03_InteriorWall_56x12x300": {
+      "refPath": "/Game/Art/Architecture/ElvenHouseB03/Meshes/SM_EH03_InteriorWall_56x12x300.SM_EH03_InteriorWall_56x12x300"
+    },
+    "SM_EH03_Ceiling_238x228x16": {
+      "refPath": "/Game/Art/Architecture/ElvenHouseB03/Meshes/SM_EH03_Ceiling_238x228x16.SM_EH03_Ceiling_238x228x16"
+    }
+  },
+  "lamps": {
+    "Lantern": {
+      "refPath": "/Game/Art/Furniture/ElvenHouseB03/Blueprints/BP_EH03_Lantern.BP_EH03_Lantern"
+    },
+    "Pendant": {
+      "refPath": "/Game/Art/Furniture/ElvenHouseB03/Blueprints/BP_EH03_Pendant.BP_EH03_Pendant"
+    },
+    "WallLantern": {
+      "refPath": "/Game/Art/Furniture/ElvenHouseB03/Blueprints/BP_EH03_WallLantern.BP_EH03_WallLantern"
+    }
+  },
+  "saved": [
+    "/Game/Art/Materials/ElvenHouseB03/M_EH03_Plaster",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Plaster_BaseColor",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Plaster_Roughness",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Plaster_Normal",
+    "/Game/Art/Materials/ElvenHouseB03/M_EH03_Timber",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Timber_BaseColor",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Timber_Roughness",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Timber_Normal",
+    "/Game/Art/Materials/ElvenHouseB03/M_EH03_Stone",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Stone_BaseColor",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Stone_Roughness",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Stone_Normal",
+    "/Game/Art/Materials/ElvenHouseB03/M_EH03_Jade",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Jade_BaseColor",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Jade_Roughness",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Jade_Normal",
+    "/Game/Art/Materials/ElvenHouseB03/M_EH03_Floor",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Floor_BaseColor",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Floor_Roughness",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Floor_Normal",
+    "/Game/Art/Materials/ElvenHouseB03/M_EH03_Linen",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Linen_BaseColor",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Linen_Roughness",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Linen_Normal",
+    "/Game/Art/Materials/ElvenHouseB03/M_EH03_Blanket",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Blanket_BaseColor",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Blanket_Roughness",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Blanket_Normal",
+    "/Game/Art/Materials/ElvenHouseB03/M_EH03_Iron",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Iron_BaseColor",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Iron_Roughness",
+    "/Game/Art/Materials/ElvenHouseB03/M_EH03_Bronze",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Bronze_BaseColor",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Bronze_Roughness",
+    "/Game/Art/Materials/ElvenHouseB03/M_EH03_Book",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Book_BaseColor",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Book_Roughness",
+    "/Game/Art/Materials/ElvenHouseB03/M_EH03_Flame",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Flame_BaseColor",
+    "/Game/Art/Textures/ElvenHouseB03/T_EH03_Flame_Roughness",
+    "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Table_180x100x77",
+    "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Chair_47x49x94",
+    "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Bed_160x215x101",
+    "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Wardrobe_120x55x210",
+    "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Sideboard_140x45x90",
+    "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Bookcase_90x35x190",
+    "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Bench_120x45x46",
+    "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_SideTable_55x45x49",
+    "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Workbench_140x65x91",
+    "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Chest_94x49x52",
+    "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Rug_240x180",
+    "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Lantern_24",
+    "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Pendant_24",
+    "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_WallLantern_24",
+    "/Game/Art/Architecture/ElvenHouseB03/Meshes/SM_EH03_InteriorWall_200x12x300",
+    "/Game/Art/Architecture/ElvenHouseB03/Meshes/SM_EH03_InteriorDoorway_200x12x300",
+    "/Game/Art/Architecture/ElvenHouseB03/Meshes/SM_EH03_InteriorWall_152x12x300",
+    "/Game/Art/Architecture/ElvenHouseB03/Meshes/SM_EH03_InteriorWall_56x12x300",
+    "/Game/Art/Architecture/ElvenHouseB03/Meshes/SM_EH03_Ceiling_238x228x16",
+    "/Game/Art/Furniture/ElvenHouseB03/Blueprints/BP_EH03_Lantern",
+    "/Game/Art/Furniture/ElvenHouseB03/Blueprints/BP_EH03_Pendant",
+    "/Game/Art/Furniture/ElvenHouseB03/Blueprints/BP_EH03_WallLantern"
+  ],
+  "importer": "Legacy FbxFactory",
+  "lamp_shadow_policy": "Fixture component does not cast a shadow onto its internal point source; room geometry casts shadows normally"
+}

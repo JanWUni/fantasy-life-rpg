@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "parent_file": "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Refiner/StreetStudy01_Refined.blend",
+  "current_sha256": "357d825d238932aca9ab99219ee5805a8a897beabb6a59f35017c560bfc9c4c1",
+  "input_sha256": "a06d690392e6c65dd3189d69dff14cb4135e8bf353c481a70bd0b3100befc46a",
+  "changes": {
+    "meshes": [],
+    "objects": [],
+    "other_materials": []
+  },
+  "geometry_slots_uvs_transforms_and_other_materials_equal": true,
+  "parent_glass_equal_to_input": true,
+  "source_frame": 0,
+  "scope": "Read-only audit; parent source saved outside glass task, never restored or overwritten by refiner"
+}

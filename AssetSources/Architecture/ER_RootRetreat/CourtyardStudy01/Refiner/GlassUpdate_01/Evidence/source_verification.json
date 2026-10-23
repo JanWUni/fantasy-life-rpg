@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "source_reopened": true,
+  "all_mesh_geometry_uvs_slot_indices_and_instance_transforms_exact": true,
+  "other_materials_exact": true,
+  "glass_node_graph_verified": true,
+  "pane_object": "ER_WestWing_RetreatWindowGlass_65x80",
+  "glass_volume_rays": [
+    {
+      "local_x": -0.2,
+      "local_z": 0.15,
+      "thickness_m": 0.030000046308427078
+    },
+    {
+      "local_x": 0.2,
+      "local_z": 0.15,
+      "thickness_m": 0.030000016234500288
+    },
+    {
+      "local_x": -0.2,
+      "local_z": 0.65,
+      "thickness_m": 0.030000016234500288
+    },
+    {
+      "local_x": 0.2,
+      "local_z": 0.65,
+      "thickness_m": 0.02999998616054335
+    }
+  ],
+  "original_fbx_and_ucx_unchanged": true,
+  "unreal_import": false
+}

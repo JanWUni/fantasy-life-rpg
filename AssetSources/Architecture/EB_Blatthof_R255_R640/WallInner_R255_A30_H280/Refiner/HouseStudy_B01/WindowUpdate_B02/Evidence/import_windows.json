@@ -1,0 +1,29 @@
+{
+  "meshes": {
+    "SM_EH_Wall_WindowOpening_200x24x320": {
+      "refPath": "/Game/Art/Architecture/ElvenHouseB01/Windows/Meshes/SM_EH_Wall_WindowOpening_200x24x320.SM_EH_Wall_WindowOpening_200x24x320"
+    },
+    "SM_EH_WindowFrame_Arch_100x173": {
+      "refPath": "/Game/Art/Architecture/ElvenHouseB01/Windows/Meshes/SM_EH_WindowFrame_Arch_100x173.SM_EH_WindowFrame_Arch_100x173"
+    },
+    "SM_EH_WindowGlass_Arch_100x173": {
+      "refPath": "/Game/Art/Architecture/ElvenHouseB01/Windows/Meshes/SM_EH_WindowGlass_Arch_100x173.SM_EH_WindowGlass_Arch_100x173"
+    }
+  },
+  "material": {
+    "refPath": "/Game/Art/Materials/ElvenHouseB01/M_EH_Glass_Clear.M_EH_Glass_Clear"
+  },
+  "blueprint": {
+    "refPath": "/Game/Art/Architecture/ElvenHouseB01/Windows/BP_EH_Window_Arch_100x173.BP_EH_Window_Arch_100x173"
+  },
+  "components": {
+    "Frame": {
+      "refPath": "/Game/Art/Architecture/ElvenHouseB01/Windows/BP_EH_Window_Arch_100x173.BP_EH_Window_Arch_100x173_C:Frame_GEN_VARIABLE"
+    },
+    "Glazing": {
+      "refPath": "/Game/Art/Architecture/ElvenHouseB01/Windows/BP_EH_Window_Arch_100x173.BP_EH_Window_Arch_100x173_C:Glazing_GEN_VARIABLE"
+    }
+  },
+  "glazing_shadow_policy": "Frame casts shadows; clear glazing does not cast opaque shadows or affect distance-field lighting",
+  "source_materials_unchanged": true
+}

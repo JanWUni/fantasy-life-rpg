@@ -1,0 +1,34 @@
+{
+  "Plaster_Warm": {
+    "path": "/Game/Art/Materials/ElvenHouseB03/MI_EH03_Plaster_Warm",
+    "tint": [
+      1.04,
+      0.99,
+      0.91
+    ]
+  },
+  "Plaster_Cool": {
+    "path": "/Game/Art/Materials/ElvenHouseB03/MI_EH03_Plaster_Cool",
+    "tint": [
+      0.94,
+      0.98,
+      1.04
+    ]
+  },
+  "Timber_Dark": {
+    "path": "/Game/Art/Materials/ElvenHouseB03/MI_EH03_Timber_Dark",
+    "tint": [
+      0.76,
+      0.82,
+      0.86
+    ]
+  },
+  "Timber_Honey": {
+    "path": "/Game/Art/Materials/ElvenHouseB03/MI_EH03_Timber_Honey",
+    "tint": [
+      1.13,
+      1.06,
+      0.94
+    ]
+  }
+}

@@ -1,0 +1,465 @@
+{
+  "status": "passed",
+  "map": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab",
+  "existing_actors_preserved": 399,
+  "new_assembly_actors": 2,
+  "assemblies": {
+    "A": {
+      "actor": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EC_StreetStudy01_C_0",
+      "component_count": 21,
+      "instances": 470,
+      "glass_panes_physically_checked": 24,
+      "meshes": {
+        "SM_EC_Facade_700x390": {
+          "instances": 3,
+          "max_instance_position_error_cm": 0,
+          "triangles": 164,
+          "convex_ucx": 23,
+          "simple_primitives": 0
+        },
+        "SM_EC_SideWall_800x390": {
+          "instances": 6,
+          "max_instance_position_error_cm": 0,
+          "triangles": 100,
+          "convex_ucx": 13,
+          "simple_primitives": 0
+        },
+        "SM_EC_RearWall_700x390": {
+          "instances": 3,
+          "max_instance_position_error_cm": 0,
+          "triangles": 100,
+          "convex_ucx": 13,
+          "simple_primitives": 0
+        },
+        "SM_EC_Floor_700x800": {
+          "instances": 3,
+          "max_instance_position_error_cm": 0,
+          "triangles": 12,
+          "convex_ucx": 1,
+          "simple_primitives": 0
+        },
+        "SM_EC_HipRoof_790x890": {
+          "instances": 2,
+          "max_instance_position_error_cm": 0,
+          "triangles": 12,
+          "convex_ucx": 1,
+          "simple_primitives": 0
+        },
+        "SM_EC_HipRoof_LowVariant_790x890": {
+          "instances": 1,
+          "max_instance_position_error_cm": 0,
+          "triangles": 12,
+          "convex_ucx": 1,
+          "simple_primitives": 0
+        },
+        "SM_EC_PorchPosts_220x270": {
+          "instances": 1,
+          "max_instance_position_error_cm": 0,
+          "triangles": 120,
+          "convex_ucx": 2,
+          "simple_primitives": 0
+        },
+        "SM_EC_PorchRoof_240x150": {
+          "instances": 1,
+          "max_instance_position_error_cm": 0,
+          "triangles": 12,
+          "convex_ucx": 1,
+          "simple_primitives": 0
+        },
+        "SM_EC_StoneDressings": {
+          "instances": 3,
+          "max_instance_position_error_cm": 0,
+          "triangles": 344,
+          "convex_ucx": 0,
+          "simple_primitives": 0
+        },
+        "SM_EC_EntryWoodArch": {
+          "instances": 3,
+          "max_instance_position_error_cm": 0,
+          "triangles": 236,
+          "convex_ucx": 0,
+          "simple_primitives": 0
+        },
+        "SM_EC_TreeRelief": {
+          "instances": 3,
+          "max_instance_position_error_cm": 0,
+          "triangles": 268,
+          "convex_ucx": 0,
+          "simple_primitives": 0
+        },
+        "SM_EC_DoorLeaf_140x235": {
+          "instances": 3,
+          "max_instance_position_error_cm": 0,
+          "triangles": 60,
+          "convex_ucx": 1,
+          "simple_primitives": 0
+        },
+        "SM_EC_CityWindowFrame_65x80": {
+          "instances": 24,
+          "max_instance_position_error_cm": 0,
+          "triangles": 124,
+          "convex_ucx": 0,
+          "simple_primitives": 0
+        },
+        "SM_EC_CityWindowGlass_65x80": {
+          "instances": 24,
+          "max_instance_position_error_cm": 0,
+          "triangles": 12,
+          "convex_ucx": 0,
+          "simple_primitives": 1
+        },
+        "SM_EC_CityShutter_32x84": {
+          "instances": 12,
+          "max_instance_position_error_cm": 0,
+          "triangles": 60,
+          "convex_ucx": 0,
+          "simple_primitives": 0
+        },
+        "SM_EC_Paving_120x80": {
+          "instances": 315,
+          "max_instance_position_error_cm": 0,
+          "triangles": 12,
+          "convex_ucx": 0,
+          "simple_primitives": 1
+        },
+        "SM_EC_GroundBase_3200x3000": {
+          "instances": 1,
+          "max_instance_position_error_cm": 0,
+          "triangles": 12,
+          "convex_ucx": 1,
+          "simple_primitives": 0
+        },
+        "SM_EC_Curb_100x20": {
+          "instances": 56,
+          "max_instance_position_error_cm": 0,
+          "triangles": 12,
+          "convex_ucx": 0,
+          "simple_primitives": 0
+        },
+        "SM_EC_PlanterRim": {
+          "instances": 2,
+          "max_instance_position_error_cm": 0,
+          "triangles": 60,
+          "convex_ucx": 0,
+          "simple_primitives": 0
+        },
+        "SM_EC_StreetTreeTrunk": {
+          "instances": 2,
+          "max_instance_position_error_cm": 0,
+          "triangles": 342,
+          "convex_ucx": 0,
+          "simple_primitives": 0
+        },
+        "SM_EC_StreetTreeCrown": {
+          "instances": 2,
+          "max_instance_position_error_cm": 0,
+          "triangles": 1200,
+          "convex_ucx": 0,
+          "simple_primitives": 0
+        }
+      }
+    },
+    "B": {
+      "actor": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_ER_CourtyardStudy01_C_0",
+      "component_count": 27,
+      "instances": 318,
+      "glass_panes_physically_checked": 14,
+      "meshes": {
+        "SM_ER_WingWindowFacade_640x280_v02": {
+          "instances": 2,
+          "max_instance_position_error_cm": 0,
+          "triangles": 200,
+          "convex_ucx": 29,
+          "simple_primitives": 0
+        },
+        "SM_ER_WingRear_640x280": {
+          "instances": 2,
+          "max_instance_position_error_cm": 0,
+          "triangles": 100,
+          "convex_ucx": 13,
+          "simple_primitives": 0
+        },
+        "SM_ER_WingSide_550x311": {
+          "instances": 2,
+          "max_instance_position_error_cm": 0,
+          "triangles": 100,
+          "convex_ucx": 13,
+          "simple_primitives": 0
+        },
+        "SM_ER_WingInternalLink_550x311_v02": {
+          "instances": 2,
+          "max_instance_position_error_cm": 0,
+          "triangles": 44,
+          "convex_ucx": 5,
+          "simple_primitives": 0
+        },
+        "SM_ER_WingRootVault_720x620": {
+          "instances": 2,
+          "max_instance_position_error_cm": 0,
+          "triangles": 100,
+          "convex_ucx": 12,
+          "simple_primitives": 0
+        },
+        "SM_ER_WingCrownFill": {
+          "instances": 4,
+          "max_instance_position_error_cm": 0,
+          "triangles": 100,
+          "convex_ucx": 12,
+          "simple_primitives": 0
+        },
+        "SM_ER_DoorLeaf_140x230": {
+          "instances": 1,
+          "max_instance_position_error_cm": 0,
+          "triangles": 60,
+          "convex_ucx": 1,
+          "simple_primitives": 0
+        },
+        "SM_ER_RootDoorArch": {
+          "instances": 3,
+          "max_instance_position_error_cm": 0,
+          "triangles": 376,
+          "convex_ucx": 0,
+          "simple_primitives": 0
+        },
+        "SM_ER_RetreatWindowFrame_65x80": {
+          "instances": 14,
+          "max_instance_position_error_cm": 0,
+          "triangles": 124,
+          "convex_ucx": 0,
+          "simple_primitives": 0
+        },
+        "SM_ER_RetreatWindowGlass_65x80": {
+          "instances": 14,
+          "max_instance_position_error_cm": 0,
+          "triangles": 12,
+          "convex_ucx": 0,
+          "simple_primitives": 1
+        },
+        "SM_ER_RetreatShutter_32x84": {
+          "instances": 0,
+          "max_instance_position_error_cm": 0,
+          "triangles": 60,
+          "convex_ucx": 0,
+          "simple_primitives": 0
+        },
+        "SM_ER_WingRootRibs": {
+          "instances": 2,
+          "max_instance_position_error_cm": 0,
+          "triangles": 900,
+          "convex_ucx": 0,
+          "simple_primitives": 0
+        },
+        "SM_ER_WingClosedStoneSill_v02": {
+          "instances": 2,
+          "max_instance_position_error_cm": 0,
+          "triangles": 12,
+          "convex_ucx": 0,
+          "simple_primitives": 0
+        },
+        "SM_ER_OldCoreLinkedShell_R260_H430_v02": {
+          "instances": 1,
+          "max_instance_position_error_cm": 0,
+          "triangles": 444,
+          "convex_ucx": 68,
+          "simple_primitives": 0
+        },
+        "SM_ER_OldCoreCrown_640x620": {
+          "instances": 1,
+          "max_instance_position_error_cm": 0,
+          "triangles": 336,
+          "convex_ucx": 1,
+          "simple_primitives": 0
+        },
+        "SM_ER_LivingOldTrunk": {
+          "instances": 1,
+          "max_instance_position_error_cm": 0,
+          "triangles": 332,
+          "convex_ucx": 0,
+          "simple_primitives": 0
+        },
+        "SM_ER_OldButtressRoots": {
+          "instances": 1,
+          "max_instance_position_error_cm": 0,
+          "triangles": 904,
+          "convex_ucx": 0,
+          "simple_primitives": 0
+        },
+        "SM_ER_OldTreeCanopy": {
+          "instances": 1,
+          "max_instance_position_error_cm": 0,
+          "triangles": 2080,
+          "convex_ucx": 0,
+          "simple_primitives": 0
+        },
+        "SM_ER_YoungLivingTrunk": {
+          "instances": 2,
+          "max_instance_position_error_cm": 0,
+          "triangles": 144,
+          "convex_ucx": 0,
+          "simple_primitives": 0
+        },
+        "SM_ER_YoungTreeCrown": {
+          "instances": 2,
+          "max_instance_position_error_cm": 0,
+          "triangles": 400,
+          "convex_ucx": 0,
+          "simple_primitives": 0
+        },
+        "SM_ER_LinkingRootArches": {
+          "instances": 1,
+          "max_instance_position_error_cm": 0,
+          "triangles": 208,
+          "convex_ucx": 0,
+          "simple_primitives": 0
+        },
+        "SM_ER_Ground_2600x2300": {
+          "instances": 1,
+          "max_instance_position_error_cm": 0,
+          "triangles": 12,
+          "convex_ucx": 1,
+          "simple_primitives": 0
+        },
+        "SM_ER_CourtStone_100x70": {
+          "instances": 250,
+          "max_instance_position_error_cm": 0,
+          "triangles": 12,
+          "convex_ucx": 0,
+          "simple_primitives": 1
+        },
+        "SM_ER_Bench_210x56": {
+          "instances": 2,
+          "max_instance_position_error_cm": 0,
+          "triangles": 180,
+          "convex_ucx": 0,
+          "simple_primitives": 0
+        },
+        "SM_ER_HerbBed_250x140": {
+          "instances": 2,
+          "max_instance_position_error_cm": 0,
+          "triangles": 32,
+          "convex_ucx": 0,
+          "simple_primitives": 0
+        },
+        "SM_ER_HerbClusters": {
+          "instances": 2,
+          "max_instance_position_error_cm": 0,
+          "triangles": 576,
+          "convex_ucx": 0,
+          "simple_primitives": 0
+        },
+        "SM_ER_ConnectedFloor_v02": {
+          "instances": 1,
+          "max_instance_position_error_cm": 0,
+          "triangles": 164,
+          "convex_ucx": 3,
+          "simple_primitives": 0
+        }
+      }
+    }
+  },
+  "capsule_probes": [
+    {
+      "study": "A",
+      "name": "House_A",
+      "capsule_clear": true,
+      "radius_cm": 35.0,
+      "half_height_cm": 90.0,
+      "from_blender_m": [
+        -3.5,
+        -3.061616997868383e-16,
+        0.92
+      ],
+      "to_blender_m": [
+        -5.7,
+        -1.7145055188062944e-16,
+        0.92
+      ]
+    },
+    {
+      "study": "A",
+      "name": "House_B",
+      "capsule_clear": true,
+      "radius_cm": 35.0,
+      "half_height_cm": 90.0,
+      "from_blender_m": [
+        -3.5,
+        10.0,
+        0.92
+      ],
+      "to_blender_m": [
+        -5.7,
+        10.0,
+        0.92
+      ]
+    },
+    {
+      "study": "A",
+      "name": "House_C",
+      "capsule_clear": true,
+      "radius_cm": 35.0,
+      "half_height_cm": 90.0,
+      "from_blender_m": [
+        3.5,
+        5.0,
+        0.92
+      ],
+      "to_blender_m": [
+        5.7,
+        5.0,
+        0.92
+      ]
+    },
+    {
+      "study": "B",
+      "name": "WestWing",
+      "capsule_clear": true,
+      "radius_cm": 35.0,
+      "half_height_cm": 90.0,
+      "from_blender_m": [
+        -3.0546309981654858,
+        3.180220772955602,
+        0.92
+      ],
+      "to_blender_m": [
+        -0.022373435890688853,
+        2.535694531420548,
+        0.92
+      ]
+    },
+    {
+      "study": "B",
+      "name": "EastWing",
+      "capsule_clear": true,
+      "radius_cm": 35.0,
+      "half_height_cm": 90.0,
+      "from_blender_m": [
+        3.0546309981654858,
+        3.180220772955602,
+        0.92
+      ],
+      "to_blender_m": [
+        0.022373435890688853,
+        2.535694531420548,
+        0.92
+      ]
+    },
+    {
+      "study": "B",
+      "name": "OldCore",
+      "capsule_clear": true,
+      "radius_cm": 35.0,
+      "half_height_cm": 90.0,
+      "from_blender_m": [
+        0.0,
+        -0.6000000000000001,
+        0.92
+      ],
+      "to_blender_m": [
+        0.0,
+        1.5999999999999999,
+        0.92
+      ]
+    }
+  ],
+  "scope": "Editor world, actual source UCX and added primitive collision, not keyboard gameplay or production acceptance"
+}

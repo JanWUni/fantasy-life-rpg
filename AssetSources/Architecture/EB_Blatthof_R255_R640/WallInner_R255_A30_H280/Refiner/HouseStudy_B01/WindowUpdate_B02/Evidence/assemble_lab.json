@@ -1,0 +1,628 @@
+{
+  "map": "/Game/Prototype/Maps/Lvl_AssetLab",
+  "actors": {
+    "Lab_EH_B02_House_10x12_0": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_1"
+    },
+    "Lab_EH_B02_House_10x12_1": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_37"
+    },
+    "Lab_EH_B02_House_10x12_1_Window": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH_Window_Arch_100x173_C_0"
+    },
+    "Lab_EH_B02_House_10x12_2": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_38"
+    },
+    "Lab_EH_B02_House_10x12_3": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_39"
+    },
+    "Lab_EH_B02_House_10x12_3_Window": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH_Window_Arch_100x173_C_1"
+    },
+    "Lab_EH_B02_House_10x12_4": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_40"
+    },
+    "Lab_EH_B02_House_10x12_5": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_41"
+    },
+    "Lab_EH_B02_House_10x12_6": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_42"
+    },
+    "Lab_EH_B02_House_10x12_7": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_43"
+    },
+    "Lab_EH_B02_House_10x12_7_Window": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH_Window_Arch_100x173_C_2"
+    },
+    "Lab_EH_B02_House_10x12_8": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_44"
+    },
+    "Lab_EH_B02_House_10x12_9": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_45"
+    },
+    "Lab_EH_B02_House_10x12_10": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_46"
+    },
+    "Lab_EH_B02_House_10x12_11": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_47"
+    },
+    "Lab_EH_B02_House_10x12_11_Window": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH_Window_Arch_100x173_C_3"
+    },
+    "Lab_EH_B02_House_10x12_12": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_48"
+    },
+    "Lab_EH_B02_House_10x12_13": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_49"
+    },
+    "Lab_EH_B02_House_10x12_14": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_50"
+    },
+    "Lab_EH_B02_House_10x12_15": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_51"
+    },
+    "Lab_EH_B02_House_10x12_15_Window": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH_Window_Arch_100x173_C_4"
+    },
+    "Lab_EH_B02_House_10x12_16": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_52"
+    },
+    "Lab_EH_B02_House_10x12_17": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_53"
+    },
+    "Lab_EH_B02_House_10x12_18": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_54"
+    },
+    "Lab_EH_B02_House_10x12_18_Window": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH_Window_Arch_100x173_C_5"
+    },
+    "Lab_EH_B02_House_10x12_19": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_55"
+    },
+    "Lab_EH_B02_House_10x12_20": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_56"
+    },
+    "Lab_EH_B02_House_10x12_20_Window": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH_Window_Arch_100x173_C_6"
+    },
+    "Lab_EH_B02_House_10x12_21": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_57"
+    },
+    "Lab_EH_B02_House_10x12_22": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_58"
+    },
+    "Lab_EH_B02_House_10x12_23": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_59"
+    },
+    "Lab_EH_B02_House_10x12_24": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_60"
+    },
+    "Lab_EH_B02_House_10x12_24_Window": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH_Window_Arch_100x173_C_7"
+    },
+    "Lab_EH_B02_House_10x12_25": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_61"
+    },
+    "Lab_EH_B02_House_10x12_26": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_62"
+    },
+    "Lab_EH_B02_House_10x12_27": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_63"
+    },
+    "Lab_EH_B02_House_10x12_28": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_64"
+    },
+    "Lab_EH_B02_House_10x12_28_Window": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH_Window_Arch_100x173_C_8"
+    },
+    "Lab_EH_B02_House_10x12_29": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_65"
+    },
+    "Lab_EH_B02_House_10x12_30": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_66"
+    },
+    "Lab_EH_B02_House_10x12_31": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_67"
+    },
+    "Lab_EH_B02_House_10x12_32": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_68"
+    },
+    "Lab_EH_B02_House_10x12_32_Window": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH_Window_Arch_100x173_C_9"
+    },
+    "Lab_EH_B02_House_10x12_33": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_69"
+    },
+    "Lab_EH_B02_House_10x12_34": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_70"
+    },
+    "Lab_EH_B02_House_10x12_35": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_71"
+    },
+    "Lab_EH_B02_House_10x12_36": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_72"
+    },
+    "Lab_EH_B02_House_10x12_37": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_73"
+    },
+    "Lab_EH_B02_House_10x12_38": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_74"
+    },
+    "Lab_EH_B02_House_10x12_39": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_75"
+    },
+    "Lab_EH_B02_House_10x12_40": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_76"
+    },
+    "Lab_EH_B02_House_10x12_41": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_77"
+    },
+    "Lab_EH_B02_House_10x12_42": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_78"
+    },
+    "Lab_EH_B02_House_10x12_43": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_79"
+    },
+    "Lab_EH_B02_House_10x12_44": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_80"
+    },
+    "Lab_EH_B02_House_10x12_45": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_81"
+    },
+    "Lab_EH_B02_House_10x12_46": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_82"
+    },
+    "Lab_EH_B02_House_10x12_47": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_83"
+    },
+    "Lab_EH_B02_House_10x12_48": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_84"
+    },
+    "Lab_EH_B02_House_10x12_49": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_85"
+    },
+    "Lab_EH_B02_House_10x12_50": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_86"
+    },
+    "Lab_EH_B02_House_10x12_51": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_87"
+    },
+    "Lab_EH_B02_House_10x12_52": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_88"
+    },
+    "Lab_EH_B02_House_10x12_53": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_89"
+    },
+    "Lab_EH_B02_House_10x12_54": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_90"
+    },
+    "Lab_EH_B02_House_10x12_55": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_91"
+    },
+    "Lab_EH_B02_House_10x12_56": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_92"
+    },
+    "Lab_EH_B02_House_10x12_57": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_93"
+    },
+    "Lab_EH_B02_House_10x12_58": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_94"
+    },
+    "Lab_EH_B02_House_10x12_59": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_95"
+    },
+    "Lab_EH_B02_House_10x12_60": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_96"
+    },
+    "Lab_EH_B02_House_10x12_61": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_97"
+    },
+    "Lab_EH_B02_House_10x12_62": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_98"
+    },
+    "Lab_EH_B02_House_10x12_63": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_99"
+    },
+    "Lab_EH_B02_House_10x12_64": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_100"
+    },
+    "Lab_EH_B02_House_10x12_65": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_101"
+    },
+    "Lab_EH_B02_House_10x12_66": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_102"
+    },
+    "Lab_EH_B02_House_10x12_67": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_103"
+    },
+    "Lab_EH_B02_House_10x12_68": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_104"
+    },
+    "Lab_EH_B02_House_10x12_69": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_105"
+    },
+    "Lab_EH_B02_House_10x12_70": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_106"
+    },
+    "Lab_EH_B02_House_10x12_71": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_107"
+    },
+    "Lab_EH_B02_House_10x12_72": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH_ReviewDoor_C_0"
+    },
+    "Lab_EH_B02_House_10x12_73": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_108"
+    },
+    "Lab_EH_B02_House_10x12_74_Step": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_109"
+    },
+    "Lab_EH_B02_House_10x12_75_Step": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_110"
+    },
+    "Lab_EH_B02_House_10x12_76_Step": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_111"
+    },
+    "Lab_EH_B02_House_10x12_Foundation": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_112"
+    },
+    "Lab_EH_B02_House_10x16_Variation_0": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_113"
+    },
+    "Lab_EH_B02_House_10x16_Variation_1": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_114"
+    },
+    "Lab_EH_B02_House_10x16_Variation_1_Window": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH_Window_Arch_100x173_C_10"
+    },
+    "Lab_EH_B02_House_10x16_Variation_2": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_115"
+    },
+    "Lab_EH_B02_House_10x16_Variation_3": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_116"
+    },
+    "Lab_EH_B02_House_10x16_Variation_3_Window": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH_Window_Arch_100x173_C_11"
+    },
+    "Lab_EH_B02_House_10x16_Variation_4": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_117"
+    },
+    "Lab_EH_B02_House_10x16_Variation_5": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_118"
+    },
+    "Lab_EH_B02_House_10x16_Variation_6": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_119"
+    },
+    "Lab_EH_B02_House_10x16_Variation_7": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_120"
+    },
+    "Lab_EH_B02_House_10x16_Variation_7_Window": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH_Window_Arch_100x173_C_12"
+    },
+    "Lab_EH_B02_House_10x16_Variation_8": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_121"
+    },
+    "Lab_EH_B02_House_10x16_Variation_9": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_122"
+    },
+    "Lab_EH_B02_House_10x16_Variation_10": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_123"
+    },
+    "Lab_EH_B02_House_10x16_Variation_11": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_124"
+    },
+    "Lab_EH_B02_House_10x16_Variation_11_Window": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH_Window_Arch_100x173_C_13"
+    },
+    "Lab_EH_B02_House_10x16_Variation_12": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_125"
+    },
+    "Lab_EH_B02_House_10x16_Variation_13": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_126"
+    },
+    "Lab_EH_B02_House_10x16_Variation_14": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_127"
+    },
+    "Lab_EH_B02_House_10x16_Variation_15": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_128"
+    },
+    "Lab_EH_B02_House_10x16_Variation_15_Window": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH_Window_Arch_100x173_C_14"
+    },
+    "Lab_EH_B02_House_10x16_Variation_16": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_129"
+    },
+    "Lab_EH_B02_House_10x16_Variation_17": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_130"
+    },
+    "Lab_EH_B02_House_10x16_Variation_18": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_131"
+    },
+    "Lab_EH_B02_House_10x16_Variation_19": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_132"
+    },
+    "Lab_EH_B02_House_10x16_Variation_19_Window": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH_Window_Arch_100x173_C_15"
+    },
+    "Lab_EH_B02_House_10x16_Variation_20": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_133"
+    },
+    "Lab_EH_B02_House_10x16_Variation_21": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_134"
+    },
+    "Lab_EH_B02_House_10x16_Variation_22": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_135"
+    },
+    "Lab_EH_B02_House_10x16_Variation_22_Window": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH_Window_Arch_100x173_C_16"
+    },
+    "Lab_EH_B02_House_10x16_Variation_23": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_136"
+    },
+    "Lab_EH_B02_House_10x16_Variation_24": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_137"
+    },
+    "Lab_EH_B02_House_10x16_Variation_24_Window": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH_Window_Arch_100x173_C_17"
+    },
+    "Lab_EH_B02_House_10x16_Variation_25": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_138"
+    },
+    "Lab_EH_B02_House_10x16_Variation_26": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_139"
+    },
+    "Lab_EH_B02_House_10x16_Variation_27": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_140"
+    },
+    "Lab_EH_B02_House_10x16_Variation_28": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_141"
+    },
+    "Lab_EH_B02_House_10x16_Variation_28_Window": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH_Window_Arch_100x173_C_18"
+    },
+    "Lab_EH_B02_House_10x16_Variation_29": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_142"
+    },
+    "Lab_EH_B02_House_10x16_Variation_30": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_143"
+    },
+    "Lab_EH_B02_House_10x16_Variation_31": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_144"
+    },
+    "Lab_EH_B02_House_10x16_Variation_32": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_145"
+    },
+    "Lab_EH_B02_House_10x16_Variation_32_Window": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH_Window_Arch_100x173_C_19"
+    },
+    "Lab_EH_B02_House_10x16_Variation_33": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_146"
+    },
+    "Lab_EH_B02_House_10x16_Variation_34": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_147"
+    },
+    "Lab_EH_B02_House_10x16_Variation_35": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_148"
+    },
+    "Lab_EH_B02_House_10x16_Variation_36": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_149"
+    },
+    "Lab_EH_B02_House_10x16_Variation_36_Window": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH_Window_Arch_100x173_C_20"
+    },
+    "Lab_EH_B02_House_10x16_Variation_37": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_150"
+    },
+    "Lab_EH_B02_House_10x16_Variation_38": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_151"
+    },
+    "Lab_EH_B02_House_10x16_Variation_39": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_152"
+    },
+    "Lab_EH_B02_House_10x16_Variation_40": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_153"
+    },
+    "Lab_EH_B02_House_10x16_Variation_40_Window": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH_Window_Arch_100x173_C_21"
+    },
+    "Lab_EH_B02_House_10x16_Variation_41": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_154"
+    },
+    "Lab_EH_B02_House_10x16_Variation_42": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_155"
+    },
+    "Lab_EH_B02_House_10x16_Variation_43": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_156"
+    },
+    "Lab_EH_B02_House_10x16_Variation_44": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_157"
+    },
+    "Lab_EH_B02_House_10x16_Variation_45": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_158"
+    },
+    "Lab_EH_B02_House_10x16_Variation_46": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_159"
+    },
+    "Lab_EH_B02_House_10x16_Variation_47": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_160"
+    },
+    "Lab_EH_B02_House_10x16_Variation_48": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_161"
+    },
+    "Lab_EH_B02_House_10x16_Variation_49": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_162"
+    },
+    "Lab_EH_B02_House_10x16_Variation_50": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_163"
+    },
+    "Lab_EH_B02_House_10x16_Variation_51": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_164"
+    },
+    "Lab_EH_B02_House_10x16_Variation_52": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_165"
+    },
+    "Lab_EH_B02_House_10x16_Variation_53": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_166"
+    },
+    "Lab_EH_B02_House_10x16_Variation_54": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_167"
+    },
+    "Lab_EH_B02_House_10x16_Variation_55": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_168"
+    },
+    "Lab_EH_B02_House_10x16_Variation_56": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_169"
+    },
+    "Lab_EH_B02_House_10x16_Variation_57": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_170"
+    },
+    "Lab_EH_B02_House_10x16_Variation_58": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_171"
+    },
+    "Lab_EH_B02_House_10x16_Variation_59": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_172"
+    },
+    "Lab_EH_B02_House_10x16_Variation_60": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_173"
+    },
+    "Lab_EH_B02_House_10x16_Variation_61": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_174"
+    },
+    "Lab_EH_B02_House_10x16_Variation_62": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_175"
+    },
+    "Lab_EH_B02_House_10x16_Variation_63": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_176"
+    },
+    "Lab_EH_B02_House_10x16_Variation_64": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_177"
+    },
+    "Lab_EH_B02_House_10x16_Variation_65": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_178"
+    },
+    "Lab_EH_B02_House_10x16_Variation_66": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_179"
+    },
+    "Lab_EH_B02_House_10x16_Variation_67": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_180"
+    },
+    "Lab_EH_B02_House_10x16_Variation_68": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_181"
+    },
+    "Lab_EH_B02_House_10x16_Variation_69": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_182"
+    },
+    "Lab_EH_B02_House_10x16_Variation_70": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_183"
+    },
+    "Lab_EH_B02_House_10x16_Variation_71": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_184"
+    },
+    "Lab_EH_B02_House_10x16_Variation_72": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_185"
+    },
+    "Lab_EH_B02_House_10x16_Variation_73": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_186"
+    },
+    "Lab_EH_B02_House_10x16_Variation_74": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_187"
+    },
+    "Lab_EH_B02_House_10x16_Variation_75": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_188"
+    },
+    "Lab_EH_B02_House_10x16_Variation_76": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_189"
+    },
+    "Lab_EH_B02_House_10x16_Variation_77": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_190"
+    },
+    "Lab_EH_B02_House_10x16_Variation_78": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_191"
+    },
+    "Lab_EH_B02_House_10x16_Variation_79": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_192"
+    },
+    "Lab_EH_B02_House_10x16_Variation_80": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_193"
+    },
+    "Lab_EH_B02_House_10x16_Variation_81": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_194"
+    },
+    "Lab_EH_B02_House_10x16_Variation_82": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_195"
+    },
+    "Lab_EH_B02_House_10x16_Variation_83": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_196"
+    },
+    "Lab_EH_B02_House_10x16_Variation_84": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_197"
+    },
+    "Lab_EH_B02_House_10x16_Variation_85": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_198"
+    },
+    "Lab_EH_B02_House_10x16_Variation_86": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_199"
+    },
+    "Lab_EH_B02_House_10x16_Variation_87": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_200"
+    },
+    "Lab_EH_B02_House_10x16_Variation_88": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_201"
+    },
+    "Lab_EH_B02_House_10x16_Variation_89": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_202"
+    },
+    "Lab_EH_B02_House_10x16_Variation_90": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_203"
+    },
+    "Lab_EH_B02_House_10x16_Variation_91": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_204"
+    },
+    "Lab_EH_B02_House_10x16_Variation_92": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH_ReviewDoor_C_1"
+    },
+    "Lab_EH_B02_House_10x16_Variation_93": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_205"
+    },
+    "Lab_EH_B02_House_10x16_Variation_94_Step": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_206"
+    },
+    "Lab_EH_B02_House_10x16_Variation_95_Step": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_207"
+    },
+    "Lab_EH_B02_House_10x16_Variation_96_Step": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_208"
+    },
+    "Lab_EH_B02_House_10x16_Variation_Foundation": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_209"
+    }
+  },
+  "houses": {
+    "House_10x12": {
+      "origin_cm": [
+        -2400,
+        -1900,
+        31
+      ],
+      "windows": 10,
+      "footprint_cm": [
+        1000,
+        1200
+      ]
+    },
+    "House_10x16_Variation": {
+      "origin_cm": [
+        0,
+        -1900,
+        31
+      ],
+      "windows": 12,
+      "footprint_cm": [
+        1000,
+        1600
+      ]
+    }
+  },
+  "existing_actor_count": 67,
+  "existing_actors_not_modified": true,
+  "lighting": "Existing Lab daylight, unchanged; no house fill lights added"
+}

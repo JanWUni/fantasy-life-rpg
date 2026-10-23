@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "file": "Previews/01_window_outside.png",
+  "sha256": "8be1687f41d3f1ca06c6cc7b52e0650c3f711eecbef830c6b42882dd8b4314b9",
+  "source_sha256": "db96f7a9add624b7441e9af944af11e450860921c9bda7d0f87c10f4d0141dde",
+  "cycles_samples": 48,
+  "sun_aimed_at_selected_window": true,
+  "sky_strength": 0.45,
+  "no_interior_fill_lights": true,
+  "temporary_control_only": false,
+  "temporary_setup_not_saved": true
+}

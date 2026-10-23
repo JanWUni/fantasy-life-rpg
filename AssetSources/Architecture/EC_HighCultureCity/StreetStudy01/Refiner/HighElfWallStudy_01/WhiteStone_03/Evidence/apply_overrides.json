@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "components": {
+    "WallCore": [
+      {
+        "refPath": "/Game/Art/Materials/HighElfWallStudy03/M_HE03_Ivory.M_HE03_Ivory"
+      }
+    ],
+    "StoneCarving": [
+      {
+        "refPath": "/Game/Art/Materials/HighElfWallStudy03/M_HE03_RecessStone.M_HE03_RecessStone"
+      },
+      {
+        "refPath": "/Game/Art/Materials/HighElfWallStudy03/M_HE03_CarvedStone.M_HE03_CarvedStone"
+      }
+    ],
+    "GoldInlay": [
+      {
+        "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_Gold.M_HE02_Gold"
+      }
+    ],
+    "BlueInlay": [
+      {
+        "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_Gold.M_HE02_Gold"
+      },
+      {
+        "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_Azure.M_HE02_Azure"
+      }
+    ],
+    "WindowFrame": [
+      {
+        "refPath": "/Game/Art/Materials/HighElfWallStudy03/M_HE03_CarvedStone.M_HE03_CarvedStone"
+      },
+      {
+        "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_Gold.M_HE02_Gold"
+      }
+    ],
+    "ClearGlass": [
+      {
+        "refPath": "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass.M_HE02_ClearGlass"
+      }
+    ]
+  }
+}

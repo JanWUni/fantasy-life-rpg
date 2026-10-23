@@ -1,0 +1,1162 @@
+{
+  "status": "passed",
+  "materials": {
+    "BarkOld": {
+      "refPath": "/Game/Art/Materials/StudyAB_Review01/M_AB_BarkOld.M_AB_BarkOld"
+    },
+    "BarkYoung": {
+      "refPath": "/Game/Art/Materials/StudyAB_Review01/M_AB_BarkYoung.M_AB_BarkYoung"
+    },
+    "Glass": {
+      "refPath": "/Game/Art/Materials/StudyAB_Review01/M_AB_Glass.M_AB_Glass"
+    },
+    "Herbs": {
+      "refPath": "/Game/Art/Materials/StudyAB_Review01/M_AB_Herbs.M_AB_Herbs"
+    },
+    "Leaves": {
+      "refPath": "/Game/Art/Materials/StudyAB_Review01/M_AB_Leaves.M_AB_Leaves"
+    },
+    "Slate": {
+      "refPath": "/Game/Art/Materials/StudyAB_Review01/M_AB_Slate.M_AB_Slate"
+    },
+    "Soil": {
+      "refPath": "/Game/Art/Materials/StudyAB_Review01/M_AB_Soil.M_AB_Soil"
+    },
+    "Stone": {
+      "refPath": "/Game/Art/Materials/StudyAB_Review01/M_AB_Stone.M_AB_Stone"
+    },
+    "StoneFloor": {
+      "refPath": "/Game/Art/Materials/StudyAB_Review01/M_AB_StoneFloor.M_AB_StoneFloor"
+    },
+    "StoneLight": {
+      "refPath": "/Game/Art/Materials/StudyAB_Review01/M_AB_StoneLight.M_AB_StoneLight"
+    },
+    "Wood": {
+      "refPath": "/Game/Art/Materials/StudyAB_Review01/M_AB_Wood.M_AB_Wood"
+    }
+  },
+  "meshes": {
+    "SM_EC_Facade_700x390": {
+      "refPath": "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_Facade_700x390.SM_EC_Facade_700x390"
+    },
+    "SM_EC_SideWall_800x390": {
+      "refPath": "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_SideWall_800x390.SM_EC_SideWall_800x390"
+    },
+    "SM_EC_RearWall_700x390": {
+      "refPath": "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_RearWall_700x390.SM_EC_RearWall_700x390"
+    },
+    "SM_EC_Floor_700x800": {
+      "refPath": "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_Floor_700x800.SM_EC_Floor_700x800"
+    },
+    "SM_EC_HipRoof_790x890": {
+      "refPath": "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_HipRoof_790x890.SM_EC_HipRoof_790x890"
+    },
+    "SM_EC_HipRoof_LowVariant_790x890": {
+      "refPath": "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_HipRoof_LowVariant_790x890.SM_EC_HipRoof_LowVariant_790x890"
+    },
+    "SM_EC_PorchPosts_220x270": {
+      "refPath": "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_PorchPosts_220x270.SM_EC_PorchPosts_220x270"
+    },
+    "SM_EC_PorchRoof_240x150": {
+      "refPath": "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_PorchRoof_240x150.SM_EC_PorchRoof_240x150"
+    },
+    "SM_EC_StoneDressings": {
+      "refPath": "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_StoneDressings.SM_EC_StoneDressings"
+    },
+    "SM_EC_EntryWoodArch": {
+      "refPath": "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_EntryWoodArch.SM_EC_EntryWoodArch"
+    },
+    "SM_EC_TreeRelief": {
+      "refPath": "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_TreeRelief.SM_EC_TreeRelief"
+    },
+    "SM_EC_DoorLeaf_140x235": {
+      "refPath": "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_DoorLeaf_140x235.SM_EC_DoorLeaf_140x235"
+    },
+    "SM_EC_CityWindowFrame_65x80": {
+      "refPath": "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_CityWindowFrame_65x80.SM_EC_CityWindowFrame_65x80"
+    },
+    "SM_EC_CityWindowGlass_65x80": {
+      "refPath": "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_CityWindowGlass_65x80.SM_EC_CityWindowGlass_65x80"
+    },
+    "SM_EC_CityShutter_32x84": {
+      "refPath": "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_CityShutter_32x84.SM_EC_CityShutter_32x84"
+    },
+    "SM_EC_Paving_120x80": {
+      "refPath": "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_Paving_120x80.SM_EC_Paving_120x80"
+    },
+    "SM_EC_GroundBase_3200x3000": {
+      "refPath": "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_GroundBase_3200x3000.SM_EC_GroundBase_3200x3000"
+    },
+    "SM_EC_Curb_100x20": {
+      "refPath": "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_Curb_100x20.SM_EC_Curb_100x20"
+    },
+    "SM_EC_PlanterRim": {
+      "refPath": "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_PlanterRim.SM_EC_PlanterRim"
+    },
+    "SM_EC_StreetTreeTrunk": {
+      "refPath": "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_StreetTreeTrunk.SM_EC_StreetTreeTrunk"
+    },
+    "SM_EC_StreetTreeCrown": {
+      "refPath": "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_StreetTreeCrown.SM_EC_StreetTreeCrown"
+    },
+    "SM_ER_WingWindowFacade_640x280_v02": {
+      "refPath": "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_WingWindowFacade_640x280_v02.SM_ER_WingWindowFacade_640x280_v02"
+    },
+    "SM_ER_WingRear_640x280": {
+      "refPath": "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_WingRear_640x280.SM_ER_WingRear_640x280"
+    },
+    "SM_ER_WingSide_550x311": {
+      "refPath": "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_WingSide_550x311.SM_ER_WingSide_550x311"
+    },
+    "SM_ER_WingInternalLink_550x311_v02": {
+      "refPath": "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_WingInternalLink_550x311_v02.SM_ER_WingInternalLink_550x311_v02"
+    },
+    "SM_ER_WingRootVault_720x620": {
+      "refPath": "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_WingRootVault_720x620.SM_ER_WingRootVault_720x620"
+    },
+    "SM_ER_WingCrownFill": {
+      "refPath": "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_WingCrownFill.SM_ER_WingCrownFill"
+    },
+    "SM_ER_DoorLeaf_140x230": {
+      "refPath": "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_DoorLeaf_140x230.SM_ER_DoorLeaf_140x230"
+    },
+    "SM_ER_RootDoorArch": {
+      "refPath": "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_RootDoorArch.SM_ER_RootDoorArch"
+    },
+    "SM_ER_RetreatWindowFrame_65x80": {
+      "refPath": "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_RetreatWindowFrame_65x80.SM_ER_RetreatWindowFrame_65x80"
+    },
+    "SM_ER_RetreatWindowGlass_65x80": {
+      "refPath": "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_RetreatWindowGlass_65x80.SM_ER_RetreatWindowGlass_65x80"
+    },
+    "SM_ER_RetreatShutter_32x84": {
+      "refPath": "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_RetreatShutter_32x84.SM_ER_RetreatShutter_32x84"
+    },
+    "SM_ER_WingRootRibs": {
+      "refPath": "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_WingRootRibs.SM_ER_WingRootRibs"
+    },
+    "SM_ER_WingClosedStoneSill_v02": {
+      "refPath": "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_WingClosedStoneSill_v02.SM_ER_WingClosedStoneSill_v02"
+    },
+    "SM_ER_OldCoreLinkedShell_R260_H430_v02": {
+      "refPath": "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_OldCoreLinkedShell_R260_H430_v02.SM_ER_OldCoreLinkedShell_R260_H430_v02"
+    },
+    "SM_ER_OldCoreCrown_640x620": {
+      "refPath": "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_OldCoreCrown_640x620.SM_ER_OldCoreCrown_640x620"
+    },
+    "SM_ER_LivingOldTrunk": {
+      "refPath": "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_LivingOldTrunk.SM_ER_LivingOldTrunk"
+    },
+    "SM_ER_OldButtressRoots": {
+      "refPath": "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_OldButtressRoots.SM_ER_OldButtressRoots"
+    },
+    "SM_ER_OldTreeCanopy": {
+      "refPath": "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_OldTreeCanopy.SM_ER_OldTreeCanopy"
+    },
+    "SM_ER_YoungLivingTrunk": {
+      "refPath": "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_YoungLivingTrunk.SM_ER_YoungLivingTrunk"
+    },
+    "SM_ER_YoungTreeCrown": {
+      "refPath": "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_YoungTreeCrown.SM_ER_YoungTreeCrown"
+    },
+    "SM_ER_LinkingRootArches": {
+      "refPath": "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_LinkingRootArches.SM_ER_LinkingRootArches"
+    },
+    "SM_ER_Ground_2600x2300": {
+      "refPath": "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_Ground_2600x2300.SM_ER_Ground_2600x2300"
+    },
+    "SM_ER_CourtStone_100x70": {
+      "refPath": "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_CourtStone_100x70.SM_ER_CourtStone_100x70"
+    },
+    "SM_ER_Bench_210x56": {
+      "refPath": "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_Bench_210x56.SM_ER_Bench_210x56"
+    },
+    "SM_ER_HerbBed_250x140": {
+      "refPath": "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_HerbBed_250x140.SM_ER_HerbBed_250x140"
+    },
+    "SM_ER_HerbClusters": {
+      "refPath": "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_HerbClusters.SM_ER_HerbClusters"
+    },
+    "SM_ER_ConnectedFloor_v02": {
+      "refPath": "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_ConnectedFloor_v02.SM_ER_ConnectedFloor_v02"
+    }
+  },
+  "measurements": {
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_Facade_700x390": {
+      "bounds": {
+        "min": {
+          "x": -350,
+          "y": -35.000030517578125,
+          "z": 0
+        },
+        "max": {
+          "x": 350,
+          "y": 3.059797381865792e-05,
+          "z": 390
+        },
+        "isValid": true
+      },
+      "triangles": 164,
+      "slots": [
+        "Stone"
+      ]
+    },
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_SideWall_800x390": {
+      "bounds": {
+        "min": {
+          "x": -400,
+          "y": -35.00003433227539,
+          "z": 0
+        },
+        "max": {
+          "x": 400,
+          "y": 3.496911085676402e-05,
+          "z": 390
+        },
+        "isValid": true
+      },
+      "triangles": 100,
+      "slots": [
+        "Stone"
+      ]
+    },
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_RearWall_700x390": {
+      "bounds": {
+        "min": {
+          "x": -350,
+          "y": -35.000030517578125,
+          "z": 0
+        },
+        "max": {
+          "x": 350,
+          "y": 3.059797381865792e-05,
+          "z": 390
+        },
+        "isValid": true
+      },
+      "triangles": 100,
+      "slots": [
+        "Stone"
+      ]
+    },
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_Floor_700x800": {
+      "bounds": {
+        "min": {
+          "x": -350.0000305175781,
+          "y": -400.0000305175781,
+          "z": -16
+        },
+        "max": {
+          "x": 350.0000305175781,
+          "y": 400.0000305175781,
+          "z": 0
+        },
+        "isValid": true
+      },
+      "triangles": 12,
+      "slots": [
+        "StoneFloor"
+      ]
+    },
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_HipRoof_790x890": {
+      "bounds": {
+        "min": {
+          "x": -395.0000305175781,
+          "y": -445.0000305175781,
+          "z": 390
+        },
+        "max": {
+          "x": 395.0000305175781,
+          "y": 445.0000305175781,
+          "z": 540
+        },
+        "isValid": true
+      },
+      "triangles": 12,
+      "slots": [
+        "Slate"
+      ]
+    },
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_HipRoof_LowVariant_790x890": {
+      "bounds": {
+        "min": {
+          "x": -395.0000305175781,
+          "y": -445.0000305175781,
+          "z": 390
+        },
+        "max": {
+          "x": 395.0000305175781,
+          "y": 445.0000305175781,
+          "z": 500
+        },
+        "isValid": true
+      },
+      "triangles": 12,
+      "slots": [
+        "Slate"
+      ]
+    },
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_PorchPosts_220x270": {
+      "bounds": {
+        "min": {
+          "x": -112,
+          "y": -10.000009536743164,
+          "z": 0
+        },
+        "max": {
+          "x": 112,
+          "y": 10.000009536743164,
+          "z": 270
+        },
+        "isValid": true
+      },
+      "triangles": 120,
+      "slots": [
+        "StoneLight"
+      ]
+    },
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_PorchRoof_240x150": {
+      "bounds": {
+        "min": {
+          "x": -120.00000762939453,
+          "y": -75.00000762939453,
+          "z": 0
+        },
+        "max": {
+          "x": 120.00000762939453,
+          "y": 75.00000762939453,
+          "z": 32
+        },
+        "isValid": true
+      },
+      "triangles": 12,
+      "slots": [
+        "Slate"
+      ]
+    },
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_StoneDressings": {
+      "bounds": {
+        "min": {
+          "x": -360.9999694824219,
+          "y": 375,
+          "z": 0
+        },
+        "max": {
+          "x": 361.0000305175781,
+          "y": 422.0000305175781,
+          "z": 396
+        },
+        "isValid": true
+      },
+      "triangles": 344,
+      "slots": [
+        "StoneLight"
+      ]
+    },
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_EntryWoodArch": {
+      "bounds": {
+        "min": {
+          "x": -79,
+          "y": -6.500006198883057,
+          "z": 0
+        },
+        "max": {
+          "x": 79,
+          "y": 6.500006198883057,
+          "z": 252.50001525878906
+        },
+        "isValid": true
+      },
+      "triangles": 236,
+      "slots": [
+        "Wood"
+      ]
+    },
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_TreeRelief": {
+      "bounds": {
+        "min": {
+          "x": -51.87006759643555,
+          "y": -7.500000476837158,
+          "z": 0
+        },
+        "max": {
+          "x": 51.87006759643555,
+          "y": 7.500000476837158,
+          "z": 120.11349487304688
+        },
+        "isValid": true
+      },
+      "triangles": 268,
+      "slots": [
+        "StoneLight"
+      ]
+    },
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_DoorLeaf_140x235": {
+      "bounds": {
+        "min": {
+          "x": -4.98309873364633e-07,
+          "y": -6.000011920928955,
+          "z": 0
+        },
+        "max": {
+          "x": 140,
+          "y": 6,
+          "z": 234.99998474121094
+        },
+        "isValid": true
+      },
+      "triangles": 60,
+      "slots": [
+        "Wood"
+      ]
+    },
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_CityWindowFrame_65x80": {
+      "bounds": {
+        "min": {
+          "x": -40,
+          "y": -14.000003814697266,
+          "z": -6
+        },
+        "max": {
+          "x": 40,
+          "y": 13.900002479553223,
+          "z": 90
+        },
+        "isValid": true
+      },
+      "triangles": 124,
+      "slots": [
+        "Wood"
+      ]
+    },
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_CityWindowGlass_65x80": {
+      "bounds": {
+        "min": {
+          "x": -32.5,
+          "y": -13.000001907348633,
+          "z": 0
+        },
+        "max": {
+          "x": 32.499996185302734,
+          "y": -9.99999713897705,
+          "z": 80
+        },
+        "isValid": true
+      },
+      "triangles": 12,
+      "slots": [
+        "Glass"
+      ]
+    },
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_CityShutter_32x84": {
+      "bounds": {
+        "min": {
+          "x": -32,
+          "y": -4.5,
+          "z": 0
+        },
+        "max": {
+          "x": 3.671757156098465e-07,
+          "y": 4.500002861022949,
+          "z": 84
+        },
+        "isValid": true
+      },
+      "triangles": 60,
+      "slots": [
+        "Wood"
+      ]
+    },
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_Paving_120x80": {
+      "bounds": {
+        "min": {
+          "x": -59.400001525878906,
+          "y": -39.40000534057617,
+          "z": -10
+        },
+        "max": {
+          "x": 59.400001525878906,
+          "y": 39.40000534057617,
+          "z": 0
+        },
+        "isValid": true
+      },
+      "triangles": 12,
+      "slots": [
+        "StoneFloor"
+      ]
+    },
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_GroundBase_3200x3000": {
+      "bounds": {
+        "min": {
+          "x": -1600.0001220703125,
+          "y": -2000.0001220703125,
+          "z": -35
+        },
+        "max": {
+          "x": 1600.0001220703125,
+          "y": 1000.0001220703125,
+          "z": -12
+        },
+        "isValid": true
+      },
+      "triangles": 12,
+      "slots": [
+        "Soil"
+      ]
+    },
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_Curb_100x20": {
+      "bounds": {
+        "min": {
+          "x": -49,
+          "y": -10.000004768371582,
+          "z": -10
+        },
+        "max": {
+          "x": 49,
+          "y": 10.000004768371582,
+          "z": 0
+        },
+        "isValid": true
+      },
+      "triangles": 12,
+      "slots": [
+        "StoneLight"
+      ]
+    },
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_PlanterRim": {
+      "bounds": {
+        "min": {
+          "x": -75.00000762939453,
+          "y": -75.00000762939453,
+          "z": 0
+        },
+        "max": {
+          "x": 75.00000762939453,
+          "y": 75.00000762939453,
+          "z": 45
+        },
+        "isValid": true
+      },
+      "triangles": 60,
+      "slots": [
+        "Stone"
+      ]
+    },
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_StreetTreeTrunk": {
+      "bounds": {
+        "min": {
+          "x": -188.3673095703125,
+          "y": -174.92880249023438,
+          "z": -1.1395738124847412
+        },
+        "max": {
+          "x": 191.00804138183594,
+          "y": 180.81002807617188,
+          "z": 650.8591918945312
+        },
+        "isValid": true
+      },
+      "triangles": 342,
+      "slots": [
+        "Wood"
+      ]
+    },
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_StreetTreeCrown": {
+      "bounds": {
+        "min": {
+          "x": -232.62562561035156,
+          "y": -211.46380615234375,
+          "z": 492
+        },
+        "max": {
+          "x": 231.59739685058594,
+          "y": 203.65350341796875,
+          "z": 754
+        },
+        "isValid": true
+      },
+      "triangles": 1200,
+      "slots": [
+        "Leaves"
+      ]
+    },
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_WingWindowFacade_640x280_v02": {
+      "bounds": {
+        "min": {
+          "x": -320,
+          "y": -35.00002670288086,
+          "z": 0
+        },
+        "max": {
+          "x": 320,
+          "y": 2.7975289413006976e-05,
+          "z": 280
+        },
+        "isValid": true
+      },
+      "triangles": 200,
+      "slots": [
+        "BarkYoung"
+      ]
+    },
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_WingRear_640x280": {
+      "bounds": {
+        "min": {
+          "x": -320,
+          "y": -35.00002670288086,
+          "z": 0
+        },
+        "max": {
+          "x": 320,
+          "y": 2.7975289413006976e-05,
+          "z": 280
+        },
+        "isValid": true
+      },
+      "triangles": 100,
+      "slots": [
+        "BarkYoung"
+      ]
+    },
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_WingSide_550x311": {
+      "bounds": {
+        "min": {
+          "x": -275,
+          "y": -35.000022888183594,
+          "z": 0
+        },
+        "max": {
+          "x": 275,
+          "y": 2.4041264623519965e-05,
+          "z": 311
+        },
+        "isValid": true
+      },
+      "triangles": 100,
+      "slots": [
+        "BarkYoung"
+      ]
+    },
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_WingInternalLink_550x311_v02": {
+      "bounds": {
+        "min": {
+          "x": -275,
+          "y": -35.000022888183594,
+          "z": 0
+        },
+        "max": {
+          "x": 275,
+          "y": 2.4041264623519965e-05,
+          "z": 311
+        },
+        "isValid": true
+      },
+      "triangles": 44,
+      "slots": [
+        "BarkYoung"
+      ]
+    },
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_WingRootVault_720x620": {
+      "bounds": {
+        "min": {
+          "x": -360.0000305175781,
+          "y": -310.0000305175781,
+          "z": 295
+        },
+        "max": {
+          "x": 360.0000305175781,
+          "y": 310.0000305175781,
+          "z": 390
+        },
+        "isValid": true
+      },
+      "triangles": 100,
+      "slots": [
+        "BarkYoung"
+      ]
+    },
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_WingCrownFill": {
+      "bounds": {
+        "min": {
+          "x": -320,
+          "y": -17.500028610229492,
+          "z": 280
+        },
+        "max": {
+          "x": 320,
+          "y": 17.500028610229492,
+          "z": 370
+        },
+        "isValid": true
+      },
+      "triangles": 100,
+      "slots": [
+        "BarkYoung"
+      ]
+    },
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_DoorLeaf_140x230": {
+      "bounds": {
+        "min": {
+          "x": -5.857326641489635e-07,
+          "y": -7.000012397766113,
+          "z": 0
+        },
+        "max": {
+          "x": 140,
+          "y": 7,
+          "z": 230
+        },
+        "isValid": true
+      },
+      "triangles": 60,
+      "slots": [
+        "Wood"
+      ]
+    },
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_RootDoorArch": {
+      "bounds": {
+        "min": {
+          "x": -92.91268157958984,
+          "y": -9.000006675720215,
+          "z": 0
+        },
+        "max": {
+          "x": 92.91268157958984,
+          "y": 15.000006675720215,
+          "z": 263.41265869140625
+        },
+        "isValid": true
+      },
+      "triangles": 376,
+      "slots": [
+        "BarkOld"
+      ]
+    },
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_RetreatWindowFrame_65x80": {
+      "bounds": {
+        "min": {
+          "x": -40,
+          "y": -14.000003814697266,
+          "z": -6
+        },
+        "max": {
+          "x": 40,
+          "y": 13.900002479553223,
+          "z": 90
+        },
+        "isValid": true
+      },
+      "triangles": 124,
+      "slots": [
+        "Wood"
+      ]
+    },
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_RetreatWindowGlass_65x80": {
+      "bounds": {
+        "min": {
+          "x": -32.5,
+          "y": -13.000001907348633,
+          "z": 0
+        },
+        "max": {
+          "x": 32.499996185302734,
+          "y": -9.99999713897705,
+          "z": 80
+        },
+        "isValid": true
+      },
+      "triangles": 12,
+      "slots": [
+        "Glass"
+      ]
+    },
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_RetreatShutter_32x84": {
+      "bounds": {
+        "min": {
+          "x": -32,
+          "y": -4.5,
+          "z": 0
+        },
+        "max": {
+          "x": 3.671757156098465e-07,
+          "y": 4.500002861022949,
+          "z": 84
+        },
+        "isValid": true
+      },
+      "triangles": 60,
+      "slots": [
+        "Wood"
+      ]
+    },
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_WingRootRibs": {
+      "bounds": {
+        "min": {
+          "x": -355.5383605957031,
+          "y": -303.0000305175781,
+          "z": -7.724297046661377
+        },
+        "max": {
+          "x": 355.5383605957031,
+          "y": 323.09857177734375,
+          "z": 399
+        },
+        "isValid": true
+      },
+      "triangles": 900,
+      "slots": [
+        "BarkOld"
+      ]
+    },
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_WingClosedStoneSill_v02": {
+      "bounds": {
+        "min": {
+          "x": -319.9999694824219,
+          "y": 254.99996948242188,
+          "z": 0
+        },
+        "max": {
+          "x": 320.0000305175781,
+          "y": 284.0000305175781,
+          "z": 25
+        },
+        "isValid": true
+      },
+      "triangles": 12,
+      "slots": [
+        "StoneFloor"
+      ]
+    },
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_OldCoreLinkedShell_R260_H430_v02": {
+      "bounds": {
+        "min": {
+          "x": -260,
+          "y": -260,
+          "z": 0
+        },
+        "max": {
+          "x": 260,
+          "y": 260,
+          "z": 430.0000305175781
+        },
+        "isValid": true
+      },
+      "triangles": 444,
+      "slots": [
+        "BarkOld"
+      ]
+    },
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_OldCoreCrown_640x620": {
+      "bounds": {
+        "min": {
+          "x": -320,
+          "y": -310,
+          "z": 370
+        },
+        "max": {
+          "x": 320,
+          "y": 310,
+          "z": 550
+        },
+        "isValid": true
+      },
+      "triangles": 336,
+      "slots": [
+        "BarkOld"
+      ]
+    },
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_LivingOldTrunk": {
+      "bounds": {
+        "min": {
+          "x": -405.4257507324219,
+          "y": -386.8493347167969,
+          "z": 459.2704162597656
+        },
+        "max": {
+          "x": 355.09039306640625,
+          "y": 286.62469482421875,
+          "z": 1125.83251953125
+        },
+        "isValid": true
+      },
+      "triangles": 332,
+      "slots": [
+        "BarkOld"
+      ]
+    },
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_OldButtressRoots": {
+      "bounds": {
+        "min": {
+          "x": -390.97869873046875,
+          "y": -236.3965301513672,
+          "z": -20.98781394958496
+        },
+        "max": {
+          "x": 390.9787292480469,
+          "y": 313.1737976074219,
+          "z": 570.037109375
+        },
+        "isValid": true
+      },
+      "triangles": 904,
+      "slots": [
+        "BarkOld"
+      ]
+    },
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_OldTreeCanopy": {
+      "bounds": {
+        "min": {
+          "x": -450.950439453125,
+          "y": -359.4378356933594,
+          "z": 895
+        },
+        "max": {
+          "x": 448.692138671875,
+          "y": 357.8175048828125,
+          "z": 1230
+        },
+        "isValid": true
+      },
+      "triangles": 2080,
+      "slots": [
+        "Leaves"
+      ]
+    },
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_YoungLivingTrunk": {
+      "bounds": {
+        "min": {
+          "x": -71.4227294921875,
+          "y": -203.26104736328125,
+          "z": 339.4703369140625
+        },
+        "max": {
+          "x": 202.4908905029297,
+          "y": -136.7389678955078,
+          "z": 651.5947265625
+        },
+        "isValid": true
+      },
+      "triangles": 144,
+      "slots": [
+        "BarkYoung"
+      ]
+    },
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_YoungTreeCrown": {
+      "bounds": {
+        "min": {
+          "x": -174.61624145507812,
+          "y": -370.45086669921875,
+          "z": 565
+        },
+        "max": {
+          "x": 304.6162109375,
+          "y": 10.450848579406738,
+          "z": 730
+        },
+        "isValid": true
+      },
+      "triangles": 400,
+      "slots": [
+        "Leaves"
+      ]
+    },
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_LinkingRootArches": {
+      "bounds": {
+        "min": {
+          "x": -508.32916259765625,
+          "y": -271.3502502441406,
+          "z": 237.37158203125
+        },
+        "max": {
+          "x": 508.3291320800781,
+          "y": -68.77140045166016,
+          "z": 359.155517578125
+        },
+        "isValid": true
+      },
+      "triangles": 208,
+      "slots": [
+        "BarkOld"
+      ]
+    },
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_Ground_2600x2300": {
+      "bounds": {
+        "min": {
+          "x": -1300.0001220703125,
+          "y": -1300.0001220703125,
+          "z": -30.000001907348633
+        },
+        "max": {
+          "x": 1300.0001220703125,
+          "y": 1000.0001220703125,
+          "z": -12
+        },
+        "isValid": true
+      },
+      "triangles": 12,
+      "slots": [
+        "Soil"
+      ]
+    },
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_CourtStone_100x70": {
+      "bounds": {
+        "min": {
+          "x": -48.500003814697266,
+          "y": -33.500003814697266,
+          "z": -10
+        },
+        "max": {
+          "x": 48.500003814697266,
+          "y": 33.500003814697266,
+          "z": 0
+        },
+        "isValid": true
+      },
+      "triangles": 12,
+      "slots": [
+        "StoneFloor"
+      ]
+    },
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_Bench_210x56": {
+      "bounds": {
+        "min": {
+          "x": -105,
+          "y": -28.000009536743164,
+          "z": 0
+        },
+        "max": {
+          "x": 105,
+          "y": 28.000009536743164,
+          "z": 52.999996185302734
+        },
+        "isValid": true
+      },
+      "triangles": 180,
+      "slots": [
+        "Wood"
+      ]
+    },
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_HerbBed_250x140": {
+      "bounds": {
+        "min": {
+          "x": -125.00000762939453,
+          "y": -70.00000762939453,
+          "z": 0
+        },
+        "max": {
+          "x": 125.00000762939453,
+          "y": 70.00000762939453,
+          "z": 34
+        },
+        "isValid": true
+      },
+      "triangles": 32,
+      "slots": [
+        "StoneFloor"
+      ]
+    },
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_HerbClusters": {
+      "bounds": {
+        "min": {
+          "x": -112,
+          "y": -51.00000762939453,
+          "z": 12
+        },
+        "max": {
+          "x": 112,
+          "y": 51.00000762939453,
+          "z": 58
+        },
+        "isValid": true
+      },
+      "triangles": 576,
+      "slots": [
+        "Herbs"
+      ]
+    },
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_ConnectedFloor_v02": {
+      "bounds": {
+        "min": {
+          "x": -920.1829833984375,
+          "y": -705.5223999023438,
+          "z": -18
+        },
+        "max": {
+          "x": 920.1829833984375,
+          "y": -34.47764205932617,
+          "z": 0
+        },
+        "isValid": true
+      },
+      "triangles": 164,
+      "slots": [
+        "Wood"
+      ]
+    }
+  },
+  "saved": [
+    "/Game/Art/Materials/StudyAB_Review01/M_AB_BarkOld",
+    "/Game/Art/Materials/StudyAB_Review01/M_AB_BarkYoung",
+    "/Game/Art/Materials/StudyAB_Review01/M_AB_Glass",
+    "/Game/Art/Materials/StudyAB_Review01/M_AB_Herbs",
+    "/Game/Art/Materials/StudyAB_Review01/M_AB_Leaves",
+    "/Game/Art/Materials/StudyAB_Review01/M_AB_Slate",
+    "/Game/Art/Materials/StudyAB_Review01/M_AB_Soil",
+    "/Game/Art/Materials/StudyAB_Review01/M_AB_Stone",
+    "/Game/Art/Materials/StudyAB_Review01/M_AB_StoneFloor",
+    "/Game/Art/Materials/StudyAB_Review01/M_AB_StoneLight",
+    "/Game/Art/Materials/StudyAB_Review01/M_AB_Wood",
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_Facade_700x390",
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_SideWall_800x390",
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_RearWall_700x390",
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_Floor_700x800",
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_HipRoof_790x890",
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_HipRoof_LowVariant_790x890",
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_PorchPosts_220x270",
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_PorchRoof_240x150",
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_StoneDressings",
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_EntryWoodArch",
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_TreeRelief",
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_DoorLeaf_140x235",
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_CityWindowFrame_65x80",
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_CityWindowGlass_65x80",
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_CityShutter_32x84",
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_Paving_120x80",
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_GroundBase_3200x3000",
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_Curb_100x20",
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_PlanterRim",
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_StreetTreeTrunk",
+    "/Game/Art/Architecture/StudyA_Street01/Meshes/SM_EC_StreetTreeCrown",
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_WingWindowFacade_640x280_v02",
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_WingRear_640x280",
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_WingSide_550x311",
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_WingInternalLink_550x311_v02",
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_WingRootVault_720x620",
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_WingCrownFill",
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_DoorLeaf_140x230",
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_RootDoorArch",
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_RetreatWindowFrame_65x80",
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_RetreatWindowGlass_65x80",
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_RetreatShutter_32x84",
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_WingRootRibs",
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_WingClosedStoneSill_v02",
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_OldCoreLinkedShell_R260_H430_v02",
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_OldCoreCrown_640x620",
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_LivingOldTrunk",
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_OldButtressRoots",
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_OldTreeCanopy",
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_YoungLivingTrunk",
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_YoungTreeCrown",
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_LinkingRootArches",
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_Ground_2600x2300",
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_CourtStone_100x70",
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_Bench_210x56",
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_HerbBed_250x140",
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_HerbClusters",
+    "/Game/Art/Architecture/StudyB_Root01/Meshes/SM_ER_ConnectedFloor_v02"
+  ],
+  "importer": "Explicit calibrated Legacy FbxFactory, session CVar disabled during import",
+  "solids": "Source colors/roughness; Blender procedural bump is not transferred",
+  "glass": "Private duplicate of validated Substrate SimpleVolume graph; roughness .025"
+}

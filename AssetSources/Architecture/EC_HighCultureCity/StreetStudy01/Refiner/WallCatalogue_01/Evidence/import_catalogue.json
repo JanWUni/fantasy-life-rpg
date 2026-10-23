@@ -1,0 +1,326 @@
+{
+  "status": "passed",
+  "saved": [
+    "/Game/Art/Textures/WallCatalogue01/T_WC01_Timber_BaseColor",
+    "/Game/Art/Textures/WallCatalogue01/T_WC01_Timber_Roughness",
+    "/Game/Art/Textures/WallCatalogue01/T_WC01_Timber_Normal",
+    "/Game/Art/Materials/WallCatalogue01/M_WC01_Timber",
+    "/Game/Art/Textures/WallCatalogue01/T_WC01_Plaster_BaseColor",
+    "/Game/Art/Textures/WallCatalogue01/T_WC01_Plaster_Roughness",
+    "/Game/Art/Textures/WallCatalogue01/T_WC01_Plaster_Normal",
+    "/Game/Art/Materials/WallCatalogue01/M_WC01_Plaster",
+    "/Game/Art/Textures/WallCatalogue01/T_WC01_Stone_BaseColor",
+    "/Game/Art/Textures/WallCatalogue01/T_WC01_Stone_Roughness",
+    "/Game/Art/Textures/WallCatalogue01/T_WC01_Stone_Normal",
+    "/Game/Art/Materials/WallCatalogue01/M_WC01_Stone",
+    "/Game/Art/Textures/WallCatalogue01/T_WC01_Iron_BaseColor",
+    "/Game/Art/Textures/WallCatalogue01/T_WC01_Iron_Roughness",
+    "/Game/Art/Textures/WallCatalogue01/T_WC01_Iron_Normal",
+    "/Game/Art/Materials/WallCatalogue01/M_WC01_Iron",
+    "/Game/Art/Textures/WallCatalogue01/T_WC01_Bronze_BaseColor",
+    "/Game/Art/Textures/WallCatalogue01/T_WC01_Bronze_Roughness",
+    "/Game/Art/Textures/WallCatalogue01/T_WC01_Bronze_Normal",
+    "/Game/Art/Materials/WallCatalogue01/M_WC01_Bronze",
+    "/Game/Art/Materials/WallCatalogue01/M_WC01_Glass",
+    "/Game/Art/Materials/WallCatalogue01/M_WC01_Glow",
+    "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_A_Solid_300x24x320",
+    "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_A_Window_300x24x320",
+    "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_B_Solid_300x24x320",
+    "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_B_Window_300x24x320",
+    "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_C_Solid_300x24x320",
+    "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_C_Window_300x24x320",
+    "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_WindowFrame_140x40x157",
+    "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_WindowGlass_Clear_112x2x145",
+    "/Game/Art/Furniture/WallCatalogue01/Meshes/SM_WC01_Table_180x100x78",
+    "/Game/Art/Furniture/WallCatalogue01/Meshes/SM_WC01_Chair_48x49x101",
+    "/Game/Art/Furniture/WallCatalogue01/Meshes/SM_WC01_WallLamp_28x54x48",
+    "/Game/Art/Furniture/WallCatalogue01/Blueprints/BP_WC01_WallLamp"
+  ],
+  "materials": {
+    "Timber": {
+      "refPath": "/Game/Art/Materials/WallCatalogue01/M_WC01_Timber.M_WC01_Timber"
+    },
+    "Plaster": {
+      "refPath": "/Game/Art/Materials/WallCatalogue01/M_WC01_Plaster.M_WC01_Plaster"
+    },
+    "Stone": {
+      "refPath": "/Game/Art/Materials/WallCatalogue01/M_WC01_Stone.M_WC01_Stone"
+    },
+    "Iron": {
+      "refPath": "/Game/Art/Materials/WallCatalogue01/M_WC01_Iron.M_WC01_Iron"
+    },
+    "Bronze": {
+      "refPath": "/Game/Art/Materials/WallCatalogue01/M_WC01_Bronze.M_WC01_Bronze"
+    },
+    "Glass": {
+      "refPath": "/Game/Art/Materials/WallCatalogue01/M_WC01_Glass.M_WC01_Glass"
+    },
+    "Glow": {
+      "refPath": "/Game/Art/Materials/WallCatalogue01/M_WC01_Glow.M_WC01_Glow"
+    }
+  },
+  "meshes": {
+    "SM_WC01_Wall_A_Solid_300x24x320": {
+      "refPath": "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_A_Solid_300x24x320.SM_WC01_Wall_A_Solid_300x24x320"
+    },
+    "SM_WC01_Wall_A_Window_300x24x320": {
+      "refPath": "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_A_Window_300x24x320.SM_WC01_Wall_A_Window_300x24x320"
+    },
+    "SM_WC01_Wall_B_Solid_300x24x320": {
+      "refPath": "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_B_Solid_300x24x320.SM_WC01_Wall_B_Solid_300x24x320"
+    },
+    "SM_WC01_Wall_B_Window_300x24x320": {
+      "refPath": "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_B_Window_300x24x320.SM_WC01_Wall_B_Window_300x24x320"
+    },
+    "SM_WC01_Wall_C_Solid_300x24x320": {
+      "refPath": "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_C_Solid_300x24x320.SM_WC01_Wall_C_Solid_300x24x320"
+    },
+    "SM_WC01_Wall_C_Window_300x24x320": {
+      "refPath": "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_C_Window_300x24x320.SM_WC01_Wall_C_Window_300x24x320"
+    },
+    "SM_WC01_WindowFrame_140x40x157": {
+      "refPath": "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_WindowFrame_140x40x157.SM_WC01_WindowFrame_140x40x157"
+    },
+    "SM_WC01_WindowGlass_Clear_112x2x145": {
+      "refPath": "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_WindowGlass_Clear_112x2x145.SM_WC01_WindowGlass_Clear_112x2x145"
+    },
+    "SM_WC01_Table_180x100x78": {
+      "refPath": "/Game/Art/Furniture/WallCatalogue01/Meshes/SM_WC01_Table_180x100x78.SM_WC01_Table_180x100x78"
+    },
+    "SM_WC01_Chair_48x49x101": {
+      "refPath": "/Game/Art/Furniture/WallCatalogue01/Meshes/SM_WC01_Chair_48x49x101.SM_WC01_Chair_48x49x101"
+    },
+    "SM_WC01_WallLamp_28x54x48": {
+      "refPath": "/Game/Art/Furniture/WallCatalogue01/Meshes/SM_WC01_WallLamp_28x54x48.SM_WC01_WallLamp_28x54x48"
+    }
+  },
+  "measurements": {
+    "SM_WC01_Wall_A_Solid_300x24x320": {
+      "bounds": {
+        "min": {
+          "x": -2.5308895601483528e-06,
+          "y": -29.250024795532227,
+          "z": 0
+        },
+        "max": {
+          "x": 300,
+          "y": 9,
+          "z": 320
+        },
+        "isValid": true
+      },
+      "triangles": 624,
+      "slots": [
+        "WC01_Plaster",
+        "WC01_Timber",
+        "WC01_Stone"
+      ]
+    },
+    "SM_WC01_Wall_A_Window_300x24x320": {
+      "bounds": {
+        "min": {
+          "x": -2.5308895601483528e-06,
+          "y": -29.250024795532227,
+          "z": 0
+        },
+        "max": {
+          "x": 300,
+          "y": 9,
+          "z": 320
+        },
+        "isValid": true
+      },
+      "triangles": 792,
+      "slots": [
+        "WC01_Plaster",
+        "WC01_Timber",
+        "WC01_Stone"
+      ]
+    },
+    "SM_WC01_Wall_B_Solid_300x24x320": {
+      "bounds": {
+        "min": {
+          "x": -2.5308895601483528e-06,
+          "y": -29.250024795532227,
+          "z": 0
+        },
+        "max": {
+          "x": 300,
+          "y": 10.999998092651367,
+          "z": 320
+        },
+        "isValid": true
+      },
+      "triangles": 1012,
+      "slots": [
+        "WC01_Plaster",
+        "WC01_Timber",
+        "WC01_Stone"
+      ]
+    },
+    "SM_WC01_Wall_B_Window_300x24x320": {
+      "bounds": {
+        "min": {
+          "x": -2.5308895601483528e-06,
+          "y": -29.250024795532227,
+          "z": 0
+        },
+        "max": {
+          "x": 300,
+          "y": 10.999998092651367,
+          "z": 320
+        },
+        "isValid": true
+      },
+      "triangles": 1048,
+      "slots": [
+        "WC01_Plaster",
+        "WC01_Timber",
+        "WC01_Stone"
+      ]
+    },
+    "SM_WC01_Wall_C_Solid_300x24x320": {
+      "bounds": {
+        "min": {
+          "x": -2.5308895601483528e-06,
+          "y": -29.250024795532227,
+          "z": 0
+        },
+        "max": {
+          "x": 300,
+          "y": 11.499999046325684,
+          "z": 320
+        },
+        "isValid": true
+      },
+      "triangles": 1672,
+      "slots": [
+        "WC01_Plaster",
+        "WC01_Timber",
+        "WC01_Stone"
+      ]
+    },
+    "SM_WC01_Wall_C_Window_300x24x320": {
+      "bounds": {
+        "min": {
+          "x": -2.5308895601483528e-06,
+          "y": -29.250024795532227,
+          "z": 0
+        },
+        "max": {
+          "x": 300,
+          "y": 11.499999046325684,
+          "z": 320
+        },
+        "isValid": true
+      },
+      "triangles": 1708,
+      "slots": [
+        "WC01_Plaster",
+        "WC01_Timber",
+        "WC01_Stone"
+      ]
+    },
+    "SM_WC01_WindowFrame_140x40x157": {
+      "bounds": {
+        "min": {
+          "x": -70,
+          "y": -29.450000762939453,
+          "z": -6.25
+        },
+        "max": {
+          "x": 70,
+          "y": 16.0000057220459,
+          "z": 155.74363708496094
+        },
+        "isValid": true
+      },
+      "triangles": 656,
+      "slots": [
+        "WC01_Timber",
+        "WC01_Stone",
+        "WC01_Bronze"
+      ]
+    },
+    "SM_WC01_WindowGlass_Clear_112x2x145": {
+      "bounds": {
+        "min": {
+          "x": -55.70000076293945,
+          "y": -14.500004768371582,
+          "z": 4
+        },
+        "max": {
+          "x": 55.69999694824219,
+          "y": -12.499995231628418,
+          "z": 148.5
+        },
+        "isValid": true
+      },
+      "triangles": 72,
+      "slots": [
+        "WC01_Glass"
+      ]
+    },
+    "SM_WC01_Table_180x100x78": {
+      "bounds": {
+        "min": {
+          "x": -94.43690490722656,
+          "y": -49.80000686645508,
+          "z": 0
+        },
+        "max": {
+          "x": 94.43690490722656,
+          "y": 49.80000686645508,
+          "z": 79
+        },
+        "isValid": true
+      },
+      "triangles": 1120,
+      "slots": [
+        "WC01_Timber"
+      ]
+    },
+    "SM_WC01_Chair_48x49x101": {
+      "bounds": {
+        "min": {
+          "x": -24.000001907348633,
+          "y": -27.750001907348633,
+          "z": 0
+        },
+        "max": {
+          "x": 24.000001907348633,
+          "y": 23.800003051757812,
+          "z": 98
+        },
+        "isValid": true
+      },
+      "triangles": 752,
+      "slots": [
+        "WC01_Timber"
+      ]
+    },
+    "SM_WC01_WallLamp_28x54x48": {
+      "bounds": {
+        "min": {
+          "x": -13.999998092651367,
+          "y": -4.808252924703993e-07,
+          "z": -45.89999771118164
+        },
+        "max": {
+          "x": 14.000004768371582,
+          "y": 54.000003814697266,
+          "z": 20.39896583557129
+        },
+        "isValid": true
+      },
+      "triangles": 616,
+      "slots": [
+        "WC01_Iron",
+        "WC01_Bronze",
+        "WC01_Glow"
+      ]
+    }
+  },
+  "lamp": "/Game/Art/Furniture/WallCatalogue01/Blueprints/BP_WC01_WallLamp",
+  "lamp_policy": "Visible source plus inverse-square point light; fixture self-shadow disabled, wall and furniture shadow enabled"
+}

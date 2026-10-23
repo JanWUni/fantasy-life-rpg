@@ -1,0 +1,18 @@
+{
+  "view": "04_daylight_opaque_control",
+  "mean_floor_patch_linear_luminance": 0.0004079012586907656,
+  "floor_receiver_m": [
+    -5.786571502685547,
+    2.3517866134643555,
+    0.0010000000474974513
+  ],
+  "luminance_space": "Display-linear PNG values after AgX; relative comparison, not scene radiance or lux",
+  "samples": 81,
+  "sun_direction": [
+    0.13514259457588196,
+    0.6357959508895874,
+    -0.75
+  ],
+  "interior_lights": false,
+  "only_selected_pane_opaque": true
+}

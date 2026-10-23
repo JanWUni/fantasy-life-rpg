@@ -1,0 +1,552 @@
+{
+  "status": "passed",
+  "map": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab",
+  "existing_actors_fully_preserved": 170,
+  "small_house_overrides_only": 88,
+  "new_actors": 141,
+  "catalogue_meshes": 34,
+  "interior_instances": 37,
+  "meshes": {
+    "SM_EH03_Table_180x100x77": {
+      "bounds_cm": [
+        [
+          -90.0,
+          -49.80000686645508,
+          0.0
+        ],
+        [
+          90.0,
+          49.80000686645508,
+          77.00000762939453
+        ]
+      ],
+      "bounds_error_cm": 7.271766662597656e-06,
+      "triangles": 484,
+      "hulls": 1,
+      "slots": [
+        "B03_Timber"
+      ],
+      "uv_channels": 1
+    },
+    "SM_EH03_Chair_47x49x94": {
+      "bounds_cm": [
+        [
+          -23.500001907348633,
+          -24.500001907348633,
+          0.0
+        ],
+        [
+          23.500001907348633,
+          24.500001907348633,
+          94.0
+        ]
+      ],
+      "bounds_error_cm": 1.9669532775878906e-06,
+      "triangles": 440,
+      "hulls": 2,
+      "slots": [
+        "B03_Timber"
+      ],
+      "uv_channels": 1
+    },
+    "SM_EH03_Bed_160x215x101": {
+      "bounds_cm": [
+        [
+          -80.00000762939453,
+          -107.50001525878906,
+          0.0
+        ],
+        [
+          80.00000762939453,
+          107.50001525878906,
+          100.5
+        ]
+      ],
+      "bounds_error_cm": 1.049041748046875e-05,
+      "triangles": 880,
+      "hulls": 2,
+      "slots": [
+        "B03_Timber",
+        "B03_Linen",
+        "B03_Blanket"
+      ],
+      "uv_channels": 1
+    },
+    "SM_EH03_Wardrobe_120x55x210": {
+      "bounds_cm": [
+        [
+          -60.000003814697266,
+          -27.5000057220459,
+          0.0
+        ],
+        [
+          60.000003814697266,
+          31.700002670288086,
+          210.00001525878906
+        ]
+      ],
+      "bounds_error_cm": 5.125999450683594e-06,
+      "triangles": 364,
+      "hulls": 1,
+      "slots": [
+        "B03_Timber",
+        "B03_Bronze"
+      ],
+      "uv_channels": 1
+    },
+    "SM_EH03_Sideboard_140x45x90": {
+      "bounds_cm": [
+        [
+          -70.00000762939453,
+          -22.5000057220459,
+          0.0
+        ],
+        [
+          70.00000762939453,
+          26.700000762939453,
+          90.0
+        ]
+      ],
+      "bounds_error_cm": 6.318092346191406e-06,
+      "triangles": 364,
+      "hulls": 1,
+      "slots": [
+        "B03_Timber",
+        "B03_Bronze"
+      ],
+      "uv_channels": 1
+    },
+    "SM_EH03_Bookcase_90x35x190": {
+      "bounds_cm": [
+        [
+          -45.0,
+          -17.500003814697266,
+          0.0
+        ],
+        [
+          45.0,
+          17.500003814697266,
+          190.0
+        ]
+      ],
+      "bounds_error_cm": 4.112720489501953e-06,
+      "triangles": 1408,
+      "hulls": 1,
+      "slots": [
+        "B03_Timber",
+        "B03_Book"
+      ],
+      "uv_channels": 1
+    },
+    "SM_EH03_Bench_120x45x46": {
+      "bounds_cm": [
+        [
+          -60.000003814697266,
+          -22.2500057220459,
+          0.0
+        ],
+        [
+          60.000003814697266,
+          22.2500057220459,
+          45.5
+        ]
+      ],
+      "bounds_error_cm": 6.079673767089844e-06,
+      "triangles": 308,
+      "hulls": 1,
+      "slots": [
+        "B03_Timber"
+      ],
+      "uv_channels": 1
+    },
+    "SM_EH03_SideTable_55x45x49": {
+      "bounds_cm": [
+        [
+          -27.500001907348633,
+          -22.500001907348633,
+          0.0
+        ],
+        [
+          27.500001907348633,
+          22.500001907348633,
+          49.25
+        ]
+      ],
+      "bounds_error_cm": 2.5033950805664062e-06,
+      "triangles": 264,
+      "hulls": 1,
+      "slots": [
+        "B03_Timber"
+      ],
+      "uv_channels": 1
+    },
+    "SM_EH03_Workbench_140x65x91": {
+      "bounds_cm": [
+        [
+          -70.0,
+          -32.500003814697266,
+          0.0
+        ],
+        [
+          70.0,
+          32.500003814697266,
+          91.0
+        ]
+      ],
+      "bounds_error_cm": 5.0067901611328125e-06,
+      "triangles": 264,
+      "hulls": 1,
+      "slots": [
+        "B03_Timber"
+      ],
+      "uv_channels": 1
+    },
+    "SM_EH03_Chest_94x49x52": {
+      "bounds_cm": [
+        [
+          -47.000003814697266,
+          -24.750003814697266,
+          0.0
+        ],
+        [
+          47.000003814697266,
+          26.499998092651367,
+          52.099998474121094
+        ]
+      ],
+      "bounds_error_cm": 3.933906555175781e-06,
+      "triangles": 220,
+      "hulls": 1,
+      "slots": [
+        "B03_Timber",
+        "B03_Iron"
+      ],
+      "uv_channels": 1
+    },
+    "SM_EH03_Rug_240x180": {
+      "bounds_cm": [
+        [
+          -120.00001525878906,
+          -90.00000762939453,
+          0.0
+        ],
+        [
+          120.00001525878906,
+          90.00000762939453,
+          1.600000023841858
+        ]
+      ],
+      "bounds_error_cm": 1.049041748046875e-05,
+      "triangles": 44,
+      "hulls": 0,
+      "slots": [
+        "B03_Blanket"
+      ],
+      "uv_channels": 1
+    },
+    "SM_EH03_Lantern_24": {
+      "bounds_cm": [
+        [
+          -12.500000953674316,
+          -12.500000953674316,
+          0.0
+        ],
+        [
+          12.500000953674316,
+          12.500000953674316,
+          45.0
+        ]
+      ],
+      "bounds_error_cm": 1.1920928955078125e-06,
+      "triangles": 272,
+      "hulls": 1,
+      "slots": [
+        "B03_Bronze",
+        "B03_Flame"
+      ],
+      "uv_channels": 1
+    },
+    "SM_EH03_Pendant_24": {
+      "bounds_cm": [
+        [
+          -12.500000953674316,
+          -12.500000953674316,
+          0.0
+        ],
+        [
+          12.500000953674316,
+          12.500000953674316,
+          266.75152587890625
+        ]
+      ],
+      "bounds_error_cm": 1.9073486328125e-06,
+      "triangles": 344,
+      "hulls": 1,
+      "slots": [
+        "B03_Bronze",
+        "B03_Flame",
+        "B03_Iron"
+      ],
+      "uv_channels": 1
+    },
+    "SM_EH03_WallLantern_24": {
+      "bounds_cm": [
+        [
+          -12.500000953674316,
+          -20.0,
+          0.0
+        ],
+        [
+          12.500000953674316,
+          12.500000953674316,
+          57.0
+        ]
+      ],
+      "bounds_error_cm": 9.5367431640625e-07,
+      "triangles": 360,
+      "hulls": 1,
+      "slots": [
+        "B03_Bronze",
+        "B03_Flame",
+        "B03_Iron"
+      ],
+      "uv_channels": 1
+    },
+    "SM_EH03_InteriorWall_200x12x300": {
+      "bounds_cm": [
+        [
+          -1.289485908273491e-06,
+          -14.950016975402832,
+          0.0
+        ],
+        [
+          200.0,
+          2.950000047683716,
+          300.0
+        ]
+      ],
+      "bounds_error_cm": 1.722574234008789e-05,
+      "triangles": 364,
+      "hulls": 1,
+      "slots": [
+        "B03_Plaster",
+        "B03_Timber"
+      ],
+      "uv_channels": 1
+    },
+    "SM_EH03_InteriorDoorway_200x12x300": {
+      "bounds_cm": [
+        [
+          -1.2676302958425367e-06,
+          -14.950014114379883,
+          0.0
+        ],
+        [
+          200.0,
+          2.9499971866607666,
+          300.0
+        ]
+      ],
+      "bounds_error_cm": 1.436471939086914e-05,
+      "triangles": 564,
+      "hulls": 3,
+      "slots": [
+        "B03_Plaster",
+        "B03_Timber"
+      ],
+      "uv_channels": 1
+    },
+    "SM_EH03_InteriorWall_152x12x300": {
+      "bounds_cm": [
+        [
+          -1.289485908273491e-06,
+          -14.950013160705566,
+          0.0
+        ],
+        [
+          152.0,
+          2.950000047683716,
+          300.0
+        ]
+      ],
+      "bounds_error_cm": 1.341104507446289e-05,
+      "triangles": 364,
+      "hulls": 1,
+      "slots": [
+        "B03_Plaster",
+        "B03_Timber"
+      ],
+      "uv_channels": 1
+    },
+    "SM_EH03_InteriorWall_56x12x300": {
+      "bounds_cm": [
+        [
+          -1.289485908273491e-06,
+          -14.950004577636719,
+          0.0
+        ],
+        [
+          56.0,
+          2.950000047683716,
+          300.0
+        ]
+      ],
+      "bounds_error_cm": 4.827976226806641e-06,
+      "triangles": 364,
+      "hulls": 1,
+      "slots": [
+        "B03_Plaster",
+        "B03_Timber"
+      ],
+      "uv_channels": 1
+    },
+    "SM_EH03_Ceiling_238x228x16": {
+      "bounds_cm": [
+        [
+          -1.9932393115595914e-05,
+          -228.00001525878906,
+          -5.0
+        ],
+        [
+          238.00001525878906,
+          0.0,
+          16.0
+        ]
+      ],
+      "bounds_error_cm": 1.9932393115595914e-05,
+      "triangles": 100,
+      "hulls": 1,
+      "slots": [
+        "B03_Plaster",
+        "B03_Timber"
+      ],
+      "uv_channels": 1
+    }
+  },
+  "lamps": [
+    {
+      "label": "Lab_EH_B03_Interior_36_SM_EH03_Lantern_24",
+      "position_cm": [
+        -1640.0,
+        -3045.0,
+        144.0
+      ],
+      "lumens": 24.0,
+      "units": "<LightUnits.LUMENS: 2>",
+      "radius_cm": 300.0,
+      "temperature": 3000.0,
+      "visible_fixture": true,
+      "actor_tick_enabled": false
+    },
+    {
+      "label": "Lab_EH_B03_Interior_34_SM_EH03_Lantern_24",
+      "position_cm": [
+        -2105.0,
+        -2950.0,
+        103.3
+      ],
+      "lumens": 24.0,
+      "units": "<LightUnits.LUMENS: 2>",
+      "radius_cm": 340.0,
+      "temperature": 3000.0,
+      "visible_fixture": true,
+      "actor_tick_enabled": false
+    },
+    {
+      "label": "Lab_EH_B03_Interior_33_SM_EH03_Pendant_24",
+      "position_cm": [
+        -2100.0,
+        -2240.0,
+        299.0
+      ],
+      "lumens": 90.0,
+      "units": "<LightUnits.LUMENS: 2>",
+      "radius_cm": 470.0,
+      "temperature": 3000.0,
+      "visible_fixture": true,
+      "actor_tick_enabled": false
+    },
+    {
+      "label": "Lab_EH_B03_Interior_35_SM_EH03_WallLantern_24",
+      "position_cm": [
+        -1520.0,
+        -2602.0,
+        219.0
+      ],
+      "lumens": 40.0,
+      "units": "<LightUnits.LUMENS: 2>",
+      "radius_cm": 380.0,
+      "temperature": 3000.0,
+      "visible_fixture": true,
+      "actor_tick_enabled": false
+    }
+  ],
+  "capsule_sweeps": [
+    {
+      "from_blender_m": [
+        5,
+        0.5
+      ],
+      "to_blender_m": [
+        5,
+        5.9
+      ],
+      "clear_capsule_radius_cm": 35,
+      "half_height_cm": 90
+    },
+    {
+      "from_blender_m": [
+        5,
+        6.3
+      ],
+      "to_blender_m": [
+        3.24,
+        6.3
+      ],
+      "clear_capsule_radius_cm": 35,
+      "half_height_cm": 90
+    },
+    {
+      "from_blender_m": [
+        3.24,
+        6.3
+      ],
+      "to_blender_m": [
+        3.24,
+        8.8
+      ],
+      "clear_capsule_radius_cm": 35,
+      "half_height_cm": 90
+    },
+    {
+      "from_blender_m": [
+        5,
+        6.3
+      ],
+      "to_blender_m": [
+        7.24,
+        6.3
+      ],
+      "clear_capsule_radius_cm": 35,
+      "half_height_cm": 90
+    },
+    {
+      "from_blender_m": [
+        7.24,
+        6.3
+      ],
+      "to_blender_m": [
+        7.24,
+        9.6
+      ],
+      "clear_capsule_radius_cm": 35,
+      "half_height_cm": 90
+    }
+  ],
+  "rear_room_ceiling_heights_cm": [
+    331.00000298023224,
+    331.00000298023224
+  ],
+  "hidden_fill_lights": 0,
+  "existing_daylight_unchanged": true
+}

@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "clear_floor_luminance": 0.20457969162960843,
+  "opaque_floor_luminance": 0.0004079012586907656,
+  "ratio": 501.54219255474896,
+  "scope": "Actual complete house, fixed sun/sky/camera, selected pane alone switched opaque for control; 81 projected floor samples from display-linear PNG after AgX, no interior fill",
+  "limitation": "Architectural transparent-shadow approximation, not refractive caustic simulation or calibrated illuminance measurement"
+}

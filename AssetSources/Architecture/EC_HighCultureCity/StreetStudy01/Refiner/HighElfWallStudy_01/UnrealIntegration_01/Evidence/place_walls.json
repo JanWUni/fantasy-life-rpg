@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "map": "/Game/Prototype/Maps/Lvl_AssetLab",
+  "placed": [
+    {
+      "label": "Lab_HE01_A_Schlicht",
+      "variant": "A",
+      "location_cm": [
+        1600,
+        3100,
+        2
+      ],
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_HE01_WindowWall_A_C_0"
+      }
+    },
+    {
+      "label": "Lab_HE01_B_Prachtvoll",
+      "variant": "B",
+      "location_cm": [
+        2200,
+        3100,
+        2
+      ],
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_HE01_WindowWall_B_C_0"
+      }
+    },
+    {
+      "label": "Lab_HE01_Snap_A",
+      "variant": "A",
+      "location_cm": [
+        1600,
+        2350,
+        2
+      ],
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_HE01_WindowWall_A_C_1"
+      }
+    },
+    {
+      "label": "Lab_HE01_Snap_B",
+      "variant": "B",
+      "location_cm": [
+        1900,
+        2350,
+        2
+      ],
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_HE01_WindowWall_B_C_1"
+      }
+    }
+  ],
+  "new_actors": 7
+}

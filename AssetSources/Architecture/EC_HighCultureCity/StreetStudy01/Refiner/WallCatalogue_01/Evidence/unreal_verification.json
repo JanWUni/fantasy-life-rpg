@@ -1,0 +1,186 @@
+{
+  "status": "passed",
+  "existing_actors_preserved": 401,
+  "existing_house_actors_modified": 0,
+  "new_actors": 33,
+  "meshes": {
+    "SM_WC01_Wall_A_Solid_300x24x320": {
+      "triangles": 624,
+      "bounds_error_cm": 2.586841583251953e-05,
+      "ucx_hulls": 1,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ]
+    },
+    "SM_WC01_Wall_A_Window_300x24x320": {
+      "triangles": 792,
+      "bounds_error_cm": 2.586841583251953e-05,
+      "ucx_hulls": 15,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ]
+    },
+    "SM_WC01_Wall_B_Solid_300x24x320": {
+      "triangles": 1012,
+      "bounds_error_cm": 2.586841583251953e-05,
+      "ucx_hulls": 1,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ]
+    },
+    "SM_WC01_Wall_B_Window_300x24x320": {
+      "triangles": 1048,
+      "bounds_error_cm": 2.586841583251953e-05,
+      "ucx_hulls": 15,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ]
+    },
+    "SM_WC01_Wall_C_Solid_300x24x320": {
+      "triangles": 1672,
+      "bounds_error_cm": 2.586841583251953e-05,
+      "ucx_hulls": 1,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ]
+    },
+    "SM_WC01_Wall_C_Window_300x24x320": {
+      "triangles": 1708,
+      "bounds_error_cm": 2.586841583251953e-05,
+      "ucx_hulls": 15,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ]
+    },
+    "SM_WC01_WindowFrame_140x40x157": {
+      "triangles": 656,
+      "bounds_error_cm": 6.079673767089844e-06,
+      "ucx_hulls": 0,
+      "slots": [
+        "Timber",
+        "Stone",
+        "Bronze"
+      ]
+    },
+    "SM_WC01_WindowGlass_Clear_112x2x145": {
+      "triangles": 72,
+      "bounds_error_cm": 5.185604095458984e-06,
+      "ucx_hulls": 1,
+      "slots": [
+        "Glass"
+      ]
+    },
+    "SM_WC01_Table_180x100x78": {
+      "triangles": 1120,
+      "bounds_error_cm": 7.271766662597656e-06,
+      "ucx_hulls": 5,
+      "slots": [
+        "Timber"
+      ]
+    },
+    "SM_WC01_Chair_48x49x101": {
+      "triangles": 752,
+      "bounds_error_cm": 2.5033950805664062e-06,
+      "ucx_hulls": 6,
+      "slots": [
+        "Timber"
+      ]
+    },
+    "SM_WC01_WallLamp_28x54x48": {
+      "triangles": 616,
+      "bounds_error_cm": 4.708766937255859e-06,
+      "ucx_hulls": 0,
+      "slots": [
+        "Iron",
+        "Bronze",
+        "Glow"
+      ]
+    }
+  },
+  "window_checks": [
+    {
+      "style": "A",
+      "pane_blocks": true,
+      "actual_aperture_clear_when_only_pane_ignored": true,
+      "wall_blocks": true
+    },
+    {
+      "style": "B",
+      "pane_blocks": true,
+      "actual_aperture_clear_when_only_pane_ignored": true,
+      "wall_blocks": true
+    },
+    {
+      "style": "C",
+      "pane_blocks": true,
+      "actual_aperture_clear_when_only_pane_ignored": true,
+      "wall_blocks": true
+    }
+  ],
+  "seam_checks": [
+    {
+      "x_cm": 999.8,
+      "hit_cm": [
+        999.8,
+        3499.9999737906514,
+        152.0
+      ]
+    },
+    {
+      "x_cm": 1000.2,
+      "hit_cm": [
+        1000.2,
+        3499.9999999825154,
+        152.0
+      ]
+    }
+  ],
+  "lamps": [
+    {
+      "actor": "Lab_WC01_A_Lamp",
+      "lumens": 32.0,
+      "temperature": 3000.0,
+      "radius_cm": 240.0,
+      "source_cm": [
+        -2135.0,
+        2044.0,
+        179.0
+      ]
+    },
+    {
+      "actor": "Lab_WC01_B_Lamp",
+      "lumens": 32.0,
+      "temperature": 3000.0,
+      "radius_cm": 240.0,
+      "source_cm": [
+        -1135.0,
+        2044.0,
+        179.0
+      ]
+    },
+    {
+      "actor": "Lab_WC01_C_Lamp",
+      "lumens": 32.0,
+      "temperature": 3000.0,
+      "radius_cm": 240.0,
+      "source_cm": [
+        -135.0,
+        2044.0,
+        179.0
+      ]
+    }
+  ],
+  "scope": "Actual editor geometry/collision/placement/material/lighting properties, not manual traversal or production acceptance"
+}

@@ -1,0 +1,178 @@
+{
+  "SM_WC01_Wall_A_Solid_300x24x320": {
+    "nominal_name": "SM_WC01_Wall_A_Solid_300x24x320",
+    "actual_full_bounds_cm": [
+      [
+        0.0,
+        -9.0,
+        0.0
+      ],
+      [
+        300.0,
+        29.25,
+        320.0
+      ]
+    ],
+    "note": "Names retain nominal design dimensions; full bounds include mounts, catches, pegs, sill and braces. Use measured bounds and wall contract."
+  },
+  "SM_WC01_Wall_A_Window_300x24x320": {
+    "nominal_name": "SM_WC01_Wall_A_Window_300x24x320",
+    "actual_full_bounds_cm": [
+      [
+        0.0,
+        -9.0,
+        0.0
+      ],
+      [
+        300.0,
+        29.25,
+        320.0
+      ]
+    ],
+    "note": "Names retain nominal design dimensions; full bounds include mounts, catches, pegs, sill and braces. Use measured bounds and wall contract."
+  },
+  "SM_WC01_Wall_B_Solid_300x24x320": {
+    "nominal_name": "SM_WC01_Wall_B_Solid_300x24x320",
+    "actual_full_bounds_cm": [
+      [
+        0.0,
+        -11.0,
+        0.0
+      ],
+      [
+        300.0,
+        29.25,
+        320.0
+      ]
+    ],
+    "note": "Names retain nominal design dimensions; full bounds include mounts, catches, pegs, sill and braces. Use measured bounds and wall contract."
+  },
+  "SM_WC01_Wall_B_Window_300x24x320": {
+    "nominal_name": "SM_WC01_Wall_B_Window_300x24x320",
+    "actual_full_bounds_cm": [
+      [
+        0.0,
+        -11.0,
+        0.0
+      ],
+      [
+        300.0,
+        29.25,
+        320.0
+      ]
+    ],
+    "note": "Names retain nominal design dimensions; full bounds include mounts, catches, pegs, sill and braces. Use measured bounds and wall contract."
+  },
+  "SM_WC01_Wall_C_Solid_300x24x320": {
+    "nominal_name": "SM_WC01_Wall_C_Solid_300x24x320",
+    "actual_full_bounds_cm": [
+      [
+        0.0,
+        -11.5,
+        0.0
+      ],
+      [
+        300.0,
+        29.25,
+        320.0
+      ]
+    ],
+    "note": "Names retain nominal design dimensions; full bounds include mounts, catches, pegs, sill and braces. Use measured bounds and wall contract."
+  },
+  "SM_WC01_Wall_C_Window_300x24x320": {
+    "nominal_name": "SM_WC01_Wall_C_Window_300x24x320",
+    "actual_full_bounds_cm": [
+      [
+        0.0,
+        -11.5,
+        0.0
+      ],
+      [
+        300.0,
+        29.25,
+        320.0
+      ]
+    ],
+    "note": "Names retain nominal design dimensions; full bounds include mounts, catches, pegs, sill and braces. Use measured bounds and wall contract."
+  },
+  "SM_WC01_WindowFrame_140x40x157": {
+    "nominal_name": "SM_WC01_WindowFrame_140x40x157",
+    "actual_full_bounds_cm": [
+      [
+        -70.0,
+        -16.0,
+        -6.25
+      ],
+      [
+        70.0,
+        29.45,
+        155.74363
+      ]
+    ],
+    "note": "Names retain nominal design dimensions; full bounds include mounts, catches, pegs, sill and braces. Use measured bounds and wall contract."
+  },
+  "SM_WC01_WindowGlass_Clear_112x2x145": {
+    "nominal_name": "SM_WC01_WindowGlass_Clear_112x2x145",
+    "actual_full_bounds_cm": [
+      [
+        -55.7,
+        12.5,
+        4.0
+      ],
+      [
+        55.7,
+        14.5,
+        148.5
+      ]
+    ],
+    "note": "Names retain nominal design dimensions; full bounds include mounts, catches, pegs, sill and braces. Use measured bounds and wall contract."
+  },
+  "SM_WC01_Table_180x100x78": {
+    "nominal_name": "SM_WC01_Table_180x100x78",
+    "actual_full_bounds_cm": [
+      [
+        -94.4369,
+        -49.8,
+        0.0
+      ],
+      [
+        94.4369,
+        49.8,
+        79.0
+      ]
+    ],
+    "note": "Names retain nominal design dimensions; full bounds include mounts, catches, pegs, sill and braces. Use measured bounds and wall contract."
+  },
+  "SM_WC01_Chair_48x49x101": {
+    "nominal_name": "SM_WC01_Chair_48x49x101",
+    "actual_full_bounds_cm": [
+      [
+        -24.0,
+        -23.8,
+        0.0
+      ],
+      [
+        24.0,
+        27.75,
+        98.0
+      ]
+    ],
+    "note": "Names retain nominal design dimensions; full bounds include mounts, catches, pegs, sill and braces. Use measured bounds and wall contract."
+  },
+  "SM_WC01_WallLamp_28x54x48": {
+    "nominal_name": "SM_WC01_WallLamp_28x54x48",
+    "actual_full_bounds_cm": [
+      [
+        -14.0,
+        -54.0,
+        -45.9
+      ],
+      [
+        14.0,
+        0.0,
+        20.39897
+      ]
+    ],
+    "note": "Names retain nominal design dimensions; full bounds include mounts, catches, pegs, sill and braces. Use measured bounds and wall contract."
+  }
+}

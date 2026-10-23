@@ -1,0 +1,328 @@
+{
+  "status": "review_ready",
+  "accepted": false,
+  "source": "HighElf_MaterialComparison_02.blend",
+  "source_sha256": "025a06d7e0c925631e4ba95915b6814bb7467f767e5b7619f4ee964698615e4c",
+  "input_sha256": "a7661b62ce555d4aac13b85d4cb16aa18471f3e5f428b720abdfa92871864e6a",
+  "assets": {
+    "HE02_A_WallCore": {
+      "triangles": 180,
+      "vertices": 120,
+      "slots": [
+        "HE02_Ivory"
+      ],
+      "bounds_m": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.23999999463558197,
+          3.200000047683716
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0
+    },
+    "HE02_A_StoneCarving": {
+      "triangles": 1688,
+      "vertices": 896,
+      "slots": [
+        "HE02_RecessStone",
+        "HE02_CarvedStone"
+      ],
+      "bounds_m": [
+        [
+          0.0,
+          -0.20000000298023224,
+          0.0
+        ],
+        [
+          3.0,
+          0.35499998927116394,
+          3.200000047683716
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0
+    },
+    "HE02_A_GoldInlay": {
+      "triangles": 776,
+      "vertices": 400,
+      "slots": [
+        "HE02_Gold"
+      ],
+      "bounds_m": [
+        [
+          0.009999990463256836,
+          -0.16999998688697815,
+          0.5899999737739563
+        ],
+        [
+          2.990000009536743,
+          0.33799999952316284,
+          3.1010000705718994
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0
+    },
+    "HE02_A_BlueInlay": {
+      "triangles": 20,
+      "vertices": 14,
+      "slots": [
+        "HE02_Gold",
+        "HE02_Azure"
+      ],
+      "bounds_m": [
+        [
+          1.4500000476837158,
+          -0.07699999958276749,
+          2.3924999237060547
+        ],
+        [
+          1.5499999523162842,
+          0.012000000104308128,
+          2.5875000953674316
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0
+    },
+    "HE02_A_WindowFrame": {
+      "triangles": 1144,
+      "vertices": 592,
+      "slots": [
+        "HE02_CarvedStone",
+        "HE02_Gold"
+      ],
+      "bounds_m": [
+        [
+          1.065000057220459,
+          -0.21299999952316284,
+          1.287500023841858
+        ],
+        [
+          1.934999942779541,
+          0.4300000071525574,
+          2.2799999713897705
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0
+    },
+    "HE02_A_ClearGlass": {
+      "triangles": 104,
+      "vertices": 54,
+      "slots": [
+        "HE02_ClearGlass"
+      ],
+      "bounds_m": [
+        [
+          1.1829999685287476,
+          0.11500000208616257,
+          1.3580000400543213
+        ],
+        [
+          1.8170000314712524,
+          0.125,
+          2.242000102996826
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0
+    }
+  },
+  "material_values": {
+    "Ivory": {
+      "metal": 0,
+      "tile_scale": 0.3333333333333333
+    },
+    "CarvedStone": {
+      "metal": 0,
+      "tile_scale": 1.0
+    },
+    "RecessStone": {
+      "metal": 0,
+      "tile_scale": 1.0
+    },
+    "Gold": {
+      "metal": 0.92,
+      "tile_scale": 1.0
+    },
+    "Azure": {
+      "metal": 0.15,
+      "tile_scale": 1.0
+    },
+    "ClearGlass": {
+      "metal": 0,
+      "tile_scale": 1.0
+    }
+  },
+  "texture_statistics": {
+    "Ivory": {
+      "size": 2048,
+      "tile_span_m": 3.0,
+      "base_color_min": [
+        0.3392369226849463,
+        0.3176491185140861,
+        0.271389538147957
+      ],
+      "base_color_max": [
+        0.6403060565342696,
+        0.5995593074820889,
+        0.5122448452274156
+      ],
+      "roughness_min": 0.4940060918590594,
+      "roughness_max": 0.8875342665737775,
+      "normal_xy_rms": 0.05694336523973844
+    },
+    "CarvedStone": {
+      "size": 2048,
+      "tile_span_m": 1.0,
+      "base_color_min": [
+        0.5271792894333894,
+        0.4983491720425009,
+        0.440688937260724
+      ],
+      "base_color_max": [
+        0.7263060274298826,
+        0.6865861665548109,
+        0.6071464448046675
+      ],
+      "roughness_min": 0.4851111936650149,
+      "roughness_max": 0.791723843723937,
+      "normal_xy_rms": 0.12602363610815953
+    },
+    "RecessStone": {
+      "size": 2048,
+      "tile_span_m": 1.0,
+      "base_color_min": [
+        0.3090497058163817,
+        0.3209362329631656,
+        0.3011253543851924
+      ],
+      "base_color_max": [
+        0.44744054137291567,
+        0.4646497929641817,
+        0.4359677069787383
+      ],
+      "roughness_min": 0.4827255864495131,
+      "roughness_max": 0.7904049572827171,
+      "normal_xy_rms": 0.1261585399661579
+    },
+    "Gold": {
+      "size": 1024,
+      "tile_span_m": 1.0,
+      "base_color_min": [
+        0.5472970692778107,
+        0.338582085231188,
+        0.09740032588842394
+      ],
+      "base_color_max": [
+        0.6420714425001213,
+        0.39721368900431236,
+        0.11426695163137753
+      ],
+      "roughness_min": 0.1876637922027059,
+      "roughness_max": 0.3927575223665764,
+      "normal_xy_rms": 0.001232979558253895
+    },
+    "Azure": {
+      "size": 1024,
+      "tile_span_m": 1.0,
+      "base_color_min": [
+        0.04169961355626583,
+        0.2779974237084389,
+        0.3799298124015331
+      ],
+      "base_color_max": [
+        0.04782420153915882,
+        0.3188280102610588,
+        0.43573161402344696
+      ],
+      "roughness_min": 0.15006977836589017,
+      "roughness_max": 0.22989028264752745,
+      "normal_xy_rms": 0.0003311175403838929
+    },
+    "ClearGlass": {
+      "size": 1024,
+      "tile_span_m": 1.0,
+      "base_color_min": [
+        0.91,
+        0.96,
+        0.975
+      ],
+      "base_color_max": [
+        0.91,
+        0.96,
+        0.975
+      ],
+      "roughness_min": 0.0300482908118974,
+      "roughness_max": 0.08479023497239391,
+      "normal_xy_rms": 0.000889672935023188
+    }
+  },
+  "scope": "Material-only A-wall quality comparison. All existing mesh assets unchanged. New material overrides on one new Blueprint.",
+  "glass": {
+    "F0": 0.045,
+    "transmittance": [
+      0.78,
+      0.89,
+      0.94
+    ],
+    "roughness": "texture .03-.08",
+    "normal": "subtle reflection waviness",
+    "shadow": "disabled so daylight enters; no opaque filler",
+    "unreal_refraction": "PixelNormalOffset 1.06",
+    "unreal_screen_space_reflections": true,
+    "blender_IOR": 1.52
+  },
+  "pending": [
+    "Artist review of stone tone/grain and still subtle glass readability under lab daylight",
+    "Transfer to ornate B, solid wall and door wall only after material direction review",
+    "Clean editor/map reload after preexisting dirty packages are resolved; no forced restart",
+    "Production lighting including indoor daylight, texture budget/performance, LOD/cook validation"
+  ],
+  "base_commit": "17828dce95c0d68fd5300bc9d8cba1db1178b83f",
+  "unreal": {
+    "blueprint": "/Game/Art/Architecture/HighElfWallStudy02/Blueprints/BP_HE02_WindowWall_A",
+    "map": "/Game/Prototype/Maps/Lvl_AssetLab",
+    "new_packages": {
+      "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Ivory_BaseColor": "7497f567d59b10d4825a0418cb8645ad263a51332308e008a84f06e9cf643c49",
+      "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Ivory_Roughness": "246234bd80612ed9263f960c43ec93933dc79d74a63b56c0de84592d7205d6fe",
+      "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Ivory_Normal": "cebc6fca4c5508dff04681aab3e000fe05e3b37f0651db703bc9c401a934593e",
+      "/Game/Art/Materials/HighElfWallStudy02/M_HE02_Ivory": "8d5e2146f5b65bb387898d2892ddd50bc4e75ffe023e9ee4daa0c8808ac70414",
+      "/Game/Art/Textures/HighElfWallStudy02/T_HE02_CarvedStone_BaseColor": "fc6f96bc0021237e39c22f61e1671695566e5bd0a0592bd92cd2ea4727f77751",
+      "/Game/Art/Textures/HighElfWallStudy02/T_HE02_CarvedStone_Roughness": "097b14fec0151cb4c26ffd13ac602a3b7d5dbd44035232adb21ae150c48c648d",
+      "/Game/Art/Textures/HighElfWallStudy02/T_HE02_CarvedStone_Normal": "2666a4bd4ba6a5f4a81a6e34ee350d9180ba0195a68a79da101fd4be293a3ac2",
+      "/Game/Art/Materials/HighElfWallStudy02/M_HE02_CarvedStone": "4b51967b80c97197ff61f1a5f8df196d8b4ebc309e79eefed42cccb3984876b4",
+      "/Game/Art/Textures/HighElfWallStudy02/T_HE02_RecessStone_BaseColor": "476f2fa4d172aa05dae74da819eccba8aa266d770d11518d6c927ef9edba6c76",
+      "/Game/Art/Textures/HighElfWallStudy02/T_HE02_RecessStone_Roughness": "71580eee7482ea282ea5bffc408e85c0af56cb4ffd332e28a3fb88563882a884",
+      "/Game/Art/Textures/HighElfWallStudy02/T_HE02_RecessStone_Normal": "806c993ec8960f8c76760cb8942c74d992415ef8f3359db798b63ce602f41b68",
+      "/Game/Art/Materials/HighElfWallStudy02/M_HE02_RecessStone": "32ec053d40c6a09ef9417f416ab0d76b07a7862d1ea80fd89bc0e9608d57f76e",
+      "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Gold_BaseColor": "67bad18b9be02427e860fb4c0d399bcfa7a393fb4f30aebd503592ea160a7483",
+      "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Gold_Roughness": "96a1624b77e44e4b9856a2646b2a0888ab5cf17446ea39dba30a1c562beea560",
+      "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Gold_Normal": "7d27092ab33286808207a49e592e43ba87a288ecb80fe532976558498ae8cbf8",
+      "/Game/Art/Materials/HighElfWallStudy02/M_HE02_Gold": "20657ec73e9ac55d5ec96e0de58e446849631a2041d7becebf26d2ad3438fbe2",
+      "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Azure_BaseColor": "5b0ea57bcc0805c40c81ff2c050e8fe07dd33cb05dfe6b76740ec816088e32b6",
+      "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Azure_Roughness": "2ba3bf92af4826c973f4c4abb8e72d93f1e94927097d982994fd280169bc58e7",
+      "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Azure_Normal": "49a7126ba6d52a7461a2685f5c989976d9deea998a0f8c9342e391259b9eb37a",
+      "/Game/Art/Materials/HighElfWallStudy02/M_HE02_Azure": "e33bd97b314f00dc996b069f2a3cafc263a4e1027d4d17ef7f43e108d27d9bd4",
+      "/Game/Art/Textures/HighElfWallStudy02/T_HE02_ClearGlass_Roughness": "8753a33368e6ffc8300a04bd9cd275a10cd6031f2b06c31bb4e6529ce097467c",
+      "/Game/Art/Textures/HighElfWallStudy02/T_HE02_ClearGlass_Normal": "2b8433a6de63854033c7083684d4ee7b9ac3746a44298886f5e585d0c0fe8d8d",
+      "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass": "b93007e9c633c2e1be7c59e092206ffaac858b7f5403d06916a957116bb53e28",
+      "/Game/Art/Architecture/HighElfWallStudy02/Blueprints/BP_HE02_WindowWall_A": "8f57d8f89a9cd03a2c5da7622a11a70060dd96df4248ba56b150fae3a30cd36b"
+    },
+    "mesh_imports": 0,
+    "old_geometry_reused": true
+  }
+}

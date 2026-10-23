@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "files_checked": 1627,
+  "files_byte_identical": 1626,
+  "externally_saved_parent_sources": [
+    {
+      "file": "AssetSources/Architecture/EC_HighCultureCity/StreetStudy01/Refiner/StreetStudy01_Refined.blend",
+      "input_sha256": "a06d690392e6c65dd3189d69dff14cb4135e8bf353c481a70bd0b3100befc46a",
+      "externally_saved_sha256": "357d825d238932aca9ab99219ee5805a8a897beabb6a59f35017c560bfc9c4c1",
+      "preserved_without_overwrite": true,
+      "read_only_audit": "Evidence/external_parent_save.json"
+    }
+  ],
+  "unexpected_changes_outside_glass_updates": [],
+  "no_unreal_operations": true
+}

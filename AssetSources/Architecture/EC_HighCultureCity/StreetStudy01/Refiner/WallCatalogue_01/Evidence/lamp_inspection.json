@@ -1,0 +1,23 @@
+[
+  {
+    "actor": "Lab_WC01_C_Lamp",
+    "path": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_WC01_WallLamp_C_2.Light",
+    "intensity": 32.0,
+    "temperature": 2900.0,
+    "radius": 320.0
+  },
+  {
+    "actor": "Lab_WC01_A_Lamp",
+    "path": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_WC01_WallLamp_C_0.Light",
+    "intensity": 32.0,
+    "temperature": 2900.0,
+    "radius": 320.0
+  },
+  {
+    "actor": "Lab_WC01_B_Lamp",
+    "path": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_WC01_WallLamp_C_1.Light",
+    "intensity": 32.0,
+    "temperature": 2900.0,
+    "radius": 320.0
+  }
+]

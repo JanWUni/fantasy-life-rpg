@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "actors_checked": 445,
+  "only_target_material_overrides_changed": true,
+  "components": {
+    "WallCore": {
+      "mesh": "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_A_WallCore.SM_HE01_A_WallCore",
+      "materials": [
+        "/Game/Art/Materials/HighElfWallStudy03/M_HE03_Ivory.M_HE03_Ivory"
+      ],
+      "collision": "BlockAll"
+    },
+    "StoneCarving": {
+      "mesh": "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_A_StoneCarving.SM_HE01_A_StoneCarving",
+      "materials": [
+        "/Game/Art/Materials/HighElfWallStudy03/M_HE03_RecessStone.M_HE03_RecessStone",
+        "/Game/Art/Materials/HighElfWallStudy03/M_HE03_CarvedStone.M_HE03_CarvedStone"
+      ],
+      "collision": "NoCollision"
+    },
+    "GoldInlay": {
+      "mesh": "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_A_GoldInlay.SM_HE01_A_GoldInlay",
+      "materials": [
+        "/Game/Art/Materials/HighElfWallStudy02/M_HE02_Gold.M_HE02_Gold"
+      ],
+      "collision": "NoCollision"
+    },
+    "BlueInlay": {
+      "mesh": "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_A_BlueInlay.SM_HE01_A_BlueInlay",
+      "materials": [
+        "/Game/Art/Materials/HighElfWallStudy02/M_HE02_Gold.M_HE02_Gold",
+        "/Game/Art/Materials/HighElfWallStudy02/M_HE02_Azure.M_HE02_Azure"
+      ],
+      "collision": "NoCollision"
+    },
+    "WindowFrame": {
+      "mesh": "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_A_WindowFrame.SM_HE01_A_WindowFrame",
+      "materials": [
+        "/Game/Art/Materials/HighElfWallStudy03/M_HE03_CarvedStone.M_HE03_CarvedStone",
+        "/Game/Art/Materials/HighElfWallStudy02/M_HE02_Gold.M_HE02_Gold"
+      ],
+      "collision": "NoCollision"
+    },
+    "ClearGlass": {
+      "mesh": "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_A_ClearGlass.SM_HE01_A_ClearGlass",
+      "materials": [
+        "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass.M_HE02_ClearGlass"
+      ],
+      "collision": "BlockAll"
+    }
+  }
+}

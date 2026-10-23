@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "labels": [
+    "Lab_WC01_A_Lamp",
+    "Lab_WC01_B_Lamp",
+    "Lab_WC01_C_Lamp"
+  ],
+  "lumens": 32,
+  "temperature": 3000,
+  "radius_cm": 240,
+  "reason": "Visual correction of overly strong day-lit hotspot"
+}

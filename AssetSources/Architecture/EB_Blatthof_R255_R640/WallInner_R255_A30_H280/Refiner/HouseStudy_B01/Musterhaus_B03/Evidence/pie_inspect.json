@@ -1,0 +1,71 @@
+{
+  "player_position": [
+    -1900.0,
+    -1800.0,
+    123.1500015258789
+  ],
+  "control_rotation": [
+    0.0,
+    -90.00000000000001,
+    0.0
+  ],
+  "actor_forward": [
+    -2.220446049250313e-16,
+    -1.0000000000000002,
+    0.0
+  ],
+  "doors": [
+    {
+      "position": [
+        -1965.999984741211,
+        -1899.5000000111759,
+        31.0
+      ],
+      "open": false
+    },
+    {
+      "position": [
+        434.00001525878906,
+        -1899.5000000111759,
+        31.0
+      ],
+      "open": false
+    }
+  ],
+  "player_class": "BP_PrototypeCharacter_C",
+  "controller_class": "BP_PrototypePlayerController_C",
+  "components": [
+    "CapsuleComponent",
+    "ArrowComponent",
+    "CharacterMovementComponent",
+    "SkeletalMeshComponent",
+    "InteractionComponent",
+    "SpringArmComponent",
+    "CameraComponent",
+    "CameraProxyMeshComponent",
+    "DrawFrustumComponent",
+    "InteractionFeedbackComponent",
+    "EnhancedInputComponent"
+  ],
+  "interaction_target": "/Game/Prototype/Maps/UEDPIE_0_Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH_ReviewDoor_C_0",
+  "ignore_move": false,
+  "ignore_look": false,
+  "paused": false,
+  "world_seconds": 0.0,
+  "movement_tick_enabled": true,
+  "movement_active": true,
+  "locally_controlled": true,
+  "movement_pending": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "velocity": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "global_time_dilation": 1.0,
+  "world_class": "World",
+  "world_path": "/Game/Prototype/Maps/UEDPIE_0_Lvl_AssetLab.Lvl_AssetLab"
+}

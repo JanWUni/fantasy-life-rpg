@@ -1,0 +1,160 @@
+{
+  "status": "passed",
+  "assemblies": {
+    "A": {
+      "blueprint": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01",
+      "components": [
+        {
+          "refPath": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_HipRoof_LowVariant_790x890_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_PorchPosts_220x270_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_PorchRoof_240x150_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_StoneDressings_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_EntryWoodArch_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_TreeRelief_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_SideWall_800x390_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_Facade_700x390_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_RearWall_700x390_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_HipRoof_790x890_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_Floor_700x800_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_PlanterRim_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_Curb_100x20_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_StreetTreeTrunk_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_GroundBase_3200x3000_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_StreetTreeCrown_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_CityWindowGlass_65x80_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_DoorLeaf_140x235_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_CityWindowFrame_65x80_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_CityShutter_32x84_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyA_Street01/BP_EC_StreetStudy01.BP_EC_StreetStudy01_C:Instances_SM_EC_Paving_120x80_GEN_VARIABLE"
+        }
+      ]
+    },
+    "B": {
+      "blueprint": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01",
+      "components": [
+        {
+          "refPath": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_RootDoorArch_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_RetreatWindowFrame_65x80_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_RetreatWindowGlass_65x80_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_RetreatShutter_32x84_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_WingRootRibs_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_WingClosedStoneSill_v02_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_OldCoreLinkedShell_R260_H430_v02_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_DoorLeaf_140x230_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_WingSide_550x311_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_WingWindowFacade_640x280_v02_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_WingRear_640x280_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_WingInternalLink_550x311_v02_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_WingRootVault_720x620_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_WingCrownFill_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_HerbBed_250x140_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_Ground_2600x2300_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_CourtStone_100x70_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_Bench_210x56_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_HerbClusters_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_ConnectedFloor_v02_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_LinkingRootArches_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_OldTreeCanopy_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_OldCoreCrown_640x620_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_LivingOldTrunk_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_OldButtressRoots_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_YoungLivingTrunk_GEN_VARIABLE"
+        },
+        {
+          "refPath": "/Game/Art/Architecture/StudyB_Root01/BP_ER_CourtyardStudy01.BP_ER_CourtyardStudy01_C:Instances_SM_ER_YoungTreeCrown_GEN_VARIABLE"
+        }
+      ]
+    }
+  },
+  "instances_not_yet_populated": true
+}

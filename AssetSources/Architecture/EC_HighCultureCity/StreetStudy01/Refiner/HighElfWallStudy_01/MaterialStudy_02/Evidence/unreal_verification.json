@@ -1,0 +1,136 @@
+{
+  "status": "passed",
+  "existing_actors_preserved": 441,
+  "components": {
+    "WallCore": {
+      "mesh": "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_A_WallCore.SM_HE01_A_WallCore",
+      "materials": [
+        "/Game/Art/Materials/HighElfWallStudy02/M_HE02_Ivory.M_HE02_Ivory"
+      ],
+      "collision": "BlockAll"
+    },
+    "StoneCarving": {
+      "mesh": "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_A_StoneCarving.SM_HE01_A_StoneCarving",
+      "materials": [
+        "/Game/Art/Materials/HighElfWallStudy02/M_HE02_RecessStone.M_HE02_RecessStone",
+        "/Game/Art/Materials/HighElfWallStudy02/M_HE02_CarvedStone.M_HE02_CarvedStone"
+      ],
+      "collision": "NoCollision"
+    },
+    "GoldInlay": {
+      "mesh": "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_A_GoldInlay.SM_HE01_A_GoldInlay",
+      "materials": [
+        "/Game/Art/Materials/HighElfWallStudy02/M_HE02_Gold.M_HE02_Gold"
+      ],
+      "collision": "NoCollision"
+    },
+    "BlueInlay": {
+      "mesh": "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_A_BlueInlay.SM_HE01_A_BlueInlay",
+      "materials": [
+        "/Game/Art/Materials/HighElfWallStudy02/M_HE02_Gold.M_HE02_Gold",
+        "/Game/Art/Materials/HighElfWallStudy02/M_HE02_Azure.M_HE02_Azure"
+      ],
+      "collision": "NoCollision"
+    },
+    "WindowFrame": {
+      "mesh": "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_A_WindowFrame.SM_HE01_A_WindowFrame",
+      "materials": [
+        "/Game/Art/Materials/HighElfWallStudy02/M_HE02_CarvedStone.M_HE02_CarvedStone",
+        "/Game/Art/Materials/HighElfWallStudy02/M_HE02_Gold.M_HE02_Gold"
+      ],
+      "collision": "NoCollision"
+    },
+    "ClearGlass": {
+      "mesh": "/Game/Art/Architecture/HighElfWallStudy01/Meshes/SM_HE01_A_ClearGlass.SM_HE01_A_ClearGlass",
+      "materials": [
+        "/Game/Art/Materials/HighElfWallStudy02/M_HE02_ClearGlass.M_HE02_ClearGlass"
+      ],
+      "collision": "BlockAll"
+    }
+  },
+  "glass_hit_points_cm": [
+    [
+      2360.0,
+      1487.4998949354303,
+      172.0
+    ],
+    [
+      2360.0,
+      1488.4999862228728,
+      172.0
+    ]
+  ],
+  "visible_window_geometry_present": true,
+  "geometry_and_collision_reused": true,
+  "independent_material_overrides": true,
+  "textures": {
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Ivory_BaseColor": {
+      "srgb": true,
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>"
+    },
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Ivory_Roughness": {
+      "srgb": false,
+      "compression": "<TextureCompressionSettings.TC_MASKS: 2>"
+    },
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Ivory_Normal": {
+      "srgb": false,
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>"
+    },
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_CarvedStone_BaseColor": {
+      "srgb": true,
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>"
+    },
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_CarvedStone_Roughness": {
+      "srgb": false,
+      "compression": "<TextureCompressionSettings.TC_MASKS: 2>"
+    },
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_CarvedStone_Normal": {
+      "srgb": false,
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>"
+    },
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_RecessStone_BaseColor": {
+      "srgb": true,
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>"
+    },
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_RecessStone_Roughness": {
+      "srgb": false,
+      "compression": "<TextureCompressionSettings.TC_MASKS: 2>"
+    },
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_RecessStone_Normal": {
+      "srgb": false,
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>"
+    },
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Gold_BaseColor": {
+      "srgb": true,
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>"
+    },
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Gold_Roughness": {
+      "srgb": false,
+      "compression": "<TextureCompressionSettings.TC_MASKS: 2>"
+    },
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Gold_Normal": {
+      "srgb": false,
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>"
+    },
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Azure_BaseColor": {
+      "srgb": true,
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>"
+    },
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Azure_Roughness": {
+      "srgb": false,
+      "compression": "<TextureCompressionSettings.TC_MASKS: 2>"
+    },
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_Azure_Normal": {
+      "srgb": false,
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>"
+    },
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_ClearGlass_Roughness": {
+      "srgb": false,
+      "compression": "<TextureCompressionSettings.TC_MASKS: 2>"
+    },
+    "/Game/Art/Textures/HighElfWallStudy02/T_HE02_ClearGlass_Normal": {
+      "srgb": false,
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>"
+    }
+  }
+}

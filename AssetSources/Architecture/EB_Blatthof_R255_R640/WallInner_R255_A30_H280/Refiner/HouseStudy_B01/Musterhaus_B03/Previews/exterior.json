@@ -1,0 +1,19 @@
+{
+  "cameraLocation": {
+    "x": -3400,
+    "y": -1250,
+    "z": 510
+  },
+  "cameraRotation": {
+    "pitch": -8.258967128184398,
+    "yaw": -36.25383773744479,
+    "roll": 4.0173577009587383e-16
+  },
+  "cameraFOV": 90,
+  "grid": {
+    "spacingCm": 0,
+    "extentCm": 0,
+    "height": 0
+  },
+  "labeledActors": []
+}

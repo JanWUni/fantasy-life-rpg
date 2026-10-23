@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "source_reopened": true,
+  "roundtrips": {
+    "SM_HE01_A_WallCore": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 15,
+      "triangles": 180
+    },
+    "SM_HE01_A_WindowFrame": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 0,
+      "triangles": 1144
+    },
+    "SM_HE01_A_ClearGlass": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 1,
+      "triangles": 104
+    },
+    "SM_HE01_A_StoneCarving": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 0,
+      "triangles": 1688
+    },
+    "SM_HE01_A_GoldInlay": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 0,
+      "triangles": 776
+    },
+    "SM_HE01_A_BlueInlay": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 0,
+      "triangles": 20
+    },
+    "SM_HE01_B_StoneCarving": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 0,
+      "triangles": 5296
+    },
+    "SM_HE01_B_GoldInlay": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 0,
+      "triangles": 3016
+    },
+    "SM_HE01_B_BlueInlay": {
+      "bounds_error_m": 0.0,
+      "ucx_hulls": 0,
+      "triangles": 120
+    }
+  }
+}

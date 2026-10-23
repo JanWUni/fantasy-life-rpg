@@ -285,3 +285,14 @@ Wichtige Korrektur: Das frühere `FBX_SCALE_UNITS`-Startprofil lieferte um Fakto
 ## Noch offene technische Entscheidungen
 
 Die Repository-Einrichtung bestätigt keine endgültige Gameplay-, Networking-, Persistenz-, Weltsimulations- oder Deployment-Architektur. Diese Punkte bleiben gemäß [IMPLEMENTATION_APPROACH.md](IMPLEMENTATION_APPROACH.md) offen, bis sie ausdrücklich entschieden und dokumentiert werden.
+
+
+## Elfenhaus B02 im Refiner-Lab – 23. Oktober 2026
+
+Der Nutzer hat die erste gerade Hausstudie positiv bewertet und ausdrücklich das Refiner-Lab als Ziel gewählt. Beide Hauslängen (10 × 12 m und 10 × 16 m) stehen jetzt im südlichen Bereich von `/Game/Prototype/Maps/Lvl_AssetLab`, Outliner `Lab/Architecture/ElvenHouseB02`. Bestehende Lab-Actors und Beleuchtung bleiben erhalten; das Hauptprojekt ist unverändert. Maße und Stil bleiben eine Prototyp-Arbeitsrichtung.
+
+22 separat instanzierte `BP_EH_Window_Arch_100x173` ersetzen die integrierten opaken Fenster. Die eigene Blender-Kopie teilt jedes ursprüngliche Fensterfeld in Wandöffnung (744 Dreiecke), Rahmen/Fensterbank (456) und Scheibe (72); zusammen unverändert 1.272 Dreiecke. Eigenes klares Substrate-Simple-Volume-Material ermöglicht Durchsicht, die Scheibe blockiert weiterhin physikalisch. Rahmen werfen Schatten, die klare Scheibe keinen opaken Schatten. Bestehende Materialien und Blueprints wurden nicht geändert.
+
+Quelle erneut geöffnet, drei FBX-Rückimporte, Legacy-Unreal-Import/Reimport, Größen/Slots/UCX 7/0/1, alle 22 Öffnungen, Speichern/Wiederöffnen und der tatsächliche E-/W-Türlauf im Lab bestanden. Ein kontrollierter Bildvergleich mit temporärem opakem Fensterverschluss bestätigt den Sonnenlichtfleck im Innenraum; Testobjekte sind entfernt. Kein Performance-/Produktionsnachweis. Status review_ready; Innenausbau, obere Zusatzkollisionen und weitere Fenster-/Hausvarianten bleiben offen.
+
+Vollständige Pfade, Montagevertrag, Messwerte, Ansichten und Grenzen: [B02-Review](../AssetSources/Architecture/EB_Blatthof_R255_R640/WallInner_R255_A30_H280/Refiner/HouseStudy_B01/WindowUpdate_B02/REVIEW.md). Eigenständige ursprüngliche B01-Prüfkarte und sämtliche Quellen des Ausgangsstands bleiben erhalten. Dieses Update ist noch nicht committet oder gepusht.

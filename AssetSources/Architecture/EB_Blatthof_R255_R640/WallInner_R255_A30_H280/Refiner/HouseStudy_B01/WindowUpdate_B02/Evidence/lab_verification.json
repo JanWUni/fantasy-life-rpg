@@ -1,0 +1,228 @@
+{
+  "status": "passed",
+  "original_actors_preserved": 60,
+  "new_house_actors": 198,
+  "windows": 22,
+  "meshes": {
+    "SM_EH_Wall_WindowOpening_200x24x320": {
+      "bounds_cm": [
+        [
+          -2.0981467514502583e-06,
+          -24.000017166137695,
+          0.0
+        ],
+        [
+          201.47593688964844,
+          15.5,
+          320.0
+        ]
+      ],
+      "bounds_error_cm": 1.7702579498291016e-05,
+      "hulls": 7,
+      "triangles": 744,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "uv_channels": 1,
+      "import_options": {
+        "import_uniform_scale": "1.0",
+        "convert_scene": "True",
+        "convert_scene_unit": "False",
+        "force_front_x_axis": "False",
+        "auto_generate_collision": "False",
+        "one_convex_hull_per_ucx": "True",
+        "generate_lightmap_u_vs": "True",
+        "normal_import_method": "<FBXNormalImportMethod.FBXNIM_IMPORT_NORMALS: 1>",
+        "normal_generation_method": "<FBXNormalGenerationMethod.MIKK_T_SPACE: 1>"
+      }
+    },
+    "SM_EH_WindowFrame_Arch_100x173": {
+      "bounds_cm": [
+        [
+          -59.0,
+          -14.500004768371582,
+          -8.99999713897705
+        ],
+        [
+          58.99999237060547,
+          23.500003814697266,
+          178.80001831054688
+        ]
+      ],
+      "bounds_error_cm": 7.62939453125e-06,
+      "hulls": 0,
+      "triangles": 456,
+      "slots": [
+        "Timber",
+        "Stone"
+      ],
+      "uv_channels": 1,
+      "import_options": {
+        "import_uniform_scale": "1.0",
+        "convert_scene": "True",
+        "convert_scene_unit": "False",
+        "force_front_x_axis": "False",
+        "auto_generate_collision": "False",
+        "one_convex_hull_per_ucx": "True",
+        "generate_lightmap_u_vs": "True",
+        "normal_import_method": "<FBXNormalImportMethod.FBXNIM_IMPORT_NORMALS: 1>",
+        "normal_generation_method": "<FBXNormalGenerationMethod.MIKK_T_SPACE: 1>"
+      }
+    },
+    "SM_EH_WindowGlass_Arch_100x173": {
+      "bounds_cm": [
+        [
+          -50.0,
+          -15.000004768371582,
+          0.0
+        ],
+        [
+          50.0,
+          -12.999995231628418,
+          173.0
+        ]
+      ],
+      "bounds_error_cm": 4.291534423828125e-06,
+      "hulls": 1,
+      "triangles": 72,
+      "slots": [
+        "Glass"
+      ],
+      "uv_channels": 1,
+      "import_options": {
+        "import_uniform_scale": "1.0",
+        "convert_scene": "True",
+        "convert_scene_unit": "False",
+        "force_front_x_axis": "False",
+        "auto_generate_collision": "False",
+        "one_convex_hull_per_ucx": "True",
+        "generate_lightmap_u_vs": "True",
+        "normal_import_method": "<FBXNormalImportMethod.FBXNIM_IMPORT_NORMALS: 1>",
+        "normal_generation_method": "<FBXNormalGenerationMethod.MIKK_T_SPACE: 1>"
+      }
+    }
+  },
+  "aperture_tests": [
+    {
+      "label": "Lab_EH_B02_House_10x12_1_Window",
+      "window_blocks_player_rays": true,
+      "wall_opening_clear_when_window_ignored": true
+    },
+    {
+      "label": "Lab_EH_B02_House_10x12_3_Window",
+      "window_blocks_player_rays": true,
+      "wall_opening_clear_when_window_ignored": true
+    },
+    {
+      "label": "Lab_EH_B02_House_10x12_7_Window",
+      "window_blocks_player_rays": true,
+      "wall_opening_clear_when_window_ignored": true
+    },
+    {
+      "label": "Lab_EH_B02_House_10x12_11_Window",
+      "window_blocks_player_rays": true,
+      "wall_opening_clear_when_window_ignored": true
+    },
+    {
+      "label": "Lab_EH_B02_House_10x12_15_Window",
+      "window_blocks_player_rays": true,
+      "wall_opening_clear_when_window_ignored": true
+    },
+    {
+      "label": "Lab_EH_B02_House_10x12_18_Window",
+      "window_blocks_player_rays": true,
+      "wall_opening_clear_when_window_ignored": true
+    },
+    {
+      "label": "Lab_EH_B02_House_10x12_20_Window",
+      "window_blocks_player_rays": true,
+      "wall_opening_clear_when_window_ignored": true
+    },
+    {
+      "label": "Lab_EH_B02_House_10x12_24_Window",
+      "window_blocks_player_rays": true,
+      "wall_opening_clear_when_window_ignored": true
+    },
+    {
+      "label": "Lab_EH_B02_House_10x12_28_Window",
+      "window_blocks_player_rays": true,
+      "wall_opening_clear_when_window_ignored": true
+    },
+    {
+      "label": "Lab_EH_B02_House_10x12_32_Window",
+      "window_blocks_player_rays": true,
+      "wall_opening_clear_when_window_ignored": true
+    },
+    {
+      "label": "Lab_EH_B02_House_10x16_Variation_1_Window",
+      "window_blocks_player_rays": true,
+      "wall_opening_clear_when_window_ignored": true
+    },
+    {
+      "label": "Lab_EH_B02_House_10x16_Variation_3_Window",
+      "window_blocks_player_rays": true,
+      "wall_opening_clear_when_window_ignored": true
+    },
+    {
+      "label": "Lab_EH_B02_House_10x16_Variation_7_Window",
+      "window_blocks_player_rays": true,
+      "wall_opening_clear_when_window_ignored": true
+    },
+    {
+      "label": "Lab_EH_B02_House_10x16_Variation_11_Window",
+      "window_blocks_player_rays": true,
+      "wall_opening_clear_when_window_ignored": true
+    },
+    {
+      "label": "Lab_EH_B02_House_10x16_Variation_15_Window",
+      "window_blocks_player_rays": true,
+      "wall_opening_clear_when_window_ignored": true
+    },
+    {
+      "label": "Lab_EH_B02_House_10x16_Variation_19_Window",
+      "window_blocks_player_rays": true,
+      "wall_opening_clear_when_window_ignored": true
+    },
+    {
+      "label": "Lab_EH_B02_House_10x16_Variation_22_Window",
+      "window_blocks_player_rays": true,
+      "wall_opening_clear_when_window_ignored": true
+    },
+    {
+      "label": "Lab_EH_B02_House_10x16_Variation_24_Window",
+      "window_blocks_player_rays": true,
+      "wall_opening_clear_when_window_ignored": true
+    },
+    {
+      "label": "Lab_EH_B02_House_10x16_Variation_28_Window",
+      "window_blocks_player_rays": true,
+      "wall_opening_clear_when_window_ignored": true
+    },
+    {
+      "label": "Lab_EH_B02_House_10x16_Variation_32_Window",
+      "window_blocks_player_rays": true,
+      "wall_opening_clear_when_window_ignored": true
+    },
+    {
+      "label": "Lab_EH_B02_House_10x16_Variation_36_Window",
+      "window_blocks_player_rays": true,
+      "wall_opening_clear_when_window_ignored": true
+    },
+    {
+      "label": "Lab_EH_B02_House_10x16_Variation_40_Window",
+      "window_blocks_player_rays": true,
+      "wall_opening_clear_when_window_ignored": true
+    }
+  ],
+  "lab_sun_direction": [
+    0.5792279653395692,
+    -0.4055797876726388,
+    -0.7071067811865475
+  ],
+  "lab_sun_intensity": 6.0,
+  "material": {
+    "blend": "<BlendMode.BLEND_TRANSLUCENT_COLORED_TRANSMITTANCE: 7>"
+  }
+}

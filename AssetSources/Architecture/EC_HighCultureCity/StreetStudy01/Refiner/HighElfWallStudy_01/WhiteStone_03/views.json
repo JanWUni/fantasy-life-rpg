@@ -1,0 +1,104 @@
+{
+  "UE_Vergleich": {
+    "location": {
+      "x": 2050,
+      "y": 2190,
+      "z": 310
+    },
+    "rotation": {
+      "pitch": -12,
+      "yaw": -90,
+      "roll": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "UE_Detail": {
+    "location": {
+      "x": 2500,
+      "y": 1940,
+      "z": 220
+    },
+    "rotation": {
+      "pitch": -5,
+      "yaw": -110,
+      "roll": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "UE_Glas_Schraeg": {
+    "location": {
+      "x": 2650,
+      "y": 1740,
+      "z": 180
+    },
+    "rotation": {
+      "pitch": 0,
+      "yaw": -140,
+      "roll": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "UE_Glas_Aussen": {
+    "location": {
+      "z": 182,
+      "x": 2380,
+      "y": 1670
+    },
+    "scale": {
+      "z": 1,
+      "x": 1,
+      "y": 1
+    },
+    "rotation": {
+      "pitch": 0,
+      "roll": 0,
+      "yaw": -100
+    }
+  },
+  "UE_Glas_Innen": {
+    "location": {
+      "z": 182,
+      "x": 2290,
+      "y": 1330
+    },
+    "scale": {
+      "z": 1,
+      "x": 1,
+      "y": 1
+    },
+    "rotation": {
+      "pitch": 0,
+      "roll": 0,
+      "yaw": 69
+    }
+  },
+  "UE_Weiss_Detail": {
+    "scale": {
+      "z": 1,
+      "y": 1,
+      "x": 1
+    },
+    "rotation": {
+      "roll": 0,
+      "yaw": -110,
+      "pitch": -5
+    },
+    "location": {
+      "z": 220,
+      "y": 1810,
+      "x": 1880
+    }
+  }
+}

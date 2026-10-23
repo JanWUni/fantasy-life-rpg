@@ -1,0 +1,277 @@
+{
+  "status": "passed",
+  "source_reopened": true,
+  "all_textures_resolved": true,
+  "blender": "5.2.2 LTS",
+  "assets": {
+    "SM_WC01_Wall_A_Solid_300x24x320": {
+      "bounds_error_m": 0.0,
+      "triangles": 624,
+      "vertices": 344,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "bounds_m": [
+        [
+          0.0,
+          -0.09000000357627869,
+          0.0
+        ],
+        [
+          3.0,
+          0.29249998927116394,
+          3.200000047683716
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0
+    },
+    "SM_WC01_Wall_A_Window_300x24x320": {
+      "bounds_error_m": 0.0,
+      "triangles": 792,
+      "vertices": 456,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "bounds_m": [
+        [
+          0.0,
+          -0.09000000357627869,
+          0.0
+        ],
+        [
+          3.0,
+          0.29249998927116394,
+          3.200000047683716
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0
+    },
+    "SM_WC01_Wall_B_Solid_300x24x320": {
+      "bounds_error_m": 0.0,
+      "triangles": 1012,
+      "vertices": 576,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "bounds_m": [
+        [
+          0.0,
+          -0.10999999940395355,
+          0.0
+        ],
+        [
+          3.0,
+          0.29249998927116394,
+          3.200000047683716
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0
+    },
+    "SM_WC01_Wall_B_Window_300x24x320": {
+      "bounds_error_m": 0.0,
+      "triangles": 1048,
+      "vertices": 616,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "bounds_m": [
+        [
+          0.0,
+          -0.10999999940395355,
+          0.0
+        ],
+        [
+          3.0,
+          0.29249998927116394,
+          3.200000047683716
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0
+    },
+    "SM_WC01_Wall_C_Solid_300x24x320": {
+      "bounds_error_m": 0.0,
+      "triangles": 1672,
+      "vertices": 936,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "bounds_m": [
+        [
+          0.0,
+          -0.11499999463558197,
+          0.0
+        ],
+        [
+          3.0,
+          0.29249998927116394,
+          3.200000047683716
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0
+    },
+    "SM_WC01_Wall_C_Window_300x24x320": {
+      "bounds_error_m": 0.0,
+      "triangles": 1708,
+      "vertices": 976,
+      "slots": [
+        "Plaster",
+        "Timber",
+        "Stone"
+      ],
+      "bounds_m": [
+        [
+          0.0,
+          -0.11499999463558197,
+          0.0
+        ],
+        [
+          3.0,
+          0.29249998927116394,
+          3.200000047683716
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0
+    },
+    "SM_WC01_WindowFrame_140x40x157": {
+      "bounds_error_m": 0.0,
+      "triangles": 656,
+      "vertices": 384,
+      "slots": [
+        "Timber",
+        "Stone",
+        "Bronze"
+      ],
+      "bounds_m": [
+        [
+          -0.699999988079071,
+          -0.1599999964237213,
+          -0.0625
+        ],
+        [
+          0.699999988079071,
+          0.2944999933242798,
+          1.5574363470077515
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0
+    },
+    "SM_WC01_WindowGlass_Clear_112x2x145": {
+      "bounds_error_m": 0.0,
+      "triangles": 72,
+      "vertices": 38,
+      "slots": [
+        "Glass"
+      ],
+      "bounds_m": [
+        [
+          -0.5569999814033508,
+          0.125,
+          0.03999999910593033
+        ],
+        [
+          0.5569999814033508,
+          0.14499999582767487,
+          1.4850000143051147
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0
+    },
+    "SM_WC01_Table_180x100x78": {
+      "bounds_error_m": 0.0,
+      "triangles": 1120,
+      "vertices": 624,
+      "slots": [
+        "Timber"
+      ],
+      "bounds_m": [
+        [
+          -0.9443690180778503,
+          -0.49799999594688416,
+          0.0
+        ],
+        [
+          0.9443690180778503,
+          0.49799999594688416,
+          0.7900000214576721
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0
+    },
+    "SM_WC01_Chair_48x49x101": {
+      "bounds_error_m": 0.0,
+      "triangles": 752,
+      "vertices": 416,
+      "slots": [
+        "Timber"
+      ],
+      "bounds_m": [
+        [
+          -0.23999999463558197,
+          -0.23800000548362732,
+          0.0
+        ],
+        [
+          0.23999999463558197,
+          0.2775000035762787,
+          0.9800000190734863
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0
+    },
+    "SM_WC01_WallLamp_28x54x48": {
+      "bounds_error_m": 0.0,
+      "triangles": 616,
+      "vertices": 338,
+      "slots": [
+        "Iron",
+        "Bronze",
+        "Glow"
+      ],
+      "bounds_m": [
+        [
+          -0.14000000059604645,
+          -0.5400000214576721,
+          -0.45899999141693115
+        ],
+        [
+          0.14000000059604645,
+          0.0,
+          0.2039896547794342
+        ]
+      ],
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "degenerate_uv_triangles": 0
+    }
+  }
+}

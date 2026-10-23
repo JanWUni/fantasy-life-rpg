@@ -1,0 +1,18 @@
+{
+  "plug": {
+    "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_210"
+  },
+  "plug_component": {
+    "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_210.StaticMeshComponent0"
+  },
+  "exposure": {
+    "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.PostProcessVolume_0"
+  },
+  "fixed_exposure_ev": 1,
+  "floor_sample_cm": [
+    -1975,
+    -2014,
+    31
+  ],
+  "note": "Not saved; remove both test actors after captures"
+}

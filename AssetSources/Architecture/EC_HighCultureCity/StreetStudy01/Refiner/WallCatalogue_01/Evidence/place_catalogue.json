@@ -1,0 +1,450 @@
+{
+  "status": "passed",
+  "map": "/Game/Prototype/Maps/Lvl_AssetLab",
+  "placed": [
+    {
+      "label": "Lab_WC01_A_Solid",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_309"
+      },
+      "path": "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_A_Solid_300x24x320",
+      "location_cm": [
+        -2200,
+        2000,
+        2
+      ],
+      "yaw": 0,
+      "kind": "Mesh"
+    },
+    {
+      "label": "Lab_WC01_A_SolidLabel",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_51"
+      },
+      "location_cm": [
+        -2050,
+        2095,
+        30
+      ],
+      "kind": "Label"
+    },
+    {
+      "label": "Lab_WC01_A_Lamp",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_WC01_WallLamp_C_0"
+      },
+      "path": "/Game/Art/Furniture/WallCatalogue01/Blueprints/BP_WC01_WallLamp",
+      "location_cm": [
+        -2135,
+        2004,
+        202
+      ],
+      "yaw": 0,
+      "kind": "Lamp"
+    },
+    {
+      "label": "Lab_WC01_A_Window",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_310"
+      },
+      "path": "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_A_Window_300x24x320",
+      "location_cm": [
+        -2200,
+        3000,
+        2
+      ],
+      "yaw": 0,
+      "kind": "Mesh"
+    },
+    {
+      "label": "Lab_WC01_A_WindowLabel",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_52"
+      },
+      "location_cm": [
+        -2050,
+        3095,
+        30
+      ],
+      "kind": "Label"
+    },
+    {
+      "label": "Lab_WC01_A_WindowFrame_140x40x157",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_311"
+      },
+      "path": "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_WindowFrame_140x40x157",
+      "location_cm": [
+        -2050,
+        3000,
+        102
+      ],
+      "yaw": 0,
+      "kind": "Mesh"
+    },
+    {
+      "label": "Lab_WC01_A_WindowGlass_Clear_112x2x145",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_312"
+      },
+      "path": "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_WindowGlass_Clear_112x2x145",
+      "location_cm": [
+        -2050,
+        3000,
+        102
+      ],
+      "yaw": 0,
+      "kind": "Mesh"
+    },
+    {
+      "label": "Lab_WC01_B_Solid",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_313"
+      },
+      "path": "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_B_Solid_300x24x320",
+      "location_cm": [
+        -1200,
+        2000,
+        2
+      ],
+      "yaw": 0,
+      "kind": "Mesh"
+    },
+    {
+      "label": "Lab_WC01_B_SolidLabel",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_53"
+      },
+      "location_cm": [
+        -1050,
+        2095,
+        30
+      ],
+      "kind": "Label"
+    },
+    {
+      "label": "Lab_WC01_B_Lamp",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_WC01_WallLamp_C_1"
+      },
+      "path": "/Game/Art/Furniture/WallCatalogue01/Blueprints/BP_WC01_WallLamp",
+      "location_cm": [
+        -1135,
+        2004,
+        202
+      ],
+      "yaw": 0,
+      "kind": "Lamp"
+    },
+    {
+      "label": "Lab_WC01_B_Window",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_314"
+      },
+      "path": "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_B_Window_300x24x320",
+      "location_cm": [
+        -1200,
+        3000,
+        2
+      ],
+      "yaw": 0,
+      "kind": "Mesh"
+    },
+    {
+      "label": "Lab_WC01_B_WindowLabel",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_54"
+      },
+      "location_cm": [
+        -1050,
+        3095,
+        30
+      ],
+      "kind": "Label"
+    },
+    {
+      "label": "Lab_WC01_B_WindowFrame_140x40x157",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_315"
+      },
+      "path": "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_WindowFrame_140x40x157",
+      "location_cm": [
+        -1050,
+        3000,
+        102
+      ],
+      "yaw": 0,
+      "kind": "Mesh"
+    },
+    {
+      "label": "Lab_WC01_B_WindowGlass_Clear_112x2x145",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_316"
+      },
+      "path": "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_WindowGlass_Clear_112x2x145",
+      "location_cm": [
+        -1050,
+        3000,
+        102
+      ],
+      "yaw": 0,
+      "kind": "Mesh"
+    },
+    {
+      "label": "Lab_WC01_C_Solid",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_317"
+      },
+      "path": "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_C_Solid_300x24x320",
+      "location_cm": [
+        -200,
+        2000,
+        2
+      ],
+      "yaw": 0,
+      "kind": "Mesh"
+    },
+    {
+      "label": "Lab_WC01_C_SolidLabel",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_55"
+      },
+      "location_cm": [
+        -50,
+        2095,
+        30
+      ],
+      "kind": "Label"
+    },
+    {
+      "label": "Lab_WC01_C_Lamp",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_WC01_WallLamp_C_2"
+      },
+      "path": "/Game/Art/Furniture/WallCatalogue01/Blueprints/BP_WC01_WallLamp",
+      "location_cm": [
+        -135,
+        2004,
+        202
+      ],
+      "yaw": 0,
+      "kind": "Lamp"
+    },
+    {
+      "label": "Lab_WC01_C_Window",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_318"
+      },
+      "path": "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_C_Window_300x24x320",
+      "location_cm": [
+        -200,
+        3000,
+        2
+      ],
+      "yaw": 0,
+      "kind": "Mesh"
+    },
+    {
+      "label": "Lab_WC01_C_WindowLabel",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_56"
+      },
+      "location_cm": [
+        -50,
+        3095,
+        30
+      ],
+      "kind": "Label"
+    },
+    {
+      "label": "Lab_WC01_C_WindowFrame_140x40x157",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_319"
+      },
+      "path": "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_WindowFrame_140x40x157",
+      "location_cm": [
+        -50,
+        3000,
+        102
+      ],
+      "yaw": 0,
+      "kind": "Mesh"
+    },
+    {
+      "label": "Lab_WC01_C_WindowGlass_Clear_112x2x145",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_320"
+      },
+      "path": "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_WindowGlass_Clear_112x2x145",
+      "location_cm": [
+        -50,
+        3000,
+        102
+      ],
+      "yaw": 0,
+      "kind": "Mesh"
+    },
+    {
+      "label": "Lab_WC01_Table_Context",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_321"
+      },
+      "path": "/Game/Art/Furniture/WallCatalogue01/Meshes/SM_WC01_Table_180x100x78",
+      "location_cm": [
+        -1050,
+        2420,
+        2
+      ],
+      "yaw": 0,
+      "kind": "Mesh"
+    },
+    {
+      "label": "Lab_WC01_Chair_Context",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_322"
+      },
+      "path": "/Game/Art/Furniture/WallCatalogue01/Meshes/SM_WC01_Chair_48x49x101",
+      "location_cm": [
+        -1050,
+        2520,
+        2
+      ],
+      "yaw": 0,
+      "kind": "Mesh"
+    },
+    {
+      "label": "Lab_WC01_Table_Single",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_323"
+      },
+      "path": "/Game/Art/Furniture/WallCatalogue01/Meshes/SM_WC01_Table_180x100x78",
+      "location_cm": [
+        650,
+        2150,
+        2
+      ],
+      "yaw": 0,
+      "kind": "Mesh"
+    },
+    {
+      "label": "Lab_WC01_Chair_Single",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_324"
+      },
+      "path": "/Game/Art/Furniture/WallCatalogue01/Meshes/SM_WC01_Chair_48x49x101",
+      "location_cm": [
+        1000,
+        2150,
+        2
+      ],
+      "yaw": 0,
+      "kind": "Mesh"
+    },
+    {
+      "label": "Lab_WC01_FurnitureLabel",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_57"
+      },
+      "location_cm": [
+        800,
+        2380,
+        30
+      ],
+      "kind": "Label"
+    },
+    {
+      "label": "Lab_WC01_Single_WindowFrame_140x40x157",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_325"
+      },
+      "path": "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_WindowFrame_140x40x157",
+      "location_cm": [
+        650,
+        2900,
+        12
+      ],
+      "yaw": 0,
+      "kind": "Mesh"
+    },
+    {
+      "label": "Lab_WC01_Single_WindowGlass_Clear_112x2x145",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_326"
+      },
+      "path": "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_WindowGlass_Clear_112x2x145",
+      "location_cm": [
+        1000,
+        2900,
+        12
+      ],
+      "yaw": 0,
+      "kind": "Mesh"
+    },
+    {
+      "label": "Lab_WC01_InsertLabel",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_58"
+      },
+      "location_cm": [
+        800,
+        3100,
+        24
+      ],
+      "kind": "Label"
+    },
+    {
+      "label": "Lab_WC01_Snap_A",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_327"
+      },
+      "path": "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_A_Solid_300x24x320",
+      "location_cm": [
+        700,
+        3500,
+        2
+      ],
+      "yaw": 0,
+      "kind": "Mesh"
+    },
+    {
+      "label": "Lab_WC01_Snap_B",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_328"
+      },
+      "path": "/Game/Art/Architecture/WallCatalogue01/Meshes/SM_WC01_Wall_B_Solid_300x24x320",
+      "location_cm": [
+        1000,
+        3500,
+        2
+      ],
+      "yaw": 0,
+      "kind": "Mesh"
+    },
+    {
+      "label": "Lab_WC01_SnapLabel",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_59"
+      },
+      "location_cm": [
+        1000,
+        3620,
+        30
+      ],
+      "kind": "Label"
+    },
+    {
+      "label": "Lab_WC01_Title",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_60"
+      },
+      "location_cm": [
+        -600,
+        3800,
+        370
+      ],
+      "kind": "Label"
+    }
+  ],
+  "existing_house_actors_modified": 0,
+  "scope": "Independent catalogue only; no house modifications"
+}

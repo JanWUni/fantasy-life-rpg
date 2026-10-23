@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "files_checked": 2136,
+  "changed": [
+    "Content/Prototype/Maps/Lvl_AssetLab.umap"
+  ],
+  "new_materials": {
+    "/Game/Art/Materials/HighElfWallStudy03/M_HE03_Ivory": "0523390641efefbedf0035fc2551a30d79c78d8910279d5ba27a271f751a6c29",
+    "/Game/Art/Materials/HighElfWallStudy03/M_HE03_CarvedStone": "0832e6d95a40b6406d530b457d19a1968ed583add8515819818e8fee86ea8bec",
+    "/Game/Art/Materials/HighElfWallStudy03/M_HE03_RecessStone": "de3e34d01a14c26f68b2bca0711c6325eadf391023666f6ab126ada3057a04bc"
+  }
+}

@@ -1,0 +1,1651 @@
+{
+  "map": "/Game/Prototype/Maps/Lvl_AssetLab",
+  "modified_small_house_actors": [
+    "Lab_EH_B02_House_10x12_0",
+    "Lab_EH_B02_House_10x12_1",
+    "Lab_EH_B02_House_10x12_1_Window",
+    "Lab_EH_B02_House_10x12_2",
+    "Lab_EH_B02_House_10x12_3",
+    "Lab_EH_B02_House_10x12_3_Window",
+    "Lab_EH_B02_House_10x12_4",
+    "Lab_EH_B02_House_10x12_5",
+    "Lab_EH_B02_House_10x12_6",
+    "Lab_EH_B02_House_10x12_7",
+    "Lab_EH_B02_House_10x12_7_Window",
+    "Lab_EH_B02_House_10x12_8",
+    "Lab_EH_B02_House_10x12_9",
+    "Lab_EH_B02_House_10x12_10",
+    "Lab_EH_B02_House_10x12_11",
+    "Lab_EH_B02_House_10x12_11_Window",
+    "Lab_EH_B02_House_10x12_12",
+    "Lab_EH_B02_House_10x12_13",
+    "Lab_EH_B02_House_10x12_14",
+    "Lab_EH_B02_House_10x12_15",
+    "Lab_EH_B02_House_10x12_15_Window",
+    "Lab_EH_B02_House_10x12_16",
+    "Lab_EH_B02_House_10x12_17",
+    "Lab_EH_B02_House_10x12_18",
+    "Lab_EH_B02_House_10x12_18_Window",
+    "Lab_EH_B02_House_10x12_19",
+    "Lab_EH_B02_House_10x12_20",
+    "Lab_EH_B02_House_10x12_20_Window",
+    "Lab_EH_B02_House_10x12_21",
+    "Lab_EH_B02_House_10x12_22",
+    "Lab_EH_B02_House_10x12_23",
+    "Lab_EH_B02_House_10x12_24",
+    "Lab_EH_B02_House_10x12_24_Window",
+    "Lab_EH_B02_House_10x12_25",
+    "Lab_EH_B02_House_10x12_26",
+    "Lab_EH_B02_House_10x12_27",
+    "Lab_EH_B02_House_10x12_28",
+    "Lab_EH_B02_House_10x12_28_Window",
+    "Lab_EH_B02_House_10x12_29",
+    "Lab_EH_B02_House_10x12_30",
+    "Lab_EH_B02_House_10x12_31",
+    "Lab_EH_B02_House_10x12_32",
+    "Lab_EH_B02_House_10x12_32_Window",
+    "Lab_EH_B02_House_10x12_33",
+    "Lab_EH_B02_House_10x12_34",
+    "Lab_EH_B02_House_10x12_35",
+    "Lab_EH_B02_House_10x12_36",
+    "Lab_EH_B02_House_10x12_37",
+    "Lab_EH_B02_House_10x12_38",
+    "Lab_EH_B02_House_10x12_39",
+    "Lab_EH_B02_House_10x12_40",
+    "Lab_EH_B02_House_10x12_41",
+    "Lab_EH_B02_House_10x12_42",
+    "Lab_EH_B02_House_10x12_43",
+    "Lab_EH_B02_House_10x12_44",
+    "Lab_EH_B02_House_10x12_45",
+    "Lab_EH_B02_House_10x12_46",
+    "Lab_EH_B02_House_10x12_47",
+    "Lab_EH_B02_House_10x12_48",
+    "Lab_EH_B02_House_10x12_49",
+    "Lab_EH_B02_House_10x12_50",
+    "Lab_EH_B02_House_10x12_51",
+    "Lab_EH_B02_House_10x12_52",
+    "Lab_EH_B02_House_10x12_53",
+    "Lab_EH_B02_House_10x12_54",
+    "Lab_EH_B02_House_10x12_55",
+    "Lab_EH_B02_House_10x12_56",
+    "Lab_EH_B02_House_10x12_57",
+    "Lab_EH_B02_House_10x12_58",
+    "Lab_EH_B02_House_10x12_59",
+    "Lab_EH_B02_House_10x12_60",
+    "Lab_EH_B02_House_10x12_61",
+    "Lab_EH_B02_House_10x12_62",
+    "Lab_EH_B02_House_10x12_63",
+    "Lab_EH_B02_House_10x12_64",
+    "Lab_EH_B02_House_10x12_65",
+    "Lab_EH_B02_House_10x12_66",
+    "Lab_EH_B02_House_10x12_67",
+    "Lab_EH_B02_House_10x12_68",
+    "Lab_EH_B02_House_10x12_69",
+    "Lab_EH_B02_House_10x12_70",
+    "Lab_EH_B02_House_10x12_71",
+    "Lab_EH_B02_House_10x12_72",
+    "Lab_EH_B02_House_10x12_73",
+    "Lab_EH_B02_House_10x12_74_Step",
+    "Lab_EH_B02_House_10x12_75_Step",
+    "Lab_EH_B02_House_10x12_76_Step",
+    "Lab_EH_B02_House_10x12_Foundation"
+  ],
+  "new_actors": {
+    "Lab_EH_B03_Interior_00_SM_EH03_InteriorWall_200x12x300": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_2"
+    },
+    "Lab_EH_B03_Interior_01_SM_EH03_InteriorDoorway_200x12x300": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_19"
+    },
+    "Lab_EH_B03_Interior_02_SM_EH03_InteriorWall_200x12x300": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_210"
+    },
+    "Lab_EH_B03_Interior_03_SM_EH03_InteriorDoorway_200x12x300": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_211"
+    },
+    "Lab_EH_B03_Interior_04_SM_EH03_InteriorWall_152x12x300": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_212"
+    },
+    "Lab_EH_B03_Interior_05_SM_EH03_InteriorWall_200x12x300": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_213"
+    },
+    "Lab_EH_B03_Interior_06_SM_EH03_InteriorWall_200x12x300": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_214"
+    },
+    "Lab_EH_B03_Interior_07_SM_EH03_InteriorWall_56x12x300": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_215"
+    },
+    "Lab_EH_B03_Interior_08_SM_EH03_Ceiling_238x228x16": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_216"
+    },
+    "Lab_EH_B03_Interior_09_SM_EH03_Ceiling_238x228x16": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_217"
+    },
+    "Lab_EH_B03_Interior_10_SM_EH03_Ceiling_238x228x16": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_218"
+    },
+    "Lab_EH_B03_Interior_11_SM_EH03_Ceiling_238x228x16": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_219"
+    },
+    "Lab_EH_B03_Interior_12_SM_EH03_Ceiling_238x228x16": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_220"
+    },
+    "Lab_EH_B03_Interior_13_SM_EH03_Ceiling_238x228x16": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_221"
+    },
+    "Lab_EH_B03_Interior_14_SM_EH03_Ceiling_238x228x16": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_222"
+    },
+    "Lab_EH_B03_Interior_15_SM_EH03_Ceiling_238x228x16": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_223"
+    },
+    "Lab_EH_B03_Interior_16_SM_EH03_Table_180x100x77": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_224"
+    },
+    "Lab_EH_B03_Interior_17_SM_EH03_Rug_240x180": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_225"
+    },
+    "Lab_EH_B03_Interior_18_SM_EH03_Chair_47x49x94": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_226"
+    },
+    "Lab_EH_B03_Interior_19_SM_EH03_Chair_47x49x94": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_227"
+    },
+    "Lab_EH_B03_Interior_20_SM_EH03_Chair_47x49x94": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_228"
+    },
+    "Lab_EH_B03_Interior_21_SM_EH03_Chair_47x49x94": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_229"
+    },
+    "Lab_EH_B03_Interior_22_SM_EH03_Sideboard_140x45x90": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_230"
+    },
+    "Lab_EH_B03_Interior_23_SM_EH03_Bookcase_90x35x190": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_231"
+    },
+    "Lab_EH_B03_Interior_24_SM_EH03_Workbench_140x65x91": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_232"
+    },
+    "Lab_EH_B03_Interior_25_SM_EH03_Bench_120x45x46": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_233"
+    },
+    "Lab_EH_B03_Interior_26_SM_EH03_Bed_160x215x101": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_234"
+    },
+    "Lab_EH_B03_Interior_27_SM_EH03_SideTable_55x45x49": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_235"
+    },
+    "Lab_EH_B03_Interior_28_SM_EH03_Wardrobe_120x55x210": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_236"
+    },
+    "Lab_EH_B03_Interior_29_SM_EH03_Chest_94x49x52": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_237"
+    },
+    "Lab_EH_B03_Interior_30_SM_EH03_Chest_94x49x52": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_238"
+    },
+    "Lab_EH_B03_Interior_31_SM_EH03_Bookcase_90x35x190": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_239"
+    },
+    "Lab_EH_B03_Interior_32_SM_EH03_Sideboard_140x45x90": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_240"
+    },
+    "Lab_EH_B03_Interior_33_SM_EH03_Pendant_24": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH03_Pendant_C_0"
+    },
+    "Lab_EH_B03_Interior_34_SM_EH03_Lantern_24": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH03_Lantern_C_0"
+    },
+    "Lab_EH_B03_Interior_35_SM_EH03_WallLantern_24": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH03_WallLantern_C_0"
+    },
+    "Lab_EH_B03_Interior_36_SM_EH03_Lantern_24": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.BP_EH03_Lantern_C_1"
+    },
+    "Lab_EH_B03_Catalogue_00_SM_EH_Roof_End_W1000": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_241"
+    },
+    "Lab_EH_B03_Label_00": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_15"
+    },
+    "Lab_EH_B03_Bay_00": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_242"
+    },
+    "Lab_EH_B03_Catalogue_01_SM_EH_Roof_Mid_W1000": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_243"
+    },
+    "Lab_EH_B03_Label_01": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_16"
+    },
+    "Lab_EH_B03_Bay_01": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_244"
+    },
+    "Lab_EH_B03_Catalogue_02_SM_EH_Gable_W1000": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_245"
+    },
+    "Lab_EH_B03_Label_02": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_17"
+    },
+    "Lab_EH_B03_Bay_02": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_246"
+    },
+    "Lab_EH_B03_Catalogue_03_SM_EH03_Rug_240x180": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_247"
+    },
+    "Lab_EH_B03_Label_03": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_18"
+    },
+    "Lab_EH_B03_Bay_03": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_248"
+    },
+    "Lab_EH_B03_Catalogue_04_SM_EH03_Ceiling_238x228x16": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_249"
+    },
+    "Lab_EH_B03_Label_04": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_19"
+    },
+    "Lab_EH_B03_Bay_04": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_250"
+    },
+    "Lab_EH_B03_Catalogue_05_SM_EH_EntryCanopy_224": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_251"
+    },
+    "Lab_EH_B03_Label_05": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_20"
+    },
+    "Lab_EH_B03_Bay_05": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_252"
+    },
+    "Lab_EH_B03_Catalogue_06_SM_EH_Wall_SolidB_200x24x320": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_253"
+    },
+    "Lab_EH_B03_Label_06": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_21"
+    },
+    "Lab_EH_B03_Bay_06": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_254"
+    },
+    "Lab_EH_B03_Catalogue_07_SM_EH_Wall_SolidA_200x24x320": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_255"
+    },
+    "Lab_EH_B03_Label_07": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_22"
+    },
+    "Lab_EH_B03_Bay_07": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_256"
+    },
+    "Lab_EH_B03_Catalogue_08_SM_EH_Wall_Entry_200x24x320": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_257"
+    },
+    "Lab_EH_B03_Label_08": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_23"
+    },
+    "Lab_EH_B03_Bay_08": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_258"
+    },
+    "Lab_EH_B03_Catalogue_09_SM_EH_Wall_WindowOpening_200x24x320": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_259"
+    },
+    "Lab_EH_B03_Label_09": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_24"
+    },
+    "Lab_EH_B03_Bay_09": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_260"
+    },
+    "Lab_EH_B03_Catalogue_10_SM_EH_EaveFill_EndB_200": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_261"
+    },
+    "Lab_EH_B03_Label_10": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_25"
+    },
+    "Lab_EH_B03_Bay_10": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_262"
+    },
+    "Lab_EH_B03_Catalogue_11_SM_EH_EaveFill_EndA_200": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_263"
+    },
+    "Lab_EH_B03_Label_11": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_26"
+    },
+    "Lab_EH_B03_Bay_11": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_264"
+    },
+    "Lab_EH_B03_Catalogue_12_SM_EH_Floor_200x200x20": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_265"
+    },
+    "Lab_EH_B03_Label_12": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_27"
+    },
+    "Lab_EH_B03_Bay_12": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_266"
+    },
+    "Lab_EH_B03_Catalogue_13_SM_EH_EaveFill_Mid_200": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_267"
+    },
+    "Lab_EH_B03_Label_13": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_28"
+    },
+    "Lab_EH_B03_Bay_13": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_268"
+    },
+    "Lab_EH_B03_Catalogue_14_SM_EH03_InteriorWall_200x12x300": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_269"
+    },
+    "Lab_EH_B03_Label_14": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_29"
+    },
+    "Lab_EH_B03_Bay_14": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_270"
+    },
+    "Lab_EH_B03_Catalogue_15_SM_EH03_InteriorDoorway_200x12x300": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_271"
+    },
+    "Lab_EH_B03_Label_15": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_30"
+    },
+    "Lab_EH_B03_Bay_15": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_272"
+    },
+    "Lab_EH_B03_Catalogue_16_SM_EH03_Table_180x100x77": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_273"
+    },
+    "Lab_EH_B03_Label_16": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_31"
+    },
+    "Lab_EH_B03_Bay_16": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_274"
+    },
+    "Lab_EH_B03_Catalogue_17_SM_EH03_Bed_160x215x101": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_275"
+    },
+    "Lab_EH_B03_Label_17": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_32"
+    },
+    "Lab_EH_B03_Bay_17": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_276"
+    },
+    "Lab_EH_B03_Catalogue_18_SM_EH03_InteriorWall_152x12x300": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_277"
+    },
+    "Lab_EH_B03_Label_18": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_33"
+    },
+    "Lab_EH_B03_Bay_18": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_278"
+    },
+    "Lab_EH_B03_Catalogue_19_SM_EH03_Sideboard_140x45x90": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_279"
+    },
+    "Lab_EH_B03_Label_19": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_34"
+    },
+    "Lab_EH_B03_Bay_19": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_280"
+    },
+    "Lab_EH_B03_Catalogue_20_SM_EH03_Workbench_140x65x91": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_281"
+    },
+    "Lab_EH_B03_Label_20": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_35"
+    },
+    "Lab_EH_B03_Bay_20": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_282"
+    },
+    "Lab_EH_B03_Catalogue_21_SM_EH_DoorLeaf_132_Study": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_283"
+    },
+    "Lab_EH_B03_Label_21": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_36"
+    },
+    "Lab_EH_B03_Bay_21": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_284"
+    },
+    "Lab_EH_B03_Catalogue_22_SM_EH03_Wardrobe_120x55x210": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_285"
+    },
+    "Lab_EH_B03_Label_22": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_37"
+    },
+    "Lab_EH_B03_Bay_22": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_286"
+    },
+    "Lab_EH_B03_Catalogue_23_SM_EH03_Bench_120x45x46": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_287"
+    },
+    "Lab_EH_B03_Label_23": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_38"
+    },
+    "Lab_EH_B03_Bay_23": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_288"
+    },
+    "Lab_EH_B03_Catalogue_24_SM_EH_WindowFrame_Arch_100x173": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_289"
+    },
+    "Lab_EH_B03_Label_24": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_39"
+    },
+    "Lab_EH_B03_Bay_24": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_290"
+    },
+    "Lab_EH_B03_Catalogue_25_SM_EH_WindowGlass_Arch_100x173": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_291"
+    },
+    "Lab_EH_B03_Label_25": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_40"
+    },
+    "Lab_EH_B03_Bay_25": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_292"
+    },
+    "Lab_EH_B03_Catalogue_26_SM_EH03_Chest_94x49x52": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_293"
+    },
+    "Lab_EH_B03_Label_26": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_41"
+    },
+    "Lab_EH_B03_Bay_26": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_294"
+    },
+    "Lab_EH_B03_Catalogue_27_SM_EH03_Bookcase_90x35x190": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_295"
+    },
+    "Lab_EH_B03_Label_27": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_42"
+    },
+    "Lab_EH_B03_Bay_27": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_296"
+    },
+    "Lab_EH_B03_Catalogue_28_SM_EH03_InteriorWall_56x12x300": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_297"
+    },
+    "Lab_EH_B03_Label_28": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_43"
+    },
+    "Lab_EH_B03_Bay_28": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_298"
+    },
+    "Lab_EH_B03_Catalogue_29_SM_EH03_SideTable_55x45x49": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_299"
+    },
+    "Lab_EH_B03_Label_29": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_44"
+    },
+    "Lab_EH_B03_Bay_29": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_300"
+    },
+    "Lab_EH_B03_Catalogue_30_SM_EH03_Chair_47x49x94": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_301"
+    },
+    "Lab_EH_B03_Label_30": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_45"
+    },
+    "Lab_EH_B03_Bay_30": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_302"
+    },
+    "Lab_EH_B03_Catalogue_31_SM_EH03_Lantern_24": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_303"
+    },
+    "Lab_EH_B03_Label_31": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_46"
+    },
+    "Lab_EH_B03_Bay_31": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_304"
+    },
+    "Lab_EH_B03_Catalogue_32_SM_EH03_Pendant_24": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_305"
+    },
+    "Lab_EH_B03_Label_32": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_47"
+    },
+    "Lab_EH_B03_Bay_32": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_306"
+    },
+    "Lab_EH_B03_Catalogue_33_SM_EH03_WallLantern_24": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_307"
+    },
+    "Lab_EH_B03_Label_33": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_48"
+    },
+    "Lab_EH_B03_Bay_33": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_308"
+    },
+    "Lab_EH_B03_Catalogue_Title": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_49"
+    },
+    "Lab_EH_B03_Sample_Title": {
+      "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.TextRenderActor_50"
+    }
+  },
+  "catalogue": [
+    {
+      "module": "SM_EH_Roof_End_W1000",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_241"
+      },
+      "position_cm": [
+        -5679.977027893066,
+        -919.5033378601074,
+        -359.84002685546875
+      ],
+      "bay": [
+        -5800,
+        -850,
+        1240.045799255371,
+        414.8526420593262
+      ],
+      "bounds": {
+        "module": "SM_EH_Roof_End_W1000",
+        "path": "/Game/Art/Architecture/ElvenHouseB01/Meshes/SM_EH_Roof_End_W1000",
+        "lo": {
+          "x": -70.0229721069336,
+          "y": -280.34930419921875,
+          "z": 361.84002685546875
+        },
+        "hi": {
+          "x": 1070.0228271484375,
+          "y": 4.503337860107422,
+          "z": 641.2894897460938
+        },
+        "width": 1140.045799255371,
+        "depth": 284.8526420593262
+      }
+    },
+    {
+      "module": "SM_EH_Roof_Mid_W1000",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_243"
+      },
+      "position_cm": [
+        -4439.93123626709,
+        -919.5033378601074,
+        -359.84002685546875
+      ],
+      "bay": [
+        -4559.954200744629,
+        -850,
+        1240.0457916259766,
+        334.5034294128418
+      ],
+      "bounds": {
+        "module": "SM_EH_Roof_Mid_W1000",
+        "path": "/Game/Art/Architecture/ElvenHouseB01/Meshes/SM_EH_Roof_Mid_W1000",
+        "lo": {
+          "x": -70.02296447753906,
+          "y": -200.00009155273438,
+          "z": 361.84002685546875
+        },
+        "hi": {
+          "x": 1070.0228271484375,
+          "y": 4.503337860107422,
+          "z": 603.2999877929688
+        },
+        "width": 1140.0457916259766,
+        "depth": 204.5034294128418
+      }
+    },
+    {
+      "module": "SM_EH_Gable_W1000",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_245"
+      },
+      "position_cm": [
+        -5742.999999523163,
+        -1341.3526420593262,
+        -317.9999694824219
+      ],
+      "bay": [
+        -5800,
+        -1264.8526420593262,
+        1114.0000004768372,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH_Gable_W1000",
+        "path": "/Game/Art/Architecture/ElvenHouseB01/Meshes/SM_EH_Gable_W1000",
+        "lo": {
+          "x": -7.000000476837158,
+          "y": -24.00008773803711,
+          "z": 319.9999694824219
+        },
+        "hi": {
+          "x": 1007,
+          "y": 11.5,
+          "z": 614.2664794921875
+        },
+        "width": 1014.0000004768372,
+        "depth": 35.50008773803711
+      }
+    },
+    {
+      "module": "SM_EH03_Rug_240x180",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_247"
+      },
+      "position_cm": [
+        -4515.999984264374,
+        -1419.8526496887207,
+        2
+      ],
+      "bay": [
+        -4685.999999523163,
+        -1264.8526420593262,
+        340.0000305175781,
+        310.00001525878906
+      ],
+      "bounds": {
+        "module": "SM_EH03_Rug_240x180",
+        "path": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Rug_240x180",
+        "lo": {
+          "x": -120.00001525878906,
+          "y": -90.00000762939453,
+          "z": 0
+        },
+        "hi": {
+          "x": 120.00001525878906,
+          "y": 90.00000762939453,
+          "z": 1.600000023841858
+        },
+        "width": 240.00003051757812,
+        "depth": 180.00001525878906
+      }
+    },
+    {
+      "module": "SM_EH03_Ceiling_238x228x16",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_249"
+      },
+      "position_cm": [
+        -4295.999949073192,
+        -1329.8526420593262,
+        7
+      ],
+      "bay": [
+        -4345.999969005585,
+        -1264.8526420593262,
+        338.0000351911822,
+        358.00001525878906
+      ],
+      "bounds": {
+        "module": "SM_EH03_Ceiling_238x228x16",
+        "path": "/Game/Art/Architecture/ElvenHouseB03/Meshes/SM_EH03_Ceiling_238x228x16",
+        "lo": {
+          "x": -1.9932393115595914e-05,
+          "y": -228.00001525878906,
+          "z": -5
+        },
+        "hi": {
+          "x": 238.00001525878906,
+          "y": 0,
+          "z": 16
+        },
+        "width": 238.00003519118218,
+        "depth": 228.00001525878906
+      }
+    },
+    {
+      "module": "SM_EH_EntryCanopy_224",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_251"
+      },
+      "position_cm": [
+        -3843.4136377328596,
+        -1428.6631660461426,
+        -266.1999816894531
+      ],
+      "bay": [
+        -4007.9999338144025,
+        -1264.8526420593262,
+        329.17259979248047,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH_EntryCanopy_224",
+        "path": "/Game/Art/Architecture/ElvenHouseB01/Meshes/SM_EH_EntryCanopy_224",
+        "lo": {
+          "x": -114.58629608154297,
+          "y": -8.810521125793457,
+          "z": 268.1999816894531
+        },
+        "hi": {
+          "x": 114.5863037109375,
+          "y": 98.8105239868164,
+          "z": 330.1999816894531
+        },
+        "width": 229.17259979248047,
+        "depth": 107.62104511260986
+      }
+    },
+    {
+      "module": "SM_EH_Wall_SolidB_200x24x320",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_253"
+      },
+      "position_cm": [
+        -3628.827331923775,
+        -1345.3526420593262,
+        2
+      ],
+      "bay": [
+        -3678.827334021922,
+        -1264.8526420593262,
+        302.4705984116233,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH_Wall_SolidB_200x24x320",
+        "path": "/Game/Art/Architecture/ElvenHouseB01/Meshes/SM_EH_Wall_SolidB_200x24x320",
+        "lo": {
+          "x": -2.0981467514502583e-06,
+          "y": -24.000017166137695,
+          "z": 0
+        },
+        "hi": {
+          "x": 202.47059631347656,
+          "y": 15.5,
+          "z": 320
+        },
+        "width": 202.4705984116233,
+        "depth": 39.500017166137695
+      }
+    },
+    {
+      "module": "SM_EH_Wall_SolidA_200x24x320",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_255"
+      },
+      "position_cm": [
+        -3326.3567335121515,
+        -1345.3526420593262,
+        2
+      ],
+      "bay": [
+        -3376.3567356102985,
+        -1264.8526420593262,
+        301.4759389877952,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH_Wall_SolidA_200x24x320",
+        "path": "/Game/Art/Architecture/ElvenHouseB01/Meshes/SM_EH_Wall_SolidA_200x24x320",
+        "lo": {
+          "x": -2.0981467514502583e-06,
+          "y": -24.000017166137695,
+          "z": 0
+        },
+        "hi": {
+          "x": 201.47593688964844,
+          "y": 15.5,
+          "z": 320
+        },
+        "width": 201.4759389877952,
+        "depth": 39.500017166137695
+      }
+    },
+    {
+      "module": "SM_EH_Wall_Entry_200x24x320",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_257"
+      },
+      "position_cm": [
+        -5749.999997901853,
+        -1705.8526573181152,
+        5.0298144817352295
+      ],
+      "bay": [
+        -5800,
+        -1622.8526573181152,
+        301.4759389877952,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH_Wall_Entry_200x24x320",
+        "path": "/Game/Art/Architecture/ElvenHouseB01/Meshes/SM_EH_Wall_Entry_200x24x320",
+        "lo": {
+          "x": -2.0981467514502583e-06,
+          "y": -24.000017166137695,
+          "z": -3.0298144817352295
+        },
+        "hi": {
+          "x": 201.47593688964844,
+          "y": 18,
+          "z": 320
+        },
+        "width": 201.4759389877952,
+        "depth": 42.000017166137695
+      }
+    },
+    {
+      "module": "SM_EH_Wall_WindowOpening_200x24x320",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_259"
+      },
+      "position_cm": [
+        -5448.524058914058,
+        -1703.3526573181152,
+        2
+      ],
+      "bay": [
+        -5498.524061012205,
+        -1622.8526573181152,
+        301.4759389877952,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH_Wall_WindowOpening_200x24x320",
+        "path": "/Game/Art/Architecture/ElvenHouseB01/Windows/Meshes/SM_EH_Wall_WindowOpening_200x24x320",
+        "lo": {
+          "x": -2.0981467514502583e-06,
+          "y": -24.000017166137695,
+          "z": 0
+        },
+        "hi": {
+          "x": 201.47593688964844,
+          "y": 15.5,
+          "z": 320
+        },
+        "width": 201.4759389877952,
+        "depth": 39.500017166137695
+      }
+    },
+    {
+      "module": "SM_EH_EaveFill_EndB_200",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_261"
+      },
+      "position_cm": [
+        -5146.807289978735,
+        -1694.816759109497,
+        -318
+      ],
+      "bay": [
+        -5197.048122024409,
+        -1622.8526573181152,
+        300.8372675925493,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH_EaveFill_EndB_200",
+        "path": "/Game/Art/Architecture/ElvenHouseB01/Meshes/SM_EH_EaveFill_EndB_200",
+        "lo": {
+          "x": -0.24083204567432404,
+          "y": -24.000017166137695,
+          "z": 320
+        },
+        "hi": {
+          "x": 200.596435546875,
+          "y": 6.964101791381836,
+          "z": 395.5075378417969
+        },
+        "width": 200.83726759254932,
+        "depth": 30.96411895751953
+      }
+    },
+    {
+      "module": "SM_EH_EaveFill_EndA_200",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_263"
+      },
+      "position_cm": [
+        -4845.614422580473,
+        -1694.816759109497,
+        -318
+      ],
+      "bay": [
+        -4896.21085443186,
+        -1622.8526573181152,
+        300.83726131916046,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH_EaveFill_EndA_200",
+        "path": "/Game/Art/Architecture/ElvenHouseB01/Meshes/SM_EH_EaveFill_EndA_200",
+        "lo": {
+          "x": -0.5964318513870239,
+          "y": -24.000017166137695,
+          "z": 320
+        },
+        "hi": {
+          "x": 200.24082946777344,
+          "y": 6.964101791381836,
+          "z": 395.5075378417969
+        },
+        "width": 200.83726131916046,
+        "depth": 30.96411895751953
+      }
+    },
+    {
+      "module": "SM_EH_Floor_200x200x20",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_265"
+      },
+      "position_cm": [
+        -4545.373575663112,
+        -1687.852657283146,
+        22
+      ],
+      "bay": [
+        -4595.373593112699,
+        -1622.8526573181152,
+        300.0000174495872,
+        330.0000152238199
+      ],
+      "bounds": {
+        "module": "SM_EH_Floor_200x200x20",
+        "path": "/Game/Art/Architecture/ElvenHouseB01/Meshes/SM_EH_Floor_200x200x20",
+        "lo": {
+          "x": -1.7449587176088244e-05,
+          "y": -200.00001525878906,
+          "z": -20
+        },
+        "hi": {
+          "x": 200,
+          "y": -3.496919021017675e-08,
+          "z": 0
+        },
+        "width": 200.00001744958718,
+        "depth": 200.00001522381987
+      }
+    },
+    {
+      "module": "SM_EH_EaveFill_Mid_200",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_267"
+      },
+      "position_cm": [
+        -4245.373573564965,
+        -1694.816759109497,
+        -318
+      ],
+      "bay": [
+        -4295.373575663112,
+        -1622.8526573181152,
+        300.00000209814675,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH_EaveFill_Mid_200",
+        "path": "/Game/Art/Architecture/ElvenHouseB01/Meshes/SM_EH_EaveFill_Mid_200",
+        "lo": {
+          "x": -2.0981467514502583e-06,
+          "y": -24.000017166137695,
+          "z": 320
+        },
+        "hi": {
+          "x": 200,
+          "y": 6.964101791381836,
+          "z": 365.34881591796875
+        },
+        "width": 200.00000209814675,
+        "depth": 30.96411895751953
+      }
+    },
+    {
+      "module": "SM_EH03_InteriorWall_200x12x300",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_269"
+      },
+      "position_cm": [
+        -3945.373572275479,
+        -1690.802657365799,
+        2
+      ],
+      "bay": [
+        -3995.373573564965,
+        -1622.8526573181152,
+        300.0000012894859,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH03_InteriorWall_200x12x300",
+        "path": "/Game/Art/Architecture/ElvenHouseB03/Meshes/SM_EH03_InteriorWall_200x12x300",
+        "lo": {
+          "x": -1.289485908273491e-06,
+          "y": -14.950016975402832,
+          "z": 0
+        },
+        "hi": {
+          "x": 200,
+          "y": 2.950000047683716,
+          "z": 300
+        },
+        "width": 200.0000012894859,
+        "depth": 17.900017023086548
+      }
+    },
+    {
+      "module": "SM_EH03_InteriorDoorway_200x12x300",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_271"
+      },
+      "position_cm": [
+        -3645.373571007849,
+        -1690.802654504776,
+        2
+      ],
+      "bay": [
+        -3695.373572275479,
+        -1622.8526573181152,
+        300.0000012676303,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH03_InteriorDoorway_200x12x300",
+        "path": "/Game/Art/Architecture/ElvenHouseB03/Meshes/SM_EH03_InteriorDoorway_200x12x300",
+        "lo": {
+          "x": -1.2676302958425367e-06,
+          "y": -14.950014114379883,
+          "z": 0
+        },
+        "hi": {
+          "x": 200,
+          "y": 2.9499971866607666,
+          "z": 300
+        },
+        "width": 200.0000012676303,
+        "depth": 17.90001130104065
+      }
+    },
+    {
+      "module": "SM_EH03_Table_180x100x77",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_273"
+      },
+      "position_cm": [
+        -3255.373571007849,
+        -1737.6526641845703,
+        2
+      ],
+      "bay": [
+        -3395.373571007849,
+        -1622.8526573181152,
+        280,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH03_Table_180x100x77",
+        "path": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Table_180x100x77",
+        "lo": {
+          "x": -90,
+          "y": -49.80000686645508,
+          "z": 0
+        },
+        "hi": {
+          "x": 90,
+          "y": 49.80000686645508,
+          "z": 77.00000762939453
+        },
+        "width": 180,
+        "depth": 99.60001373291016
+      }
+    },
+    {
+      "module": "SM_EH03_Bed_160x215x101",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_275"
+      },
+      "position_cm": [
+        -5669.9999923706055,
+        -2125.352687800724,
+        2
+      ],
+      "bay": [
+        -5800,
+        -1952.8526725419351,
+        260.00001525878906,
+        345.0000305175781
+      ],
+      "bounds": {
+        "module": "SM_EH03_Bed_160x215x101",
+        "path": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Bed_160x215x101",
+        "lo": {
+          "x": -80.00000762939453,
+          "y": -107.50001525878906,
+          "z": 0
+        },
+        "hi": {
+          "x": 80.00000762939453,
+          "y": 107.50001525878906,
+          "z": 100.5
+        },
+        "width": 160.00001525878906,
+        "depth": 215.00003051757812
+      }
+    },
+    {
+      "module": "SM_EH03_InteriorWall_152x12x300",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_277"
+      },
+      "position_cm": [
+        -5489.999983451725,
+        -2020.8026725896189,
+        2
+      ],
+      "bay": [
+        -5539.999984741211,
+        -1952.8526725419351,
+        252.0000012894859,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH03_InteriorWall_152x12x300",
+        "path": "/Game/Art/Architecture/ElvenHouseB03/Meshes/SM_EH03_InteriorWall_152x12x300",
+        "lo": {
+          "x": -1.289485908273491e-06,
+          "y": -14.950013160705566,
+          "z": 0
+        },
+        "hi": {
+          "x": 152,
+          "y": 2.950000047683716,
+          "z": 300
+        },
+        "width": 152.0000012894859,
+        "depth": 17.900013208389282
+      }
+    },
+    {
+      "module": "SM_EH03_Sideboard_140x45x90",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_279"
+      },
+      "position_cm": [
+        -5167.99997582233,
+        -2044.5526733048746,
+        2
+      ],
+      "bay": [
+        -5287.999983451725,
+        -1952.8526725419351,
+        240.00001525878906,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH03_Sideboard_140x45x90",
+        "path": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Sideboard_140x45x90",
+        "lo": {
+          "x": -70.00000762939453,
+          "y": -22.5000057220459,
+          "z": 0
+        },
+        "hi": {
+          "x": 70.00000762939453,
+          "y": 26.700000762939453,
+          "z": 90
+        },
+        "width": 140.00001525878906,
+        "depth": 49.20000648498535
+      }
+    },
+    {
+      "module": "SM_EH03_Workbench_140x65x91",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_281"
+      },
+      "position_cm": [
+        -4927.999968192936,
+        -2050.3526763566324,
+        2
+      ],
+      "bay": [
+        -5047.999968192936,
+        -1952.8526725419351,
+        240,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH03_Workbench_140x65x91",
+        "path": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Workbench_140x65x91",
+        "lo": {
+          "x": -70,
+          "y": -32.500003814697266,
+          "z": 0
+        },
+        "hi": {
+          "x": 70,
+          "y": 32.500003814697266,
+          "z": 91
+        },
+        "width": 140,
+        "depth": 65.00000762939453
+      }
+    },
+    {
+      "module": "SM_EH_DoorLeaf_132_Study",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_283"
+      },
+      "position_cm": [
+        -4757.999967886956,
+        -2030.352663005192,
+        -1.5
+      ],
+      "bay": [
+        -4807.999968192936,
+        -1952.8526725419351,
+        240,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH_DoorLeaf_132_Study",
+        "path": "/Game/Art/Architecture/ElvenHouseB01/Meshes/SM_EH_DoorLeaf_132_Study",
+        "lo": {
+          "x": -3.059797393234476e-07,
+          "y": -3.500011444091797,
+          "z": 3.5
+        },
+        "hi": {
+          "x": 132,
+          "y": 12.499990463256836,
+          "z": 281
+        },
+        "width": 132.00000030597974,
+        "depth": 16.000001907348633
+      }
+    },
+    {
+      "module": "SM_EH03_Wardrobe_120x55x210",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_285"
+      },
+      "position_cm": [
+        -4457.9999643782385,
+        -2049.552675212223,
+        2
+      ],
+      "bay": [
+        -4567.999968192936,
+        -1952.8526725419351,
+        240,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH03_Wardrobe_120x55x210",
+        "path": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Wardrobe_120x55x210",
+        "lo": {
+          "x": -60.000003814697266,
+          "y": -27.5000057220459,
+          "z": 0
+        },
+        "hi": {
+          "x": 60.000003814697266,
+          "y": 31.700002670288086,
+          "z": 210.00001525878906
+        },
+        "width": 120.00000762939453,
+        "depth": 59.200008392333984
+      }
+    },
+    {
+      "module": "SM_EH03_Bench_120x45x46",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_287"
+      },
+      "position_cm": [
+        -4217.9999643782385,
+        -2040.102678263981,
+        2
+      ],
+      "bay": [
+        -4327.999968192936,
+        -1952.8526725419351,
+        240,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH03_Bench_120x45x46",
+        "path": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Bench_120x45x46",
+        "lo": {
+          "x": -60.000003814697266,
+          "y": -22.2500057220459,
+          "z": 0
+        },
+        "hi": {
+          "x": 60.000003814697266,
+          "y": 22.2500057220459,
+          "z": 45.5
+        },
+        "width": 120.00000762939453,
+        "depth": 44.5000114440918
+      }
+    },
+    {
+      "module": "SM_EH_WindowFrame_Arch_100x173",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_289"
+      },
+      "position_cm": [
+        -3978.9999681929357,
+        -2041.3526763566324,
+        10.99999713897705
+      ],
+      "bay": [
+        -4087.9999681929357,
+        -1952.8526725419351,
+        240,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH_WindowFrame_Arch_100x173",
+        "path": "/Game/Art/Architecture/ElvenHouseB01/Windows/Meshes/SM_EH_WindowFrame_Arch_100x173",
+        "lo": {
+          "x": -59,
+          "y": -14.500004768371582,
+          "z": -8.99999713897705
+        },
+        "hi": {
+          "x": 58.99999237060547,
+          "y": 23.500003814697266,
+          "z": 178.80001831054688
+        },
+        "width": 117.99999237060547,
+        "depth": 38.00000858306885
+      }
+    },
+    {
+      "module": "SM_EH_WindowGlass_Arch_100x173",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_291"
+      },
+      "position_cm": [
+        -3747.9999681929357,
+        -2004.8526773103067,
+        2
+      ],
+      "bay": [
+        -3847.9999681929357,
+        -1952.8526725419351,
+        240,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH_WindowGlass_Arch_100x173",
+        "path": "/Game/Art/Architecture/ElvenHouseB01/Windows/Meshes/SM_EH_WindowGlass_Arch_100x173",
+        "lo": {
+          "x": -50,
+          "y": -15.000004768371582,
+          "z": 0
+        },
+        "hi": {
+          "x": 50,
+          "y": -12.999995231628418,
+          "z": 173
+        },
+        "width": 100,
+        "depth": 2.000009536743164
+      }
+    },
+    {
+      "module": "SM_EH03_Chest_94x49x52",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_293"
+      },
+      "position_cm": [
+        -3510.9999643782385,
+        -2044.3526706345865,
+        2
+      ],
+      "bay": [
+        -3607.9999681929357,
+        -1952.8526725419351,
+        240,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH03_Chest_94x49x52",
+        "path": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Chest_94x49x52",
+        "lo": {
+          "x": -47.000003814697266,
+          "y": -24.750003814697266,
+          "z": 0
+        },
+        "hi": {
+          "x": 47.000003814697266,
+          "y": 26.499998092651367,
+          "z": 52.099998474121094
+        },
+        "width": 94.00000762939453,
+        "depth": 51.25000190734863
+      }
+    },
+    {
+      "module": "SM_EH03_Bookcase_90x35x190",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_295"
+      },
+      "position_cm": [
+        -3272.9999681929357,
+        -2035.3526763566324,
+        2
+      ],
+      "bay": [
+        -3367.9999681929357,
+        -1952.8526725419351,
+        240,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH03_Bookcase_90x35x190",
+        "path": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Bookcase_90x35x190",
+        "lo": {
+          "x": -45,
+          "y": -17.500003814697266,
+          "z": 0
+        },
+        "hi": {
+          "x": 45,
+          "y": 17.500003814697266,
+          "z": 190
+        },
+        "width": 90,
+        "depth": 35.00000762939453
+      }
+    },
+    {
+      "module": "SM_EH03_InteriorWall_56x12x300",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_297"
+      },
+      "position_cm": [
+        -3077.9999669034496,
+        -2020.8026725896189,
+        2
+      ],
+      "bay": [
+        -3127.9999681929357,
+        -1952.8526725419351,
+        240,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH03_InteriorWall_56x12x300",
+        "path": "/Game/Art/Architecture/ElvenHouseB03/Meshes/SM_EH03_InteriorWall_56x12x300",
+        "lo": {
+          "x": -1.289485908273491e-06,
+          "y": -14.950004577636719,
+          "z": 0
+        },
+        "hi": {
+          "x": 56,
+          "y": 2.950000047683716,
+          "z": 300
+        },
+        "width": 56.00000128948591,
+        "depth": 17.900004625320435
+      }
+    },
+    {
+      "module": "SM_EH03_SideTable_55x45x49",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_299"
+      },
+      "position_cm": [
+        -5722.499998092651,
+        -2385.352704966862,
+        2
+      ],
+      "bay": [
+        -5800,
+        -2297.8527030595133,
+        240,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH03_SideTable_55x45x49",
+        "path": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_SideTable_55x45x49",
+        "lo": {
+          "x": -27.500001907348633,
+          "y": -22.500001907348633,
+          "z": 0
+        },
+        "hi": {
+          "x": 27.500001907348633,
+          "y": 22.500001907348633,
+          "z": 49.25
+        },
+        "width": 55.000003814697266,
+        "depth": 45.000003814697266
+      }
+    },
+    {
+      "module": "SM_EH03_Chair_47x49x94",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_301"
+      },
+      "position_cm": [
+        -5486.499998092651,
+        -2387.352704966862,
+        2
+      ],
+      "bay": [
+        -5560,
+        -2297.8527030595133,
+        240,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH03_Chair_47x49x94",
+        "path": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Chair_47x49x94",
+        "lo": {
+          "x": -23.500001907348633,
+          "y": -24.500001907348633,
+          "z": 0
+        },
+        "hi": {
+          "x": 23.500001907348633,
+          "y": 24.500001907348633,
+          "z": 94
+        },
+        "width": 47.000003814697266,
+        "depth": 49.000003814697266
+      }
+    },
+    {
+      "module": "SM_EH03_Lantern_24",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_303"
+      },
+      "position_cm": [
+        -5257.499999046326,
+        -2375.3527040131876,
+        2
+      ],
+      "bay": [
+        -5320,
+        -2297.8527030595133,
+        240,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH03_Lantern_24",
+        "path": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Lantern_24",
+        "lo": {
+          "x": -12.500000953674316,
+          "y": -12.500000953674316,
+          "z": 0
+        },
+        "hi": {
+          "x": 12.500000953674316,
+          "y": 12.500000953674316,
+          "z": 45
+        },
+        "width": 25.000001907348633,
+        "depth": 25.000001907348633
+      }
+    },
+    {
+      "module": "SM_EH03_Pendant_24",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_305"
+      },
+      "position_cm": [
+        -5017.499999046326,
+        -2375.3527040131876,
+        2
+      ],
+      "bay": [
+        -5080,
+        -2297.8527030595133,
+        240,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH03_Pendant_24",
+        "path": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_Pendant_24",
+        "lo": {
+          "x": -12.500000953674316,
+          "y": -12.500000953674316,
+          "z": 0
+        },
+        "hi": {
+          "x": 12.500000953674316,
+          "y": 12.500000953674316,
+          "z": 266.75152587890625
+        },
+        "width": 25.000001907348633,
+        "depth": 25.000001907348633
+      }
+    },
+    {
+      "module": "SM_EH03_WallLantern_24",
+      "actor": {
+        "refPath": "/Game/Prototype/Maps/Lvl_AssetLab.Lvl_AssetLab:PersistentLevel.StaticMeshActor_307"
+      },
+      "position_cm": [
+        -4777.499999046326,
+        -2375.3527040131876,
+        2
+      ],
+      "bay": [
+        -4840,
+        -2297.8527030595133,
+        240,
+        260
+      ],
+      "bounds": {
+        "module": "SM_EH03_WallLantern_24",
+        "path": "/Game/Art/Furniture/ElvenHouseB03/Meshes/SM_EH03_WallLantern_24",
+        "lo": {
+          "x": -12.500000953674316,
+          "y": -20,
+          "z": 0
+        },
+        "hi": {
+          "x": 12.500000953674316,
+          "y": 12.500000953674316,
+          "z": 57
+        },
+        "width": 25.000001907348633,
+        "depth": 32.500000953674316
+      }
+    }
+  ],
+  "catalogue_mesh_count": 34,
+  "interior_instances": 37,
+  "rooms": [
+    "Wohn-/Essbereich",
+    "Schlafraum",
+    "Lager"
+  ],
+  "no_hidden_fill_lights": true,
+  "comparison_house_unchanged": true
+}
