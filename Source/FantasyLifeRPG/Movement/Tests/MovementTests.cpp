@@ -85,7 +85,7 @@ private:
 class FExercise : public IAutomationLatentCommand
 {
 public:
-	explicit FExercise(FAutomationTestBase* InTest) : Test(InTest)
+	explicit FExercise(FAutomationTestBase* InTest, float InOriginY = 3000.f) : Test(InTest), OriginY(InOriginY)
 	{
 		auto* Settings=GetMutableDefault<UEditorPerformanceSettings>();
 		bPreviousThrottle=Settings->bThrottleCPUWhenNotForeground;
@@ -118,8 +118,8 @@ if (Now < Next) return false;
 			UI = PC->FindComponentByClass<UInventoryUIComponent>();
 			if (!Test->TestTrue(TEXT("Prototype movement, toolbox and inventory available"),Tools.IsValid() && UI.IsValid())) return true;
 			Test->TestNotNull(TEXT("Inherited Blueprint uses procedural crouch mesh"),Cast<UCrouchPoseMeshComponent>(Pawn->GetMesh()));
-			Floor = Box(FVector(0,3000,0),FVector(40,40,1));
-			Pawn->SetActorLocation(FVector(0,3000,150),false,nullptr,ETeleportType::TeleportPhysics);
+			Floor = Box(FVector(0,OriginY,0),FVector(40,40,1));
+			Pawn->SetActorLocation(FVector(0,OriginY,150),false,nullptr,ETeleportType::TeleportPhysics);
 			Pawn->SetActorRotation(FRotator::ZeroRotator); PC->SetControlRotation(FRotator::ZeroRotator);
 			RunSpeed = Movement->MaxWalkSpeed;
 			StandingHeight = Pawn->GetCapsuleComponent()->GetScaledCapsuleHalfHeight();
@@ -176,7 +176,7 @@ private:
 		Add([this]{ Test->TestTrue(TEXT("Airborne Space cannot restart jump"),Movement->Velocity.Z<JumpVelocity); Release(EKeys::SpaceBar); },1.2f);
 		Add([this]{
 			Test->TestTrue(TEXT("Jump lands on the floor"),Movement->IsMovingOnGround());
-			Pawn->SetActorLocation(FVector(0,3000,50+StandingHeight+2),false,nullptr,ETeleportType::TeleportPhysics);
+			Pawn->SetActorLocation(FVector(0,OriginY,50+StandingHeight+2),false,nullptr,ETeleportType::TeleportPhysics);
 			Pawn->SetActorRotation(FRotator::ZeroRotator); PC->SetControlRotation(FRotator(-12,-135,0));
 		},.4f);
 		Add([this]{
@@ -208,7 +208,7 @@ private:
 			Test->TestTrue(TEXT("Crouch blocks jump and sprint"),Pawn->bIsCrouched && Movement->IsMovingOnGround() && Movement->Velocity.Z<1 && Movement->MaxWalkSpeed==RunSpeed);
 			Release(EKeys::SpaceBar); Release(EKeys::LeftShift);
 			// A 145 cm opening: crouched capsule fits, standing capsule does not.
-			Roof=Box(FVector(150,3000,205),FVector(6,4,.2));
+			Roof=Box(FVector(150,OriginY,205),FVector(6,4,.2));
 			PC->SetControlRotation(FRotator::ZeroRotator); Start=Pawn->GetActorLocation(); Press(EKeys::W);
 		},.55f);
 		Add([this]{
@@ -264,6 +264,7 @@ private:
 	bool bSawIntermediate=false,bSawCameraIntermediate=false;
 	float RunSpeed=0,StandingHeight=0,FootZ=0,PelvisZ=0,BaseZ=0,CameraZ=0,JumpVelocity=0;
 	FVector Start;
+	float OriginY;
 };
 }
 
@@ -274,6 +275,18 @@ bool FMovementPIE::RunTest(const FString& Parameters)
 	AddCommand(new FEditorLoadMap(TEXT("/Game/Prototype/Maps/Lvl_InventoryTest_01")));
 	AddCommand(new MovementTests::FStartPIE());
 	AddCommand(new MovementTests::FExercise(this));
+	AddCommand(new MovementTests::FEndPIE(this));
+	return true;
+}
+
+// Use the saved Asset Lab's own GameMode/pawn, with transient fixtures away from its assets.
+IMPLEMENT_SIMPLE_AUTOMATION_TEST(FMovementAssetLabPIE,"FantasyLifeRPG.Movement.AssetLabPIE",EAutomationTestFlags::EditorContext|EAutomationTestFlags::EngineFilter)
+bool FMovementAssetLabPIE::RunTest(const FString& Parameters)
+{
+	AddCommand(new MovementTests::FEndPIE(this));
+	AddCommand(new FEditorLoadMap(TEXT("/Game/Prototype/Maps/Lvl_AssetLab")));
+	AddCommand(new MovementTests::FStartPIE());
+	AddCommand(new MovementTests::FExercise(this,50000.f));
 	AddCommand(new MovementTests::FEndPIE(this));
 	return true;
 }

@@ -86,7 +86,12 @@ public:
 		: Test(InTest), StartupDeadline(FPlatformTime::Seconds() + 15.0) {}
 	virtual bool Update() override
 	{
-		if (FPlatformTime::Seconds() < NextStep) return false;
+		const double WallNow = FPlatformTime::Seconds();
+		if (Deadline == 0) Deadline = WallNow + 45.0;
+		if (WallNow > Deadline) { Test->AddError(TEXT("Prototype input PIE timed out")); return true; }
+		// Input must be processed by world frames, including during slow rendering.
+		const double Now = PC.IsValid() ? PC->GetWorld()->GetTimeSeconds() : 0.0;
+		if (Now < NextStep) return false;
 		if (Step == 0)
 		{
 			for (const FWorldContext& Context : GEngine->GetWorldContexts())
@@ -106,6 +111,8 @@ public:
 			// RequestPlaySession is asynchronous; allow PIE and World Partition to finish starting.
 			if ((!Pawn.IsValid() || !Target.IsValid()) && FPlatformTime::Seconds() < StartupDeadline) return false;
 			if (!Test->TestTrue(TEXT("Prototype PIE has player and tagged test prop"), Pawn.IsValid() && Target.IsValid())) return true;
+			// Initial viewport focus can flush input; wait for gameplay frames before E.
+			if (PC->GetWorld()->GetTimeSeconds() < 0.5f) return false;
 			State = FindFProperty<FBoolProperty>(Target->GetClass(), TEXT("bIsActive"));
 			if (!Test->TestNotNull(TEXT("Blueprint owns visible toggle state"), State)) return true;
 			PawnTransform = Pawn->GetActorTransform();
@@ -150,7 +157,7 @@ public:
 			return true;
 		}
 		++Step;
-		NextStep = FPlatformTime::Seconds() + 0.3;
+		NextStep = PC->GetWorld()->GetTimeSeconds() + 0.3;
 		return false;
 	}
 private:
@@ -168,6 +175,7 @@ private:
 	bool InitialState = false;
 	int32 Step = 0;
 	double NextStep = 0;
+	double Deadline = 0;
 	double StartupDeadline;
 };
 
